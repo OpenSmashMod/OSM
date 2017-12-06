@@ -1,0 +1,32 @@
+MoveDef SpecialNFailure_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=4)
+		Asynchronous_Timer(Frames=2)
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=24)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=17)
+		Sound_Effect(SFX=0x24C0038)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

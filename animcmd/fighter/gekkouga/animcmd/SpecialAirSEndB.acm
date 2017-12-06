@@ -1,0 +1,25 @@
+MoveDef SpecialAirSEndB
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.66)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x4BBE53FE)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x4BBE53FE)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef SpecialSStart_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.7)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

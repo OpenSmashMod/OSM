@@ -1,0 +1,33 @@
+MoveDef SpecialSStickJump2_C3
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=2, Angle=0x169, KBG=0x32, WKB=0x0, BKB=0x0, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=7.5, Angle=0x10E, KBG=0x64, WKB=0x0, BKB=0x5, Effect?=0xB, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Throw_Applier(ID=0x0, Bone=0x1A, Unknown=0x11000003, Unknown=0x11000004, Unknown=0x11000005)
+		Set Air/Ground(Unknown=0x0)
+		Set_Edge_Slide(unknown=0x5)
+		SA_SET(Unknown=0x2)
+		Enable Action Status(Unknown=0x1E00009A)
+		Add/Subtract_Momentum(unknown=0x3F000000, unknown=0x40666666)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x100001A, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xA9)
+		Sound_Effect(SFX=0x1E0027)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

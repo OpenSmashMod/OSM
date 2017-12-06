@@ -1,0 +1,45 @@
+MoveDef SpecialLwStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3340016, Bone=0x3, Z=-2, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.4, Terminate=0x1)
+		External_Graphic(Graphic=0x3340016, Bone=0x12, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3340016, Bone=0x11, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3340016, Bone=0x17, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3340016, Bone=0x5, Z=4, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.1, Terminate=0x1)
+		External_Graphic(Graphic=0x3340016, Bone=0x9, Z=4, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.1, Terminate=0x1)
+		Asynchronous_Timer(Frames=10)
+		Graphic_Effect(unknown=0x100000A, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=30)
+		Color_Overlay(Red=255, Green=255, Blue=100, Alpha=100)
+		Synchronous_Timer(Frames=2)
+		Color_Overlay(Red=180, Green=180, Blue=180, Alpha=75)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=255, Green=255, Blue=0, Alpha=40)
+		Synchronous_Timer(Frames=2)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Transient_Sound_Effect(unknown=0xC05003A)
+		Transient_Sound_Effect(unknown=0xC09000C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=10)
+		Rumble2(unknown=0x9, unknown=0x30)
+		Script_End()
+	}
+
+}

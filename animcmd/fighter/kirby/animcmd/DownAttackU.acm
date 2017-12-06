@@ -1,0 +1,49 @@
+MoveDef DownAttackU
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=16)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=7, Unknown=0x30, Unknown=0x30, Unknown=0x0, Unknown=0x50, Unknown=5, Unknown=0, Unknown=5, Unknown=12, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x8, Unknown=0x1, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0, Unknown=5, Unknown=3)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=20)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=7, Unknown=0x30, Unknown=0x30, Unknown=0x0, Unknown=0x50, Unknown=5, Unknown=0, Unknown=5, Unknown=-12, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x8, Unknown=0x1, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0, Unknown=5, Unknown=-3)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=15)
+		Graphic_Effect(unknown=0x1000020, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3E99999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		unk_7EF50766(unknown=0x100008D, unknown=0x100008D, unknown=0x0, unknown=0xC1000000, unknown=0x40800000, unknown=0xC0400000, unknown=0x0, unknown=0x41A00000, unknown=0x0, unknown=0x3F99999A, unknown=0x1, unknown=0x1)
+		Asynchronous_Timer(Frames=16)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x0, unknown=0x0, unknown=0x40800000, unknown=0x41880000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x1)
+		Asynchronous_Timer(Frames=19)
+		unk_7EF50766(unknown=0x1000090, unknown=0x1000090, unknown=0x0, unknown=0x0, unknown=0x40C00000, unknown=0x0, unknown=0x0, unknown=0x433E0000, unknown=0x43480000, unknown=0x3F99999A, unknown=0x1, unknown=0x1)
+		unk_515F97FF(unknown=0x100000E, unknown=0x100000D, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=14)
+		Sound_Effect(SFX=0xA006E)
+		Asynchronous_Timer(Frames=19)
+		Sound_Effect(SFX=0xA006E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Asynchronous_Timer(Frames=11)
+		Rumble(unknown=0x13, unknown=0x0)
+		Asynchronous_Timer(Frames=34)
+		Slope_Full(unknown=0x0, unknown=0x3)
+		Script_End()
+	}
+
+}

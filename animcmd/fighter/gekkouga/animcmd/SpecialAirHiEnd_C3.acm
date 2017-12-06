@@ -1,0 +1,29 @@
+MoveDef SpecialAirHiEnd_C3
+{
+	Main()
+	{
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3300008, Bone=0x2, Z=0, Y=-8, X=0, RotZ=90, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=2)
+		External_Graphic(Graphic=0x330000A, Bone=0x2, Z=0, Y=0, X=0, RotZ=90, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=7)
+		Terminate_Graphic_Effect(unknown=0x3300008, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=18)
+		Terminate_Graphic_Effect(unknown=0x330000A, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

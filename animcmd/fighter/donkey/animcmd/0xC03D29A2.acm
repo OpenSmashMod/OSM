@@ -1,0 +1,34 @@
+MoveDef 0xC03D29A2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=36)
+		Sound_Effect2(unknown=0x70059)
+		Asynchronous_Timer(Frames=68.5)
+		Sound_Effect2(unknown=0x7005B)
+		Loop_Rest()
+		Subroutine2(Hash=0xC03D29A2)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=37)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=70)
+		Rumble(unknown=0xC, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xC03D29A2)
+		Script_End()
+	}
+
+}

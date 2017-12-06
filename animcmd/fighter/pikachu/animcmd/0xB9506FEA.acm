@@ -1,0 +1,21 @@
+MoveDef 0xB9506FEA
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

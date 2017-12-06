@@ -1,0 +1,33 @@
+MoveDef 0xBC0C9C1F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=24)
+		Sound_Effect(SFX=0xA006C)
+		Asynchronous_Timer(Frames=46)
+		Sound_Effect(SFX=0xA006A)
+		Loop_Rest()
+		Subroutine2(Hash=0xBC0C9C1F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=23)
+		Rumble(unknown=0x10, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xBC0C9C1F)
+		Script_End()
+	}
+
+}

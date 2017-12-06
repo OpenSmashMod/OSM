@@ -1,0 +1,21 @@
+MoveDef LadderCatchEndL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x406AFE73)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

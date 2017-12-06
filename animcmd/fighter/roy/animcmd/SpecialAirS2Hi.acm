@@ -1,0 +1,27 @@
+MoveDef SpecialAirS2Hi
+{
+	Main()
+	{
+		Subroutine2(Hash=0xF4F52A6F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xF4F52A6F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xF4F52A6F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xF4F52A6F)
+		Script_End()
+	}
+
+}

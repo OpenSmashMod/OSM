@@ -1,0 +1,26 @@
+MoveDef 0x9673D96B
+{
+	Main()
+	{
+		Subroutine2(Hash=0x751B9558)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_4E94C51B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=7)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef WallDamage
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x5E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

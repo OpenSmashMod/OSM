@@ -1,0 +1,31 @@
+MoveDef 0xDCA61B8D : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=10)
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F99999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=24)
+		Graphic_Effect3(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0xA3)
+		Synchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x9F)
+		Synchronous_Timer(Frames=9)
+		Sound_Effect(SFX=0xA2)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

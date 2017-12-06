@@ -1,0 +1,33 @@
+MoveDef SpecialLwStart
+{
+	Main()
+	{
+	Asynchronous_Timer(Frames=2)
+	Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=5, Angle=0x0, KBG=0x64, FKB=0x50, BKB=0x0, Size=10, Z=0, Y=6.5, X=0, Effect=0x3, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x7, Direct/Indirect=0x1, Unknown=0x1, Unknown=0x19)
+	Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=5, Angle=0x0, KBG=0x64, FKB=0x50, BKB=0x0, Size=10, Z=0, Y=6.5, X=0, Effect=0x3, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x7, Direct/Indirect=0x2, Unknown=0x1, Unknown=0x19)
+	Synchronous_Timer(Frames=1)
+	Remove_All_Hitboxes()
+	Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3090005, Bone=0x0, Z=0, Y=6, X=0, RotZ=0, RotY=0, RotX=0, Size=0.8, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0xB0045)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

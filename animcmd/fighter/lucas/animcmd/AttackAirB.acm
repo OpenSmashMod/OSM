@@ -1,0 +1,47 @@
+MoveDef AttackAirB
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=15)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x9, Damage=9, Angle=0x169, KBG=0x50, FKB=0x0, BKB=0x1E, Size=3, Z=0, Y=0, X=0, Effect=0x3, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x10, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x10, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x1, Part=0x0, Bone=0x9, Damage=12, Angle=0x118, KBG=0x5A, FKB=0x0, BKB=0x1E, Size=4.5, Z=4.5, Y=0, X=0, Effect=0x3, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x10, Direct/Indirect=0x2, Unknown=0x1, Unknown=0x10, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x2, Part=0x0, Bone=0x9, Damage=12, Angle=0x169, KBG=0x5A, FKB=0x0, BKB=0x1E, Size=4.5, Z=4.5, Y=0, X=0, Effect=0x3, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x10, Direct/Indirect=0x1, Unknown=0x1, Unknown=0x10, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x3, Part=0x0, Bone=0x9, Damage=7, Angle=0x169, KBG=0x3C, FKB=0x0, BKB=0xA, Size=3.5, Z=8, Y=0, X=0, Effect=0x3, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x10, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x10, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=21)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=39)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=15)
+		External_Graphic(Graphic=0x3350001, Bone=0x9, Z=5, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=0.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=23)
+		Terminate_Graphic_Effect(unknown=0x3350001, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x1D0097)
+		Synchronous_Timer(Frames=2)
+		Low_Voice_Clip(unknown=0x80460000)
+		Sound_Effect(SFX=0x1D0072)
+		Synchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x1D00A8)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

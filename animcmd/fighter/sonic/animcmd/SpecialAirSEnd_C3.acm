@@ -1,0 +1,21 @@
+MoveDef SpecialAirSEnd_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_F4B1C95B()
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

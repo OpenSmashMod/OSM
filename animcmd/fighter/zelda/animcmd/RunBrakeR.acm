@@ -1,0 +1,35 @@
+MoveDef RunBrakeR
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=11)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Bit_Variable_Clear(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x120036)
+		unk_687F9320(unknown=0x120036, unknown=0xA)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect2(unknown=0x120094)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=16)
+		Slope_Full(unknown=0x0, unknown=0x2)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,35 @@
+MoveDef SpecialAirNStart_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=4)
+		Generate_Weapon(ID=0x0)
+		unk_979D8828(Unknown=0x0)
+		TRUE(Unknown=0x5){
+		Set_Article_Action(Unknown=0x0, Unknown=0x0)
+		}
+		Asynchronous_Timer(Frames=5)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+}

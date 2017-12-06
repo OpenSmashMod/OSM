@@ -1,0 +1,41 @@
+MoveDef SpecialAirSAttackB_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Add/Set_Momentum(Vertical=0, Horizontal=2, Mode=0x1)
+		Set_Frame_Duration(Speed=3)
+		Asynchronous_Timer(Frames=3)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=6)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=17, Unknown=0x37, Unknown=0x67, Unknown=0x0, Unknown=0x41, Unknown=9.6, Unknown=0, Unknown=8, Unknown=-15, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x2, Unknown=0x2, Unknown=0x80000003, Unknown=0x1, Unknown=0x6, Unknown=0, Unknown=8.5, Unknown=-12)
+		Asynchronous_Timer(Frames=8)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=13)
+		Set_Frame_Duration(Speed=3)
+		Asynchronous_Timer(Frames=16)
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=26)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xD977033)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x3B985575)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xD977033)
+		Script_End()
+	}
+
+}

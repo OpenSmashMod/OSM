@@ -1,0 +1,32 @@
+MoveDef 0x0B256E50
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Terminate_Graphic_Effect(unknown=0x3330004, unknown=0x0, unknown=0x0)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=240)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=80, Green=120, Blue=255, Alpha=100)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=5, Red=0, Green=0, Blue=80, Alpha=0)
+		Synchronous_Timer(Frames=5)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x91D30961)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x91D30961)
+		Script_End()
+	}
+
+}

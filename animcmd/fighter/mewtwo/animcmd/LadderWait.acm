@@ -1,0 +1,21 @@
+MoveDef LadderWait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_F4B1C95B()
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

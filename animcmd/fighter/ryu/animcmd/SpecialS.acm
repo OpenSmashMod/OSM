@@ -1,0 +1,78 @@
+MoveDef SpecialS
+{
+	Main()
+	{
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Set_Bone_Intangability(Bone=0x5, Mode=0x2)
+		Synchronous_Timer(Frames=1)
+		Compare(Variable=0x11000002, Mode=0x0, Value=0x2)
+		TRUE(Unknown=0x30){
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=9, Unknown=0x37, Unknown=0x32, Unknown=0x0, Unknown=0x50, Unknown=3.5, Unknown=0, Unknown=12.5, Unknown=12.5, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x36, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=12.5, Unknown=2)
+		FALSE(Unknown=0x34){
+		Compare(Variable=0x11000002, Mode=0x0, Value=0x1)
+		TRUE(Unknown=0x30){
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=10.5, Unknown=0x3E, Unknown=0x39, Unknown=0x0, Unknown=0x50, Unknown=3.5, Unknown=0, Unknown=12.5, Unknown=12.5, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x36, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=12.5, Unknown=2)
+		FALSE(Unknown=0x2E){
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=12, Unknown=0x46, Unknown=0x41, Unknown=0x0, Unknown=0x50, Unknown=3.5, Unknown=0, Unknown=12.5, Unknown=12.5, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x36, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=12.5, Unknown=2)
+		}
+		}
+		}
+		}
+		Synchronous_Timer(Frames=3)
+		unk_7698BB42(unknown=0x0, unknown=0x2A)
+		Change_Hitbox_Size(Unknown=0x0, Unknown=0.1)
+		Asynchronous_Timer(Frames=9)
+		Compare(Variable=0x11000002, Mode=0x0, Value=0x2)
+		TRUE(Unknown=0x30){
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=9, Unknown=0x32, Unknown=0x32, Unknown=0x0, Unknown=0x50, Unknown=3.5, Unknown=0, Unknown=12.5, Unknown=-11, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x36, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=12.5, Unknown=-2)
+		FALSE(Unknown=0x34){
+		Compare(Variable=0x11000002, Mode=0x0, Value=0x1)
+		TRUE(Unknown=0x30){
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=10.5, Unknown=0x32, Unknown=0x39, Unknown=0x0, Unknown=0x50, Unknown=3.5, Unknown=0, Unknown=12.5, Unknown=-11, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x36, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=12.5, Unknown=-2)
+		FALSE(Unknown=0x2E){
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=12, Unknown=0x32, Unknown=0x41, Unknown=0x0, Unknown=0x50, Unknown=3.5, Unknown=0, Unknown=12.5, Unknown=-11, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x36, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=12.5, Unknown=-2)
+		}
+		}
+		}
+		}
+		Synchronous_Timer(Frames=3)
+		unk_7698BB42(unknown=0x0, unknown=0x2A)
+		Change_Hitbox_Size(Unknown=0x0, Unknown=0.1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		IS_FLAG_WORK(unknown=0x2100000F)
+		TRUE(Unknown=0x21){
+		IS_FLAG_WORK(unknown=0x2100000D)
+		TRUE(Unknown=0x4){
+		unk_BF72BDCA(unknown=0x42480000)
+		Set_Loop(Iterations=-1){
+		unk_515F97FF(unknown=0x334000E, unknown=0x334000D, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=8)
+		Goto(Unknown=-21)
+		}
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0xC05003F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Aesthetic_Wind_Effect(unknown=0x0, unknown=0x3F800000, unknown=0x42DC0000, unknown=0x41000000, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x41100000, unknown=0x42200000, unknown=0x41900000, unknown=0x50)
+		Asynchronous_Timer(Frames=1)
+		Item_Visibility(unknown=0x0)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

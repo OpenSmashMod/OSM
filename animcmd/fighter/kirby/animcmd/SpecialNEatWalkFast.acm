@@ -1,0 +1,35 @@
+MoveDef SpecialNEatWalkFast
+{
+	Main()
+	{
+		Subroutine2(Hash=0x46D97543)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		unk_01A5A27C(unknown=0xA006A, unknown=0xA006C)
+		Synchronous_Timer(Frames=23)
+		unk_01A5A27C(unknown=0xA006C, unknown=0xA006A)
+		Loop_Rest()
+		Subroutine2(Hash=0x83C51FBF)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=5)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=30)
+		Rumble(unknown=0xC, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x83C51FBF)
+		Script_End()
+	}
+
+}

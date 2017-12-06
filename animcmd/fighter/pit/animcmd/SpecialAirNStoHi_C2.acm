@@ -1,0 +1,23 @@
+MoveDef SpecialAirNStoHi_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x11043BC7)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x11043BC7)
+		Script_End()
+	}
+
+}

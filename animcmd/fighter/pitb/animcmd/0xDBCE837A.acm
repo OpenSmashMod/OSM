@@ -1,0 +1,21 @@
+MoveDef 0xDBCE837A : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xA10C337B)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

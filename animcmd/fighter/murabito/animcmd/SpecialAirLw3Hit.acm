@@ -1,0 +1,25 @@
+MoveDef SpecialAirLw3Hit
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x39)
+		Sound_Effect(SFX=0x24C0034)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xE40DB89C)
+		Script_End()
+	}
+
+}

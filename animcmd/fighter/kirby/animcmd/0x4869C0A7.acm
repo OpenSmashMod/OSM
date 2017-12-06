@@ -1,0 +1,45 @@
+MoveDef 0x4869C0A7
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Graphic_Effect2(unknown=0x3050002, unknown=0x18, unknown=0xC080002A, unknown=0xBD4B9CB7, unknown=0x407FFA6E, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40800000, unknown=0x0, unknown=0x41700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40800000, unknown=0x0, unknown=0x41700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Graphic_Effect2(unknown=0x3050002, unknown=0x18, unknown=0xC080002A, unknown=0xBD4B9CB7, unknown=0x407FFA6E, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40800000, unknown=0x0, unknown=0x41700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40800000, unknown=0x0, unknown=0x41700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Goto(Unknown=-110)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x30034)
+		Synchronous_Timer(Frames=20)
+		Subroutine2(Hash=0x4869C0A7)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=3)
+		Rumble2(unknown=0x2, unknown=0xC)
+		Loop_Rest()
+		Subroutine2(Hash=0x4869C0A7)
+		Script_End()
+	}
+
+}

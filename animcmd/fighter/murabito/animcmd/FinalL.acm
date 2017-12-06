@@ -1,0 +1,25 @@
+MoveDef FinalL
+{
+	Main()
+	{
+		Camera_Closeup(Unknown=0x5, Unknown=0x0, Unknown=2.5, Unknown=0x0, Unknown=0x0)
+		Time_Manipulation(Unknown=0x5, Unknown=0x14)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_EE37008F()
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

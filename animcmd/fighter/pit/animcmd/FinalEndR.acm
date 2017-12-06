@@ -1,0 +1,28 @@
+MoveDef FinalEndR
+{
+	Main()
+	{
+		Subroutine2(Hash=0x491344D0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x491344D0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		Sound_Effect(SFX=0x4006C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x491344D0)
+		Script_End()
+	}
+
+}

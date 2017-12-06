@@ -1,0 +1,27 @@
+MoveDef 0x29BAE301
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		unk_50730439(Unknown=15, Unknown=7, Unknown=0x1, Unknown=0x0, Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=23)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

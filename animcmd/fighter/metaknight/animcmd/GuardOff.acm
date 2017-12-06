@@ -1,0 +1,30 @@
+MoveDef GuardOff
+{
+	Main()
+	{
+		Set_Article_Action(Unknown=0x0, Unknown=0xD)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x63)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_15F0023E(unknown=0x1, unknown=0x2)
+		Item_Visibility(unknown=0x0)
+		Rumble(unknown=0x4, unknown=0x0)
+		Asynchronous_Timer(Frames=5)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

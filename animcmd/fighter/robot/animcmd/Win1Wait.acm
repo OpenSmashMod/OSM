@@ -1,0 +1,40 @@
+MoveDef Win1Wait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x250079)
+		Synchronous_Timer(Frames=10)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=11)
+		Transient_Sound_Effect(unknown=0x250079)
+		Synchronous_Timer(Frames=9)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=11)
+		Transient_Sound_Effect(unknown=0x250079)
+		Synchronous_Timer(Frames=9)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=11)
+		Transient_Sound_Effect(unknown=0x250079)
+		Synchronous_Timer(Frames=9)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=11)
+		Transient_Sound_Effect(unknown=0x25007D)
+		Synchronous_Timer(Frames=37)
+		unk_F4B1C95B()
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

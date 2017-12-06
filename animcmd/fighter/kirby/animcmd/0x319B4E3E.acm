@@ -1,0 +1,26 @@
+MoveDef 0x319B4E3E
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xF3C57625)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Screen_Shake(unknown=0x3)
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

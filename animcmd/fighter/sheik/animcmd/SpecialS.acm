@@ -1,0 +1,27 @@
+MoveDef SpecialS
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Bit_Variable_Set(Unknown=0x21000011)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x13004B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x4)
+		Script_End()
+	}
+
+}

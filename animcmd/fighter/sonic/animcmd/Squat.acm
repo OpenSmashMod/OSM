@@ -1,0 +1,28 @@
+MoveDef Squat
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x2A004F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=3)
+		Slope_Full(unknown=0x1, unknown=0x2)
+		Asynchronous_Timer(Frames=5)
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Script_End()
+	}
+
+}

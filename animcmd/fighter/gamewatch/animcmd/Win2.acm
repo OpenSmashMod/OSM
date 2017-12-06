@@ -1,0 +1,31 @@
+MoveDef Win2
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x6DF002C)
+		Synchronous_Timer(Frames=30)
+		Sound_Effect(SFX=0x6DF002A)
+		Synchronous_Timer(Frames=30)
+		Sound_Effect(SFX=0x6DF002B)
+		Synchronous_Timer(Frames=30)
+		Sound_Effect(SFX=0x6DF002A)
+		Synchronous_Timer(Frames=30)
+		Sound_Effect(SFX=0x6DF002B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

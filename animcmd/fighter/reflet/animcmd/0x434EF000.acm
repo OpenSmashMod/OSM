@@ -1,0 +1,28 @@
+MoveDef 0x434EF000 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=40)
+		unk_3A775D26(unknown=0x770002B)
+		Asynchronous_Timer(Frames=109)
+		Sound_Effect(SFX=0x7640065)
+		Asynchronous_Timer(Frames=133)
+		Sound_Effect(SFX=0x7640066)
+		Asynchronous_Timer(Frames=134)
+		Sound_Effect(SFX=0x39)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

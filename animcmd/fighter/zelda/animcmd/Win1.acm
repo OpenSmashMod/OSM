@@ -1,0 +1,27 @@
+MoveDef Win1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=50)
+		External_Graphic(Graphic=0x3100003, Bone=0x0, Z=0.8, Y=14.2, X=3.5, RotZ=0, RotY=0, RotX=0, Size=0.4, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3F4CCCCD)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=52)
+		Sound_Effect(SFX=0x120065)
+		Transient_Sound_Effect(unknown=0x120091)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

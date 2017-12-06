@@ -1,0 +1,53 @@
+MoveDef SpecialAirLwHit
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=9, Unknown=0x169, Unknown=0x5A, Unknown=0x0, Unknown=0x23, Unknown=8, Unknown=0, Unknown=8, Unknown=13, Unknown=0x5, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=8, Unknown=4.5)
+		Extended_Special_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=9, Unknown=0x169, Unknown=0x37, Unknown=0x0, Unknown=0x23, Unknown=9, Unknown=0, Unknown=8, Unknown=18, Unknown=0x5, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=8, Unknown=2)
+		Asynchronous_Timer(Frames=7)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x3360006, unknown=0x0, unknown=0x0, unknown=0x416CCCCD, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F8CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=2)
+		Sword_Trace(TraceID=0xEC, BlurLen=1.121039E-44, Bone1=0x3EA, Z=0, Y=0, X=0.5, Bone2=0x3EA, Z=-1E-05, Y=-2E-05, X=13, Anchored=0x1, Graphic=0x3360008, Bone3=0x3EA, Z=0, Y=0, X=0, RotX=0.00013, RotY=-7E-05, RotZ=0.00011, Length=1)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=220)
+		Asynchronous_Timer(Frames=3)
+		Color_Overlay(Red=180, Green=180, Blue=180, Alpha=80)
+		Change_Overlay(Transition=11, Red=0, Green=0, Blue=0, Alpha=0)
+		Asynchronous_Timer(Frames=5)
+		Graphic_Effect4(unknown=0x336000D, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FA66666)
+		Asynchronous_Timer(Frames=7)
+		Terminate_Graphic_Effect(unknown=0x336000D, unknown=0x0, unknown=0x0)
+		Graphic_Effect5(unknown=0x1000011, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x3F800000, unknown=0x3F800000, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Asynchronous_Timer(Frames=10)
+		Terminate_Sword_Glow(unknown=0xA)
+		Terminate_Overlays()
+		Set_Loop(Iterations=2){
+		Graphic_Effect5(unknown=0x1000011, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x3F800000, unknown=0x3F800000, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Synchronous_Timer(Frames=7)
+		Goto(Unknown=-21)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x16E97B17)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x16E97B17)
+		Script_End()
+	}
+
+}

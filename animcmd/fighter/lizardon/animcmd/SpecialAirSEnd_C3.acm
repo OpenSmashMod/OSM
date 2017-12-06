@@ -1,0 +1,25 @@
+MoveDef SpecialAirSEnd_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE437BA8D)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE437BA8D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xE437BA8D)
+		Script_End()
+	}
+
+}

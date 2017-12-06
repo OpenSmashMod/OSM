@@ -1,0 +1,19 @@
+MoveDef SpecialAirSFall
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,42 @@
+MoveDef ThrowHi
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=7, Angle=0x5A, KBG=0x48, WKB=0x0, BKB=0x46, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=3, Angle=0x169, KBG=0x64, WKB=0x0, BKB=0x3C, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Asynchronous_Timer(Frames=13)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=4, Unknown=0x169, Unknown=0x64, Unknown=0x0, Unknown=0x1E, Unknown=6, Unknown=0, Unknown=21, Unknown=0, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=13, Unknown=0)
+		Asynchronous_Timer(Frames=15)
+		Throw_Applier(ID=0x0, Bone=0x1A, Unknown=0x11000005, Unknown=0x11000006, Unknown=0x11000007)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=19)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x0, unknown=0x0, unknown=0x41C00000, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x121)
+		Low_Voice_Clip(unknown=0x800E0005)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_227B36A1(unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=13)
+		Screen_Shake(unknown=0x4)
+		Asynchronous_Timer(Frames=14)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=32)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,24 @@
+MoveDef SpecialNMaxStart_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=13)
+		Generate_Weapon(ID=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef 0xBFD278B2 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x4A80050)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

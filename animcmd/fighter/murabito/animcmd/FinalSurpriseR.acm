@@ -1,0 +1,25 @@
+MoveDef FinalSurpriseR
+{
+	Main()
+	{
+		Subroutine2(Hash=0x256EBC67)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x256EBC67)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x256EBC67)
+		Script_End()
+	}
+
+}

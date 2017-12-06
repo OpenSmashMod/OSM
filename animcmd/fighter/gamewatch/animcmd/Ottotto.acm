@@ -1,0 +1,25 @@
+MoveDef Ottotto
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Synchronous_Timer(Frames=6)
+		Model_Changer(unknown=0x7, unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_F615B1D5()
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

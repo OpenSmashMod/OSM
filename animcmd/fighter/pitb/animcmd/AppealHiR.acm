@@ -1,0 +1,32 @@
+MoveDef AppealHiR
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		unk_15F0023E(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=25)
+		PLAY_SE_REMAIN(unknown=0x76D0016)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x7620035)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x7620035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

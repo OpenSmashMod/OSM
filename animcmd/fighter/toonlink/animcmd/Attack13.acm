@@ -1,0 +1,41 @@
+MoveDef Attack13
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=6)
+		unk_AC811479(Unknown=0x3E9, Unknown=0x0)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x3E9, Damage=4, Angle=0x30, KBG=0x64, FKB=0x0, BKB=0x37, Size=4.2, Z=4.5, Y=0, X=0, Effect=0x19, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x3E9, Damage=4, Angle=0x30, KBG=0x64, FKB=0x0, BKB=0x37, Size=4.2, Z=1, Y=0, X=0, Effect=0x19, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x10, Damage=4, Angle=0x30, KBG=0x64, FKB=0x0, BKB=0x37, Size=3, Z=0, Y=0, X=0, Effect=0x19, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA)
+		Synchronous_Timer(Frames=5)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sword_Glow(unknown=0x7C, unknown=0x94, unknown=0x4, unknown=0x3E8, unknown=0x3E99999A, unknown=0x0, unknown=0x0, unknown=0x3E8, unknown=0x41300000, unknown=0x0, unknown=0x0, unknown=0x1, unknown=0x3200000, unknown=0x3E8, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xB, unknown=0x1)
+		Asynchronous_Timer(Frames=16)
+		Terminate_Sword_Glow(unknown=0x2)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Low_Voice_Clip(unknown=0x802C0000)
+		Sound_Effect(SFX=0x4A80000)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0x10, unknown=0x0)
+		Script_End()
+	}
+
+}

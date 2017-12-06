@@ -1,0 +1,27 @@
+MoveDef AppealLwR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x7650030)
+		Asynchronous_Timer(Frames=19)
+		Sound_Effect(SFX=0x7650031)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,28 @@
+MoveDef SwimUp
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0xC9A0011)
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0xB1)
+		Synchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0xB3)
+		Synchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0xB4)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

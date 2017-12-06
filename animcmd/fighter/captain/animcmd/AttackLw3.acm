@@ -1,0 +1,52 @@
+MoveDef AttackLw3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=11)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x5, Damage=12, Angle=0x50, KBG=0x4B, FKB=0x0, BKB=0x19, Size=4.8, Z=6.5, Y=-1, X=0, Effect=0x0, Trip=0, Hitlag=0.75, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x4, Damage=12, Angle=0x40, KBG=0x4B, FKB=0x0, BKB=0x19, Size=4.8, Z=3.5, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=0.75, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x0, Damage=12, Angle=0x30, KBG=0x4B, FKB=0x0, BKB=0x19, Size=3.5, Z=0, Y=3.5, X=-1, Effect=0x0, Trip=0, Hitlag=0.75, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=10)
+		Asynchronous_Timer(Frames=11)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0x19){
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Graphic_Effect2(unknown=0x100008E, unknown=0x0, unknown=0xC0800000, unknown=0x40B00000, unknown=0x40800000, unknown=0xC139999A, unknown=0xC2466666, unknown=0x43333333, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		FALSE(Unknown=0x17){
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Graphic_Effect2(unknown=0x100008E, unknown=0x0, unknown=0xC0800000, unknown=0x40B00000, unknown=0x40400000, unknown=0xC1700000, unknown=0xC24B5F3B, unknown=0x432D251F, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		}
+		}
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=11)
+		Low_Voice_Clip(unknown=0x80040005)
+		Sound_Effect(SFX=0xE006E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=4)
+		Slope_Full(unknown=0x1, unknown=0x7)
+		Asynchronous_Timer(Frames=8)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=22)
+		Slope_Full(unknown=0x6, unknown=0x7)
+		Script_End()
+	}
+
+}

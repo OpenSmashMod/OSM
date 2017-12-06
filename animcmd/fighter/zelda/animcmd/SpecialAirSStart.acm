@@ -1,0 +1,30 @@
+MoveDef SpecialAirSStart
+{
+	Main()
+	{
+		Subroutine2(Hash=0x43293E83)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x43293E83)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x1200A2)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,29 @@
+MoveDef SpecialS2End
+{
+	Main()
+	{
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=30)
+		Sound_Effect2(unknown=0x24E0050)
+		Synchronous_Timer(Frames=7)
+		Sound_Effect2(unknown=0x24E004E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

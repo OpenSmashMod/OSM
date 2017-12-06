@@ -1,0 +1,44 @@
+MoveDef SpecialNLoop_C3
+{
+	Main()
+	{
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Grab_collision2(ID=0x0, bone=0x0, Size=5.2, Z=0, Y=6, X=5, Unknown=0xDF, airground=0x3, Unknown=0x1)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=5, Angle=0x169, KBG=0x64, WKB=0x0, BKB=0x0, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		SEARCH(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=3, Unknown=0, Unknown=6, Unknown=4, Unknown=0x2, Unknown=0x1, Unknown=0x7, Unknown=0x0, Unknown=0xF, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x0)
+		Asynchronous_Timer(Frames=5)
+		unk_95794508(Unknown=1.6, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Terminate_Graphic_Effect(unknown=0x308001D, unknown=0x0, unknown=0x0)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x41200000, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=8)
+		Goto(Unknown=-23)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		unk_A0FA2515(unknown=0xA007E, unknown=0x0, unknown=0x0)
+		TRUE(Unknown=0x6){
+		Sound_Effect(SFX=0xA00CA)
+		Transient_Sound_Effect(unknown=0xA007E)
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x2, unknown=0x11)
+		Aesthetic_Wind_Effect(unknown=0x0, unknown=0x40400000, unknown=0x43340000, unknown=0x40000000, unknown=0x3F800000, unknown=0x41900000, unknown=0x41200000, unknown=0x42100000, unknown=0x41A00000, unknown=0x32)
+		Loop_Rest()
+		Subroutine2(Hash=0xBF498DF3)
+		Script_End()
+	}
+
+}

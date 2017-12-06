@@ -1,0 +1,33 @@
+MoveDef DownBackU
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=13)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x160018)
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x160082)
+		Asynchronous_Timer(Frames=31)
+		Sound_Effect(SFX=0x160023)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x4, unknown=0x1)
+		Asynchronous_Timer(Frames=16)
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Script_End()
+	}
+
+}

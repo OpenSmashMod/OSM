@@ -1,0 +1,75 @@
+MoveDef SpecialAirHi
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=9)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=4.5, Unknown=0x54, Unknown=0x64, Unknown=0xA0, Unknown=0x0, Unknown=4.6, Unknown=0, Unknown=11, Unknown=10, Unknown=0x5, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x8, Unknown=0x2, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=7, Unknown=10)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=4.5, Unknown=0x54, Unknown=0x64, Unknown=0x78, Unknown=0x0, Unknown=4.6, Unknown=0, Unknown=11, Unknown=10, Unknown=0x5, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x8, Unknown=0x1, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=7, Unknown=10)
+		unk_83197B9A(unknown=0x1, unknown=0x1)
+		Asynchronous_Timer(Frames=10)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Remove_All_Hitboxes()
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Synchronous_Timer(Frames=1)
+		Bit_Variable_Clear(Unknown=0x2100000E)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=1, Angle=0x16E, KBG=0x64, FKB=0xA0, BKB=0x0, Size=5.6, Z=0, Y=17, X=10, Effect=0x5, Trip=0, Hitlag=0.6, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x8, Direct/Indirect=0x2, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=1, Angle=0x16E, KBG=0x64, FKB=0xA0, BKB=0x0, Size=5, Z=0, Y=12, X=10, Effect=0x5, Trip=0, Hitlag=0.6, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x8, Direct/Indirect=0x2, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x2, Part=0x0, Bone=0x0, Damage=1, Angle=0x16E, KBG=0x64, FKB=0x78, BKB=0x0, Size=5.6, Z=0, Y=17, X=10, Effect=0x5, Trip=0, Hitlag=0.6, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x8, Direct/Indirect=0x1, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x3, Part=0x0, Bone=0x0, Damage=1, Angle=0x16E, KBG=0x64, FKB=0x78, BKB=0x0, Size=5, Z=0, Y=12, X=10, Effect=0x5, Trip=0, Hitlag=0.6, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x8, Direct/Indirect=0x1, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		unk_83197B9A(unknown=0x2, unknown=0x1)
+		unk_83197B9A(unknown=0x3, unknown=0x1)
+		Asynchronous_Timer(Frames=14)
+		Asynchronous_Timer(Frames=20)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=6, Unknown=0x46, Unknown=0x78, Unknown=0x0, Unknown=0x38, Unknown=6.3, Unknown=0, Unknown=17, Unknown=10, Unknown=0x5, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x8, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=12, Unknown=10)
+		Delete_Hitbox(id=0x1)
+		Delete_Hitbox(id=0x2)
+		Delete_Hitbox(id=0x3)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sword_Trace(TraceID=0xEC, BlurLen=1.401298E-44, Bone1=0x3EA, Z=0, Y=0, X=0.5, Bone2=0x3EA, Z=-1E-05, Y=-2E-05, X=13, Anchored=0x1, Graphic=0x3360008, Bone3=0x3EA, Z=0, Y=0, X=0, RotX=0.00013, RotY=-7E-05, RotZ=0.00011, Length=1)
+		External_Graphic(Graphic=0x336000D, Bone=0x3EA, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Asynchronous_Timer(Frames=9)
+		Graphic_Effect2(unknown=0x3360007, unknown=0x0, unknown=0xB727C5AC, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=13)
+		Terminate_Sword_Glow(unknown=0x4)
+		Asynchronous_Timer(Frames=15)
+		Sword_Trace(TraceID=0xEC, BlurLen=1.401298E-44, Bone1=0x3EA, Z=0, Y=0, X=0.5, Bone2=0x3EA, Z=-1E-05, Y=-2E-05, X=13, Anchored=0x1, Graphic=0x3360008, Bone3=0x3EA, Z=0, Y=0, X=0, RotX=0.00013, RotY=-7E-05, RotZ=0.00011, Length=1)
+		Asynchronous_Timer(Frames=19)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0x41600000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Graphic_Effect5(unknown=0x1000011, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x3F800000, unknown=0x3F800000, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Asynchronous_Timer(Frames=21)
+		Terminate_Graphic_Effect(unknown=0x336000D, unknown=0x0, unknown=0x0)
+		Graphic_Effect5(unknown=0x1000011, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x3F800000, unknown=0x3F800000, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Asynchronous_Timer(Frames=22)
+		Terminate_Sword_Glow(unknown=0x5)
+		Set_Loop(Iterations=2){
+		Graphic_Effect5(unknown=0x1000011, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x3F800000, unknown=0x3F800000, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Synchronous_Timer(Frames=9)
+		Goto(Unknown=-21)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+}

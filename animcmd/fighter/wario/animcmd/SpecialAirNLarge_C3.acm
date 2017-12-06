@@ -1,0 +1,25 @@
+MoveDef SpecialAirNLarge_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x81B0A293)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x81B0A293)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x81B0A293)
+		Script_End()
+	}
+
+}

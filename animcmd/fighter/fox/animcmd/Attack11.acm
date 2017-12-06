@@ -1,0 +1,42 @@
+MoveDef Attack11
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x10, Damage=4, Angle=0x46, KBG=0x64, FKB=0x0, BKB=0x0, Size=4.26, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x1, Part=0x0, Bone=0xF, Damage=4, Angle=0x46, KBG=0x64, FKB=0x0, BKB=0x0, Size=4.26, Z=6, Y=0.6, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x2, Part=0x0, Bone=0xF, Damage=4, Angle=0x46, KBG=0x64, FKB=0x0, BKB=0x0, Size=4.26, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Asynchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=5)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=7)
+		Bit_Variable_Set(Unknown=0x21000013)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x100008D, unknown=0x0, unknown=0x3F000000, unknown=0x41100000, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x0, unknown=0x3F000000, unknown=0x41100000, unknown=0x41400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x1)
+		Asynchronous_Timer(Frames=4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0xB005C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=1)
+		Rumble(unknown=0x10, unknown=0x0)
+		Script_End()
+	}
+
+}

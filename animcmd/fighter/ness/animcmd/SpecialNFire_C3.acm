@@ -1,0 +1,29 @@
+MoveDef SpecialNFire_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0xF0043)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=9)
+		Slope_Full(unknown=0x0, unknown=0x3)
+		Asynchronous_Timer(Frames=14)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=19)
+		Slope_Full(unknown=0x6, unknown=0x2)
+		Script_End()
+	}
+
+}

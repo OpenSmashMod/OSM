@@ -1,0 +1,35 @@
+MoveDef SpecialHiHold
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3350006, Bone=0xC, Z=0, Y=0, X=0, RotZ=-90.91879, RotY=-90, RotX=0, Size=1, Terminate=0x1)
+		Graphic_Effect2(unknown=0x100001C, unknown=0x0, unknown=0x0, unknown=0x41A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Set_Loop(Iterations=-1){
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=60)
+		Synchronous_Timer(Frames=2)
+		Color_Overlay(Red=0, Green=255, Blue=255, Alpha=48)
+		Synchronous_Timer(Frames=2)
+		Goto(Unknown=-14)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x1D0040)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x9, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,54 @@
+MoveDef 0xACAABDD8 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=18)
+		Sound_Effect2(unknown=0x2A0052)
+		Asynchronous_Timer(Frames=22)
+		Sound_Effect2(unknown=0x2A0050)
+		Asynchronous_Timer(Frames=26)
+		Sound_Effect2(unknown=0x2A0052)
+		Asynchronous_Timer(Frames=30)
+		Sound_Effect2(unknown=0x2A0050)
+		Asynchronous_Timer(Frames=34)
+		Sound_Effect2(unknown=0x2A0052)
+		Asynchronous_Timer(Frames=38)
+		Sound_Effect2(unknown=0x2A0050)
+		Asynchronous_Timer(Frames=42)
+		Sound_Effect2(unknown=0x2A0052)
+		Asynchronous_Timer(Frames=45)
+		unk_3A775D26(unknown=0x5D0028)
+		Asynchronous_Timer(Frames=46)
+		Sound_Effect2(unknown=0x2A0050)
+		Asynchronous_Timer(Frames=50)
+		Sound_Effect2(unknown=0x2A0052)
+		Asynchronous_Timer(Frames=54)
+		Sound_Effect2(unknown=0x2A0050)
+		Asynchronous_Timer(Frames=58)
+		Sound_Effect2(unknown=0x2A0052)
+		Asynchronous_Timer(Frames=62)
+		Sound_Effect2(unknown=0x2A0050)
+		Asynchronous_Timer(Frames=66)
+		Sound_Effect2(unknown=0x2A0052)
+		Asynchronous_Timer(Frames=70)
+		Sound_Effect2(unknown=0x2A0050)
+		Asynchronous_Timer(Frames=73)
+		Sound_Effect2(unknown=0x2A0020)
+		Asynchronous_Timer(Frames=98)
+		Sound_Effect2(unknown=0x2A002A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

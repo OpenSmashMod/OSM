@@ -1,0 +1,33 @@
+MoveDef LandingAirLw
+{
+	Main()
+	{
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=2, Unknown=0x169, Unknown=0xA0, Unknown=0x0, Unknown=0x32, Unknown=4, Unknown=0, Unknown=3.2, Unknown=4, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x2, Unknown=0x1, Unknown=0x1, Unknown=0x6, Unknown=0, Unknown=3.2, Unknown=-3.5)
+		Asynchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		unk_515F97FF(unknown=0x100000D, unknown=0x100000E, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect3(unknown=0x760000A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x1)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=21)
+		Slope_Full(unknown=0x6, unknown=0x4)
+		Script_End()
+	}
+
+}

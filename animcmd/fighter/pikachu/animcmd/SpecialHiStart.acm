@@ -1,0 +1,30 @@
+MoveDef SpecialHiStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect3(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x390002)
+		Synchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0xC003C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x9, unknown=0x8)
+		Asynchronous_Timer(Frames=14)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

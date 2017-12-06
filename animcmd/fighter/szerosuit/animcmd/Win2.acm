@@ -1,0 +1,56 @@
+MoveDef Win2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=21)
+		Graphic_Effect2(unknown=0x1000024, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC25C0000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=56)
+		Graphic_Effect2(unknown=0x1000007, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC1E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=59)
+		External_Graphic(Graphic=0x319000F, Bone=0xB, Z=-1, Y=-0.7, X=0, RotZ=0, RotY=0, RotX=0, Size=0.6, Terminate=0x1)
+		External_Graphic(Graphic=0x319000F, Bone=0x7, Z=-1, Y=-0.7, X=0, RotZ=0, RotY=0, RotX=0, Size=0.6, Terminate=0x1)
+		Asynchronous_Timer(Frames=60)
+		Graphic_Effect2(unknown=0x1000024, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC1E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=70)
+		Terminate_Graphic_Effect(unknown=0x319000F, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=85)
+		Asynchronous_Timer(Frames=116)
+		Graphic_Effect2(unknown=0x1000007, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		Sound_Effect(SFX=0x1B0031)
+		unk_3A775D26(unknown=0x4E002A)
+		Asynchronous_Timer(Frames=56)
+		Sound_Effect(SFX=0x1B0033)
+		Asynchronous_Timer(Frames=59)
+		Sound_Effect(SFX=0x1B0092)
+		Asynchronous_Timer(Frames=66)
+		Sound_Effect(SFX=0x1B0032)
+		Asynchronous_Timer(Frames=74)
+		Sound_Effect(SFX=0x6D)
+		Asynchronous_Timer(Frames=95)
+		Sound_Effect(SFX=0x6F)
+		Asynchronous_Timer(Frames=102)
+		unk_3A775D26(unknown=0x4E0001)
+		Asynchronous_Timer(Frames=103)
+		Stop_Sound_Effect(unknown=0x1B0092)
+		Asynchronous_Timer(Frames=115)
+		Sound_Effect(SFX=0x1B0034)
+		Asynchronous_Timer(Frames=137)
+		Sound_Effect(SFX=0x1B0073)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

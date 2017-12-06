@@ -1,0 +1,25 @@
+MoveDef Fuwafuwa
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic_Effect2(unknown=0x30E0010, unknown=0xB, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0x110070)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

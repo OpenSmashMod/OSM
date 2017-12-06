@@ -1,0 +1,58 @@
+MoveDef FinalEnd
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x2)
+		Remove_All_Hitboxes()
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=10, Angle=0x46, KBG=0x78, FKB=0x0, BKB=0x64, Size=14, Z=0, Y=8, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x32, SFXType=0x3, Ground/Air=0xE, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=10, Angle=0x46, KBG=0x78, FKB=0x0, BKB=0x64, Size=16, Z=0, Y=8, X=18, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x32, SFXType=0x3, Ground/Air=0xE, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x2, Part=0x0, Bone=0x0, Damage=10, Angle=0x46, KBG=0x78, FKB=0x0, BKB=0x64, Size=18, Z=0, Y=8, X=36, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x32, SFXType=0x3, Ground/Air=0xE, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x3, Part=0x0, Bone=0x0, Damage=10, Angle=0x46, KBG=0x78, FKB=0x0, BKB=0x64, Size=18, Z=0, Y=8, X=50, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x32, SFXType=0x3, Ground/Air=0xE, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x10000F7, Bone=0x3, Z=-1, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=2, Terminate=0x1)
+		External_Graphic(Graphic=0x10000F7, Bone=0x16, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x10000F7, Bone=0xA, Z=0.8, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.2, Terminate=0x1)
+		External_Graphic(Graphic=0x10000F7, Bone=0x13, Z=1, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.4, Terminate=0x1)
+		External_Graphic(Graphic=0x10000F7, Bone=0x9, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.1, Terminate=0x1)
+		External_Graphic(Graphic=0x10000F7, Bone=0x10, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x10000F7, Bone=0x6, Z=0.8, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.2, Terminate=0x1)
+		External_Graphic(Graphic=0x31D0000, Bone=0x3E8, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31D0001, Bone=0x3E8, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=3)
+		Graphic_Effect2(unknown=0x31D0002, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x41A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=5)
+		Asynchronous_Timer(Frames=7)
+		Graphic_Effect2(unknown=0x31D0003, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x41A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=9)
+		Graphic_Effect2(unknown=0x41D0003, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x41A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=40)
+		Terminate_Graphic_Effect(unknown=0x10000F7, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		PLAY_SE_REMAIN(unknown=0x240023)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Screen_Shake(unknown=0x5)
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0xF, unknown=0x0)
+		Asynchronous_Timer(Frames=29)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

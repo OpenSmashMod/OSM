@@ -1,0 +1,21 @@
+MoveDef SpecialAirSRideLoop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x33AD2D11)
+		Script_End()
+	}
+
+}

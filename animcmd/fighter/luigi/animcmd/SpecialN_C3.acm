@@ -1,0 +1,41 @@
+MoveDef SpecialN_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=17)
+		Generate_Weapon(ID=0x0)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect3(unknown=0x100000C, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=17)
+		Color_Overlay(Red=0, Green=0, Blue=255, Alpha=90)
+		Asynchronous_Timer(Frames=19)
+		Terminate_Overlays()
+		unk_89A772AC(unknown=0x43480000, unknown=0x43480000, unknown=0x437A0000, unknown=0x43200000, unknown=0x42960000, unknown=0xC1200000)
+		Asynchronous_Timer(Frames=22)
+		unk_2558D7F3(unknown=0x40A00000, unknown=0x42C80000, unknown=0x43480000, unknown=0x437A0000, unknown=0x0)
+		Asynchronous_Timer(Frames=27)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=17)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=16)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

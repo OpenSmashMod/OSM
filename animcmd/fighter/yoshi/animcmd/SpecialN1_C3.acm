@@ -1,0 +1,22 @@
+MoveDef SpecialN1_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=21)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,31 @@
+MoveDef SpecialNStart_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.6)
+		Asynchronous_Timer(Frames=4)
+		Generate_Weapon(ID=0x0)
+		Asynchronous_Timer(Frames=11)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=8)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=12)
+		Slope_Full(unknown=0x6, unknown=0x2)
+		Script_End()
+	}
+
+}

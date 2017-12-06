@@ -1,0 +1,29 @@
+MoveDef SpecialAirLw_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x259AB4BB)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		Graphic_Effect2(unknown=0x3300009, unknown=0x0, unknown=0x0, unknown=0x41300000, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x7680031)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

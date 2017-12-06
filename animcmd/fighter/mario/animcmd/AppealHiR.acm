@@ -1,0 +1,45 @@
+MoveDef AppealHiR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=11)
+		Set_Loop(Iterations=6){
+		Color_Overlay(Red=255, Green=255, Blue=128, Alpha=170)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=3, Red=80, Green=80, Blue=80, Alpha=90)
+		Synchronous_Timer(Frames=3)
+		Change_Overlay(Transition=3, Red=80, Green=80, Blue=80, Alpha=0)
+		Synchronous_Timer(Frames=3)
+		Change_Overlay(Transition=4, Red=255, Green=255, Blue=128, Alpha=170)
+		Synchronous_Timer(Frames=3)
+		Goto(Unknown=-31)
+		}
+		Terminate_Overlays()
+		Asynchronous_Timer(Frames=150)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x20001)
+		Synchronous_Timer(Frames=118)
+		Sound_Effect(SFX=0x20002)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=11)
+		Rumble2(unknown=0x2, unknown=0x32)
+		Asynchronous_Timer(Frames=121)
+		Rumble2(unknown=0x2, unknown=0x32)
+		Script_End()
+	}
+
+}

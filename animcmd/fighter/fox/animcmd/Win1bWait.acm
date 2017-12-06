@@ -1,0 +1,25 @@
+MoveDef Win1bWait
+{
+	Main()
+	{
+		Subroutine2(Hash=0x2F8CED33)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x2F8CED33)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x2F8CED33)
+		Script_End()
+	}
+
+}

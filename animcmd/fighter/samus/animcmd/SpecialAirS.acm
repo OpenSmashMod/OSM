@@ -1,0 +1,28 @@
+MoveDef SpecialAirS
+{
+	Main()
+	{
+		Subroutine2(Hash=0x224117F6)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=22)
+		Graphic_Effect2(unknown=0x3060008, unknown=0x16, unknown=0x40C66666, unknown=0x3EC23E18, unknown=0xBE19999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=24)
+		Graphic_Effect2(unknown=0x1000009, unknown=0x16, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x224117F6)
+		Script_End()
+	}
+
+}

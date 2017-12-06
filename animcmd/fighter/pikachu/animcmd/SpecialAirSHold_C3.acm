@@ -1,0 +1,29 @@
+MoveDef SpecialAirSHold_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xD4248118)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x30A000A, Bone=0x3, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xD4248118)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Rumble2(unknown=0x22, unknown=0x0)
+		Script_End()
+	}
+
+}

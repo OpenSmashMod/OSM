@@ -1,0 +1,50 @@
+MoveDef AppealLwR
+{
+	Main()
+	{
+		unk_B89F681C(unknown=0x0, unknown=0x1)
+		Generate_Weapon(ID=0x0)
+		Set_Article_Action(Unknown=0x0, Unknown=0xA)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=21)
+		Graphic_Effect3(unknown=0x31D0007, unknown=0x0, unknown=0xC0800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=51)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=61)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=71)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0xC0800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=19)
+		Sound_Effect(SFX=0x240050)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x240063)
+		Synchronous_Timer(Frames=27)
+		Sound_Effect(SFX=0x240074)
+		Sound_Effect(SFX=0x570018)
+		Synchronous_Timer(Frames=61)
+		Sound_Effect(SFX=0x240064)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x1)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=22)
+		Rumble(unknown=0xD, unknown=0x0)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=113)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

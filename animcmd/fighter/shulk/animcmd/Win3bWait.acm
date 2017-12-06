@@ -1,0 +1,23 @@
+MoveDef Win3bWait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x554CBE53)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

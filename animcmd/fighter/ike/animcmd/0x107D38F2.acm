@@ -1,0 +1,28 @@
+MoveDef 0x107D38F2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=14)
+		unk_50730439(Unknown=0, Unknown=30, Unknown=0x1, Unknown=0x0, Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Asynchronous_Timer(Frames=14)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=28)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

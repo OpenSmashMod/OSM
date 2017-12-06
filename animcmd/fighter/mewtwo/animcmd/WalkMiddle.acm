@@ -1,0 +1,32 @@
+MoveDef WalkMiddle
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Set_Loop(Iterations=-1){
+		Synchronous_Timer(Frames=20)
+		Graphic_Effect(unknown=0x0, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x40400000, unknown=0x0, unknown=0x40400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0xBFC006E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x0, unknown=0xF)
+		Script_End()
+	}
+
+}

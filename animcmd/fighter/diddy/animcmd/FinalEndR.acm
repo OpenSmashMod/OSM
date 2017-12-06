@@ -1,0 +1,27 @@
+MoveDef FinalEndR
+{
+	Main()
+	{
+		Subroutine2(Hash=0x491344D0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x491344D0)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Screen_Shake(unknown=0x5)
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0xF, unknown=0x0)
+		Script_End()
+	}
+
+}

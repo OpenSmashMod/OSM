@@ -1,0 +1,53 @@
+MoveDef SpecialHi_C3
+{
+	Main()
+	{
+		SA_SET(Unknown=0x2)
+		Set_Frame_Duration(Speed=0.5)
+		Asynchronous_Timer(Frames=19)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=22)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=16, Angle=0x50, KBG=0x64, FKB=0x0, BKB=0x3C, Size=6, Z=0, Y=27, X=0, Effect=0x3, Trip=0, Hitlag=2.5, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=24)
+		Remove_All_Hitboxes()
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Asynchronous_Timer(Frames=25)
+		Add_Momentum(Vertical=0, Horizontal=0.5)
+		Set_Frame_Duration(Speed=4)
+		Asynchronous_Timer(Frames=30)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		External_Graphic(Graphic=0x3290009, Bone=0x17, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.8, Terminate=0x1)
+		External_Graphic(Graphic=0x329000A, Bone=0x2, Z=0, Y=5, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=21)
+		External_Graphic(Graphic=0x3290011, Bone=0x0, Z=0, Y=5, X=-2, RotZ=-90, RotY=0, RotX=0, Size=1.2, Terminate=0x1)
+		Asynchronous_Timer(Frames=22)
+		Terminate_Graphic_Effect(unknown=0x3290009, unknown=0x1, unknown=0x1)
+		External_Graphic(Graphic=0x329000B, Bone=0x11, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.1, Terminate=0x1)
+		Asynchronous_Timer(Frames=23)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x11, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=20)
+		Sound_Effect(SFX=0x7630047)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Rumble2(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=22)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

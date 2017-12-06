@@ -1,0 +1,25 @@
+MoveDef SpecialAirNSpeed
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x6C3E84BF)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x6C3E84BF)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xB9A5960B)
+		Script_End()
+	}
+
+}

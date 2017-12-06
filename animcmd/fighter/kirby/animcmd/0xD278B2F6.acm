@@ -1,0 +1,27 @@
+MoveDef 0xD278B2F6
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=14)
+		Sound_Effect(SFX=0xB004B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=18)
+		Article_Visibility(Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+}

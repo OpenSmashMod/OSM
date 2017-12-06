@@ -1,0 +1,29 @@
+MoveDef SquatB
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		unk_01A5A27C(unknown=0x765000A, unknown=0x765000C)
+		Synchronous_Timer(Frames=12)
+		unk_01A5A27C(unknown=0x765000C, unknown=0x765000A)
+		Loop_Rest()
+		Subroutine2(Hash=0x5DD5A8C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,38 @@
+MoveDef Dash
+{
+	Main()
+	{
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Asynchronous_Timer(Frames=9)
+		Enable Action Status(Unknown=0x1E00000A)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x6DF002E)
+		Synchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x6DF0040)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x6DF003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x1)
+		Asynchronous_Timer(Frames=5)
+		Rumble2(unknown=0x15, unknown=0x0)
+		Script_End()
+	}
+
+}

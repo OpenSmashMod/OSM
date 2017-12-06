@@ -1,0 +1,30 @@
+MoveDef Win2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x32F0018, Bone=0x19, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x32F001B, Bone=0x3EC, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=129)
+		External_Graphic(Graphic=0x32F001A, Bone=0x19, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=130)
+		Terminate_Graphic_Effect(unknown=0x32F0018, unknown=0x0, unknown=0x0)
+		Terminate_Graphic_Effect(unknown=0x32F001C, unknown=0x0, unknown=0x0)
+		Terminate_Graphic_Effect(unknown=0x32F001B, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

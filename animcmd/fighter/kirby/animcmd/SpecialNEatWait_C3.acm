@@ -1,0 +1,21 @@
+MoveDef SpecialNEatWait_C3
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=5, Angle=0x169, KBG=0x64, WKB=0x0, BKB=0x0, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

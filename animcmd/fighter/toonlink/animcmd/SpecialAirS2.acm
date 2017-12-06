@@ -1,0 +1,26 @@
+MoveDef SpecialAirS2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x4E29A833)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4A80053)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x4E29A833)
+		Script_End()
+	}
+
+}

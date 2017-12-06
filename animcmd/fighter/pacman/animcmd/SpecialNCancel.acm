@@ -1,0 +1,22 @@
+MoveDef SpecialNCancel
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

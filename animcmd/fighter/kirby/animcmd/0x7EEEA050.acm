@@ -1,0 +1,29 @@
+MoveDef 0x7EEEA050
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		IS_FLAG_WORK(unknown=0x2100000D)
+		TRUE(Unknown=0x6){
+		Sound_Effect(SFX=0xBFC008E)
+		FALSE(Unknown=0x4){
+		Transient_Sound_Effect(unknown=0xBFC004C)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

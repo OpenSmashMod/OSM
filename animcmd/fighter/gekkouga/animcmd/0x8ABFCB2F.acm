@@ -1,0 +1,21 @@
+MoveDef 0x8ABFCB2F : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x7680050)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

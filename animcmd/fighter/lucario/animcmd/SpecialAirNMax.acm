@@ -1,0 +1,23 @@
+MoveDef SpecialAirNMax
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x8A14571B)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x8A14571B)
+		Script_End()
+	}
+
+}

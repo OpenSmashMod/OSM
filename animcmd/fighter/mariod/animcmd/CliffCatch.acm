@@ -1,0 +1,30 @@
+MoveDef CliffCatch
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect2(unknown=0x100001E, unknown=0x17, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x53)
+		Synchronous_Timer(Frames=2)
+		unk_CD0D7079(unknown=0x2)
+		TRUE(Unknown=0x4){
+		Sound_Effect(SFX=0x76B000A)
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

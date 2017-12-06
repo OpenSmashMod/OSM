@@ -1,0 +1,19 @@
+MoveDef SpecialAirHiHold_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

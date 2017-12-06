@@ -1,0 +1,27 @@
+MoveDef SpecialAirNTurn_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xF6C38BB4)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xDE1E5D60)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xF6C38BB4)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xF6C38BB4)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef 0xFFF6F961
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x9006C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,44 @@
+MoveDef Final2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=61)
+		External_Graphic(Graphic=0x100000A, Bone=0x0, Z=0, Y=0, X=0, RotZ=4.426, RotY=0, RotX=0, Size=0.96, Terminate=0x0)
+		External_Graphic(Graphic=0x100000A, Bone=0x0, Z=0, Y=0, X=0, RotZ=4.426, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Asynchronous_Timer(Frames=81)
+		External_Graphic(Graphic=0x3160012, Bone=0x0, Z=-6, Y=5, X=2, RotZ=30, RotY=0, RotX=0, Size=1.5, Terminate=0x0)
+		Asynchronous_Timer(Frames=96)
+		External_Graphic(Graphic=0x3160012, Bone=0x0, Z=-6, Y=5, X=2, RotZ=30, RotY=0, RotX=0, Size=1.5, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=56)
+		Asynchronous_Timer(Frames=61)
+		PLAY_SE_REMAIN(unknown=0x1A0081)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=4)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=54)
+		Slope_Full(unknown=0x1, unknown=0x3)
+		Asynchronous_Timer(Frames=55)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=76)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

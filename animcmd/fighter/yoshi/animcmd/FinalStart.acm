@@ -1,0 +1,35 @@
+MoveDef FinalStart
+{
+	Main()
+	{
+		Camera_Closeup(Unknown=0xA, Unknown=0x0, Unknown=1.5, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=41)
+		Normal_Camera()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x4070000, Bone=0x12, Z=0, Y=0, X=0, RotZ=-113.3157, RotY=-90, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		PLAY_SE_REMAIN(unknown=0x3E0002)
+		PLAY_SE_REMAIN(unknown=0x90026)
+		Synchronous_Timer(Frames=5)
+		PLAY_SE_REMAIN(unknown=0x90067)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_EE37008F()
+		Synchronous_Timer(Frames=1)
+		Rumble(unknown=0x5, unknown=0x0)
+		Script_End()
+	}
+
+}

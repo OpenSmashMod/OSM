@@ -1,0 +1,32 @@
+MoveDef Win2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=19)
+		unk_3A775D26(unknown=0x3C003A)
+		Synchronous_Timer(Frames=16)
+		unk_3A775D26(unknown=0x3C003A)
+		Synchronous_Timer(Frames=21)
+		unk_3A775D26(unknown=0x3C003A)
+		Synchronous_Timer(Frames=18)
+		unk_3A775D26(unknown=0x3C003A)
+		Synchronous_Timer(Frames=25)
+		unk_3A775D26(unknown=0x3C003A)
+		Synchronous_Timer(Frames=14)
+		unk_3A775D26(unknown=0x3C003A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

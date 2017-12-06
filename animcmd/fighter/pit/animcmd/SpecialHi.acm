@@ -1,0 +1,30 @@
+MoveDef SpecialHi
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Allow/Disallow Ledgegrab(Unknown=0x1)
+		Asynchronous_Timer(Frames=28)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3180016, Bone=0x2, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x40022)
+		Low_Voice_Clip(unknown=0x800E000A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

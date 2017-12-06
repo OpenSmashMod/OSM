@@ -1,0 +1,25 @@
+MoveDef SpecialAirHiStart_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xFAF20BB3)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xFAF20BB3)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFAF20BB3)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

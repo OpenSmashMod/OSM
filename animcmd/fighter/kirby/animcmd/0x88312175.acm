@@ -1,0 +1,34 @@
+MoveDef 0x88312175
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=15)
+		Color_Overlay(Red=0, Green=255, Blue=0, Alpha=90)
+		Asynchronous_Timer(Frames=17)
+		External_Graphic(Graphic=0x30B0001, Bone=0x11, Z=2, Y=0, X=0, RotZ=-179.8226, RotY=0, RotX=-2E-05, Size=1, Terminate=0x0)
+		Terminate_Overlays()
+		unk_89A772AC(unknown=0x43480000, unknown=0x437F0000, unknown=0x43480000, unknown=0x43200000, unknown=0x42960000, unknown=0xC1200000)
+		Asynchronous_Timer(Frames=22)
+		unk_2558D7F3(unknown=0x40A00000, unknown=0x42C80000, unknown=0x437F0000, unknown=0x43480000, unknown=0x0)
+		Asynchronous_Timer(Frames=27)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=16)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

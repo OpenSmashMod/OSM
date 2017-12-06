@@ -1,0 +1,24 @@
+MoveDef FinalDaimonji
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=30)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

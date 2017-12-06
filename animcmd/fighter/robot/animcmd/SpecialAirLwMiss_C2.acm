@@ -1,0 +1,26 @@
+MoveDef SpecialAirLwMiss_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x250051)
+		Synchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x580021)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xB73336D3)
+		Script_End()
+	}
+
+}

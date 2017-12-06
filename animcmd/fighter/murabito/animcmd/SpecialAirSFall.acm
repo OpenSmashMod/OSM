@@ -1,0 +1,21 @@
+MoveDef SpecialAirSFall
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x7D361C22)
+		Script_End()
+	}
+
+}

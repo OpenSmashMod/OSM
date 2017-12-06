@@ -1,0 +1,23 @@
+MoveDef Win3cWait
+{
+	Main()
+	{
+		Set_Article_Action(Unknown=0x5, Unknown=0x9)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x1CF0419D)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

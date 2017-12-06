@@ -1,0 +1,36 @@
+MoveDef 0x022F7B09
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=4)
+		Set_Loop(Iterations=-1){
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x41200000, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		External_Graphic(Graphic=0x1000010, Bone=0x3E8, Z=7.99999, Y=0, X=1E-05, RotZ=-4E-05, RotY=-0.00012, RotX=3E-05, Size=1, Terminate=0x0)
+		Goto(Unknown=-30)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x69)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_C52B4328(unknown=0x3F4CCCCD, unknown=0x3F4CCCCD, unknown=0xBF800000, unknown=0x3F4CCCCD, unknown=0x3F4CCCCD, unknown=0xBF800000, unknown=0xFFFFFFFF)
+		SLOPE(unknown=0x6)
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Rumble2(unknown=0x22, unknown=0x39)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

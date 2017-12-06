@@ -1,0 +1,21 @@
+MoveDef DamageAir1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x570008)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

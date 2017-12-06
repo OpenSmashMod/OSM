@@ -1,0 +1,27 @@
+MoveDef 0x9B243835
+{
+	Main()
+	{
+		Subroutine2(Hash=0x4F90F5D2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Low_Voice_Clip(unknown=0x804E0000)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=34)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

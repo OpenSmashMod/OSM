@@ -1,0 +1,25 @@
+MoveDef 0xFF48FD31
+{
+	Main()
+	{
+		Subroutine2(Hash=0x48FD31CB)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_4E94C51B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

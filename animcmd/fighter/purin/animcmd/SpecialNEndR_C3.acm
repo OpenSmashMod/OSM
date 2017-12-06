@@ -1,0 +1,24 @@
+MoveDef SpecialNEndR_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x6CD574A9)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=18)
+		Transient_Sound_Effect(unknown=0x260034)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

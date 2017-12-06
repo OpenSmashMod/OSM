@@ -1,0 +1,42 @@
+MoveDef SpecialHi
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x3, Damage=12, Angle=0x50, KBG=0x3C, FKB=0x0, BKB=0x3C, Size=5.3, Z=0.9, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x5, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x2)
+		Synchronous_Timer(Frames=4)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x3, Damage=8, Angle=0x50, KBG=0x3C, FKB=0x0, BKB=0x3C, Size=4.7, Z=0.94591, Y=-0.32441, X=0, Effect=0x5, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x5, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3090008, Bone=0x2, Z=0, Y=-1.5, X=-1.5, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Color_Overlay(Red=255, Green=192, Blue=128, Alpha=180)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=30, Red=160, Green=60, Blue=60, Alpha=80)
+		Synchronous_Timer(Frames=30)
+		Change_Overlay(Transition=20, Red=128, Green=0, Blue=0, Alpha=0)
+		Synchronous_Timer(Frames=20)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x400002)
+		Sound_Effect(SFX=0xB0041)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_CE8ABAED(unknown=0x1)
+		unk_AECB846B(unknown=0x1)
+		Rumble2(unknown=0x8, unknown=0x14)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef GuardDamage
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		Sound_Effect(SFX=0xC1)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

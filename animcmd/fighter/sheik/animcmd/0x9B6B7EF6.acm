@@ -1,0 +1,39 @@
+MoveDef 0x9B6B7EF6
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x126E356F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		IS_FLAG_WORK(unknown=0x21000014)
+		TRUE(Unknown=0xE){
+		Low_Voice_Clip(unknown=0x80100006)
+		Synchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x130067)
+		Synchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x130067)
+		FALSE(Unknown=0xE){
+		Sound_Effect(SFX=0x130029)
+		Low_Voice_Clip(unknown=0x80100006)
+		Synchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x130067)
+		Synchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x130067)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

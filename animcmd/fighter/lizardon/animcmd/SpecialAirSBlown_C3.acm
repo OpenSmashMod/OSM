@@ -1,0 +1,23 @@
+MoveDef SpecialAirSBlown_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xA0CB7581)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xA0CB7581)
+		Script_End()
+	}
+
+}

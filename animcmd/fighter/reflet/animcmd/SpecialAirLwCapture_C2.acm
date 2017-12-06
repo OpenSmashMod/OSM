@@ -1,0 +1,25 @@
+MoveDef SpecialAirLwCapture_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE4F1A679)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xE4F1A679)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE4F1A679)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

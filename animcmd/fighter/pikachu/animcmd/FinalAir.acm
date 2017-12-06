@@ -1,0 +1,35 @@
+MoveDef FinalAir
+{
+	Main()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		External_Graphic(Graphic=0x30A0010, Bone=0x3, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=10)
+		External_Graphic(Graphic=0x40A0003, Bone=0x3, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_EE37008F()
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=8)
+		Rumble2(unknown=0x22, unknown=0x30)
+		Asynchronous_Timer(Frames=63)
+		Rumble(unknown=0xF, unknown=0x0)
+		Script_End()
+	}
+
+}

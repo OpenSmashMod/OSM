@@ -1,0 +1,30 @@
+MoveDef 0x004B3850
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Pickup_Item2(Unknown=0x0, Unknown=0x2)
+		Asynchronous_Timer(Frames=6)
+		Consume_Item(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Asynchronous_Timer(Frames=19)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Asynchronous_Timer(Frames=23)
+		Model_Changer(unknown=0x1, unknown=0x0)
+		Script_End()
+	}
+
+}

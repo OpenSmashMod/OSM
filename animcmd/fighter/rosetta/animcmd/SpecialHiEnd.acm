@@ -1,0 +1,22 @@
+MoveDef SpecialHiEnd
+{
+	Main()
+	{
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

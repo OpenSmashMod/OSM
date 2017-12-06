@@ -1,0 +1,19 @@
+MoveDef SpecialHiSquat
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

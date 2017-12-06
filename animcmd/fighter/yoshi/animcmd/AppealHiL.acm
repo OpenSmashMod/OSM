@@ -1,0 +1,23 @@
+MoveDef AppealHiL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+}

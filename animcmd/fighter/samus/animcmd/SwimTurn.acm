@@ -1,0 +1,22 @@
+MoveDef SwimTurn
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0xB4)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

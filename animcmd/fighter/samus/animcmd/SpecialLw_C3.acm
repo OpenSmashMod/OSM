@@ -1,0 +1,47 @@
+MoveDef SpecialLw_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Set_Frame_Duration(Speed=2)
+		Asynchronous_Timer(Frames=4)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=9)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=11)
+		Bit_Variable_Set(Unknown=0x21000011)
+		Subroutine1(Unknown=0x4943E3C0)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Asynchronous_Timer(Frames=44)
+		Bit_Variable_Clear(Unknown=0x2100000E)
+		Asynchronous_Timer(Frames=45)
+		Subroutine1(Unknown=0x3D3FEDA3)
+		Asynchronous_Timer(Frames=47)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=11)
+		Item_Visibility(unknown=0x0)
+		unk_27213F09(unknown=0x0)
+		Asynchronous_Timer(Frames=12)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=45)
+		Item_Visibility(unknown=0x1)
+		unk_27213F09(unknown=0x1)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

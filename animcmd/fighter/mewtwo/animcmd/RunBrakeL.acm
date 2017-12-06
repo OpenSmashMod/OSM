@@ -1,0 +1,25 @@
+MoveDef RunBrakeL : Unlisted
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Bit_Variable_Clear(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xD7F912B4)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,35 @@
+MoveDef Win2
+{
+	Main()
+	{
+		Generate_Weapon(ID=0x0)
+		Set_Article_Action(Unknown=0x0, Unknown=0x56)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		Sound_Effect(SFX=0x1A0083)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x1A0083)
+		Transient_Sound_Effect(unknown=0x1A0064)
+		Synchronous_Timer(Frames=68)
+		unk_F4B1C95B()
+		Sound_Effect(SFX=0x1A0086)
+		Transient_Sound_Effect(unknown=0x1A0064)
+		Synchronous_Timer(Frames=37)
+		unk_F4B1C95B()
+		unk_3A775D26(unknown=0x4D0036)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

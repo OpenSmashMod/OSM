@@ -1,0 +1,27 @@
+MoveDef SpecialAirN3End
+{
+	Main()
+	{
+		Subroutine2(Hash=0x2271F2ED)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x2271F2ED)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x2271F2ED)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

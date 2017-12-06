@@ -1,0 +1,22 @@
+MoveDef SpecialSAppeal_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x4D001B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

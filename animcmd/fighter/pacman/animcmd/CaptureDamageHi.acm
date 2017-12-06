@@ -1,0 +1,19 @@
+MoveDef CaptureDamageHi
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

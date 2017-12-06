@@ -1,0 +1,25 @@
+MoveDef 0x5C5E5525
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=8)
+		unk_965E035A()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=9)
+		Rumble(unknown=0x5, unknown=0x0)
+		Script_End()
+	}
+
+}

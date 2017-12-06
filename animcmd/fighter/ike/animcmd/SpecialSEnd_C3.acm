@@ -1,0 +1,36 @@
+MoveDef SpecialSEnd_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=15)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Loop(Iterations=3){
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_79380B43(unknown=0x0, unknown=0x40000000, unknown=0x43200000, unknown=0x41200000, unknown=0x3F19999A, unknown=0x0, unknown=0x41400000, unknown=0x41C00000, unknown=0x41C00000)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=11)
+		Terminate_Wind_Effect(unknown=0x0)
+		Script_End()
+	}
+
+}

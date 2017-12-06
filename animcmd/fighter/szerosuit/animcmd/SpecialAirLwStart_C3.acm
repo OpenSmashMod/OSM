@@ -1,0 +1,28 @@
+MoveDef SpecialAirLwStart_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x971B322A)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x971B322A)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x971B322A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0x18, unknown=0x0)
+		Script_End()
+	}
+
+}

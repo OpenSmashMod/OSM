@@ -1,0 +1,32 @@
+MoveDef SpecialAirLw
+{
+	Main()
+	{
+		Subroutine2(Hash=0x85C513B2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x85C513B2)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x18005A)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x4B0005)
+		Synchronous_Timer(Frames=26)
+		Sound_Effect(SFX=0x18005C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x85C513B2)
+		Script_End()
+	}
+
+}

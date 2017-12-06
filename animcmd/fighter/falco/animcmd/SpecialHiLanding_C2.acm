@@ -1,0 +1,27 @@
+MoveDef SpecialHiLanding_C2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=15)
+		Set_Frame_Duration(Speed=2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x4, unknown=0x0)
+		Asynchronous_Timer(Frames=15)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

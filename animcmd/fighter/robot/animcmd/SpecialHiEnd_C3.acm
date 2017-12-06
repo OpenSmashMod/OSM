@@ -1,0 +1,21 @@
+MoveDef SpecialHiEnd_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x31F001E, Bone=0x3E9, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=-90, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

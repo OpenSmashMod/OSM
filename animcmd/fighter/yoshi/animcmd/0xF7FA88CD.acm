@@ -1,0 +1,38 @@
+MoveDef 0xF7FA88CD : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		IS_FLAG_WORK(unknown=0x20000006)
+		TRUE(Unknown=0x2){
+		}
+		Set_Bone_Intangability(Bone=0x3, Mode=0x0)
+		Set_Bone_Intangability(Bone=0xD, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x13, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x3EE, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x16, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x10, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x8, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x4, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x9, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x5, Mode=0x0)
+		Set_Bone_Intangability(Bone=0xB, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x7, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x3EC, Mode=0x0)
+		Set_Bone_Intangability(Bone=0x2, Mode=0x3)
+		Script_End()
+	}
+
+}

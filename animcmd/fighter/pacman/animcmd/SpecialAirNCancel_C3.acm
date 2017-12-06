@@ -1,0 +1,21 @@
+MoveDef SpecialAirNCancel_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x95579155)
+		Script_End()
+	}
+
+}

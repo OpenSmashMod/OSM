@@ -1,0 +1,28 @@
+MoveDef SpecialAirLwHold_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x1C2C951C)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x1C2C951C)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x9, unknown=0x13)
+		Loop_Rest()
+		Subroutine2(Hash=0xD067D503)
+		Script_End()
+	}
+
+}

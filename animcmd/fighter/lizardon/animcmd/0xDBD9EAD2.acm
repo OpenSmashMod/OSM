@@ -1,0 +1,23 @@
+MoveDef 0xDBD9EAD2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		PLAY_SE_REMAIN(unknown=0x200060)
+		Synchronous_Timer(Frames=28)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,24 @@
+MoveDef 0xFFD8A2DD
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Terminate_Overlays()
+		Subroutine2(Hash=0x99EFE599)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x99EFE599)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

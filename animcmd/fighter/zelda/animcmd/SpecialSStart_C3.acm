@@ -1,0 +1,39 @@
+MoveDef SpecialSStart_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=13)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3100003, Bone=0x18, Z=0, Y=0, X=0, RotZ=-2E-05, RotY=3E-05, RotX=1E-05, Size=1, Terminate=0x1)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=150)
+		Asynchronous_Timer(Frames=2)
+		Color_Overlay(Red=255, Green=70, Blue=0, Alpha=200)
+		Change_Overlay(Transition=12, Red=255, Green=70, Blue=0, Alpha=0)
+		Asynchronous_Timer(Frames=12)
+		External_Graphic(Graphic=0x3100009, Bone=0x18, Z=0, Y=0, X=0, RotZ=-2E-05, RotY=3E-05, RotX=1E-05, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=14)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x1200A2)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,24 @@
+MoveDef Win2Wait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0xD0076)
+		Asynchronous_Timer(Frames=110)
+		Sound_Effect(SFX=0xD0076)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

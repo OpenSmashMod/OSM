@@ -1,0 +1,32 @@
+MoveDef 0x95A7F990
+{
+	Main()
+	{
+		Subroutine2(Hash=0xD2907324)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Color_Overlay(Red=255, Green=192, Blue=255, Alpha=180)
+		Asynchronous_Timer(Frames=5)
+		Change_Overlay(Transition=10, Red=80, Green=80, Blue=80, Alpha=0)
+		Asynchronous_Timer(Frames=15)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		unk_74B61BAC(unknown=0x2, unknown=0x42700000)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

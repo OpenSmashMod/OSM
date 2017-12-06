@@ -1,0 +1,21 @@
+MoveDef FuraFura
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x440023)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

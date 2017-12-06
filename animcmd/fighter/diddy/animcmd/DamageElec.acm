@@ -1,0 +1,22 @@
+MoveDef DamageElec
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Synchronous_Timer(Frames=35)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

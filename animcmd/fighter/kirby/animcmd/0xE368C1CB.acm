@@ -1,0 +1,27 @@
+MoveDef 0xE368C1CB
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x1A006E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=11)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=19)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

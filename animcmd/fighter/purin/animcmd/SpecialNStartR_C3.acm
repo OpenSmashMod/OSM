@@ -1,0 +1,26 @@
+MoveDef SpecialNStartR_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x6E8EF38E)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x6E8EF38E)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x260034)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

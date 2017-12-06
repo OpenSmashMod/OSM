@@ -1,0 +1,22 @@
+MoveDef Win3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=118)
+		Sound_Effect(SFX=0x6C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

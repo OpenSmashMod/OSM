@@ -1,0 +1,38 @@
+MoveDef SpecialSSquat_C2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.67)
+		unk_692BBCFA()
+		Asynchronous_Timer(Frames=2)
+		Add_Momentum(Vertical=0.7, Horizontal=0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x1000033, Bone=0x19, Z=0, Y=1, X=2, RotZ=0, RotY=0, RotX=0, Size=0.8, Terminate=0x0)
+		Asynchronous_Timer(Frames=8)
+		External_Graphic(Graphic=0x100000F, Bone=0x0, Z=0, Y=20, X=27, RotZ=0, RotY=0, RotX=0, Size=2, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x100065)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x430000)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x4, unknown=0x0)
+		Asynchronous_Timer(Frames=20)
+		SLOPE(unknown=0x0)
+		Script_End()
+	}
+
+}

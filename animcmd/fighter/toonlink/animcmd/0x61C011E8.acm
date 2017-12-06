@@ -1,0 +1,30 @@
+MoveDef 0x61C011E8
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Pickup_Item(Unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x63E001D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=1)
+		Slope_Full(unknown=0x0, unknown=0x3)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef DamageAir1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=9)
+		Script_End()
+	}
+
+}

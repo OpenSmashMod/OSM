@@ -1,0 +1,30 @@
+MoveDef VisualScene03
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=20, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x2, SFX?=0x2, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_3A775D26(unknown=0xE008B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		unk_27213F09(unknown=0x0)
+		unk_A82038A0()
+		Rumble2(unknown=0x2, unknown=0x6)
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0xF, unknown=0x0)
+		Script_End()
+	}
+
+}

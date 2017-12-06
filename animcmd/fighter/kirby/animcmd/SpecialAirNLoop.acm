@@ -1,0 +1,30 @@
+MoveDef SpecialAirNLoop
+{
+	Main()
+	{
+		Subroutine2(Hash=0xBF498DF3)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3080001, Bone=0x0, Z=0, Y=6.5, X=0, RotZ=0, RotY=0, RotX=0, Size=0.8, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0xA007E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x2, unknown=0x11)
+		Aesthetic_Wind_Effect(unknown=0x0, unknown=0x40400000, unknown=0x43340000, unknown=0x40000000, unknown=0x3F800000, unknown=0x41900000, unknown=0x41200000, unknown=0x42100000, unknown=0x41A00000, unknown=0x32)
+		Loop_Rest()
+		Subroutine2(Hash=0xBF498DF3)
+		Script_End()
+	}
+
+}

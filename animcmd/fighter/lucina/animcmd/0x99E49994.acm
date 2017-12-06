@@ -1,0 +1,29 @@
+MoveDef 0x99E49994
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=14)
+		REVERSE_LR()
+		unk_50730439(Unknown=12, Unknown=10, Unknown=0x1, Unknown=0x0, Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=19)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=30)
+		Slope_Full(unknown=0x6, unknown=0x2)
+		Script_End()
+	}
+
+}

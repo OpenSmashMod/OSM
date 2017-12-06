@@ -1,0 +1,30 @@
+MoveDef SpecialAirS2Start
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		unk_54BA7357(unknown=0x32B0005, unknown=0x0, unknown=0x40C00000, unknown=0x41400000, unknown=0xC0400000, unknown=0x0, unknown=0xC2A00000, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x428C0000)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xA841B9D7)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=23)
+		Rumble2(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=25)
+		Script_End()
+	}
+
+}

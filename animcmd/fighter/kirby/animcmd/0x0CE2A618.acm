@@ -1,0 +1,22 @@
+MoveDef 0x0CE2A618 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3270000, Bone=0x18, Z=0, Y=7.5, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3270001, Bone=0x18, Z=0, Y=7.5, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

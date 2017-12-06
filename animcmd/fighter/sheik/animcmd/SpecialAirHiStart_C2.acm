@@ -1,0 +1,37 @@
+MoveDef SpecialAirHiStart_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Set_Frame_Duration(Speed=0.8)
+		Asynchronous_Timer(Frames=8)
+		Set_Frame_Duration(Speed=0.5)
+		Asynchronous_Timer(Frames=16)
+		Set_Frame_Duration(Speed=0.25)
+		Asynchronous_Timer(Frames=19)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Asynchronous_Timer(Frames=32)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x8DF53B25)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		PLAY_SE_REMAIN(unknown=0x13003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x8DF53B25)
+		Script_End()
+	}
+
+}

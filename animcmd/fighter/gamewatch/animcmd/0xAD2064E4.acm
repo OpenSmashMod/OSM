@@ -1,0 +1,23 @@
+MoveDef 0xAD2064E4
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xAE)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

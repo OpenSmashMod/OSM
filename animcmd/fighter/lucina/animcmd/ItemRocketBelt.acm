@@ -1,0 +1,19 @@
+MoveDef ItemRocketBelt
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

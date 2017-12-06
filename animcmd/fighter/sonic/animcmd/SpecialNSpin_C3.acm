@@ -1,0 +1,46 @@
+MoveDef SpecialNSpin_C3
+{
+	Main()
+	{
+		MOT_SET_RATE(Unknown=50)
+		Script_End()
+	}
+
+	Effect()
+	{
+		unk_54BA7357(unknown=0x3220000, unknown=0x3E8, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x42200000)
+		Set_Loop(Iterations=3){
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=0)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x0, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x41600000, unknown=0x41600000, unknown=0x41600000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Synchronous_Timer(Frames=100)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=80)
+		Synchronous_Timer(Frames=100)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-34)
+		}
+		Set_Loop(Iterations=10)
+		Color_Overlay(Red=128, Green=255, Blue=255, Alpha=60)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x0, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x41600000, unknown=0x41600000, unknown=0x41600000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Synchronous_Timer(Frames=100)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=180)
+		Synchronous_Timer(Frames=100)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-34)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x838686AE)
+		Item_Visibility(unknown=0x0)
+		unk_27213F09(unknown=0x0)
+		Script_End()
+	}
+
+}

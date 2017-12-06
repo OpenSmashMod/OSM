@@ -1,0 +1,42 @@
+MoveDef Win2
+{
+	Main()
+	{
+		Remove_Article(Unknown=0x0)
+		Generate_Weapon(ID=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=80)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x7, unknown=0x3F8CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=16)
+		Sound_Effect(SFX=0x7650002)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x7650006)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x7650002)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x7650013)
+		Asynchronous_Timer(Frames=56)
+		Sound_Effect(SFX=0x7650014)
+		Asynchronous_Timer(Frames=74)
+		Sound_Effect(SFX=0x765003F)
+		Asynchronous_Timer(Frames=103)
+		Sound_Effect(SFX=0x765001F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef 0xCF734DCD
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x86A7CA4C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x86A7CA4C)
+		Script_End()
+	}
+
+}

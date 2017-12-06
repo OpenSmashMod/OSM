@@ -1,0 +1,46 @@
+MoveDef Win2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x31F0001, Bone=0x3E9, Z=0, Y=0, X=0, RotZ=89.99998, RotY=-90, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=5)
+		External_Graphic(Graphic=0x31F0003, Bone=0x3E9, Z=0, Y=0, X=0, RotZ=89.99998, RotY=-90, RotX=0, Size=1, Terminate=0x1)
+		Graphic_Effect2(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		External_Graphic(Graphic=0x1000014, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.5, Terminate=0x1)
+		Asynchronous_Timer(Frames=10)
+		Set_Loop(Iterations=6){
+		External_Graphic(Graphic=0x31F0003, Bone=0x3E9, Z=0, Y=0, X=0, RotZ=89.99998, RotY=-90, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=15)
+		Goto(Unknown=-13)
+		}
+		Asynchronous_Timer(Frames=115)
+		Terminate_Graphic_Effect(unknown=0x31F0001, unknown=0x0, unknown=0x1)
+		Terminate_Graphic_Effect(unknown=0x31F0009, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x250048)
+		Asynchronous_Timer(Frames=56)
+		Stop_Sound_Effect(unknown=0x250035)
+		Sound_Effect(SFX=0x25007E)
+		Sound_Effect(SFX=0x25007D)
+		Asynchronous_Timer(Frames=83)
+		Stop_Sound_Effect(unknown=0x25007D)
+		Asynchronous_Timer(Frames=133)
+		Stop_Sound_Effect(unknown=0x25007E)
+		Sound_Effect(SFX=0x250038)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

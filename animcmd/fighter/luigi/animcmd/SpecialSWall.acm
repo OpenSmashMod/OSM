@@ -1,0 +1,25 @@
+MoveDef SpecialSWall
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0xD0053)
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0xD0051)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

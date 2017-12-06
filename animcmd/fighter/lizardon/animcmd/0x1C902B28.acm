@@ -1,0 +1,22 @@
+MoveDef 0x1C902B28
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x20005F)
+		PLAY_SE_REMAIN(unknown=0x20005A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

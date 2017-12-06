@@ -1,0 +1,69 @@
+MoveDef AppealSR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=26)
+		Set_Loop(Iterations=6){
+		External_Graphic(Graphic=0x100007C, Bone=0x42B, Z=1.5, Y=4.7, X=1.250002, RotZ=-97.49999, RotY=-90, RotX=0, Size=0.5, Terminate=0x1)
+		External_Graphic(Graphic=0x100007C, Bone=0x42B, Z=1.5, Y=4.7, X=-1.249998, RotZ=-97.49999, RotY=-90, RotX=0, Size=0.5, Terminate=0x1)
+		Synchronous_Timer(Frames=10)
+		Goto(Unknown=-24)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x25007D)
+		Synchronous_Timer(Frames=4)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x25007C)
+		Synchronous_Timer(Frames=9)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x25007B)
+		Synchronous_Timer(Frames=9)
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0x250082)
+		Synchronous_Timer(Frames=62)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=3)
+		Transient_Sound_Effect(unknown=0x250079)
+		Synchronous_Timer(Frames=7)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=5)
+		Transient_Sound_Effect(unknown=0x250079)
+		Synchronous_Timer(Frames=5)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=5)
+		Transient_Sound_Effect(unknown=0x25007C)
+		Synchronous_Timer(Frames=8)
+		unk_F4B1C95B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x9)
+		Asynchronous_Timer(Frames=2)
+		Slope_Full(unknown=0x0, unknown=0x5)
+		Asynchronous_Timer(Frames=11)
+		Rumble2(unknown=0x9, unknown=0x14)
+		Asynchronous_Timer(Frames=19)
+		Rumble2(unknown=0x9, unknown=0x3C)
+		Asynchronous_Timer(Frames=101)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=111)
+		Rumble(unknown=0x10, unknown=0x0)
+		Slope_Full(unknown=0x9, unknown=0x5)
+		Script_End()
+	}
+
+}

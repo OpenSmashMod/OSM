@@ -1,0 +1,56 @@
+MoveDef AppealLwR
+{
+	Main()
+	{
+		Remove_Article(Unknown=0x1)
+		unk_0A7BF1D4(unknown=0x1, unknown=0x1)
+		Set_Article_Action(Unknown=0x1, Unknown=0x0)
+		Asynchronous_Timer(Frames=116)
+		Remove_Article(Unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=37)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x19, unknown=0x0, unknown=0x407FFF2E, unknown=0xBCA39820, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=39)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x19, unknown=0x0, unknown=0x40BFFF58, unknown=0xBCF56EAD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x3F800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=41)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x19, unknown=0xB727C5AC, unknown=0x40FFFF2E, unknown=0xBD239820, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=43)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x19, unknown=0xB727C5AC, unknown=0x411FFF78, unknown=0xBD4C8366, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x3F800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=45)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x19, unknown=0xB727C5AC, unknown=0x413FFF63, unknown=0xBD756EAD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x3F800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=47)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x19, unknown=0xB7A7C5AC, unknown=0x415FFF43, unknown=0xBD8F2CF9, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=61)
+		Graphic_Effect2(unknown=0x1000051, unknown=0x19, unknown=0xB7A7C5AC, unknown=0x416FFF39, unknown=0xBD99652C, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x3F800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=19)
+		Sound_Effect(SFX=0x19005A)
+		Synchronous_Timer(Frames=22)
+		Sound_Effect(SFX=0x4C0015)
+		Synchronous_Timer(Frames=71)
+		Sound_Effect(SFX=0x19005D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Article_Visibility(Unknown=0x1, Unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=10)
+		Article_Visibility(Unknown=0x1, Unknown=0x1)
+		Asynchronous_Timer(Frames=127)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

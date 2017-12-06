@@ -1,0 +1,38 @@
+MoveDef SpecialAirNStart_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Add_Momentum(Vertical=0, Horizontal=0.5)
+		Set_Frame_Duration(Speed=2)
+		Asynchronous_Timer(Frames=3)
+		Set_Frame_Duration(Speed=5)
+		Asynchronous_Timer(Frames=7)
+		Set_Frame_Duration(Speed=10)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		Set_Loop(Iterations=-1){
+		Graphic_Effect5(unknown=0x1000012, unknown=0x18, unknown=0x40000000, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0, unknown=0x43B40000, unknown=0x1)
+		Synchronous_Timer(Frames=5)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xD42A6A40)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,25 @@
+MoveDef SpecialAirNEat
+{
+	Main()
+	{
+		Subroutine2(Hash=0x8DB14A88)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x8DB14A88)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x8DB14A88)
+		Script_End()
+	}
+
+}

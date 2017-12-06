@@ -1,0 +1,25 @@
+MoveDef 0x7F0AF51C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Item_Visibility(unknown=0x0)
+		Synchronous_Timer(Frames=1)
+		Loop_Rest()
+		Subroutine2(Hash=0x339AA5E2)
+		Script_End()
+	}
+
+}

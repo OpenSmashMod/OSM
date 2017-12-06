@@ -1,0 +1,22 @@
+MoveDef StepJump
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

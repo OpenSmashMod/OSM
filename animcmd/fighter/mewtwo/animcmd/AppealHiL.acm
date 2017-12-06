@@ -1,0 +1,29 @@
+MoveDef AppealHiL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Subroutine2(Hash=0x2C42123B)
+		Aesthetic_Wind_Effect(unknown=0x0, unknown=0x40000000, unknown=0x42B40000, unknown=0x40400000, unknown=0x3E4CCCCD, unknown=0x0, unknown=0x40A00000, unknown=0x41F00000, unknown=0x41200000, unknown=0x50)
+		Asynchronous_Timer(Frames=50)
+		Terminate_Wind_Effect(unknown=0x0)
+		Script_End()
+	}
+
+}

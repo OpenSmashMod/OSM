@@ -1,0 +1,22 @@
+MoveDef SpecialSRideLoop_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Rumble2(unknown=0x2, unknown=0x26)
+		Script_End()
+	}
+
+}

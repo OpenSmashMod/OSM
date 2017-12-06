@@ -1,0 +1,20 @@
+MoveDef 0x5CED7B67 : Unlisted
+{
+	Main()
+	{
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

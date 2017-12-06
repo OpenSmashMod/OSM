@@ -1,0 +1,23 @@
+MoveDef LadderDown
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0xBFC006E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

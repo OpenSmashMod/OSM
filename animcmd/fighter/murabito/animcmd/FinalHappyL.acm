@@ -1,0 +1,25 @@
+MoveDef FinalHappyL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=54)
+		Rumble2(unknown=0x2, unknown=0x1A)
+		Asynchronous_Timer(Frames=84)
+		Rumble(unknown=0xF, unknown=0x0)
+		Script_End()
+	}
+
+}

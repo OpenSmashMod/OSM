@@ -1,0 +1,27 @@
+MoveDef JumpAerialF2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=25)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x24D008D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_15F0023E(unknown=0x1, unknown=0x1)
+		Script_End()
+	}
+
+}

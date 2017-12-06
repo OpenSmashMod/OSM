@@ -1,0 +1,31 @@
+MoveDef 0xA58C84CD
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		IS_FLAG_WORK(unknown=0x21000010)
+		unk_870CF021(unknown=0x4){
+		FALSE(Unknown=0x18){
+		External_Graphic(Graphic=0x3380025, Bone=0xA, Z=-1, Y=2, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3380025, Bone=0x6, Z=-1, Y=2, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x959250F1)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x959250F1)
+		Script_End()
+	}
+
+}

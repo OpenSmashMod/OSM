@@ -1,0 +1,22 @@
+MoveDef Wait1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Aesthetic_Wind_Effect(unknown=0x0, unknown=0x3DCCCCCD, unknown=0x432A0000, unknown=0x42A00000, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x41200000, unknown=0x41A00000, unknown=0x41A00000, unknown=0x0)
+		Script_End()
+	}
+
+}

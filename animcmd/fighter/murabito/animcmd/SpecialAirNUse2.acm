@@ -1,0 +1,23 @@
+MoveDef SpecialAirNUse2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE55907C4)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xE55907C4)
+		Script_End()
+	}
+
+}

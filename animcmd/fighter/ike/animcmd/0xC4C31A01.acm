@@ -1,0 +1,23 @@
+MoveDef 0xC4C31A01 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xE4382C53)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE4382C53)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

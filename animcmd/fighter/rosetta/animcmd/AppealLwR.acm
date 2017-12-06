@@ -1,0 +1,31 @@
+MoveDef AppealLwR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=45)
+		External_Graphic(Graphic=0x3270001, Bone=0x18, Z=0, Y=7.5, X=0, RotZ=0, RotY=0, RotX=0, Size=0.9, Terminate=0x1)
+		Asynchronous_Timer(Frames=111)
+		Terminate_Graphic_Effect(unknown=0x3270001, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=16)
+		Sound_Effect(SFX=0x4A40000)
+		Synchronous_Timer(Frames=28)
+		Sound_Effect(SFX=0x4A4005F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

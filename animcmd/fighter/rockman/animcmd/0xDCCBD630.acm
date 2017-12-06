@@ -1,0 +1,19 @@
+MoveDef 0xDCCBD630
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

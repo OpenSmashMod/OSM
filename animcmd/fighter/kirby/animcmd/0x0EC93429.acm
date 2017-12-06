@@ -1,0 +1,26 @@
+MoveDef 0x0EC93429
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x4, unknown=0x1)
+		Asynchronous_Timer(Frames=3)
+		Slope_Full(unknown=0x0, unknown=0x2)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=7)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

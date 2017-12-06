@@ -1,0 +1,22 @@
+MoveDef SlipWait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		unk_15F0023E(unknown=0x1, unknown=0x0)
+		Script_End()
+	}
+
+}

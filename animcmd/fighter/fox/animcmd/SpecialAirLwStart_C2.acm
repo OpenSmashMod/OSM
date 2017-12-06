@@ -1,0 +1,28 @@
+MoveDef SpecialAirLwStart_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE01C02BC)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3090005, Bone=0x0, Z=0, Y=6, X=0, RotZ=0, RotY=0, RotX=0, Size=1.5, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE01C02BC)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

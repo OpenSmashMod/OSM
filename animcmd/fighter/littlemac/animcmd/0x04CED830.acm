@@ -1,0 +1,36 @@
+MoveDef 0x04CED830 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=40)
+		unk_3A775D26(unknown=0x763000D)
+		Asynchronous_Timer(Frames=56)
+		unk_3A775D26(unknown=0x763000B)
+		Asynchronous_Timer(Frames=80)
+		unk_3A775D26(unknown=0x763000F)
+		Asynchronous_Timer(Frames=80)
+		unk_3A775D26(unknown=0x76E002D)
+		Asynchronous_Timer(Frames=99)
+		unk_3A775D26(unknown=0x7630008)
+		Asynchronous_Timer(Frames=116)
+		unk_3A775D26(unknown=0x7630018)
+		Asynchronous_Timer(Frames=132)
+		unk_3A775D26(unknown=0x763000B)
+		Asynchronous_Timer(Frames=172)
+		unk_3A775D26(unknown=0x7630022)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

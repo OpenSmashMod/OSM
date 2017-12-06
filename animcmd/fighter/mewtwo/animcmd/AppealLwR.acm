@@ -1,0 +1,45 @@
+MoveDef AppealLwR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0x11){
+		External_Graphic(Graphic=0x3330011, Bone=0x13, Z=0.7, Y=1.9, X=1, RotZ=0, RotY=0, RotX=0, Size=0.25, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x40000000)
+		FALSE(Unknown=0xF){
+		External_Graphic(Graphic=0x3330011, Bone=0x13, Z=0.7, Y=1.9, X=-1, RotZ=0, RotY=0, RotX=0, Size=0.25, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x40000000)
+		}
+		}
+		Asynchronous_Timer(Frames=60)
+		unk_7EF50766(unknown=0x3330007, unknown=0x3330007, unknown=0x19, unknown=0x3F800000, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3E99999A, unknown=0x1, unknown=0x1)
+		unk_46C4655C(unknown=0x3330003, unknown=0x3330003, unknown=0x19, unknown=0x3F800000, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1, unknown=0x0, unknown=0x42200000)
+		unk_FD1F7ECF(unknown=0x3F99999A)
+		Asynchronous_Timer(Frames=105)
+		Terminate_Graphic_Effect(unknown=0x3330007, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0xBFC0067)
+		Asynchronous_Timer(Frames=53)
+		Transient_Sound_Effect(unknown=0xBFC0084)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=60)
+		Rumble2(unknown=0x2, unknown=0x28)
+		Script_End()
+	}
+
+}

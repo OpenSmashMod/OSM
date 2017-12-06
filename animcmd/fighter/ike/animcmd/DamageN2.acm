@@ -1,0 +1,24 @@
+MoveDef DamageN2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x570008)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=22)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

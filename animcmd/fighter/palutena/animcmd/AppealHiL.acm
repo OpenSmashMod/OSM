@@ -1,0 +1,32 @@
+MoveDef AppealHiL
+{
+	Main()
+	{
+		unk_B89F681C(unknown=0x0, unknown=0x1)
+		Generate_Weapon(ID=0x0)
+		Set_Article_Action(Unknown=0x0, Unknown=0x5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=53)
+		unk_54BA7357(unknown=0x32B0005, unknown=0x0, unknown=0xC0A00000, unknown=0x41800000, unknown=0x0, unknown=0x0, unknown=0xC2B40000, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x428C0000)
+		Asynchronous_Timer(Frames=56)
+		Graphic_Effect2(unknown=0x32B0021, unknown=0x0, unknown=0x40800000, unknown=0x41800000, unknown=0xC1400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,19 @@
+MoveDef 0x99DBAE22
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef SpecialNEatFall_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xB63A3DF1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

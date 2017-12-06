@@ -1,0 +1,29 @@
+MoveDef LandingAirB
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=25)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xBB31D589)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect3(unknown=0x23D001C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x10, unknown=0x0)
+		Script_End()
+	}
+
+}

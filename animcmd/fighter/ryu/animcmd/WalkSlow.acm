@@ -1,0 +1,39 @@
+MoveDef WalkSlow
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect(unknown=0x0, unknown=0x6, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=44)
+		Graphic_Effect(unknown=0x0, unknown=0xA, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x6BE1270D)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=25)
+		unk_01A5A27C(unknown=0xC050005, unknown=0xC050002)
+		Asynchronous_Timer(Frames=65)
+		unk_01A5A27C(unknown=0xC050002, unknown=0xC050005)
+		Asynchronous_Timer(Frames=93)
+		unk_01A5A27C(unknown=0xC050005, unknown=0xC050002)
+		Asynchronous_Timer(Frames=131)
+		unk_01A5A27C(unknown=0xC050002, unknown=0xC050005)
+		Loop_Rest()
+		Subroutine2(Hash=0x6BE1270D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x6, unknown=0x5)
+		Script_End()
+	}
+
+}

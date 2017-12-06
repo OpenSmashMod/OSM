@@ -1,0 +1,26 @@
+MoveDef 0x6D62DE30
+{
+	Main()
+	{
+		Subroutine2(Hash=0xA1299E2F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x0, unknown=0x0, unknown=0x41400000, unknown=0x41400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xA1299E2F)
+		Script_End()
+	}
+
+}

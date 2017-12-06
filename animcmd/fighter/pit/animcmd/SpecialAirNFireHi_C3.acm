@@ -1,0 +1,32 @@
+MoveDef SpecialAirNFireHi_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xB54CEE8B)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xB54CEE8B)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Stop_Sound_Effect(unknown=0x4002B)
+		Sound_Effect(SFX=0x5F001C)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x4002C)
+		unk_687F9320(unknown=0x4002C, unknown=0x1E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xB54CEE8B)
+		Script_End()
+	}
+
+}

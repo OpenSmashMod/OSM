@@ -1,0 +1,32 @@
+MoveDef SpecialAirHi
+{
+	Main()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Graphic_Effect4(unknown=0x3240004, unknown=0x11, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x1)
+		Synchronous_Timer(Frames=2)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x11, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F99999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=18)
+		Terminate_Graphic_Effect(unknown=0x3240004, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+}

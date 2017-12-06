@@ -1,0 +1,24 @@
+MoveDef LandingFallSpecial
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x17, unknown=0x0)
+		Script_End()
+	}
+
+}

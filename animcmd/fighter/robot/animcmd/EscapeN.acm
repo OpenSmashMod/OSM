@@ -1,0 +1,33 @@
+MoveDef EscapeN
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x250089)
+		Synchronous_Timer(Frames=5)
+		Synchronous_Timer(Frames=5)
+		Synchronous_Timer(Frames=5)
+		Synchronous_Timer(Frames=5)
+		Synchronous_Timer(Frames=5)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x250037)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x9)
+		Script_End()
+	}
+
+}

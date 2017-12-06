@@ -1,0 +1,21 @@
+MoveDef 0xDE7CE478
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x9, unknown=0x4, unknown=0x1)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,25 @@
+MoveDef 0x95BE5476 : Unlisted
+{
+	Main()
+	{
+		Subroutine2(Hash=0x10DB503)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x10DB503)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x10DB503)
+		Script_End()
+	}
+
+}

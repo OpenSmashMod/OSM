@@ -1,0 +1,25 @@
+MoveDef SpecialAirLwMax_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x4FBEC325)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x250050)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x4FBEC325)
+		Script_End()
+	}
+
+}

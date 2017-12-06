@@ -1,0 +1,25 @@
+MoveDef FinalShootReady
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0xD002D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,26 @@
+MoveDef SpecialAirNLoop_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x28090B7F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x16003F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x28090B7F)
+		Script_End()
+	}
+
+}

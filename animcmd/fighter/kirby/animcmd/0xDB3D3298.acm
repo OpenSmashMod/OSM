@@ -1,0 +1,33 @@
+MoveDef 0xDB3D3298
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect(unknown=0x0, unknown=0xA, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=20)
+		Graphic_Effect(unknown=0x0, unknown=0x6, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xDB3D3298)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=20)
+		unk_01A5A27C(unknown=0xA006B, unknown=0xA006D)
+		Asynchronous_Timer(Frames=39)
+		unk_01A5A27C(unknown=0xA006D, unknown=0xA006B)
+		Loop_Rest()
+		Subroutine2(Hash=0xDB3D3298)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

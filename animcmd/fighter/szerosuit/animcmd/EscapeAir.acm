@@ -1,0 +1,25 @@
+MoveDef EscapeAir
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=19)
+		Set Air/Ground(Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x1B0028)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

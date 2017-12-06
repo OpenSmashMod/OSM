@@ -1,0 +1,27 @@
+MoveDef FinalBody
+{
+	Main()
+	{
+		unk_5DCECD64()
+		Set_Camera_Boundaries(Unknown=15, Unknown=-24, Unknown=5, Unknown=-5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=28)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

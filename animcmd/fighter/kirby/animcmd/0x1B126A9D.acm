@@ -1,0 +1,25 @@
+MoveDef 0x1B126A9D
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3290002, Bone=0x17, Z=-4, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x728CD32B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x728CD32B)
+		Script_End()
+	}
+
+}

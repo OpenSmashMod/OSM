@@ -1,0 +1,82 @@
+MoveDef SpecialHi_C3
+{
+	Main()
+	{
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Asynchronous_Timer(Frames=14)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Grab_collision2(ID=0x0, bone=0x0, Size=4.4, Z=0, Y=16, X=6.5, Unknown=0xB8, airground=0x3, Unknown=0x1)
+		Grab_collision2(ID=0x1, bone=0x0, Size=6, Z=0, Y=8, X=11, Unknown=0xB8, airground=0x1, Unknown=0x1)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=6, Angle=0x0, KBG=0x32, WKB=0x0, BKB=0x46, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x0, SFX?=0x2, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Synchronous_Timer(Frames=1)
+		Add_Momentum(Vertical=0, Horizontal=-1)
+		Terminate_Grab_Collisions()
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=18)
+		Allow/Disallow Ledgegrab(Unknown=0x1)
+		Asynchronous_Timer(Frames=29)
+		Remove_All_Hitboxes()
+		Set_Frame_Duration(Speed=3)
+		Asynchronous_Timer(Frames=32)
+		Add_Momentum(Vertical=0, Horizontal=3)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=34)
+		Grab_collision2(ID=0x0, bone=0x0, Size=4.5, Z=0, Y=15.5, X=6, Unknown=0xB8, airground=0x3, Unknown=0x1)
+		Grab_collision2(ID=0x1, bone=0x0, Size=5, Z=0, Y=8.5, X=3, Unknown=0xB8, airground=0x3, Unknown=0x1)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=6, Angle=0x0, KBG=0x32, WKB=0x0, BKB=0x46, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x0, SFX?=0x2, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Synchronous_Timer(Frames=3)
+		Terminate_Grab_Collisions()
+		Remove_All_Hitboxes()
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Asynchronous_Timer(Frames=46)
+		Bit_Variable_Set(Unknown=0x21000012)
+		Asynchronous_Timer(Frames=54)
+		Add_Momentum(Vertical=0, Horizontal=-0.5)
+		Asynchronous_Timer(Frames=64)
+		Add_Momentum(Vertical=0, Horizontal=-0.5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=8)
+		Graphic_Effect2(unknown=0x1000008, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=14)
+		Set_Loop(Iterations=6){
+		Graphic_Effect2(unknown=0x1000012, unknown=0x19, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0, unknown=0x43B40000, unknown=0x1)
+		Synchronous_Timer(Frames=3)
+		Goto(Unknown=-19)
+		}
+		Asynchronous_Timer(Frames=32)
+		Graphic_Effect2(unknown=0x1000008, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=33)
+		Set_Loop(Iterations=6){
+		Graphic_Effect2(unknown=0x1000012, unknown=0x19, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0, unknown=0x43B40000, unknown=0x1)
+		Synchronous_Timer(Frames=3)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x190034)
+		Sound_Effect(SFX=0x12E)
+		Synchronous_Timer(Frames=20)
+		Sound_Effect(SFX=0x190035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=13)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=31)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

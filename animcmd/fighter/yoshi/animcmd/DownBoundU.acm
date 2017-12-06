@@ -1,0 +1,37 @@
+MoveDef DownBoundU
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Asynchronous_Timer(Frames=22)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x1000008, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		unk_6A441545(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x44)
+		Stop_Sound_Effect(unknown=0x45)
+		Stop_Sound_Effect(unknown=0x46)
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect4(unknown=0x5E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xA, unknown=0x0)
+		Screen_Shake(unknown=0x4)
+		Asynchronous_Timer(Frames=19)
+		Slope_Full(unknown=0x1, unknown=0x3)
+		Script_End()
+	}
+
+}

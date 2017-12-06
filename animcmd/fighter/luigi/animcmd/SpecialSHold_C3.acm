@@ -1,0 +1,38 @@
+MoveDef SpecialSHold_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Loop(Iterations=-1){
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x41200000, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		unk_E20C02D4(unknown=0x30B000A, unknown=0x0, unknown=0x0, unknown=0x40C00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x437F0000, unknown=0x42F00000, unknown=0x42F00000)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Synchronous_Timer(Frames=10)
+		Goto(Unknown=-35)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0xD0052)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=1)
+		Rumble2(unknown=0x2, unknown=0x7)
+		Loop_Rest()
+		Subroutine2(Hash=0xD4248118)
+		Script_End()
+	}
+
+}

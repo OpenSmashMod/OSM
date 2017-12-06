@@ -1,0 +1,26 @@
+MoveDef AppealHiL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=14)
+		Transient_Sound_Effect(unknown=0xF0071)
+		Synchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x3A000F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

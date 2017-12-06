@@ -1,0 +1,25 @@
+MoveDef SpecialAirSEndB_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x6BB42760)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x6BB42760)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x6BB42760)
+		Script_End()
+	}
+
+}

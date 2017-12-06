@@ -1,0 +1,29 @@
+MoveDef SpecialAirLwShoot_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x951FF6D3)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=12)
+		External_Graphic(Graphic=0x3320015, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x23D0033)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x951FF6D3)
+		Script_End()
+	}
+
+}

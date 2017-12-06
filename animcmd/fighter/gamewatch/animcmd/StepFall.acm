@@ -1,0 +1,21 @@
+MoveDef StepFall
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

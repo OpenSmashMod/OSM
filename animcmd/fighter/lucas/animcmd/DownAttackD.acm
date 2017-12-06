@@ -1,0 +1,52 @@
+MoveDef DownAttackD
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=17)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=7, Unknown=0x30, Unknown=0x30, Unknown=0x0, Unknown=0x50, Unknown=5, Unknown=0, Unknown=5, Unknown=13, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x8, Unknown=0x1, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0, Unknown=5, Unknown=5)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=21)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=7, Unknown=0x30, Unknown=0x30, Unknown=0x0, Unknown=0x50, Unknown=5, Unknown=0, Unknown=5, Unknown=-13, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x8, Unknown=0x1, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0, Unknown=5, Unknown=-5)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=15)
+		External_Graphic(Graphic=0x100008E, Bone=0x0, Z=0, Y=4, X=3, RotZ=0, RotY=-50, RotX=5, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=16)
+		Graphic_Effect3(unknown=0x100000D, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=20)
+		External_Graphic(Graphic=0x100008E, Bone=0x0, Z=0, Y=3, X=-3, RotZ=0, RotY=120, RotX=10, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=21)
+		Graphic_Effect3(unknown=0x100000A, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F333333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x1D0067)
+		Synchronous_Timer(Frames=16)
+		Sound_Effect(SFX=0x1D005B)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x1D0059)
+		Synchronous_Timer(Frames=23)
+		Sound_Effect2(unknown=0x1D0055)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Asynchronous_Timer(Frames=12)
+		Rumble(unknown=0x13, unknown=0x0)
+		Asynchronous_Timer(Frames=26)
+		Slope_Full(unknown=0x6, unknown=0xC)
+		Script_End()
+	}
+
+}

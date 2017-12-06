@@ -1,0 +1,35 @@
+MoveDef FinalStartR
+{
+	Main()
+	{
+		Subroutine2(Hash=0x60BE9A16)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x60BE9A16)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x0)
+		unk_315E8C48(unknown=0x0, unknown=0x3)
+		SLOPE(unknown=0x6)
+		unk_EE37008F()
+		Asynchronous_Timer(Frames=12)
+		Rumble(unknown=0xE, unknown=0x0)
+		Asynchronous_Timer(Frames=39)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=41)
+		Rumble2(unknown=0x9, unknown=0x0)
+		Script_End()
+	}
+
+}

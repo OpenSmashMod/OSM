@@ -1,0 +1,27 @@
+MoveDef AppealLwR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=16)
+		Transient_Sound_Effect(unknown=0x390013)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Slope_Full(unknown=0x1, unknown=0x5)
+		Asynchronous_Timer(Frames=101)
+		Slope_Full(unknown=0x0, unknown=0xA)
+		Script_End()
+	}
+
+}

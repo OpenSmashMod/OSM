@@ -1,0 +1,25 @@
+MoveDef SpecialAirNFood
+{
+	Main()
+	{
+		Subroutine2(Hash=0xCA2EB9EA)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=11)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

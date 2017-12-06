@@ -1,0 +1,27 @@
+MoveDef 0x51C12B1A
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		unk_745B20A7(Unknown=0x11000010)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0x86992081)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0xF7FA88CD)
+		Subroutine2(Hash=0xCC803A3)
+		Script_End()
+	}
+
+}

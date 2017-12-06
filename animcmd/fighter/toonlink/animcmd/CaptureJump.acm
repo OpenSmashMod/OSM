@@ -1,0 +1,24 @@
+MoveDef CaptureJump
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4A80032)
+		Synchronous_Timer(Frames=8)
+		Stop_Sound_Effect(unknown=0x4A80032)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

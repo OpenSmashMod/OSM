@@ -1,0 +1,24 @@
+MoveDef FuraFura
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Transient_Sound_Effect(unknown=0xC9A0012)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,24 @@
+MoveDef 0x1AF8AE91
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=15)
+		unk_91CF842D(unknown=0x0)
+		Script_End()
+	}
+
+}

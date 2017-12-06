@@ -1,0 +1,21 @@
+MoveDef 0x46D32077 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x13004C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

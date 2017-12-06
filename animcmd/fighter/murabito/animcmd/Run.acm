@@ -1,0 +1,41 @@
+MoveDef Run
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=8)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=24)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x5076A4C0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect2(unknown=0x24C0041)
+		Synchronous_Timer(Frames=16)
+		Sound_Effect2(unknown=0x24C0043)
+		Loop_Rest()
+		Subroutine2(Hash=0x5076A4C0)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x5, unknown=0x1)
+		Asynchronous_Timer(Frames=5)
+		Rumble2(unknown=0x16, unknown=0x0)
+		Asynchronous_Timer(Frames=23)
+		Rumble2(unknown=0x16, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x5076A4C0)
+		Script_End()
+	}
+
+}

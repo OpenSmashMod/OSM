@@ -1,0 +1,40 @@
+MoveDef CatchDash
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=14)
+		Set_Frame_Duration(Speed=1.5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=14)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x40400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x1C009A)
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x1C0081)
+		Synchronous_Timer(Frames=4)
+		Synchronous_Timer(Frames=9)
+		Sound_Effect(SFX=0x1C006C)
+		Synchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x1C006A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x1)
+		Asynchronous_Timer(Frames=2)
+		Slope_Full(unknown=0x4, unknown=0x8)
+		Asynchronous_Timer(Frames=33)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,28 @@
+MoveDef SpecialAirHiEnd_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		Set_Frame_Duration(Speed=1.2)
+		Asynchronous_Timer(Frames=20)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFFDEE741)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFFDEE741)
+		Script_End()
+	}
+
+}

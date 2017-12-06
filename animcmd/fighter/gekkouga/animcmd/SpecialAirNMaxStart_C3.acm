@@ -1,0 +1,24 @@
+MoveDef SpecialAirNMaxStart_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=13)
+		Generate_Weapon(ID=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xC96FC7BC)
+		Script_End()
+	}
+
+}

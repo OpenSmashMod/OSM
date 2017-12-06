@@ -1,0 +1,28 @@
+MoveDef LandingAirN
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect3(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_F4B1C95B()
+		Sound_Effect3(unknown=0xBFC000D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x17, unknown=0x0)
+		Script_End()
+	}
+
+}

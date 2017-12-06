@@ -1,0 +1,25 @@
+MoveDef SpecialSDown_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x1A006E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=6)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

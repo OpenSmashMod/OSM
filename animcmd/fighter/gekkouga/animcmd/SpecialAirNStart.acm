@@ -1,0 +1,27 @@
+MoveDef SpecialAirNStart
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.73)
+		Asynchronous_Timer(Frames=13)
+		Generate_Weapon(ID=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFC612FC6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFC612FC6)
+		Script_End()
+	}
+
+}

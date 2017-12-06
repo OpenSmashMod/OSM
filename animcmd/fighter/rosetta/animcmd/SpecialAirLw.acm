@@ -1,0 +1,26 @@
+MoveDef SpecialAirLw
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.8)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4A40029)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x85C513B2)
+		Script_End()
+	}
+
+}
