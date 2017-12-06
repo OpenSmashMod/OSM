@@ -1,0 +1,25 @@
+MoveDef SpecialAirNJump_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xE4537C4E)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE4537C4E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xE4537C4E)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,31 @@
+MoveDef 0x54732C8D
+{
+	Main()
+	{
+		Synchronous_Timer(Frames=1)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=1.2, Angle=0x50, KBG=0xF0, FKB=0x0, BKB=0x32, Size=10, Z=0, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=1, SDI=0, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x19, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x5, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Synchronous_Timer(Frames=16)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=20)
+		unk_300A0A85()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x32B001D, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Rumble(unknown=0x4, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x24E0076)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

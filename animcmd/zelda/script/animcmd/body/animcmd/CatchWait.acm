@@ -1,0 +1,31 @@
+MoveDef CatchWait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Loop(Iterations=-1){
+		External_Graphic(Graphic=0x3100000, Bone=0x19, Z=1, Y=-0.49999, X=0, RotZ=1E-05, RotY=0.0001, RotX=1E-05, Size=0.75, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3100000, Bone=0x18, Z=-1, Y=0.49999, X=0, RotZ=-2E-05, RotY=3E-05, RotX=1E-05, Size=0.75, Terminate=0x1)
+		Synchronous_Timer(Frames=14)
+		Terminate_Graphic_Effect(unknown=0x3100000, unknown=0x1, unknown=0x1)
+		Goto(Unknown=-30)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x120092)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

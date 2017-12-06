@@ -1,0 +1,45 @@
+MoveDef SpecialHi_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=7)
+		Allow/Disallow Ledgegrab(Unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Graphic_Effect3(unknown=0x1000029, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FB33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		unk_FD1F7ECF(unknown=0x3F4CCCCD)
+		External_Graphic(Graphic=0x327000E, Bone=0x0, Z=0, Y=15, X=2, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=3)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0x17){
+		Graphic_Effect2(unknown=0x3270014, unknown=0x0, unknown=0x0, unknown=0x41200000, unknown=0x0, unknown=0x41F00000, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FB33333)
+		FALSE(Unknown=0x15){
+		Graphic_Effect2(unknown=0x3270002, unknown=0x0, unknown=0x0, unknown=0x41200000, unknown=0x0, unknown=0x41F00000, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FB33333)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4A50031)
+		Sound_Effect(SFX=0x4A40068)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Screen_Shake(unknown=0x4)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

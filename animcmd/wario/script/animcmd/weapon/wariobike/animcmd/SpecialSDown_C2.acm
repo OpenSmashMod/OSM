@@ -1,0 +1,25 @@
+MoveDef SpecialSDown_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=47)
+		Bit_Variable_Set(Unknown=0x21000011)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=46)
+		Sound_Effect(SFX=0x1A0066)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

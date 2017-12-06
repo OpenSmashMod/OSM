@@ -1,0 +1,29 @@
+MoveDef 0xE747D52E : Unlisted
+{
+	Main()
+	{
+		unk_D3D9401B(Unknown=-0.3, Unknown=1.9)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=60)
+		Graphic_Effect2(unknown=0x31A0005, unknown=0x0, unknown=0x0, unknown=0x40400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x1C00A4)
+		Synchronous_Timer(Frames=32)
+		PLAY_SE_REMAIN(unknown=0x1C00A5)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

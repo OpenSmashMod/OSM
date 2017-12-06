@@ -1,0 +1,27 @@
+MoveDef FinalAirHit
+{
+	Main()
+	{
+		Subroutine2(Hash=0x2F47F85C)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x2F47F85C)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x2F47F85C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x2F47F85C)
+		Script_End()
+	}
+
+}

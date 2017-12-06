@@ -1,0 +1,33 @@
+MoveDef SpecialAirSJump_C2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.8)
+		Asynchronous_Timer(Frames=18)
+		Add_Momentum(Vertical=0, Horizontal=-0.8)
+		Asynchronous_Timer(Frames=24)
+		Add_Momentum(Vertical=0, Horizontal=-0.5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x100000C, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		External_Graphic(Graphic=0x3290009, Bone=0x11, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.5, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x7630041)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x74EA6822)
+		Script_End()
+	}
+
+}

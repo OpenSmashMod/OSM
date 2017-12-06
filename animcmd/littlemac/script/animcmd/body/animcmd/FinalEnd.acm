@@ -1,0 +1,30 @@
+MoveDef FinalEnd
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.75)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		External_Graphic_Effect2(unknown=0x3290015, unknown=0xC, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=30)
+		PLAY_SE_REMAIN(unknown=0x76E003A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x4, unknown=0x0)
+		Script_End()
+	}
+
+}

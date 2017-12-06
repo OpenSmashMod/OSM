@@ -1,0 +1,21 @@
+MoveDef 0xB8CEF01C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

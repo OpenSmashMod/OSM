@@ -1,0 +1,19 @@
+MoveDef SpecialHiOpen
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,29 @@
+MoveDef SpecialAirS_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		PLAY_SE_REMAIN(unknown=0x3A0001)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=21)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

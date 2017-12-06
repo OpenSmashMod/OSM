@@ -1,0 +1,22 @@
+MoveDef 0xB5EDC961 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x7680011)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

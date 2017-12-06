@@ -1,0 +1,21 @@
+MoveDef SpecialNEatFall
+{
+	Main()
+	{
+		Subroutine2(Hash=0x46D97543)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

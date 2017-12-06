@@ -1,0 +1,50 @@
+MoveDef ThrowLw
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=4, Angle=0x82, KBG=0x12, WKB=0x0, BKB=0x50, Effect?=0x0, Unknown=0x0, Unknown=0, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x0, Unknown=0x1, Type?=0x8)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=3, Angle=0x169, KBG=0x64, WKB=0x0, BKB=0x3C, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Asynchronous_Timer(Frames=22)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=4, Angle=0x169, KBG=0x64, FKB=0x0, BKB=0x1E, Size=6, Z=0, Y=3, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x3, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=30)
+		Throw_Applier(ID=0x0, Bone=0x1A, Unknown=0x11000005, Unknown=0x11000006, Unknown=0x11000007)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=21)
+		Graphic_Effect3(unknown=0x1000008, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x120)
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x3E)
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x1A0043)
+		Asynchronous_Timer(Frames=20)
+		Low_Voice_Clip(unknown=0x802B0000)
+		Sound_Effect(SFX=0x121)
+		Asynchronous_Timer(Frames=57)
+		Sound_Effect3(unknown=0x1A0045)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_227B36A1(unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=22)
+		Screen_Shake(unknown=0x5)
+		Asynchronous_Timer(Frames=23)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=52)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

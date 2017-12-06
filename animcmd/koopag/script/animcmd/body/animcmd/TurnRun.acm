@@ -1,0 +1,28 @@
+MoveDef TurnRun
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x6E00078)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x2, unknown=0x14)
+		Script_End()
+	}
+
+}

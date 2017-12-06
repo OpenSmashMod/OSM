@@ -1,0 +1,22 @@
+MoveDef SpecialHiDrop_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=25)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

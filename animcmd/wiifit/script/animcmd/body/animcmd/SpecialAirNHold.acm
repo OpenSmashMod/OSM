@@ -1,0 +1,25 @@
+MoveDef SpecialAirNHold
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x24B0036)
+		Asynchronous_Timer(Frames=85)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x1DC9D1A)
+		Script_End()
+	}
+
+}

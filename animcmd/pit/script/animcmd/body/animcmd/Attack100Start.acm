@@ -1,0 +1,30 @@
+MoveDef Attack100Start
+{
+	Main()
+	{
+		unk_15F0023E(unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=6)
+		Subroutine1(Unknown=0xDCD907DA)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Low_Voice_Clip(unknown=0x800E0005)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0x1, unknown=0x0)
+		Script_End()
+	}
+
+}

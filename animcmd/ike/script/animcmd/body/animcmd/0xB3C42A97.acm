@@ -1,0 +1,23 @@
+MoveDef 0xB3C42A97 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x933F1CC5)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x933F1CC5)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,26 @@
+MoveDef SpecialLwFailureR_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x2C9001A)
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x24B0034)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xF6CAE3FD)
+		Script_End()
+	}
+
+}

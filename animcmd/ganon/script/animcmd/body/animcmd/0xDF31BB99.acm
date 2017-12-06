@@ -1,0 +1,21 @@
+MoveDef 0xDF31BB99 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Rumble(unknown=0xF, unknown=0x11)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

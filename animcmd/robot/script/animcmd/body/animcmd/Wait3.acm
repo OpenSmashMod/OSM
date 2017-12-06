@@ -1,0 +1,21 @@
+MoveDef Wait3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x9)
+		Script_End()
+	}
+
+}

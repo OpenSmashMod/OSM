@@ -1,0 +1,27 @@
+MoveDef FinalAirEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		unk_27213F09(unknown=0x0)
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

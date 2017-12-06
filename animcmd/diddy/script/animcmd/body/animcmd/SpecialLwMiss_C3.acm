@@ -1,0 +1,31 @@
+MoveDef SpecialLwMiss_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=10)
+		Bit_Variable_Set(Unknown=0x21000013)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=22)
+		Transient_Sound_Effect(unknown=0x1E0045)
+		Synchronous_Timer(Frames=6)
+		unk_F4B1C95B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

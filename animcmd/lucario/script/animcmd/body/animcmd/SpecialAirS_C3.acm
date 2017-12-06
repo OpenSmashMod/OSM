@@ -1,0 +1,35 @@
+MoveDef SpecialAirS_C3
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=6, Angle=0x169, KBG=0x64, WKB=0x0, BKB=0x3C, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Set_Frame_Duration(Speed=2)
+		Asynchronous_Timer(Frames=9)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=24)
+		Subroutine1(Unknown=0x212687CE)
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=35)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+}

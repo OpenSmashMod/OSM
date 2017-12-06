@@ -1,0 +1,55 @@
+MoveDef Attack100
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Subroutine1(Unknown=0xDCD907DA)
+		Asynchronous_Timer(Frames=8)
+		Subroutine1(Unknown=0xDCD907DA)
+		Asynchronous_Timer(Frames=12)
+		Subroutine1(Unknown=0xDCD907DA)
+		Asynchronous_Timer(Frames=16)
+		Subroutine1(Unknown=0xDCD907DA)
+		Asynchronous_Timer(Frames=20)
+		Subroutine1(Unknown=0xDCD907DA)
+		Asynchronous_Timer(Frames=24)
+		Subroutine1(Unknown=0xDCD907DA)
+		Asynchronous_Timer(Frames=28)
+		Subroutine1(Unknown=0xDCD907DA)
+		unk_522DBA37()
+		Bit_Variable_Set(Unknown=0x21000016)
+		Subroutine2(Hash=0xB007C283)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x32C0016, Bone=0x0, Z=0, Y=12, X=6, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x764004D)
+		Synchronous_Timer(Frames=5)
+		Subroutine2(Hash=0xB007C283)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=2)
+		Rumble2(unknown=0x1, unknown=0x0)
+		Asynchronous_Timer(Frames=12)
+		Rumble2(unknown=0x1, unknown=0x0)
+		Asynchronous_Timer(Frames=22)
+		Rumble2(unknown=0x1, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xB007C283)
+		Script_End()
+	}
+
+}

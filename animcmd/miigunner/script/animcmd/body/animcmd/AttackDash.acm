@@ -1,0 +1,47 @@
+MoveDef AttackDash
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=10)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x17, Damage=10, Angle=0x3C, KBG=0x46, FKB=0x0, BKB=0x50, Size=5, Z=8, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x17, Damage=10, Angle=0x3C, KBG=0x46, FKB=0x0, BKB=0x50, Size=5, Z=1, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x16, Damage=10, Angle=0x3C, KBG=0x46, FKB=0x0, BKB=0x50, Size=2.5, Z=-2, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Synchronous_Timer(Frames=5)
+		Remove_All_Hitboxes()
+		unk_5143DD2A()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=8)
+		Asynchronous_Timer(Frames=9)
+		External_Graphic_Effect2(unknown=0x100008D, unknown=0x19, unknown=0xBF800000, unknown=0xBF800000, unknown=0xC1200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3FA00000)
+		Asynchronous_Timer(Frames=10)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		External_Graphic(Graphic=0x3020025, Bone=0x16, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=0.85, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x81C0014)
+		Sound_Effect(SFX=0x81C0002)
+		Synchronous_Timer(Frames=32)
+		Sound_Effect(SFX=0x81C0000)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=8)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=26)
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Script_End()
+	}
+
+}

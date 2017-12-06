@@ -1,0 +1,28 @@
+MoveDef SpecialAirN
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_E06A5D00(unknown=0x6E0001D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=5)
+		Rumble(unknown=0xE, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x40451B52)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,30 @@
+MoveDef SpecialNOpenWait
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Grab_collision2(ID=0x0, bone=0x13, Size=10, Z=-2, Y=2.5, X=1, Unknown=0xE6, airground=0x2, Unknown=0x1)
+		Grab_collision2(ID=0x1, bone=0x13, Size=10, Z=-2, Y=2, X=1.5, Unknown=0xE6, airground=0x1, Unknown=0x1)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=10, Angle=0x2D, KBG=0x64, WKB=0x0, BKB=0x3C, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x2, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=1, Angle=0x169, KBG=0x64, WKB=0x0, BKB=0x3C, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		SEARCH(Unknown=0x0, Unknown=0x0, Unknown=0x13, Unknown=10, Unknown=-2, Unknown=2, Unknown=1.5, Unknown=0x1, Unknown=0x1, Unknown=0x7, Unknown=0x0, Unknown=0xF, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x0)
+		unk_8965B9D6(Unknown=0x0, Unknown=0x0, Unknown=0x5, Unknown=0x2, Unknown=0x661B30DA, Unknown=0x2100000E)
+		Set_Bone_Intangability(Bone=0x13, Mode=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x4, unknown=0x1)
+		Script_End()
+	}
+
+}

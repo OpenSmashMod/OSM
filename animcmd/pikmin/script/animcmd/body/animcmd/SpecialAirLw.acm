@@ -1,0 +1,36 @@
+MoveDef SpecialAirLw
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=6)
+		Set_Armor(State=0x1, Type=0x0)
+		Asynchronous_Timer(Frames=12)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=13)
+		Set_Armor(State=0x0, Type=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x85C513B2)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x1C005A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

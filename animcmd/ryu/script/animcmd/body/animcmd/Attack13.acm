@@ -1,0 +1,35 @@
+MoveDef Attack13
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=8)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=5, Unknown=0x2D, Unknown=0x32, Unknown=0x0, Unknown=0x46, Unknown=3, Unknown=0, Unknown=11, Unknown=11.5, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x2, Unknown=0x35, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=11, Unknown=3)
+		Extended_Special_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=5, Unknown=0x2D, Unknown=0x32, Unknown=0x0, Unknown=0x46, Unknown=1.8, Unknown=0, Unknown=8, Unknown=8, Unknown=0x0, Unknown=0, Unknown=1.8, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x2, Unknown=0x35, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=8, Unknown=3)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=7)
+		unk_2ED684DE(unknown=0x334000A, unknown=0x334000A, unknown=0x0, unknown=0x0, unknown=0x41480000, unknown=0x0, unknown=0x41200000, unknown=0x41200000, unknown=0x432A0000, unknown=0x3F4CCCCD, unknown=0x1, unknown=0x1, unknown=0x420C0000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0xC050052)
+		Sound_Effect(SFX=0xC090021)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=6)
+		Rumble(unknown=0x10, unknown=0x0)
+		Script_End()
+	}
+
+}

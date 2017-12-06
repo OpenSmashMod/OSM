@@ -1,0 +1,21 @@
+MoveDef Win2Wait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x3, unknown=0x2)
+		Script_End()
+	}
+
+}

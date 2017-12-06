@@ -1,0 +1,21 @@
+MoveDef DamageAir2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef 0xC584378A
+{
+	Main()
+	{
+		Subroutine2(Hash=0xA186AE69)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xA186AE69)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xA186AE69)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xA186AE69)
+		Script_End()
+	}
+
+}

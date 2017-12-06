@@ -1,0 +1,24 @@
+MoveDef SpecialLwHold_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x9, unknown=0x13)
+		Loop_Rest()
+		Subroutine2(Hash=0x6B2BA58A)
+		Script_End()
+	}
+
+}

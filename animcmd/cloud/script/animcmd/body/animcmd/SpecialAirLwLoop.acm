@@ -1,0 +1,25 @@
+MoveDef SpecialAirLwLoop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3370014, Bone=0x0, Z=1, Y=10, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x231BD272)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x231BD272)
+		Script_End()
+	}
+
+}

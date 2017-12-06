@@ -1,0 +1,25 @@
+MoveDef SpecialAirNEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x179E4623)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

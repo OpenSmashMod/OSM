@@ -1,0 +1,25 @@
+MoveDef 0x381E1A55 : Unlisted
+{
+	Main()
+	{
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=1, Angle=0x19, KBG=0x64, FKB=0x32, BKB=0x0, Size=3.5, Z=0, Y=6.8, X=5, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xD)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=1, Angle=0x19, KBG=0x64, FKB=0x3C, BKB=0x0, Size=3.5, Z=0, Y=6.8, X=-1, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xD)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x0, Damage=1, Angle=0x64, KBG=0x64, FKB=0xC, BKB=0x0, Size=3.3, Z=0, Y=6.8, X=10, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xD)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

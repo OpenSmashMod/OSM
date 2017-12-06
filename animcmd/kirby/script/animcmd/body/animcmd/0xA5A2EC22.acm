@@ -1,0 +1,24 @@
+MoveDef 0xA5A2EC22
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		unk_74B61BAC(unknown=0x2, unknown=0x42700000)
+		Rumble(unknown=0xE, unknown=0x0)
+		Screen_Shake(unknown=0x3)
+		Script_End()
+	}
+
+}

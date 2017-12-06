@@ -1,0 +1,42 @@
+MoveDef AttackAirB
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=7)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x3E8, Damage=14, Angle=0x169, KBG=0x64, FKB=0x0, BKB=0x1E, Size=7.5, Z=0, Y=9, X=-9, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0xE, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x1, Part=0x0, Bone=0x3E8, Damage=14, Angle=0x169, KBG=0x64, FKB=0x0, BKB=0x1E, Size=6, Z=0, Y=0, X=-6, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0xE, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=10)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=35)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sword_Glow(unknown=0x4, unknown=0x8F, unknown=0x4, unknown=0x3E8, unknown=0x0, unknown=0x3FD9999A, unknown=0x0, unknown=0x3E8, unknown=0x0, unknown=0x41800000, unknown=0x0, unknown=0x1, unknown=0x31D0000, unknown=0x3E8, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xB, unknown=0x1)
+		Asynchronous_Timer(Frames=11)
+		Terminate_Sword_Glow(unknown=0x3)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Low_Voice_Clip(unknown=0x80080005)
+		Sound_Effect(SFX=0x240050)
+		Sound_Effect(SFX=0x6E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=5)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

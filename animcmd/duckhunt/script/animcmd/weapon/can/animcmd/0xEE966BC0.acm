@@ -1,0 +1,32 @@
+MoveDef 0xEE966BC0
+{
+	Main()
+	{
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=2, Unknown=0x50, Unknown=0x28, Unknown=0x0, Unknown=0x32, Unknown=3.5, Unknown=0, Unknown=0, Unknown=0, Unknown=0x0, Unknown=0, Unknown=1, Unknown=0.5, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x1, Unknown=0x3, Unknown=0x0, Unknown=0x9, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x32, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=0, Unknown=0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x32D0007, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Set_Loop(Iterations=-1){
+		Color_Overlay(Red=255, Green=0, Blue=0, Alpha=100)
+		Synchronous_Timer(Frames=3)
+		Color_Overlay(Red=255, Green=255, Blue=0, Alpha=100)
+		Synchronous_Timer(Frames=3)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-17)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

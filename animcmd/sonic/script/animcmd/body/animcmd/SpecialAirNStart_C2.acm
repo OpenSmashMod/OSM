@@ -1,0 +1,25 @@
+MoveDef SpecialAirNStart_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Transient_Sound_Effect(unknown=0x2A0066)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=3)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

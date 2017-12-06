@@ -1,0 +1,21 @@
+MoveDef SpecialAirS : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x224117F6)
+		Script_End()
+	}
+
+}

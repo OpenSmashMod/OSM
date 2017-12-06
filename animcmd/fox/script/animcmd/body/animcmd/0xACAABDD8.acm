@@ -1,0 +1,36 @@
+MoveDef 0xACAABDD8 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=24)
+		Sound_Effect(SFX=0xB004B)
+		Asynchronous_Timer(Frames=30)
+		unk_3A775D26(unknown=0x400029)
+		Asynchronous_Timer(Frames=35)
+		Stop_Sound_Effect(unknown=0xB004B)
+		Asynchronous_Timer(Frames=68)
+		Sound_Effect(SFX=0x6B)
+		Asynchronous_Timer(Frames=74)
+		Sound_Effect(SFX=0x6B)
+		Asynchronous_Timer(Frames=80)
+		Sound_Effect(SFX=0x6B)
+		Asynchronous_Timer(Frames=86)
+		Sound_Effect(SFX=0x6B)
+		Asynchronous_Timer(Frames=109)
+		Sound_Effect(SFX=0xB004B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

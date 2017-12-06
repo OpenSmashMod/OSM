@@ -1,0 +1,36 @@
+MoveDef EscapeAir
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Body_Collision(Unknown=0x2)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=30)
+		Body_Collision(Unknown=0x0)
+		Subroutine1(Unknown=0x1D0E7886)
+		Set Air/Ground(Unknown=0x0)
+		Asynchronous_Timer(Frames=51)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		unk_CEDC237E(Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x6E00087)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=3)
+		unk_27213F09(unknown=0x0)
+		Script_End()
+	}
+
+}

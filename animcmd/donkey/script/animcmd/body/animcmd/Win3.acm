@@ -1,0 +1,50 @@
+MoveDef Win3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=22)
+		unk_3A775D26(unknown=0x7008E)
+		Synchronous_Timer(Frames=5)
+		unk_3A775D26(unknown=0x7008F)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008E)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008F)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008E)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008F)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008E)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008F)
+		Synchronous_Timer(Frames=9)
+		unk_3A775D26(unknown=0x7008E)
+		Synchronous_Timer(Frames=6)
+		unk_3A775D26(unknown=0x7008F)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008E)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008F)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008E)
+		Synchronous_Timer(Frames=7)
+		unk_3A775D26(unknown=0x7008F)
+		Synchronous_Timer(Frames=5)
+		unk_3A775D26(unknown=0x70090)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

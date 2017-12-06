@@ -1,0 +1,19 @@
+MoveDef SpecialAirHiAttackEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

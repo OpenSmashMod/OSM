@@ -1,0 +1,69 @@
+MoveDef SpecialNTurn_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=21)
+		REVERSE_LR()
+		Asynchronous_Timer(Frames=25)
+		Set_Frame_Duration(Speed=1.75)
+		Asynchronous_Timer(Frames=45)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=53)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x16, Damage=25, Angle=0x169, KBG=0x5A, FKB=0x0, BKB=0x0, Size=4, Z=-1.5, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=1.5, SDI=0, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x15, Damage=25, Angle=0x169, KBG=0x5A, FKB=0x0, BKB=0x0, Size=2.5, Z=-2.5, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=1.5, SDI=0, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x16, Damage=25, Angle=0x169, KBG=0x5A, FKB=0x0, BKB=0x0, Size=3.5, Z=3.4, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=1.5, SDI=0, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Extended_Hitbox(Unknown=0x3, Unknown=0x0, Unknown=0x16, Unknown=18, Unknown=0x169, Unknown=0x64, Unknown=0x0, Unknown=0x0, Unknown=15, Unknown=5, Unknown=5, Unknown=0, Unknown=0x5, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x8, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=5, Unknown=5, Unknown=0)
+		Asynchronous_Timer(Frames=58)
+		unk_692BBCFA()
+		Asynchronous_Timer(Frames=59)
+		Remove_All_Hitboxes()
+		Set_Loop(Iterations=3){
+		Synchronous_Timer(Frames=1)
+		unk_692BBCFA()
+		Goto(Unknown=-3)
+		}
+		Asynchronous_Timer(Frames=64)
+		Extended_Hitbox(Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=6, Unknown=0x5A, Unknown=0x64, Unknown=0x0, Unknown=0x1E, Unknown=8, Unknown=0, Unknown=30, Unknown=-8, Unknown=0x5, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x8, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=45, Unknown=-5)
+		Asynchronous_Timer(Frames=66)
+		Remove_All_Hitboxes()
+		Set_Loop(Iterations=10){
+		Synchronous_Timer(Frames=1)
+		unk_692BBCFA()
+		Goto(Unknown=-3)
+		}
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x7EC39C7F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=22)
+		Sound_Effect(SFX=0xE007A)
+		Sound_Effect(SFX=0x71)
+		Synchronous_Timer(Frames=16)
+		Sound_Effect(SFX=0xE007A)
+		Synchronous_Timer(Frames=15)
+		Stop_Sound_Effect(unknown=0xE0062)
+		Sound_Effect(SFX=0x420001)
+		Sound_Effect(SFX=0xE0093)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=2)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=48)
+		Rumble(unknown=0x13, unknown=0x0)
+		Asynchronous_Timer(Frames=53)
+		Screen_Shake(unknown=0x5)
+		Script_End()
+	}
+
+}

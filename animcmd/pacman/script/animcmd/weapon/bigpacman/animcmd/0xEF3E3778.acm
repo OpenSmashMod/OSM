@@ -1,0 +1,34 @@
+MoveDef 0xEF3E3778
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=10)
+		SEARCH(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=10, Unknown=0, Unknown=0, Unknown=2, Unknown=0x2, Unknown=0x1, Unknown=0x3, Unknown=0x0, Unknown=0xF, Unknown=0x1, Unknown=0x0, Unknown=0x3C, Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		IS_FLAG_WORK(unknown=0x20000004)
+		unk_870CF021(unknown=0x6){
+		Synchronous_Timer(Frames=1)
+		FALSE(Unknown=0x11){
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=90)
+		Change_Overlay(Transition=4, Red=255, Green=255, Blue=255, Alpha=40)
+		Synchronous_Timer(Frames=4)
+		Synchronous_Timer(Frames=2)
+		}
+		}
+		Subroutine2(Hash=0xEF3E3778)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

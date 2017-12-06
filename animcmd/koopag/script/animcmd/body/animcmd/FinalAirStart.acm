@@ -1,0 +1,26 @@
+MoveDef FinalAirStart
+{
+	Main()
+	{
+		Subroutine2(Hash=0x17EB3D5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x17EB3D5)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=65)
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

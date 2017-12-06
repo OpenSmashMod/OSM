@@ -1,0 +1,24 @@
+MoveDef 0xD474AED0
+{
+	Main()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		SEARCH(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=4, Unknown=0, Unknown=0, Unknown=0, Unknown=0x2, Unknown=0x1, Unknown=0x7, Unknown=0x0, Unknown=0xF, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

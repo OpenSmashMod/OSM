@@ -1,0 +1,25 @@
+MoveDef 0x751B9558 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=2)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=6)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

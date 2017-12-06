@@ -1,0 +1,19 @@
+MoveDef AttackLw4Charge
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

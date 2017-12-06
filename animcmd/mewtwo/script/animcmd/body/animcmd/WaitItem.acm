@@ -1,0 +1,23 @@
+MoveDef WaitItem
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_F4B1C95B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Script_End()
+	}
+
+}

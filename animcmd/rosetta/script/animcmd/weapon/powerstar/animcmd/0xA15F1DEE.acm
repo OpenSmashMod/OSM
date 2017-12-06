@@ -1,0 +1,27 @@
+MoveDef 0xA15F1DEE
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x4270000, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.85, Terminate=0x1)
+		Set_Loop(Iterations=-1){
+		Screen_Shake(unknown=0x2)
+		Rumble2(unknown=0x2, unknown=0x6)
+		Synchronous_Timer(Frames=11)
+		Goto(Unknown=-7)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

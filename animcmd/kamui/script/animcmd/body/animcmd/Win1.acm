@@ -1,0 +1,28 @@
+MoveDef Win1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=20)
+		unk_3A775D26(unknown=0xC9A0022)
+		Asynchronous_Timer(Frames=24)
+		unk_3A775D26(unknown=0xC9B005F)
+		Asynchronous_Timer(Frames=39)
+		unk_3A775D26(unknown=0xC9B006D)
+		Asynchronous_Timer(Frames=70)
+		unk_3A775D26(unknown=0xC9B006E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef 0x88D9D7D7 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x330000A, Bone=0x2, Z=0, Y=0, X=0, RotZ=90, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=18)
+		Terminate_Graphic_Effect(unknown=0x100008D, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

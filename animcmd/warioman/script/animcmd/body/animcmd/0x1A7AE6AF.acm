@@ -1,0 +1,21 @@
+MoveDef 0x1A7AE6AF
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x76A005C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

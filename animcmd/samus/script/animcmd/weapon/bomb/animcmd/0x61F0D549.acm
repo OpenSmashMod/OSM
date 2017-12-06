@@ -1,0 +1,40 @@
+MoveDef 0x61F0D549
+{
+	Main()
+	{
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=5, Angle=0x169, KBG=0x2D, FKB=0x0, BKB=0xF, Size=7.38, Z=0, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=0.3, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x6, SFXType=0x0, Ground/Air=0xB, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x9, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		SEARCH(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=7.38, Unknown=0, Unknown=0, Unknown=0, Unknown=0x2, Unknown=0x1, Unknown=0x3, Unknown=0x0, Unknown=0x9, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x2)
+		Synchronous_Timer(Frames=1)
+		SCH_CLR_ALL()
+		Synchronous_Timer(Frames=3)
+		unk_FE73ACAA(unknown=0x0, unknown=0.5, unknown=0.02, unknown=1000, unknown=1, unknown=0x0, unknown=0x0, unknown=16)
+		Synchronous_Timer(Frames=3)
+		Terminate_Wind_Effect(unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		Change_Hitbox_Size(Unknown=0x0, Unknown=4.92)
+		Synchronous_Timer(Frames=3)
+		Change_Hitbox_Size(Unknown=0x0, Unknown=2.46)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Synchronous_Timer(Frames=10)
+		unk_300A0A85()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x1000022, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FA00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x43B40000, unknown=0x43B40000, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x4F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

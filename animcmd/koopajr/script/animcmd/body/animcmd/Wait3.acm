@@ -1,0 +1,29 @@
+MoveDef Wait3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=16)
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0x8630040)
+		Asynchronous_Timer(Frames=36)
+		Transient_Sound_Effect(unknown=0x8630041)
+		Asynchronous_Timer(Frames=45)
+		Transient_Sound_Effect(unknown=0x8630040)
+		Asynchronous_Timer(Frames=58)
+		Transient_Sound_Effect(unknown=0x8630041)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

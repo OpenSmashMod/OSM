@@ -1,0 +1,29 @@
+MoveDef DownStandD
+{
+	Main()
+	{
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x6DF0000)
+		Asynchronous_Timer(Frames=29)
+		Sound_Effect(SFX=0x6DF0047)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x1)
+		Script_End()
+	}
+
+}

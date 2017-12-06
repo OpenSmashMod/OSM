@@ -1,0 +1,21 @@
+MoveDef SpecialAirNEndR_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x2BE2FE1D)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

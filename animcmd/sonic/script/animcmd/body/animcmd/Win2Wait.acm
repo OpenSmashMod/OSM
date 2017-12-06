@@ -1,0 +1,34 @@
+MoveDef Win2Wait
+{
+	Main()
+	{
+		Set_Article_Action(Unknown=0x2, Unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Graphic_Effect2(unknown=0x1000010, unknown=0x0, unknown=0xC0833333, unknown=0x41300000, unknown=0x40F33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3E428F5C, unknown=0x40000000, unknown=0x3FA66666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3F000000)
+		Synchronous_Timer(Frames=50)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x0, unknown=0xC0833333, unknown=0x41300000, unknown=0x40F33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3E6B851F, unknown=0x40000000, unknown=0x3FA66666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3F000000)
+		Synchronous_Timer(Frames=60)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x0, unknown=0xC0833333, unknown=0x41300000, unknown=0x40F33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3E19999A, unknown=0x40000000, unknown=0x3FA66666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3F000000)
+		Synchronous_Timer(Frames=30)
+		Goto(Unknown=-63)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

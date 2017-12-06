@@ -1,0 +1,23 @@
+MoveDef 0xFEA4DE87
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xBF83F6E0)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xBF83F6E0)
+		Script_End()
+	}
+
+}

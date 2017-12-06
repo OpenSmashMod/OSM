@@ -1,0 +1,22 @@
+MoveDef SpecialNChargeStart_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x4A4002E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

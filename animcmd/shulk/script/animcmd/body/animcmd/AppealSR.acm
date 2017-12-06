@@ -1,0 +1,32 @@
+MoveDef AppealSR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x7670030)
+		Synchronous_Timer(Frames=20)
+		Sound_Effect(SFX=0x7730002)
+		Synchronous_Timer(Frames=20)
+		Sound_Effect(SFX=0x7670031)
+		Synchronous_Timer(Frames=40)
+		Sound_Effect(SFX=0x7670032)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=54)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

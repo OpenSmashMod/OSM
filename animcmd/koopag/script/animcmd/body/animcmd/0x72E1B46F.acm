@@ -1,0 +1,23 @@
+MoveDef 0x72E1B46F : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_4E94C51B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x99E49994)
+		Script_End()
+	}
+
+}

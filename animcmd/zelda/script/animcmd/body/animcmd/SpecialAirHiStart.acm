@@ -1,0 +1,45 @@
+MoveDef SpecialAirHiStart
+{
+	Main()
+	{
+		Allow/Disallow Ledgegrab(Unknown=0x0)
+		Set_Frame_Duration(Speed=0.6)
+		Asynchronous_Timer(Frames=11)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x2, Damage=6, Angle=0x50, KBG=0x64, FKB=0x0, BKB=0x3C, Size=10.5, Z=0, Y=0, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xF)
+		Asynchronous_Timer(Frames=13)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=34)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3100005, Bone=0x0, Z=0, Y=10, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Color_Overlay(Red=0, Green=160, Blue=0, Alpha=0)
+		Change_Overlay(Transition=20, Red=0, Green=160, Blue=0, Alpha=150)
+		Set_Loop(Iterations=4){
+		Color_Overlay(Red=0, Green=160, Blue=0, Alpha=160)
+		Synchronous_Timer(Frames=2)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-10)
+		}
+		Asynchronous_Timer(Frames=33)
+		Terminate_Graphic_Effect(unknown=0x3100005, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x120051)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

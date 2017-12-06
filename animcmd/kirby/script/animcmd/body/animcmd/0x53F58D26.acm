@@ -1,0 +1,33 @@
+MoveDef 0x53F58D26
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xE4086E38)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE4086E38)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=18)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=36)
+		Article_Visibility(Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+}

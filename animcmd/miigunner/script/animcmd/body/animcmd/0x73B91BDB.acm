@@ -1,0 +1,28 @@
+MoveDef 0x73B91BDB
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		unk_A2BAB52A(unknown=0x3)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Screen_Shake(unknown=0x3)
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

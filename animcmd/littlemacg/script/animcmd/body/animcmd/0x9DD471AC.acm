@@ -1,0 +1,23 @@
+MoveDef 0x9DD471AC
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xEB786D3F)
+		Script_End()
+	}
+
+}

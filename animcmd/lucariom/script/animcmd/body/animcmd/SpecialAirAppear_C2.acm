@@ -1,0 +1,34 @@
+MoveDef SpecialAirAppear_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x8670099)
+		unk_377D36CB(unknown=0x2F, unknown=0x2, unknown=0x32)
+		TRUE(Unknown=0x6){
+		Sound_Effect(SFX=0x8670069)
+		FALSE(Unknown=0xE){
+		unk_377D36CB(unknown=0x2F, unknown=0x2, unknown=0x33)
+		TRUE(Unknown=0x6){
+		Sound_Effect(SFX=0x867006A)
+		FALSE(Unknown=0x4){
+		Sound_Effect(SFX=0x867006B)
+		}
+		}
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

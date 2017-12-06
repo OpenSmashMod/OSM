@@ -1,0 +1,47 @@
+MoveDef Win2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=34)
+		Graphic_Effect2(unknown=0x3060001, unknown=0x16, unknown=0x40C00000, unknown=0xBF017EBB, unknown=0xBE807896, unknown=0xC2B68BAC, unknown=0xBFE61134, unknown=0x43305F7D, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=39)
+		Graphic_Effect2(unknown=0x3060001, unknown=0x16, unknown=0x40C00000, unknown=0xBF017EBB, unknown=0xBE807896, unknown=0xC2B68BAC, unknown=0xBFE61134, unknown=0x43305F7D, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=46)
+		Graphic_Effect2(unknown=0x3060001, unknown=0x16, unknown=0x40C00000, unknown=0xBF017EBB, unknown=0xBE807896, unknown=0xC2B68BAC, unknown=0xBFE61134, unknown=0x43305F7D, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=53)
+		Graphic_Effect2(unknown=0x3060001, unknown=0x16, unknown=0x40C00000, unknown=0xBF017EBB, unknown=0xBE807896, unknown=0xC2B68BAC, unknown=0xBFE61134, unknown=0x43305F7D, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=60)
+		Graphic_Effect2(unknown=0x3060001, unknown=0x16, unknown=0x40C00000, unknown=0xBF017EBB, unknown=0xBE807896, unknown=0xC2B68BAC, unknown=0xBFE61134, unknown=0x43305F7D, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=14)
+		Sound_Effect(SFX=0x8006C)
+		Synchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x80069)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x80060)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x80060)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x80071)
+		Synchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x80060)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x80061)
+		Synchronous_Timer(Frames=37)
+		Sound_Effect(SFX=0x8007D)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

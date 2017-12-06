@@ -1,0 +1,23 @@
+MoveDef 0xC4DF6CFD
+{
+	Main()
+	{
+		SET_SCALE(unknown=0x3F19999A)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x8630056)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef SpecialAirHiDamage_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x1E003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+}

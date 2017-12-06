@@ -1,0 +1,25 @@
+MoveDef 0xBE21762F
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Asynchronous_Timer(Frames=4)
+		Pickup_Item2(Unknown=0x0, Unknown=0x2)
+		Asynchronous_Timer(Frames=6)
+		Consume_Item(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

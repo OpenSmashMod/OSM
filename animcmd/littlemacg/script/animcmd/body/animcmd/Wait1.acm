@@ -1,0 +1,27 @@
+MoveDef Wait1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=90)
+		unk_CD0D7079(unknown=0x2)
+		TRUE(Unknown=0x4){
+		Sound_Effect(SFX=0x82C0029)
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Script_End()
+	}
+
+}

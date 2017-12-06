@@ -1,0 +1,21 @@
+MoveDef 0x6E0EC2CF : Unlisted
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=10, Angle=0x50, KBG=0x64, WKB=0x82, BKB=0x0, Effect?=0x2, Unknown=0x3F800000, Unknown=2, Unknown=1, Unknown=0x2, SFX?=0x3, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

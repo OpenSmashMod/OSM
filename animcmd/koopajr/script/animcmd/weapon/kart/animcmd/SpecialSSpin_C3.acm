@@ -1,0 +1,47 @@
+MoveDef SpecialSSpin_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0x1E){
+		External_Graphic(Graphic=0x32E000B, Bone=0x7E6, Z=9, Y=-0.5, X=4, RotZ=0, RotY=0, RotX=-95, Size=0.9, Terminate=0x1)
+		Asynchronous_Timer(Frames=8)
+		External_Graphic(Graphic=0x32E000B, Bone=0x7E6, Z=9, Y=-0.5, X=4, RotZ=0, RotY=0, RotX=-95, Size=0.9, Terminate=0x1)
+		Asynchronous_Timer(Frames=10)
+		FALSE(Unknown=0x1C){
+		External_Graphic(Graphic=0x32E000B, Bone=0x7E6, Z=9, Y=-0.5, X=4, RotZ=0, RotY=0, RotX=-95, Size=0.9, Terminate=0x1)
+		Asynchronous_Timer(Frames=8)
+		External_Graphic(Graphic=0x32E000B, Bone=0x7E6, Z=9, Y=-0.5, X=4, RotZ=0, RotY=0, RotX=-95, Size=0.9, Terminate=0x1)
+		Asynchronous_Timer(Frames=10)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x863005B)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x8630069)
+		Stop_Sound_Effect(unknown=0x863006A)
+		Transient_Sound_Effect(unknown=0x863005C)
+		Transient_Sound_Effect(unknown=0x8630050)
+		Asynchronous_Timer(Frames=8)
+		Transient_Sound_Effect(unknown=0x863004F)
+		Synchronous_Timer(Frames=42)
+		Stop_Sound_Effect(unknown=0x8630050)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x8630069)
+		Sound_Effect(SFX=0x863003C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

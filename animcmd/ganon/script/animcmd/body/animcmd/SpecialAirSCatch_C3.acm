@@ -1,0 +1,21 @@
+MoveDef SpecialAirSCatch_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x190045)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,28 @@
+MoveDef SpecialAirN3Loop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xC3A08DF0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=1)
+		Rumble2(unknown=0xC, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xE35BBBA2)
+		Script_End()
+	}
+
+}

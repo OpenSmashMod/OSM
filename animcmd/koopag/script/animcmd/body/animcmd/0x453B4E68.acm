@@ -1,0 +1,27 @@
+MoveDef 0x453B4E68 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_4E94C51B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=5)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=13)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

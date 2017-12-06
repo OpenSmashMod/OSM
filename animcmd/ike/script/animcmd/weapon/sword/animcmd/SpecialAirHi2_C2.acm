@@ -1,0 +1,21 @@
+MoveDef SpecialAirHi2_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x5C844B36)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

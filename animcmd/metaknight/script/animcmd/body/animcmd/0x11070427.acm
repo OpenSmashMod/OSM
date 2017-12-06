@@ -1,0 +1,22 @@
+MoveDef 0x11070427
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x24D008E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

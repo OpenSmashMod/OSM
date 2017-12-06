@@ -1,0 +1,23 @@
+MoveDef SpecialLwLandingFlyR_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x692CEED9)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,37 @@
+MoveDef WalkFast
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		Set_Loop(Iterations=-1){
+		Synchronous_Timer(Frames=10)
+		Graphic_Effect(unknown=0x0, unknown=0x0, unknown=0xC0800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40400000, unknown=0x0, unknown=0x40400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0xBFC006D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=20)
+		Rumble2(unknown=0x14, unknown=0xA)
+		Asynchronous_Timer(Frames=44)
+		Rumble2(unknown=0x14, unknown=0xA)
+		Loop_Rest()
+		Subroutine2(Hash=0x7B801F14)
+		Script_End()
+	}
+
+}

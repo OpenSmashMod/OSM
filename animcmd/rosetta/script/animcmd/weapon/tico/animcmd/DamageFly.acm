@@ -1,0 +1,26 @@
+MoveDef DamageFly
+{
+	Main()
+	{
+		SET_SCALE(unknown=0x3F800000)
+		Script_End()
+	}
+
+	Effect()
+	{
+		IS_FLAG_WORK(unknown=0x20000016)
+		TRUE(Unknown=0x4){
+		Screen_Shake(unknown=0x3)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

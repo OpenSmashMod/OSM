@@ -1,0 +1,36 @@
+MoveDef SpecialAirLw_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=32)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=9, Angle=0x2D, KBG=0x4B, FKB=0x0, BKB=0x2D, Size=8.6, Z=0, Y=5.2, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x5, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x2, Unknown=0x1, Unknown=0x2, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=32)
+		unk_E20C02D4(unknown=0x30F0003, unknown=0x0, unknown=0x0, unknown=0x41400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x43700000, unknown=0x437F0000, unknown=0x435C0000)
+		Synchronous_Timer(Frames=5)
+		unk_E20C02D4(unknown=0x30F0003, unknown=0x0, unknown=0x0, unknown=0x41700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x43700000, unknown=0x437F0000, unknown=0x435C0000)
+		Synchronous_Timer(Frames=4)
+		unk_E20C02D4(unknown=0x30F0003, unknown=0x0, unknown=0x0, unknown=0x41900000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x43700000, unknown=0x437F0000, unknown=0x435C0000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=32)
+		Transient_Sound_Effect(unknown=0x10005C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=31)
+		Rumble2(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

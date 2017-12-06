@@ -1,0 +1,40 @@
+MoveDef SpecialLwAttack
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		IS_FLAG_WORK(unknown=0x2100000F)
+		unk_870CF021(unknown=0x15){
+		Terminate_Graphic_Effect(unknown=0x3100000, unknown=0x1, unknown=0x1)
+		Asynchronous_Timer(Frames=2)
+		External_Graphic(Graphic=0x3100000, Bone=0x18, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		FALSE(Unknown=0x2){
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		IS_FLAG_WORK(unknown=0x2100000F)
+		unk_870CF021(unknown=0x6){
+		Sound_Effect(SFX=0x1200A2)
+		FALSE(Unknown=0x4){
+		Sound_Effect(SFX=0x1200AA)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

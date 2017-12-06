@@ -1,0 +1,20 @@
+MoveDef 0x3FA99220 : Unlisted
+{
+	Main()
+	{
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

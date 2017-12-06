@@ -1,0 +1,24 @@
+MoveDef 0x45415767
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3030006, Bone=0x7D4, Z=3.2, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect2(unknown=0x10000CD, unknown=0x7D3, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC2B40000, unknown=0x3FA66666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

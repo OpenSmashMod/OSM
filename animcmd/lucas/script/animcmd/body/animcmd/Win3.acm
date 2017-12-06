@@ -1,0 +1,34 @@
+MoveDef Win3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=42)
+		External_Graphic(Graphic=0x3350000, Bone=0x19, Z=-0.5, Y=0, X=1.5, RotZ=0, RotY=0, RotX=0, Size=0.5, Terminate=0x1)
+		External_Graphic(Graphic=0x3350000, Bone=0x19, Z=-0.5, Y=0, X=1.5, RotZ=0, RotY=0, RotX=0, Size=0.4, Terminate=0x1)
+		Asynchronous_Timer(Frames=89)
+		External_Graphic(Graphic=0x3350001, Bone=0x19, Z=-1, Y=0, X=1.5, RotZ=0, RotY=0, RotX=0, Size=0.59, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3DCCCCCD)
+		Asynchronous_Timer(Frames=100)
+		Terminate_Graphic_Effect(unknown=0x3350000, unknown=0x0, unknown=0x0)
+		Terminate_Graphic_Effect(unknown=0x3350001, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=43)
+		Sound_Effect(SFX=0x1D00AD)
+		Asynchronous_Timer(Frames=90)
+		Sound_Effect(SFX=0x1D00AE)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

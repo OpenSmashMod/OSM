@@ -1,0 +1,23 @@
+MoveDef SpecialAirLwLR_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x340DAE19)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x340DAE19)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

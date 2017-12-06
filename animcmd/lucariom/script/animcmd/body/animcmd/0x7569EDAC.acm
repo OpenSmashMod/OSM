@@ -1,0 +1,33 @@
+MoveDef 0x7569EDAC
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x2)
+		Set_Frame_Duration(Speed=0.75)
+		Asynchronous_Timer(Frames=40)
+		Set_Frame_Duration(Speed=1)
+		unk_B0AF39A6()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x31E0018, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x8C10001)
+		Asynchronous_Timer(Frames=45)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

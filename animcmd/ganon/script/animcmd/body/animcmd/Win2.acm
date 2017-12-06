@@ -1,0 +1,27 @@
+MoveDef Win2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=40)
+		Sound_Effect(SFX=0x19005E)
+		Sound_Effect(SFX=0x19004D)
+		Synchronous_Timer(Frames=10)
+		unk_3A775D26(unknown=0x4C002E)
+		Synchronous_Timer(Frames=45)
+		unk_3A775D26(unknown=0x19004D)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

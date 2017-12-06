@@ -1,0 +1,27 @@
+MoveDef SpecialAirLwMR_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x96D87A9)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x96D87A9)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x96D87A9)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x96D87A9)
+		Script_End()
+	}
+
+}

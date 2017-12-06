@@ -1,0 +1,27 @@
+MoveDef 0x4C5369CA : Unlisted
+{
+	Main()
+	{
+		Subroutine2(Hash=0x9B700E2B)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x9B700E2B)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xA0056)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

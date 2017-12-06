@@ -1,0 +1,26 @@
+MoveDef SpecialNBomb_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=17)
+		External_Graphic(Graphic=0x3160007, Bone=0x0, Z=0, Y=11, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=16)
+		PLAY_SE_REMAIN(unknown=0x51)
+		Sound_Effect(SFX=0x7760003)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

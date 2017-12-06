@@ -1,0 +1,28 @@
+MoveDef 0xF4DADB0B
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Compare(Variable=0x10000004, Mode=0x0, Value=0x1)
+		TRUE(Unknown=0x13){
+		Graphic_Effect2(unknown=0x1000021, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		}
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-25)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef 0xF59F3DF8
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xA8)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

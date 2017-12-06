@@ -1,0 +1,23 @@
+MoveDef SpecialAirSGet_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x8E367D08)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x1000042, Bone=0x7D3, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

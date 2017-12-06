@@ -1,0 +1,23 @@
+MoveDef 0xCCE09237 : Unlisted
+{
+	Main()
+	{
+		Generate_Weapon(ID=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

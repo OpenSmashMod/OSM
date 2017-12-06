@@ -1,0 +1,29 @@
+MoveDef SpecialSEscape
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=11)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x4D0006)
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x1A0043)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

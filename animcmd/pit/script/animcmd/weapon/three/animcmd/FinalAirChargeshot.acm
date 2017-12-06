@@ -1,0 +1,23 @@
+MoveDef FinalAirChargeshot
+{
+	Main()
+	{
+		Subroutine2(Hash=0xFC0D7D79)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xFC0D7D79)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

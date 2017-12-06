@@ -1,0 +1,33 @@
+MoveDef SpecialAirHi
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=6)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=20, Angle=0x5A, KBG=0x42, FKB=0x0, BKB=0x28, Size=2.7, Z=0, Y=6, X=5.5, Effect=0x5, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Subroutine2(Hash=0x1A201091)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=4)
+		External_Graphic(Graphic=0x30B0006, Bone=0x11, Z=1, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=6)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x18, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F07AE14, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=9)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

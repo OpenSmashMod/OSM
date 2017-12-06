@@ -1,0 +1,34 @@
+MoveDef AppealSR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=19)
+		External_Graphic(Graphic=0x32B001B, Bone=0x6, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.9, Terminate=0x1)
+		Asynchronous_Timer(Frames=60)
+		Terminate_Graphic_Effect(unknown=0x32B001B, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x24E0085)
+		Asynchronous_Timer(Frames=31)
+		Sound_Effect(SFX=0x76F002F)
+		Asynchronous_Timer(Frames=68)
+		Sound_Effect(SFX=0x24E0084)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

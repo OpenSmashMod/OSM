@@ -1,0 +1,30 @@
+MoveDef 0x49354D5C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=4)
+		External_Graphic(Graphic=0x309000A, Bone=0x0, Z=0, Y=5.5, X=10.5, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0xB004A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef 0xFC41F8D6
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_5FC8FA49(unknown=0x114)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

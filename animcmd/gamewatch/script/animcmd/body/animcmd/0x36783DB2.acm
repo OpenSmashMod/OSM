@@ -1,0 +1,23 @@
+MoveDef 0x36783DB2
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Asynchronous_Timer(Frames=10)
+		unk_965E035A()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

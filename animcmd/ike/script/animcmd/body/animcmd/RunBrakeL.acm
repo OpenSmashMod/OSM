@@ -1,0 +1,36 @@
+MoveDef RunBrakeL
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=11)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Bit_Variable_Clear(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		Set_Loop(Iterations=3){
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x24001C)
+		unk_687F9320(unknown=0x24001C, unknown=0xF)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

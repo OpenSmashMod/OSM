@@ -1,0 +1,21 @@
+MoveDef 0x8B694AA3 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0xF7FA88CD)
+		Script_End()
+	}
+
+}

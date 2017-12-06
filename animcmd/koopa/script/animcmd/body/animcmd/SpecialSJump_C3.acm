@@ -1,0 +1,26 @@
+MoveDef SpecialSJump_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x100066)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x100067)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x1000A7)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

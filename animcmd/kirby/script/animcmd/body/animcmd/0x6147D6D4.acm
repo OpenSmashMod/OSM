@@ -1,0 +1,35 @@
+MoveDef 0x6147D6D4
+{
+	Main()
+	{
+		Subroutine2(Hash=0x2343778B)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=8)
+		unk_6F4AACA8(unknown=0x6, unknown=0x5, unknown=0x19, unknown=0xBC12CCF7, unknown=0x41105B38, unknown=0xBFF2D03E, unknown=0x19, unknown=0xBC4BFB16, unknown=0x41485A47, unknown=0xBFEDB131, unknown=0x1, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x8, unknown=0x2, unknown=0x40800000)
+		Asynchronous_Timer(Frames=13)
+		Terminate_Sword_Glow(unknown=0x3)
+		Asynchronous_Timer(Frames=18)
+		unk_6F4AACA8(unknown=0x6, unknown=0x5, unknown=0x19, unknown=0xBC12CCF7, unknown=0x41105B38, unknown=0xBFF2D03E, unknown=0x19, unknown=0xBC4BFB16, unknown=0x41485A47, unknown=0xBFEDB131, unknown=0x1, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x8, unknown=0x2, unknown=0x40800000)
+		Asynchronous_Timer(Frames=28)
+		Terminate_Sword_Glow(unknown=0x3)
+		Asynchronous_Timer(Frames=29)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x2343778B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x2343778B)
+		Script_End()
+	}
+
+}

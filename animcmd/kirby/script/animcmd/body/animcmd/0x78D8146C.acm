@@ -1,0 +1,28 @@
+MoveDef 0x78D8146C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=18)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x11, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x22B1C2F5)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=23)
+		Rumble(unknown=0xD, unknown=0x0)
+		Screen_Shake(unknown=0x3)
+		Script_End()
+	}
+
+}

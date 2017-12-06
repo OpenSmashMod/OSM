@@ -1,0 +1,27 @@
+MoveDef 0x751B9558
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=7)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=8)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

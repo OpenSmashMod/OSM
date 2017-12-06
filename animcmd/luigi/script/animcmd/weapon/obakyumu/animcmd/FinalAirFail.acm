@@ -1,0 +1,23 @@
+MoveDef FinalAirFail
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE554D24E)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE554D24E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,28 @@
+MoveDef SpecialSLanding
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x224117F6)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x863003B)
+		Stop_Sound_Effect(unknown=0x8630038)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x8630069)
+		Transient_Sound_Effect(unknown=0x863006A)
+		Transient_Sound_Effect(unknown=0x863003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

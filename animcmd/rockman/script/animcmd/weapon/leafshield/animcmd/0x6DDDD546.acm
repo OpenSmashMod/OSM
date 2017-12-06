@@ -1,0 +1,23 @@
+MoveDef 0x6DDDD546
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_5FC8FA49(unknown=0x23D0033)
+		Asynchronous_Timer(Frames=30)
+		Transient_Sound_Effect(unknown=0x23D00B3)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

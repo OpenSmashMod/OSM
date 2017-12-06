@@ -1,0 +1,24 @@
+MoveDef 0x62256D75
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		unk_E20C02D4(unknown=0x310000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x43960000, unknown=0x43660000, unknown=0x43200000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		Sound_Effect(SFX=0x15A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

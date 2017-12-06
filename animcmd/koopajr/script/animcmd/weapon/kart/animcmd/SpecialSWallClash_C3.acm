@@ -1,0 +1,27 @@
+MoveDef SpecialSWallClash_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x863005B)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x8630069)
+		Stop_Sound_Effect(unknown=0x863006A)
+		Transient_Sound_Effect(unknown=0x863003E)
+		Synchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0x863003C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

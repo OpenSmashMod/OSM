@@ -1,0 +1,26 @@
+MoveDef SpecialAirLwHit_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x65D5A6EF)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xF003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,25 @@
+MoveDef SpecialAirHiFlap2_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x24C002D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Rumble(unknown=0x17, unknown=0x6)
+		Script_End()
+	}
+
+}

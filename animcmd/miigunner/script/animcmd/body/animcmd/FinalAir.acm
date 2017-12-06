@@ -1,0 +1,27 @@
+MoveDef FinalAir
+{
+	Main()
+	{
+		unk_A2BAB52A(unknown=0xC)
+		unk_A2BAB52A(unknown=0xD)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Rumble2(unknown=0x2, unknown=0x1E)
+		Loop_Rest()
+		Subroutine2(Hash=0xC9F566E6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,24 @@
+MoveDef 0x31D63B8C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=19)
+		Article_Visibility(Unknown=0x5, Unknown=0x1)
+		Asynchronous_Timer(Frames=40)
+		Article_Visibility(Unknown=0x5, Unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

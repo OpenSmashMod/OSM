@@ -1,0 +1,24 @@
+MoveDef 0xDDFD2537
+{
+	Main()
+	{
+		Subroutine1(Unknown=0xC5312E6B)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		unk_27213F09(unknown=0x0)
+		Script_End()
+	}
+
+}

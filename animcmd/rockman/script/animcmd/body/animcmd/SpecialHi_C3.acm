@@ -1,0 +1,39 @@
+MoveDef SpecialHi_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=4)
+		Asynchronous_Timer(Frames=3)
+		Set_Frame_Duration(Speed=1)
+		Add_Momentum(Vertical=0, Horizontal=-1)
+		Asynchronous_Timer(Frames=10)
+		Add_Momentum(Vertical=0, Horizontal=-0.2)
+		Asynchronous_Timer(Frames=11)
+		Set_Frame_Duration(Speed=8)
+		Asynchronous_Timer(Frames=13)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Asynchronous_Timer(Frames=21)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x23D00B8)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=3)
+		Rumble2(unknown=0x9, unknown=0x5A)
+		Script_End()
+	}
+
+}

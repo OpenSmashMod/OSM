@@ -1,0 +1,25 @@
+MoveDef ThrowF : Unlisted
+{
+	Main()
+	{
+		unk_FAA85333(unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x169, unknown=0x3C, unknown=0x0, unknown=0x41, unknown=0x3, unknown=0x0, unknown=0x3F800000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x3, unknown=0x1, unknown=0x1, unknown=0x8)
+		Asynchronous_Timer(Frames=8)
+		unk_CDBE8A34(unknown=0x0, unknown=0x7D9, unknown=0x11000001, unknown=0x11000002, unknown=0x11000003)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x6B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

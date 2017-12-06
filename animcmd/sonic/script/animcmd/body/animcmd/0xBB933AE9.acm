@@ -1,0 +1,21 @@
+MoveDef 0xBB933AE9 : Unlisted
+{
+	Main()
+	{
+		SEARCH(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=75, Unknown=0, Unknown=10, Unknown=10, Unknown=0x2, Unknown=0x3, Unknown=0x3, Unknown=0x0, Unknown=0x9, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

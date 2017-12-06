@@ -1,0 +1,25 @@
+MoveDef SpecialSCliffJump_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x863005B)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x863006A)
+		Transient_Sound_Effect(unknown=0x8630069)
+		Transient_Sound_Effect(unknown=0x863003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

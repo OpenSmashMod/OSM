@@ -1,0 +1,52 @@
+MoveDef ThrowB
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=11, Angle=0x87, KBG=0x82, WKB=0x0, BKB=0xF, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=3, Angle=0x169, KBG=0x64, WKB=0x0, BKB=0x3C, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Asynchronous_Timer(Frames=27)
+		Throw_Applier(ID=0x0, Bone=0x1A, Unknown=0x11000005, Unknown=0x11000006, Unknown=0x11000007)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Loop(Iterations=4){
+		Graphic_Effect2(unknown=0x30D0000, unknown=0x1A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Synchronous_Timer(Frames=6)
+		Goto(Unknown=-19)
+		}
+		Asynchronous_Timer(Frames=29)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x1A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x120)
+		Transient_Sound_Effect(unknown=0xF007D)
+		Synchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0xF005C)
+		unk_F4B1C95B()
+		Low_Voice_Clip(unknown=0x800C0005)
+		Sound_Effect(SFX=0x121)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=2)
+		Rumble2(unknown=0x2, unknown=0x19)
+		Asynchronous_Timer(Frames=29)
+		Slope_Full(unknown=0x0, unknown=0x3)
+		Asynchronous_Timer(Frames=31)
+		Rumble(unknown=0x4, unknown=0x0)
+		Asynchronous_Timer(Frames=36)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

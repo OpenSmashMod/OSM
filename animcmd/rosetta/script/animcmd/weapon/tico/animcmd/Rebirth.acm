@@ -1,0 +1,26 @@
+MoveDef Rebirth
+{
+	Main()
+	{
+		SET_SCALE(unknown=0x3F800000)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x327000A, Bone=0x7D0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4A40053)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

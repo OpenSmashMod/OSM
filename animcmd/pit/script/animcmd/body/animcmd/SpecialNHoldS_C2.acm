@@ -1,0 +1,39 @@
+MoveDef SpecialNHoldS_C2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3180006, Bone=0x19, Z=0, Y=0.5, X=1.5, RotZ=0, RotY=0, RotX=-11, Size=0.8, Terminate=0x1)
+		Set_Loop(Iterations=-1){
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x41700000, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		unk_A0FA2515(unknown=0x4002B, unknown=0x0, unknown=0x0)
+		TRUE(Unknown=0x4){
+		Transient_Sound_Effect(unknown=0x4002B)
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=1)
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

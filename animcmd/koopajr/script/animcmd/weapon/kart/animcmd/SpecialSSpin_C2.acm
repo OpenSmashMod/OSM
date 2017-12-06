@@ -1,0 +1,33 @@
+MoveDef SpecialSSpin_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x8630038)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x8630069)
+		Stop_Sound_Effect(unknown=0x863006A)
+		Transient_Sound_Effect(unknown=0x863005A)
+		Transient_Sound_Effect(unknown=0x8630050)
+		Asynchronous_Timer(Frames=8)
+		Transient_Sound_Effect(unknown=0x863004F)
+		Synchronous_Timer(Frames=42)
+		Stop_Sound_Effect(unknown=0x8630050)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x8630069)
+		Sound_Effect(SFX=0x863003C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

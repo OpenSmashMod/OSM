@@ -1,0 +1,21 @@
+MoveDef 0xD1D14759
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect4(unknown=0x5F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

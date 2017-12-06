@@ -1,0 +1,25 @@
+MoveDef 0xBE4EEF90
+{
+	Main()
+	{
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1.1, Unknown=0x0, Unknown=0xA, Unknown=0x0, Unknown=0xB, Unknown=2.8, Unknown=0, Unknown=0, Unknown=0, Unknown=0x5, Unknown=0, Unknown=0.25, Unknown=0, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x8, Unknown=0x3, Unknown=0x0, Unknown=0x19, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=0, Unknown=-2.5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x432C16EA)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x432C16EA)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

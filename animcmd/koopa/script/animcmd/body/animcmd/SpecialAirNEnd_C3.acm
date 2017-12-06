@@ -1,0 +1,26 @@
+MoveDef SpecialAirNEnd_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xE23E4783)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		unk_E06A5D00(unknown=0x100045)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xE23E4783)
+		Script_End()
+	}
+
+}

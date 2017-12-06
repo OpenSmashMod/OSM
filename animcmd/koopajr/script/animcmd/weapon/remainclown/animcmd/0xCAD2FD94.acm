@@ -1,0 +1,19 @@
+MoveDef 0xCAD2FD94
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

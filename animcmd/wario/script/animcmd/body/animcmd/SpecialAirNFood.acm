@@ -1,0 +1,25 @@
+MoveDef SpecialAirNFood
+{
+	Main()
+	{
+		Subroutine2(Hash=0xCA2EB9EA)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xCA2EB9EA)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xCA2EB9EA)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,32 @@
+MoveDef SpecialS
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.2)
+		Asynchronous_Timer(Frames=14)
+		Bit_Variable_Set(Unknown=0x2000007B)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x7650044)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		SLOPE(unknown=0x4)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=9)
+		Slope_Full(unknown=0x6, unknown=0x2)
+		Script_End()
+	}
+
+}

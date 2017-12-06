@@ -1,0 +1,22 @@
+MoveDef LadderDown
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0x25006E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

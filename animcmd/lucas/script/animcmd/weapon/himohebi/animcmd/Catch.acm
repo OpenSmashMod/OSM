@@ -1,0 +1,22 @@
+MoveDef Catch
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=20)
+		Set_Frame_Duration(Speed=0.55)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

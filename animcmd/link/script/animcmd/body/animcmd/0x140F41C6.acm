@@ -1,0 +1,25 @@
+MoveDef 0x140F41C6 : Unlisted
+{
+	Main()
+	{
+		Synchronous_Timer(Frames=2)
+		Delete_Catch_Collision(unknown=0x2)
+		Delete_Catch_Collision(unknown=0x3)
+		Synchronous_Timer(Frames=6)
+		Terminate_Grab_Collisions()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

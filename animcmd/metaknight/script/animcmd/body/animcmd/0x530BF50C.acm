@@ -1,0 +1,33 @@
+MoveDef 0x530BF50C : Unlisted
+{
+	Main()
+	{
+		MOT_SET_RATE(Unknown=0.25)
+		unk_2B62F859(unknown=0x0, unknown=0x3E800000)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		TRUE(Unknown=0xC){
+		unk_20DB2106(unknown=0x41000000, unknown=0xC0400000)
+		Set_Camera_Boundaries(Unknown=7, Unknown=-7, Unknown=5, Unknown=-5)
+		FALSE(Unknown=0x7){
+		Set_Camera_Boundaries(Unknown=0, Unknown=0, Unknown=5, Unknown=-5)
+		}
+		}
+		unk_EBC717C8(unknown=0x64)
+		End_Screen_Tint(unknown=0x2, unknown=0x0)
+		Screen_Tint(unknown=0x2, unknown=0x64, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xFF, unknown=0x6, unknown=0xFF)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

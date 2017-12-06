@@ -1,0 +1,23 @@
+MoveDef JumpSquat
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=5)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

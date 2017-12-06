@@ -1,0 +1,27 @@
+MoveDef SpecialAirNSwallow_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x33B9494E)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0xA0060)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

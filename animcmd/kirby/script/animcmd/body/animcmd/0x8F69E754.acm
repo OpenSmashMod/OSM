@@ -1,0 +1,25 @@
+MoveDef 0x8F69E754
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xBAFEED7F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=3)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

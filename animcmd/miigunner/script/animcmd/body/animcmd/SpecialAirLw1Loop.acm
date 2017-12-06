@@ -1,0 +1,32 @@
+MoveDef SpecialAirLw1Loop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x23433F79)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x81C0030)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=1)
+		Rumble2(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=15)
+		Rumble2(unknown=0x11, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xA606F497)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef SpecialNFailure : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x250054)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

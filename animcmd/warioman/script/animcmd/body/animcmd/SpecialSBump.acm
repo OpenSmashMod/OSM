@@ -1,0 +1,25 @@
+MoveDef SpecialSBump
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		PLAY_SE_REMAIN(unknown=0x76A0020)
+		Sound_Effect(SFX=0x76A000D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xD, unknown=0x5)
+		Script_End()
+	}
+
+}

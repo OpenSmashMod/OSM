@@ -1,0 +1,25 @@
+MoveDef FinalAirShootReady
+{
+	Main()
+	{
+		Subroutine2(Hash=0x7844BEB0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x7844BEB0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x7844BEB0)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

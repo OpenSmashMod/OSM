@@ -1,0 +1,27 @@
+MoveDef SpecialAirSEnd_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=11)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_E06A5D00(unknown=0x11003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

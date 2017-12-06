@@ -1,0 +1,22 @@
+MoveDef SpecialSLanding_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x100066)
+		Transient_Sound_Effect(unknown=0x100068)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

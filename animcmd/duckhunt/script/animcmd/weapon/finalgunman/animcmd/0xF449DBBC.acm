@@ -1,0 +1,44 @@
+MoveDef 0xF449DBBC
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		unk_13B7328C(unknown=0x0, unknown=0x0, unknown=0x41200000, unknown=0x41200000, unknown=0x0, unknown=0x41700000, unknown=0x43FA0000)
+		Asynchronous_Timer(Frames=2)
+		External_Graphic(Graphic=0x42D0004, Bone=0x0, Z=-4.1, Y=7, X=4, RotZ=0, RotY=180, RotX=0, Size=0.7, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		Asynchronous_Timer(Frames=10)
+		External_Graphic(Graphic=0x42D0004, Bone=0x0, Z=-7.5, Y=10, X=-1, RotZ=0, RotY=180, RotX=0, Size=0.7, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		Asynchronous_Timer(Frames=20)
+		External_Graphic(Graphic=0x42D0004, Bone=0x0, Z=-18, Y=7.1, X=2, RotZ=0, RotY=180, RotX=0, Size=0.7, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		Asynchronous_Timer(Frames=30)
+		External_Graphic(Graphic=0x42D0004, Bone=0x0, Z=19, Y=5, X=-5, RotZ=0, RotY=180, RotX=0, Size=0.7, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		Asynchronous_Timer(Frames=40)
+		External_Graphic(Graphic=0x42D0004, Bone=0x0, Z=6, Y=7, X=-3, RotZ=0, RotY=180, RotX=0, Size=0.7, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		External_Graphic(Graphic=0x42D0004, Bone=0x0, Z=10, Y=7, X=-3, RotZ=0, RotY=180, RotX=0, Size=0.7, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		Asynchronous_Timer(Frames=42)
+		unk_C31ABACD(unknown=0x8, unknown=0x1)
+		Asynchronous_Timer(Frames=50)
+		External_Graphic(Graphic=0x42D0004, Bone=0x0, Z=19, Y=5, X=-5, RotZ=0, RotY=180, RotX=0, Size=0.7, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		Asynchronous_Timer(Frames=60)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

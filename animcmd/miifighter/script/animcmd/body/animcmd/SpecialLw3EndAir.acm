@@ -1,0 +1,26 @@
+MoveDef SpecialLw3EndAir
+{
+	Main()
+	{
+		Synchronous_Timer(Frames=8)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Terminate_Graphic_Effect(unknown=0x3000028, unknown=0x1, unknown=0x1)
+		Terminate_Graphic_Effect(unknown=0x300002A, unknown=0x1, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

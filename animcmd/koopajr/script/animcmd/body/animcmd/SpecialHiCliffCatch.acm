@@ -1,0 +1,24 @@
+MoveDef SpecialHiCliffCatch
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x32E0005, Bone=0x0, Z=0, Y=4, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x53)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

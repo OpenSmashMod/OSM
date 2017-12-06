@@ -1,0 +1,31 @@
+MoveDef 0xA3A1B8B1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3220004, Bone=0x3E8, Z=0, Y=0, X=0, RotZ=0, RotY=-90, RotX=0, Size=1, Terminate=0x1)
+		Graphic_Effect4(unknown=0x3220005, unknown=0x0, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1)
+		Synchronous_Timer(Frames=2)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x2A0066)
+		Sound_Effect(SFX=0x830000)
+		Sound_Effect(SFX=0x2A0045)
+		Script_End()
+	}
+
+	Expression()
+	{
+		VIS_WHOLE(unknown=0x0)
+		Item_Visibility(unknown=0x0)
+		unk_27213F09(unknown=0x0)
+		Script_End()
+	}
+
+}

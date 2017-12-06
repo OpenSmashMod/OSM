@@ -1,0 +1,22 @@
+MoveDef SpecialSWall
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

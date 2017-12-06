@@ -1,0 +1,21 @@
+MoveDef SpecialAirLw3End
+{
+	Main()
+	{
+		Subroutine2(Hash=0xBE23AD6C)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef AttackS4SLanding : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x1C00A8)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

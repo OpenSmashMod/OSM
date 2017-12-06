@@ -1,0 +1,48 @@
+MoveDef AttackHi3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x9, Damage=9, Angle=0x6E, KBG=0x6E, FKB=0x0, BKB=0x16, Size=6, Z=3.9, Y=-0.6, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x1, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x9, Damage=7, Angle=0x54, KBG=0x6E, FKB=0x0, BKB=0x12, Size=5.5, Z=3.9, Y=-0.6, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x2, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x9, Damage=6, Angle=0x50, KBG=0x6E, FKB=0x0, BKB=0x12, Size=5, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x3, Part=0x0, Bone=0x8, Damage=6, Angle=0x50, KBG=0x6E, FKB=0x0, BKB=0x12, Size=4, Z=-1, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Asynchronous_Timer(Frames=6)
+		Change_Hitbox_Damage(Unknown=0x0, Unknown=6)
+		Change_Hitbox_Damage(Unknown=0x1, Unknown=6)
+		Change_Hitbox_Damage(Unknown=0x2, Unknown=5)
+		Change_Hitbox_Damage(Unknown=0x3, Unknown=5)
+		Asynchronous_Timer(Frames=8)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Graphic_Effect2(unknown=0x100008E, unknown=0x0, unknown=0xBF800000, unknown=0x40F00000, unknown=0xC0800000, unknown=0xC3300000, unknown=0xC2220000, unknown=0x42B0999A, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3F59999A)
+		unk_FD1F7ECF(unknown=0x3F59999A)
+		Asynchronous_Timer(Frames=12)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Low_Voice_Clip(unknown=0x80010005)
+		Sound_Effect(SFX=0xB005B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=1)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=22)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

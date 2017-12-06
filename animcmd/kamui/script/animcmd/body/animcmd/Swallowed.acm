@@ -1,0 +1,21 @@
+MoveDef Swallowed
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x4, unknown=0x1)
+		Script_End()
+	}
+
+}

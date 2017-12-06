@@ -1,0 +1,21 @@
+MoveDef SpecialAirNEat_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x307787CD)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

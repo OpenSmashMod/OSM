@@ -1,0 +1,19 @@
+MoveDef SpecialLwLaugh
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

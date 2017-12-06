@@ -1,0 +1,22 @@
+MoveDef DamageN2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=23)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

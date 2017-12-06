@@ -1,0 +1,25 @@
+MoveDef PassiveStandF
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x7640002)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=28)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef 0xD9723C3D
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Bit_Variable_Set(Unknown=0x2000007E)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,24 @@
+MoveDef 0xB37A0841
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x10000B6, Bone=0x0, Z=0, Y=3, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=0.6, Terminate=0x0)
+		unk_FD1F7ECF(unknown=0x3FB33333)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x23D00B9)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,33 @@
+MoveDef FinalEnd
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x1)
+		Set_Frame_Duration(Speed=0.75)
+		Asynchronous_Timer(Frames=50)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=92)
+		Script_End()
+	}
+
+	Effect()
+	{
+		unk_524EF3F5(unknown=0x4210001, unknown=0x0, unknown=0x0, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0x530031)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x9, unknown=0x0)
+		Script_End()
+	}
+
+}

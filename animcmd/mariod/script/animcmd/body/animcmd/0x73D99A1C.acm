@@ -1,0 +1,32 @@
+MoveDef 0x73D99A1C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13.5)
+		unk_01A5A27C(unknown=0x7600002, unknown=0x7600000)
+		Asynchronous_Timer(Frames=28.5)
+		unk_01A5A27C(unknown=0x7600000, unknown=0x7600002)
+		Loop_Rest()
+		Subroutine2(Hash=0x73D99A1C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=14)
+		Rumble(unknown=0x11, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x73D99A1C)
+		Script_End()
+	}
+
+}

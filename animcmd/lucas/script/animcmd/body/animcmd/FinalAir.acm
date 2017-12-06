@@ -1,0 +1,31 @@
+MoveDef FinalAir
+{
+	Main()
+	{
+		Subroutine1(Unknown=0xECD55CC6)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x2, unknown=0x1E)
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x0)
+		unk_EE37008F()
+		Asynchronous_Timer(Frames=276)
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

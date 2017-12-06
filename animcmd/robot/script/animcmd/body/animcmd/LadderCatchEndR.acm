@@ -1,0 +1,26 @@
+MoveDef LadderCatchEndR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x250079)
+		Transient_Sound_Effect(unknown=0x25007D)
+		Asynchronous_Timer(Frames=17)
+		unk_F4B1C95B()
+		Sound_Effect(SFX=0x250081)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,29 @@
+MoveDef 0xBA7D017D : Unlisted
+{
+	Main()
+	{
+		Subroutine2(Hash=0x6DA7F0F4)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x6DA7F0F4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81A002D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Screen_Shake(unknown=0x4)
+		Script_End()
+	}
+
+}

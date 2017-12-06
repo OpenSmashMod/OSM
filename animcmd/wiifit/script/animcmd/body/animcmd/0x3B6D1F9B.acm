@@ -1,0 +1,35 @@
+MoveDef 0x3B6D1F9B
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Color_Overlay(Red=255, Green=0, Blue=0, Alpha=0)
+		Change_Overlay(Transition=100, Red=255, Green=20, Blue=0, Alpha=130)
+		Synchronous_Timer(Frames=100)
+		Color_Overlay(Red=255, Green=20, Blue=0, Alpha=130)
+		Synchronous_Timer(Frames=75)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x24B0031)
+		Asynchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x2C9001A)
+		Transient_Sound_Effect(unknown=0x24B0031)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Rumble2(unknown=0x9, unknown=0x0)
+		Script_End()
+	}
+
+}

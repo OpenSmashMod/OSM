@@ -1,0 +1,22 @@
+MoveDef DamageFlyHi
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		unk_7F0F890E(unknown=0x800B000A, unknown=0x800B000B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

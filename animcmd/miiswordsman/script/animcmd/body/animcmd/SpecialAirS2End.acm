@@ -1,0 +1,25 @@
+MoveDef SpecialAirS2End
+{
+	Main()
+	{
+		Bit_Variable_Set(Unknown=0x21000012)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=25)
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x41200000)
+		Script_End()
+	}
+
+}

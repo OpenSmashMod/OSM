@@ -1,0 +1,24 @@
+MoveDef 0xDD485B78
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=31)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=31)
+		Sound_Effect(SFX=0xD0055)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,29 @@
+MoveDef AttackS3Lw
+{
+	Main()
+	{
+		Subroutine2(Hash=0x8376AD51)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x8376AD51)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x8376AD51)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=9)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

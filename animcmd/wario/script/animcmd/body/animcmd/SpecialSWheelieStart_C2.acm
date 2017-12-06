@@ -1,0 +1,21 @@
+MoveDef SpecialSWheelieStart_C2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.4)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

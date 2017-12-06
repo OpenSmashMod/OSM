@@ -1,0 +1,34 @@
+MoveDef 0xFF48FD31
+{
+	Main()
+	{
+		Subroutine2(Hash=0x48FD31CB)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=18)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=22)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=34)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=36)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=39)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=43)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

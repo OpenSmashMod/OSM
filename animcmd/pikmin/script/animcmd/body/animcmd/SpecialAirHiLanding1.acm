@@ -1,0 +1,19 @@
+MoveDef SpecialAirHiLanding1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

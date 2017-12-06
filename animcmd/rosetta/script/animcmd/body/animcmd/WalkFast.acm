@@ -1,0 +1,33 @@
+MoveDef WalkFast
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=25)
+		Graphic_Effect(unknown=0x0, unknown=0xA, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=55)
+		Graphic_Effect(unknown=0x0, unknown=0x6, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x7B801F14)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=18)
+		Transient_Sound_Effect(unknown=0x4A40039)
+		Synchronous_Timer(Frames=35)
+		Transient_Sound_Effect(unknown=0x4A40037)
+		Loop_Rest()
+		Subroutine2(Hash=0x7B801F14)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,26 @@
+MoveDef 0xB4589A21
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Asynchronous_Timer(Frames=10)
+		unk_965E035A()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=9)
+		Rumble(unknown=0x4, unknown=0x0)
+		Script_End()
+	}
+
+}

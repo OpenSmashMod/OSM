@@ -1,0 +1,88 @@
+MoveDef 0x18DE2129
+{
+	Main()
+	{
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=5, Angle=0x32, KBG=0x3C, FKB=0x0, BKB=0x2D, Size=2.2, Z=0, Y=0, X=0, Effect=0x15, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x32, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=29, Angle=0x46, KBG=0x46, FKB=0x0, BKB=0x32, Size=2.2, Z=0, Y=0, X=0, Effect=0x15, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x3, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x32, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		unk_CC26B487(unknown=0x0, unknown=0x1)
+		Special_Hitbox(ID=0x2, Part=0x0, Bone=0x0, Damage=0, Angle=0x16F, KBG=0x50, FKB=0x0, BKB=0xF, Size=6, Z=0, Y=0, X=0, Effect=0x15, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x0, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		unk_54BA7357(unknown=0x31E0012, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x428C0000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x2300DE)
+		Stop_Sound_Effect(unknown=0x230062)
+		unk_2DA7E2B6(unknown=0xB, unknown=0x2, unknown=0x3EE66666)
+		TRUE(Unknown=0x20){
+		unk_377D36CB(unknown=0x9, unknown=0x2, unknown=0xC)
+		TRUE(Unknown=0x8){
+		Sound_Effect(SFX=0x2300B3)
+		Transient_Sound_Effect(unknown=0x2300E0)
+		FALSE(Unknown=0x12){
+		unk_377D36CB(unknown=0x9, unknown=0x2, unknown=0xD)
+		TRUE(Unknown=0x8){
+		Sound_Effect(SFX=0x2300B6)
+		Transient_Sound_Effect(unknown=0x2300E1)
+		FALSE(Unknown=0x6){
+		Sound_Effect(SFX=0x2300B9)
+		Transient_Sound_Effect(unknown=0x2300E2)
+		FALSE(Unknown=0x42){
+		unk_2DA7E2B6(unknown=0xB, unknown=0x2, unknown=0x3F666666)
+		TRUE(Unknown=0x20){
+		unk_377D36CB(unknown=0x9, unknown=0x2, unknown=0xC)
+		TRUE(Unknown=0x8){
+		Sound_Effect(SFX=0x2300B4)
+		Transient_Sound_Effect(unknown=0x2300E0)
+		FALSE(Unknown=0x12){
+		unk_377D36CB(unknown=0x9, unknown=0x2, unknown=0xD)
+		TRUE(Unknown=0x8){
+		Sound_Effect(SFX=0x2300B7)
+		Transient_Sound_Effect(unknown=0x2300E1)
+		FALSE(Unknown=0x6){
+		Sound_Effect(SFX=0x2300BA)
+		Transient_Sound_Effect(unknown=0x2300E2)
+		FALSE(Unknown=0x1E){
+		unk_377D36CB(unknown=0x9, unknown=0x2, unknown=0xC)
+		TRUE(Unknown=0x8){
+		Sound_Effect(SFX=0x2300B5)
+		Transient_Sound_Effect(unknown=0x2300E1)
+		FALSE(Unknown=0x12){
+		unk_377D36CB(unknown=0x9, unknown=0x2, unknown=0xD)
+		TRUE(Unknown=0x8){
+		Sound_Effect(SFX=0x2300B8)
+		Transient_Sound_Effect(unknown=0x2300E2)
+		FALSE(Unknown=0x6){
+		Sound_Effect(SFX=0x2300BB)
+		Transient_Sound_Effect(unknown=0x2300E2)
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

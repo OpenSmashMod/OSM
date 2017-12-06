@@ -1,0 +1,27 @@
+MoveDef SpecialAirS2Start
+{
+	Main()
+	{
+		Subroutine2(Hash=0xA841B9D7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3020018, Bone=0x16, Z=7, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

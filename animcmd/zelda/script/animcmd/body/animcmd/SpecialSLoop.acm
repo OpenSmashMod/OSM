@@ -1,0 +1,30 @@
+MoveDef SpecialSLoop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		External_Graphic(Graphic=0x3100000, Bone=0x18, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.9, Terminate=0x1)
+		Synchronous_Timer(Frames=2)
+		External_Graphic(Graphic=0x1000011, Bone=0x18, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.6, Terminate=0x1)
+		Synchronous_Timer(Frames=16)
+		Goto(Unknown=-26)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef 0x3517185B
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Screen_Shake(unknown=0x5)
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

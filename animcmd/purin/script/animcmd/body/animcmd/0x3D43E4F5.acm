@@ -1,0 +1,36 @@
+MoveDef 0x3D43E4F5 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x260032)
+		Synchronous_Timer(Frames=31)
+		Sound_Effect(SFX=0x260034)
+		Synchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x260032)
+		Synchronous_Timer(Frames=28)
+		Sound_Effect(SFX=0x260034)
+		Synchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x260032)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x6B)
+		Synchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0x260035)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x260032)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

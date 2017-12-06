@@ -1,0 +1,32 @@
+MoveDef SpecialLw_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=3)
+		Asynchronous_Timer(Frames=4)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=10)
+		unk_1D09E516(Unknown=0x8)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x863005F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=5)
+		Rumble2(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

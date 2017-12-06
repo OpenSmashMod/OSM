@@ -1,0 +1,28 @@
+MoveDef SpecialAirNCharge_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xB3123743)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xB3123743)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x1E0044)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xB3123743)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,35 @@
+MoveDef SpecialAirHi_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=0.2)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Asynchronous_Timer(Frames=11)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Asynchronous_Timer(Frames=20)
+		Set_Frame_Duration(Speed=0.5)
+		Asynchronous_Timer(Frames=30)
+		Set_Frame_Duration(Speed=0.1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x17DB0241)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x17DB0241)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x17DB0241)
+		Script_End()
+	}
+
+}

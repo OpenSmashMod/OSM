@@ -1,0 +1,29 @@
+MoveDef 0x6A0B4601
+{
+	Main()
+	{
+		Subroutine2(Hash=0xFEB8A774)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		Subroutine2(Hash=0xFEB8A774)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFEB8A774)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

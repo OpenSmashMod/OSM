@@ -1,0 +1,21 @@
+MoveDef 0x7FB4B68C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect4(unknown=0x5E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,50 @@
+MoveDef AttackAirHi
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		Defensive_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=19, Unknown=3.5)
+		Defensive_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0, Unknown=19, Unknown=4.5)
+		Defensive_Hitbox(Unknown=0x2, Unknown=0x0, Unknown=0, Unknown=19, Unknown=-6.5)
+		unk_AC811479(Unknown=0x0, Unknown=0xFFFFFFFF)
+		Asynchronous_Timer(Frames=6)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=4, Unknown=0x45, Unknown=0x80, Unknown=0x0, Unknown=0x1E, Unknown=3.5, Unknown=0, Unknown=19, Unknown=3.5, Unknown=0x2, Unknown=0, Unknown=1, Unknown=1.5, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=19, Unknown=-5.5)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=4, Unknown=0x45, Unknown=0x80, Unknown=0x0, Unknown=0x1E, Unknown=3, Unknown=0, Unknown=19, Unknown=4.5, Unknown=0x2, Unknown=0, Unknown=1, Unknown=1.5, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=16, Unknown=9.5)
+		Extended_Hitbox(Unknown=0x2, Unknown=0x0, Unknown=0x0, Unknown=4, Unknown=0x34, Unknown=0x80, Unknown=0x0, Unknown=0x1E, Unknown=3, Unknown=0, Unknown=19, Unknown=-6.5, Unknown=0x2, Unknown=0, Unknown=1, Unknown=1.5, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=16, Unknown=-11.5)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=24)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=4)
+		External_Graphic(Graphic=0x317000C, Bone=0x19, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=6)
+		External_Graphic(Graphic=0x317001D, Bone=0x0, Z=0, Y=6.5, X=-1, RotZ=-10, RotY=64, RotX=78, Size=0.85, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		External_Graphic(Graphic=0x317001D, Bone=0x0, Z=0, Y=6.5, X=-1, RotZ=-171, RotY=56, RotX=-83, Size=0.85, Terminate=0x1)
+		Asynchronous_Timer(Frames=9)
+		Terminate_Graphic_Effect(unknown=0x317000C, unknown=0x1, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Low_Voice_Clip(unknown=0x80270000)
+		Sound_Effect(SFX=0x24D00A2)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

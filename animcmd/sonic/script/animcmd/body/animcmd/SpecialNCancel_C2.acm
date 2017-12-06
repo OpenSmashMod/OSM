@@ -1,0 +1,23 @@
+MoveDef SpecialNCancel_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=7)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

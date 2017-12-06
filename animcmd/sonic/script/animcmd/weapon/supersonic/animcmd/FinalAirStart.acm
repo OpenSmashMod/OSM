@@ -1,0 +1,27 @@
+MoveDef FinalAirStart
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x1)
+		Subroutine2(Hash=0x17EB3D5)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		PLAY_SE_REMAIN(unknown=0x5D0000)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x2A0023)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

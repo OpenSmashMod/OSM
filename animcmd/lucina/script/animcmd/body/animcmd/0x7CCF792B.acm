@@ -1,0 +1,28 @@
+MoveDef 0x7CCF792B : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		unk_3A775D26(unknown=0x76C002D)
+		Asynchronous_Timer(Frames=23)
+		Sound_Effect(SFX=0x38)
+		Asynchronous_Timer(Frames=42)
+		Sound_Effect(SFX=0x7610006)
+		Asynchronous_Timer(Frames=110)
+		Sound_Effect(SFX=0x7610008)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

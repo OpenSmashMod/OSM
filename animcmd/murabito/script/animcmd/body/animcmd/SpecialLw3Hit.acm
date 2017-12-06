@@ -1,0 +1,29 @@
+MoveDef SpecialLw3Hit
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x39)
+		Sound_Effect(SFX=0x24C0034)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=40)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

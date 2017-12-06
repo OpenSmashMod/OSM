@@ -1,0 +1,23 @@
+MoveDef SpecialN1Start
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=10)
+		unk_1D09E516(Unknown=0x3)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

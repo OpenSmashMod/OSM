@@ -1,0 +1,21 @@
+MoveDef 0xD32649E9 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3270004, Bone=0x7D2, Z=1, Y=0, X=0, RotZ=0, RotY=0, RotX=-90, Size=1, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

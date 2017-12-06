@@ -1,0 +1,23 @@
+MoveDef SpecialAirLwStart_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE01C02BC)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xE01C02BC)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,49 @@
+MoveDef SpecialAirS_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=2)
+		Asynchronous_Timer(Frames=13)
+		Set_Frame_Duration(Speed=1)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1, Unknown=0x28, Unknown=0x64, Unknown=0x16, Unknown=0x0, Unknown=4.5, Unknown=0, Unknown=4, Unknown=13, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x2, Unknown=0x1, Unknown=0x6, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x5, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=4, Unknown=3)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Basic_Variable_Set(Unknown=0x1, Unknown=0x11000002)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=29)
+		Delete_Hitbox(id=0x0)
+		Allow/Disallow Ledgegrab(Unknown=0x1)
+		Extended_Special_Hitbox(Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=5, Unknown=0x5A, Unknown=0x64, Unknown=0x0, Unknown=0x3C, Unknown=5.5, Unknown=0, Unknown=4, Unknown=13, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x2, Unknown=0x2, Unknown=0x6, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x5, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=4, Unknown=3)
+		Asynchronous_Timer(Frames=30)
+		Remove_All_Hitboxes()
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=31)
+		Basic_Variable_Set(Unknown=0x2, Unknown=0x11000002)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=40)
+		Add/Set_Momentum(Vertical=0.2, Horizontal=0, Mode=0x1)
+		Set_Frame_Duration(Speed=1)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x260083)
+		Sound_Effect(SFX=0x590014)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+}

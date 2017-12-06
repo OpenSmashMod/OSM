@@ -1,0 +1,26 @@
+MoveDef EntryL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x3C27AF3C)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		PLAY_SE_REMAIN(unknown=0x110066)
+		Synchronous_Timer(Frames=59)
+		Sound_Effect(SFX=0x440008)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

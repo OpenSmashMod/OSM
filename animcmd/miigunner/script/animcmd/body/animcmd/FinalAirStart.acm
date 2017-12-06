@@ -1,0 +1,36 @@
+MoveDef FinalAirStart
+{
+	Main()
+	{
+		Subroutine2(Hash=0x17EB3D5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=18)
+		External_Graphic(Graphic=0x4020000, Bone=0x19, Z=0, Y=0, X=6, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81C003A)
+		Sound_Effect(SFX=0x81C003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_EE37008F()
+		Asynchronous_Timer(Frames=20)
+		Set_Loop(Iterations=7){
+		Rumble2(unknown=0x10, unknown=0x0)
+		Synchronous_Timer(Frames=8)
+		Goto(Unknown=-5)
+		}
+		Script_End()
+	}
+
+}

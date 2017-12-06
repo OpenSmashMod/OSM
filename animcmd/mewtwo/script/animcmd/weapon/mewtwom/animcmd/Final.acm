@@ -1,0 +1,37 @@
+MoveDef Final
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		unk_524EF3F5(unknown=0x4330009, unknown=0x7EB, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x0)
+		unk_524EF3F5(unknown=0x4330009, unknown=0x7D2, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F333333, unknown=0x0)
+		External_Graphic(Graphic=0x4330002, Bone=0x0, Z=0, Y=27, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		unk_FD1F7ECF(unknown=0x3FA66666)
+		Asynchronous_Timer(Frames=2)
+		Asynchronous_Timer(Frames=36)
+		unk_524EF3F5(unknown=0x4330003, unknown=0x0, unknown=0x0, unknown=0x41500000, unknown=0x41100000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0x4){
+		FALSE(Unknown=0x2){
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=37)
+		Sound_Effect(SFX=0xBFC005F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

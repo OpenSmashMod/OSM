@@ -1,0 +1,22 @@
+MoveDef SpecialAirSDown_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x76A000D)
+		Sound_Effect(SFX=0x76A000E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

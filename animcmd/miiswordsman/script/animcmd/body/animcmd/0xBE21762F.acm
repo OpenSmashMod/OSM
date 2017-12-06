@@ -1,0 +1,27 @@
+MoveDef 0xBE21762F
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Pickup_Item2(Unknown=0x0, Unknown=0x2)
+		Asynchronous_Timer(Frames=6)
+		Consume_Item(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x40400000)
+		Script_End()
+	}
+
+}

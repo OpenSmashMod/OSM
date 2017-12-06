@@ -1,0 +1,24 @@
+MoveDef SpecialAirSStart_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

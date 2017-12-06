@@ -1,0 +1,33 @@
+MoveDef AppealSL
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=13)
+		unk_15F0023E(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=25)
+		External_Graphic(Graphic=0x3260001, Bone=0x3F6, Z=0, Y=-1.09, X=0, RotZ=0, RotY=91, RotX=90, Size=1.1, Terminate=0x1)
+		Asynchronous_Timer(Frames=53)
+		Terminate_Graphic_Effect(unknown=0x3260001, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=70)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x0, unknown=0xC0E00000, unknown=0x40C00000, unknown=0x41500000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3ECCCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xB7B5C29C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xB7B5C29C)
+		Script_End()
+	}
+
+}

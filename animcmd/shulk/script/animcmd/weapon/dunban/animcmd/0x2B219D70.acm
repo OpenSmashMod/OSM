@@ -1,0 +1,22 @@
+MoveDef 0x2B219D70
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=35)
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0xC2400000, unknown=0x0, unknown=0x41300000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

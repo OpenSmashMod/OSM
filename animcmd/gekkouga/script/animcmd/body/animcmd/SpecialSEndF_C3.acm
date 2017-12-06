@@ -1,0 +1,25 @@
+MoveDef SpecialSEndF_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.66)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE437BA8D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

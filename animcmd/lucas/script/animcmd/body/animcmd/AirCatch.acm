@@ -1,0 +1,45 @@
+MoveDef AirCatch
+{
+	Main()
+	{
+		Generate_Weapon(ID=0x5)
+		Article_Visibility(Unknown=0x5, Unknown=0x0)
+		Synchronous_Timer(Frames=7)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=8)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		unk_AF41E94E(unknown=0x5, unknown=0x1)
+		Article_Visibility(Unknown=0x5, Unknown=0x1)
+		Asynchronous_Timer(Frames=9)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x1A, Damage=4, Angle=0x2D, KBG=0x1E, FKB=0x0, BKB=0x3C, Size=2.3, Z=0, Y=0, X=-0.5, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0)
+		Asynchronous_Timer(Frames=13)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x1A, Damage=2.8, Angle=0x2D, KBG=0x1E, FKB=0x0, BKB=0x28, Size=2, Z=0, Y=0, X=-0.5, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0)
+		Asynchronous_Timer(Frames=20)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=25)
+		unk_A30D3CA2(unknown=0x5, unknown=0x3)
+		Asynchronous_Timer(Frames=50)
+		Remove_Article(Unknown=0x5)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x1D008E)
+		Synchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0x1D008F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef 0xD3FBE249
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=41)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

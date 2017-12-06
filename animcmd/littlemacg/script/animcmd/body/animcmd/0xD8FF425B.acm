@@ -1,0 +1,25 @@
+MoveDef 0xD8FF425B
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		Asynchronous_Timer(Frames=12)
+		Asynchronous_Timer(Frames=15)
+		Asynchronous_Timer(Frames=18)
+		Asynchronous_Timer(Frames=30)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

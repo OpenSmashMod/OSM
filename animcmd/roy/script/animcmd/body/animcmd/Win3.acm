@@ -1,0 +1,35 @@
+MoveDef Win3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=28)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC1400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=81)
+		Sword_Glow(unknown=0xEE, unknown=0xEF, unknown=0x7, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x3EA, unknown=0xB727C5AC, unknown=0xB7A7C5AC, unknown=0x41580000, unknown=0x1, unknown=0x3360008, unknown=0x3EA, unknown=0x0, unknown=0x0, unknown=0xBE4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F866666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xB, unknown=0x1)
+		Asynchronous_Timer(Frames=88)
+		Terminate_Sword_Glow(unknown=0x4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		unk_3A775D26(unknown=0xC26001C)
+		Asynchronous_Timer(Frames=35)
+		Sound_Effect(SFX=0xC230086)
+		Asynchronous_Timer(Frames=113)
+		Sound_Effect(SFX=0xC230035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x6)
+		Script_End()
+	}
+
+}

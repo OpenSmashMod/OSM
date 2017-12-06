@@ -1,0 +1,43 @@
+MoveDef Attack13
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=9)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=2, Angle=0x5A, KBG=0x64, FKB=0x19, BKB=0x0, Size=4.2, Z=0, Y=5, X=14, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=2, Angle=0x55, KBG=0x64, FKB=0x19, BKB=0x0, Size=3.7, Z=0, Y=5, X=8, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x0, Damage=2, Angle=0x3C, KBG=0x64, FKB=0x25, BKB=0x0, Size=3.2, Z=0, Y=5, X=2, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Asynchronous_Timer(Frames=11)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=15)
+		Bit_Variable_Set(Unknown=0x21000011)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=8)
+		unk_54BA7357(unknown=0x100008D, unknown=0x0, unknown=0x0, unknown=0x40D00000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x42480000)
+		Asynchronous_Timer(Frames=10)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x0, unknown=0xC0A00000, unknown=0x40D00000, unknown=0x41A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=9)
+		Low_Voice_Clip(unknown=0x80050005)
+		Sound_Effect(SFX=0x1E0055)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=3)
+		Slope_Full(unknown=0x1, unknown=0x2)
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0x10, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef AirCatchPose
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x1B0078)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

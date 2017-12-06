@@ -1,0 +1,29 @@
+MoveDef SpecialHiEnd_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		Set_Frame_Duration(Speed=1.2)
+		Asynchronous_Timer(Frames=20)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x2300D2)
+		unk_F4B1C95B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

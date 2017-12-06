@@ -1,0 +1,30 @@
+MoveDef 0x93AC4709
+{
+	Main()
+	{
+		Add_Momentum(Vertical=2, Horizontal=0)
+		Subroutine2(Hash=0x16E98CE7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x16E98CE7)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x76C002C)
+		Sound_Effect(SFX=0x761002F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x16E98CE7)
+		Script_End()
+	}
+
+}

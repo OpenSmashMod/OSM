@@ -1,0 +1,68 @@
+MoveDef 0x9F79558F
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=18)
+		Normal_Camera()
+		Asynchronous_Timer(Frames=19)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=10, Angle=0x10E, KBG=0x64, FKB=0x12C, BKB=0x0, Size=16, Z=0, Y=15, X=20, Effect=0xB, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=5, Angle=0x1E, KBG=0x64, FKB=0x32, BKB=0x0, Size=16, Z=0, Y=15, X=20, Effect=0x5, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x2, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=23)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=74)
+		Screen_Shake(unknown=0x5)
+		Special_Hitbox(ID=0x0, Part=0x1, Bone=0x7D1, Damage=10, Angle=0x10E, KBG=0x64, FKB=0xFA, BKB=0x0, Size=24, Z=0, Y=0, X=120, Effect=0x14, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Rumble(unknown=0x8, unknown=0x2D)
+		Graphic_Effect2(unknown=0x4140003, unknown=0x7D0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Graphic_Effect2(unknown=0x4140010, unknown=0x7D0, unknown=0x0, unknown=0x0, unknown=0x40C00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0x4){
+		FALSE(Unknown=0x2){
+		}
+		}
+		Asynchronous_Timer(Frames=19)
+		External_Graphic(Graphic=0x4140001, Bone=0x81A, Z=6, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		External_Graphic(Graphic=0x4140001, Bone=0x816, Z=6, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		External_Graphic(Graphic=0x4140002, Bone=0x807, Z=5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		External_Graphic(Graphic=0x4140002, Bone=0x7F8, Z=5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Asynchronous_Timer(Frames=60)
+		External_Graphic(Graphic=0x414000F, Bone=0x7D0, Z=0, Y=20, X=-40, RotZ=0, RotY=0, RotX=0, Size=0.8, Terminate=0x0)
+		Asynchronous_Timer(Frames=72)
+		External_Graphic(Graphic=0x4140004, Bone=0x7D0, Z=0, Y=0, X=25, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Asynchronous_Timer(Frames=74)
+		Bit_Variable_Set(Unknown=0x20000004)
+		Graphic_Effect2(unknown=0x4140005, unknown=0x7D0, unknown=0x0, unknown=0x0, unknown=0x41A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Graphic_Effect2(unknown=0x4140006, unknown=0x7D0, unknown=0xC1C80000, unknown=0x0, unknown=0x41E00000, unknown=0x0, unknown=0x0, unknown=0x41F00000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Graphic_Effect2(unknown=0x4140006, unknown=0x7D0, unknown=0x41C80000, unknown=0x0, unknown=0x41E00000, unknown=0x0, unknown=0x0, unknown=0xC1F00000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Rumble(unknown=0xF, unknown=0x0)
+		Asynchronous_Timer(Frames=110)
+		External_Graphic(Graphic=0x4140008, Bone=0x7D0, Z=0, Y=15, X=25, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Asynchronous_Timer(Frames=118)
+		External_Graphic(Graphic=0x414000A, Bone=0x7D0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		External_Graphic(Graphic=0x414000B, Bone=0x7D0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Graphic_Effect2(unknown=0x4140007, unknown=0x7D0, unknown=0x0, unknown=0x0, unknown=0xC1900000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=74)
+		Sound_Effect(SFX=0x19001E)
+		Synchronous_Timer(Frames=7)
+		Stop_Sound_Effect(unknown=0x19001E)
+		Sound_Effect(SFX=0x19001D)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

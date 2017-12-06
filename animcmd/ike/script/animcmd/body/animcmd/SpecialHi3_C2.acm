@@ -1,0 +1,33 @@
+MoveDef SpecialHi3_C2
+{
+	Main()
+	{
+		unk_20DB2106(unknown=0x0, unknown=0xC1A00000)
+		unk_692BBCFA()
+		unk_663DE182(unknown=0x0, unknown=0xC0A00000)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x3E8, Damage=5, Angle=0x32, KBG=0x1E, FKB=0x0, BKB=0x78, Size=6.5, Z=0, Y=8, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x1, Unknown=0x1, Unknown=0xA)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x3E8, Damage=5, Angle=0x113, KBG=0x1E, FKB=0x0, BKB=0x78, Size=4.8, Z=0, Y=8, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x2, Unknown=0x1, Unknown=0xA)
+		Asynchronous_Timer(Frames=2)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x3E8, Damage=5, Angle=0x32, KBG=0x1E, FKB=0x0, BKB=0x78, Size=4.8, Z=0, Y=8, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x2, Unknown=0x1, Unknown=0xA)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Sword_Glow(unknown=0x4, unknown=0x8F, unknown=0x7, unknown=0x3E8, unknown=0x0, unknown=0x3FD9999A, unknown=0x0, unknown=0x3E8, unknown=0x0, unknown=0x41800000, unknown=0x0, unknown=0x1, unknown=0x31D0000, unknown=0x3E8, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xB, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x24003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,28 @@
+MoveDef SpecialSJump_C3
+{
+	Main()
+	{
+		Set_Armor(State=0x1, Type=0x0)
+		Add_Momentum(Vertical=0, Horizontal=-0.15)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0xA0042)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

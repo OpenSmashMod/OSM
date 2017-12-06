@@ -1,0 +1,21 @@
+MoveDef SpecialSGet
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

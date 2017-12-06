@@ -1,0 +1,22 @@
+MoveDef JumpAerialF5
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x26006D)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

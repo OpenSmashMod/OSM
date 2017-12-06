@@ -1,0 +1,21 @@
+MoveDef SpecialSWheelieEnd_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.6)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

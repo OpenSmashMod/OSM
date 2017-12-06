@@ -1,0 +1,21 @@
+MoveDef 0xA718C725 : Unlisted
+{
+	Main()
+	{
+		Add_Momentum(Vertical=0, Horizontal=1.33)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

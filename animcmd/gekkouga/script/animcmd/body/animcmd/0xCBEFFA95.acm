@@ -1,0 +1,23 @@
+MoveDef 0xCBEFFA95 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Low_Voice_Clip(unknown=0x80380006)
+		Sound_Effect(SFX=0x768003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

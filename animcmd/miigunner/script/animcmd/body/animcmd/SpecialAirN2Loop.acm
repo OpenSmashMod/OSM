@@ -1,0 +1,30 @@
+MoveDef SpecialAirN2Loop
+{
+	Main()
+	{
+		Subroutine2(Hash=0xFEC0A440)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=4)
+		External_Graphic(Graphic=0x302000D, Bone=0x16, Z=7, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=0.7, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x81C0041)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

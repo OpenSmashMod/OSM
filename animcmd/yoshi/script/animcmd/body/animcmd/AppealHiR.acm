@@ -1,0 +1,46 @@
+MoveDef AppealHiR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x9005E)
+		Asynchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x90052)
+		Asynchronous_Timer(Frames=35)
+		Sound_Effect(SFX=0x90050)
+		Asynchronous_Timer(Frames=51)
+		Sound_Effect(SFX=0x90052)
+		Asynchronous_Timer(Frames=67)
+		Sound_Effect(SFX=0x9002A)
+		Asynchronous_Timer(Frames=75)
+		Sound_Effect(SFX=0x9001E)
+		Asynchronous_Timer(Frames=96)
+		Sound_Effect(SFX=0x9002A)
+		Sound_Effect(SFX=0x3E0018)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=17)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=34)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=50)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=66)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=95)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

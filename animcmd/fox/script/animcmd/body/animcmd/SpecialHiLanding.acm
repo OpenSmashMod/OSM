@@ -1,0 +1,23 @@
+MoveDef SpecialHiLanding
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x4, unknown=0x0)
+		Asynchronous_Timer(Frames=15)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

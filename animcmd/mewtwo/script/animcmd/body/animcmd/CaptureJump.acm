@@ -1,0 +1,23 @@
+MoveDef CaptureJump
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xBFC000C)
+		Synchronous_Timer(Frames=9)
+		Stop_Sound_Effect(unknown=0xBFC000C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

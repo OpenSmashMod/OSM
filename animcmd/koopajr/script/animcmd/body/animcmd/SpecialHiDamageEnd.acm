@@ -1,0 +1,21 @@
+MoveDef SpecialHiDamageEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x123DB31E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

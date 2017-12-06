@@ -1,0 +1,28 @@
+MoveDef SpecialAirHiStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xABD189D7)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x500004)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=20)
+		Screen_Shake(unknown=0x3)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,41 @@
+MoveDef WalkMiddle
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=7)
+		Graphic_Effect(unknown=0x0, unknown=0x6, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=27)
+		Graphic_Effect(unknown=0x0, unknown=0xA, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x9DB075F7)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		unk_01A5A27C(unknown=0xD0057, unknown=0xD0059)
+		Synchronous_Timer(Frames=20)
+		unk_01A5A27C(unknown=0xD0059, unknown=0xD0057)
+		Loop_Rest()
+		Subroutine2(Hash=0x9DB075F7)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x0, unknown=0xA)
+		Asynchronous_Timer(Frames=8)
+		Rumble2(unknown=0x14, unknown=0x0)
+		Asynchronous_Timer(Frames=28)
+		Rumble2(unknown=0x14, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x9DB075F7)
+		Script_End()
+	}
+
+}

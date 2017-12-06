@@ -1,0 +1,27 @@
+MoveDef SpecialAirLw1Hit
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x4E047017)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81C0031)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

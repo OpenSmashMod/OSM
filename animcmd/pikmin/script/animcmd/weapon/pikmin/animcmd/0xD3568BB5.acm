@@ -1,0 +1,41 @@
+MoveDef 0xD3568BB5
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=6){
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=150)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=5, Red=0, Green=0, Blue=0, Alpha=100)
+		Synchronous_Timer(Frames=5)
+		Change_Overlay(Transition=8, Red=0, Green=0, Blue=0, Alpha=0)
+		Synchronous_Timer(Frames=8)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-26)
+		}
+		Set_Loop(Iterations=-1)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=150)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=2, Red=0, Green=0, Blue=0, Alpha=100)
+		Synchronous_Timer(Frames=2)
+		Change_Overlay(Transition=4, Red=0, Green=0, Blue=0, Alpha=0)
+		Synchronous_Timer(Frames=4)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-26)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

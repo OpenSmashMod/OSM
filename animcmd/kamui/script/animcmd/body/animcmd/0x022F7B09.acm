@@ -1,0 +1,43 @@
+MoveDef 0x022F7B09
+{
+	Main()
+	{
+		Generate_Weapon(ID=0x2)
+		Set_Article_Action(Unknown=0x2, Unknown=0x4)
+		Asynchronous_Timer(Frames=4)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x19, Unknown=0.5, Unknown=0x50, Unknown=0x1, Unknown=0x0, Unknown=0x14, Unknown=3.5, Unknown=0, Unknown=0, Unknown=0, Unknown=0x2, Unknown=0, Unknown=1.1, Unknown=1.5, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x5, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=6, Unknown=0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		Set_Loop(Iterations=-1){
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x41700000, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x18, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40800000, unknown=0x40800000, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Goto(Unknown=-36)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x112)
+		Asynchronous_Timer(Frames=4)
+		Transient_Sound_Effect(unknown=0xC9B0036)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Aesthetic_Wind_Effect(unknown=0x0, unknown=0x3F000000, unknown=0x43520000, unknown=0x40000000, unknown=0x3F000000, unknown=0xC1200000, unknown=0x40A00000, unknown=0x41A00000, unknown=0x41200000, unknown=0xA)
+		unk_C52B4328(unknown=0x3F4CCCCD, unknown=0x3F19999A, unknown=0xBF800000, unknown=0x3F4CCCCD, unknown=0x3F4CCCCD, unknown=0xBF800000, unknown=0xFFFFFFFF)
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x22, unknown=0x39)
+		Script_End()
+	}
+
+}

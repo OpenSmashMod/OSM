@@ -1,0 +1,35 @@
+MoveDef SpecialS1
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=21)
+		Generate_Weapon(ID=0x7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=21)
+		External_Graphic(Graphic=0x302001F, Bone=0x16, Z=7, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=22)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		Sound_Effect(SFX=0x81C0035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=21)
+		Screen_Shake(unknown=0x3)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

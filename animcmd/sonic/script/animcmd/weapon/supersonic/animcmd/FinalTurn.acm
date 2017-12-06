@@ -1,0 +1,25 @@
+MoveDef FinalTurn
+{
+	Main()
+	{
+		Subroutine2(Hash=0x8C4DCE7F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Rumble2(unknown=0x9, unknown=0x1D)
+		Loop_Rest()
+		Subroutine2(Hash=0x4353EC40)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

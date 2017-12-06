@@ -1,0 +1,23 @@
+MoveDef 0x72E1B46F
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE9B99AD4)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Low_Voice_Clip(unknown=0x802A0000)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

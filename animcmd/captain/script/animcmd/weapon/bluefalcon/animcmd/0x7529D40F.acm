@@ -1,0 +1,33 @@
+MoveDef 0x7529D40F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x30C0008, Bone=0x7D2, Z=10, Y=2, X=-20, RotZ=0, RotY=180, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x30C0008, Bone=0x7D2, Z=-10, Y=2, X=-20, RotZ=0, RotY=180, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x30C0008, Bone=0x7D2, Z=10, Y=-1, X=-20, RotZ=0, RotY=180, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x30C0008, Bone=0x7D2, Z=-10, Y=-1, X=-20, RotZ=0, RotY=180, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=24)
+		External_Graphic(Graphic=0x100000D, Bone=0x7D2, Z=0, Y=-6, X=-10, RotZ=0, RotY=0, RotX=0, Size=1.8, Terminate=0x1)
+		Asynchronous_Timer(Frames=40)
+		Terminate_Graphic_Effect(unknown=0x30C0008, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=93)
+		External_Graphic(Graphic=0x30C0008, Bone=0x7D2, Z=10, Y=2, X=-20, RotZ=0, RotY=180, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x30C0008, Bone=0x7D2, Z=-10, Y=2, X=-20, RotZ=0, RotY=180, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x30C0008, Bone=0x7D2, Z=10, Y=-1, X=-20, RotZ=0, RotY=180, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x30C0008, Bone=0x7D2, Z=-10, Y=-1, X=-20, RotZ=0, RotY=180, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,26 @@
+MoveDef 0xF524D36E : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=50)
+		unk_3A775D26(unknown=0x2C9002B)
+		Asynchronous_Timer(Frames=45)
+		Sound_Effect(SFX=0x24B001D)
+		Asynchronous_Timer(Frames=101)
+		Sound_Effect(SFX=0x24B0027)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

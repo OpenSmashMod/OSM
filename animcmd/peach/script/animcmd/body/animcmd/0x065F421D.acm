@@ -1,0 +1,27 @@
+MoveDef 0x065F421D : Unlisted
+{
+	Main()
+	{
+		Hitbox(ID=0x0, Part=0x0, Bone=0x18, Damage=15, Angle=0x169, KBG=0x41, FKB=0x0, BKB=0x3C, Size=3, Z=0, Y=3.6, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x14, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x9)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x18, Damage=15, Angle=0x169, KBG=0x41, FKB=0x0, BKB=0x3C, Size=3, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x14, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x9)
+		Hitbox(ID=0x3, Part=0x0, Bone=0x18, Damage=15, Angle=0x169, KBG=0x41, FKB=0x0, BKB=0x3C, Size=4.5, Z=0, Y=8.5, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x14, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x9)
+		Synchronous_Timer(Frames=1)
+		Hitbox(ID=0x4, Part=0x0, Bone=0x0, Damage=15, Angle=0x169, KBG=0x41, FKB=0x0, BKB=0x3C, Size=7, Z=0, Y=8.5, X=13, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x14, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x9)
+		Synchronous_Timer(Frames=1)
+		Delete_Hitbox(id=0x4)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,25 @@
+MoveDef 0xC2B19CF3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x6F20A311)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=15)
+		Aesthetic_Wind_Effect(unknown=0x0, unknown=0x40000000, unknown=0x43020000, unknown=0x40800000, unknown=0x3ECCCCCD, unknown=0x0, unknown=0x41400000, unknown=0x41F00000, unknown=0x41F00000, unknown=0x0)
+		Script_End()
+	}
+
+}

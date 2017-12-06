@@ -1,0 +1,26 @@
+MoveDef 0x2CC6900C
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0x64E8D52)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

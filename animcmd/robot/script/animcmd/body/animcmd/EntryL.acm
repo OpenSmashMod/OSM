@@ -1,0 +1,61 @@
+MoveDef EntryL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x250037)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x250074)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x250074)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x250074)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x250074)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x250078)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x25007A)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x250078)
+		Synchronous_Timer(Frames=6)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x25007A)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x25007A)
+		Asynchronous_Timer(Frames=92)
+		Sound_Effect(SFX=0x250078)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x250037)
+		Synchronous_Timer(Frames=16)
+		Transient_Sound_Effect(unknown=0x25007C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_315E8C48(unknown=0x0, unknown=0x0)
+		unk_315E8C48(unknown=0x0, unknown=0x3)
+		unk_315E8C48(unknown=0x0, unknown=0x1)
+		Bit_Variable_Set(Unknown=0x20000065)
+		Asynchronous_Timer(Frames=36)
+		unk_315E8C48(unknown=0x1, unknown=0x0)
+		unk_315E8C48(unknown=0x1, unknown=0x3)
+		Asynchronous_Timer(Frames=56)
+		unk_315E8C48(unknown=0x1, unknown=0x1)
+		Asynchronous_Timer(Frames=95)
+		Bit_Variable_Clear(Unknown=0x20000065)
+		Asynchronous_Timer(Frames=110)
+		Slope_Full(unknown=0x9, unknown=0x5)
+		Script_End()
+	}
+
+}

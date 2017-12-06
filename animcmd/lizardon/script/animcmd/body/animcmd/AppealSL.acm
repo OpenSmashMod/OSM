@@ -1,0 +1,28 @@
+MoveDef AppealSL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xB7B5C29C)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xB7B5C29C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=112)
+		Rumble(unknown=0x12, unknown=0x0)
+		Screen_Shake(unknown=0x3)
+		Script_End()
+	}
+
+}

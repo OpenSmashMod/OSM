@@ -1,0 +1,34 @@
+MoveDef AttackS3Hi
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.8)
+		Asynchronous_Timer(Frames=14)
+		Set_Frame_Duration(Speed=1)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=12.5, Unknown=0x169, Unknown=0x61, Unknown=0x0, Unknown=0x1E, Unknown=4, Unknown=0, Unknown=11, Unknown=10, Unknown=0x2, Unknown=0, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0xE, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=14, Unknown=22.5)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x8376AD51)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x8376AD51)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

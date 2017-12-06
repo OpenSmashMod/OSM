@@ -1,0 +1,23 @@
+MoveDef FinalAirSpecialAttackL
+{
+	Main()
+	{
+		Subroutine2(Hash=0x9F06ED6F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x9F06ED6F)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

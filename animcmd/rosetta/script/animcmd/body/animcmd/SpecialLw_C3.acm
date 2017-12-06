@@ -1,0 +1,41 @@
+MoveDef SpecialLw_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=35)
+		Set_Frame_Duration(Speed=0.7)
+		Asynchronous_Timer(Frames=40)
+		SCH_CLR_ALL()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3270000, Bone=0x18, Z=0, Y=7.5, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3270001, Bone=0x18, Z=0, Y=7.5, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=47)
+		Terminate_Graphic_Effect(unknown=0x3270000, unknown=0x0, unknown=0x0)
+		Terminate_Graphic_Effect(unknown=0x3270001, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4A40069)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		Set_Loop(Iterations=4){
+		Rumble2(unknown=0x10, unknown=0x0)
+		Synchronous_Timer(Frames=10)
+		Goto(Unknown=-5)
+		}
+		Script_End()
+	}
+
+}

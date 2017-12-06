@@ -1,0 +1,27 @@
+MoveDef 0x9673D96B : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_4E94C51B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=2)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=6)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

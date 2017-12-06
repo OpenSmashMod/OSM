@@ -1,0 +1,25 @@
+MoveDef SpecialAirNShoot_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xD62EAEB9)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xD62EAEB9)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xD62EAEB9)
+		Script_End()
+	}
+
+}

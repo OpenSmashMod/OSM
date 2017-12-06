@@ -1,0 +1,21 @@
+MoveDef SpecialAirLwEndAir_C3
+{
+	Main()
+	{
+		unk_692BBCFA()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

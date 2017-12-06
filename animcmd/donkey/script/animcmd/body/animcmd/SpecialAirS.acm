@@ -1,0 +1,44 @@
+MoveDef SpecialAirS
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=20)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=10, Unknown=0x10E, Unknown=0x28, Unknown=0x0, Unknown=0x1E, Unknown=6.5, Unknown=0, Unknown=5, Unknown=8.8, Unknown=0xB, Unknown=0, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x19, Unknown=0x2, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x1, Unknown=0, Unknown=5, Unknown=1.4)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=8, Angle=0x46, KBG=0x28, FKB=0x0, BKB=0xF, Size=10, Z=0, Y=11, X=14, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x19, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x2, Unknown=0x1, Unknown=0x1)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3040000, Bone=0x0, Z=0, Y=0, X=-6, RotZ=25, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=20)
+		External_Graphic(Graphic=0x304000A, Bone=0x0, Z=1, Y=0, X=13, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=21)
+		Graphic_Effect2(unknown=0x1000028, unknown=0x0, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=19)
+		Sound_Effect(SFX=0x70052)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=18)
+		Rumble(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=19)
+		Slope_Full(unknown=0x1, unknown=0x2)
+		Screen_Shake(unknown=0x3)
+		Asynchronous_Timer(Frames=47)
+		Slope_Full(unknown=0x6, unknown=0x8)
+		Script_End()
+	}
+
+}

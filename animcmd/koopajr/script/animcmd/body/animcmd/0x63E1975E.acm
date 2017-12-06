@@ -1,0 +1,21 @@
+MoveDef 0x63E1975E : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x14E6A7C8)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

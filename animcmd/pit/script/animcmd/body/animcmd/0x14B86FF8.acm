@@ -1,0 +1,25 @@
+MoveDef 0x14B86FF8
+{
+	Main()
+	{
+		Subroutine1(Unknown=0x36783DB2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0x36783DB2)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine1(Unknown=0x36783DB2)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

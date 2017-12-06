@@ -1,0 +1,28 @@
+MoveDef 0xF2EE0274
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0x2E436C4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x11C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_C52B4328(unknown=0x3F4CCCCD, unknown=0x3F333333, unknown=0xBF800000, unknown=0x3F800000, unknown=0x3F800000, unknown=0xBF800000, unknown=0xFFFFFFFF)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		Rumble2(unknown=0x22, unknown=0x39)
+		Script_End()
+	}
+
+}

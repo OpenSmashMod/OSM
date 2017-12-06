@@ -1,0 +1,21 @@
+MoveDef Ottotto
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_F615B1D5()
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

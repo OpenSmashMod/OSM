@@ -1,0 +1,27 @@
+MoveDef Win2Wait
+{
+	Main()
+	{
+		unk_979D8828(Unknown=0x3)
+		unk_870CF021(unknown=0x4){
+		unk_1D09E516(Unknown=0x3)
+		}
+		Set_Article_Action(Unknown=0x3, Unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

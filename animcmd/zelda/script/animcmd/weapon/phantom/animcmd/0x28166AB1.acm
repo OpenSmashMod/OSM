@@ -1,0 +1,23 @@
+MoveDef 0x28166AB1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Bit_Variable_Set(Unknown=0x20000006)
+		Script_End()
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x120059)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

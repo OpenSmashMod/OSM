@@ -1,0 +1,26 @@
+MoveDef CaptureCut
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x76A0020)
+		Synchronous_Timer(Frames=9)
+		Stop_Sound_Effect(unknown=0x76A0020)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=25)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

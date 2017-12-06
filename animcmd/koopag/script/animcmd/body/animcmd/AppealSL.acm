@@ -1,0 +1,54 @@
+MoveDef AppealSL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xB7B5C29C)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=29)
+		Sound_Effect(SFX=0x6E00047)
+		Asynchronous_Timer(Frames=33)
+		Sound_Effect(SFX=0x8AA0033)
+		Asynchronous_Timer(Frames=48)
+		Sound_Effect(SFX=0x6E00047)
+		Asynchronous_Timer(Frames=54)
+		Sound_Effect(SFX=0x8AA0033)
+		Asynchronous_Timer(Frames=64)
+		Sound_Effect(SFX=0x6E00048)
+		Asynchronous_Timer(Frames=69)
+		Sound_Effect(SFX=0x8AA0033)
+		Asynchronous_Timer(Frames=79)
+		Sound_Effect(SFX=0x6E00048)
+		Asynchronous_Timer(Frames=85)
+		Sound_Effect(SFX=0x8AA0033)
+		Asynchronous_Timer(Frames=102)
+		Sound_Effect(SFX=0x6E00048)
+		Asynchronous_Timer(Frames=107)
+		Sound_Effect(SFX=0x8AA0033)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=33)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=53)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=68)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=85)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=107)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

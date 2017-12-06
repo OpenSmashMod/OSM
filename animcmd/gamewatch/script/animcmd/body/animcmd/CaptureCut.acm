@@ -1,0 +1,30 @@
+MoveDef CaptureCut
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Asynchronous_Timer(Frames=3)
+		Model_Changer(unknown=0x7, unknown=0x0)
+		Asynchronous_Timer(Frames=29)
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x6DF0037)
+		Synchronous_Timer(Frames=8)
+		Stop_Sound_Effect(unknown=0x6DF0037)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

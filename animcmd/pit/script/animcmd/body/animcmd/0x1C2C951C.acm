@@ -1,0 +1,32 @@
+MoveDef 0x1C2C951C
+{
+	Main()
+	{
+		Set_Armor(State=0x0, Type=0x0)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=5, Unknown=0x1E, Unknown=0x5A, Unknown=0x0, Unknown=0x46, Unknown=6, Unknown=0, Unknown=6, Unknown=16, Unknown=0x0, Unknown=0, Unknown=2, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=18, Unknown=16)
+		Extended_Special_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=5, Unknown=0x1E, Unknown=0x5A, Unknown=0x0, Unknown=0x46, Unknown=6, Unknown=0, Unknown=6, Unknown=-16, Unknown=0x0, Unknown=0, Unknown=2, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=18, Unknown=-16)
+		Asynchronous_Timer(Frames=5)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_E20C02D4(unknown=0x10000DD, unknown=0x0, unknown=0x40000000, unknown=0x41200000, unknown=0xC1300000, unknown=0x0, unknown=0x42700000, unknown=0x0, unknown=0x40000000, unknown=0x1, unknown=0x437F0000, unknown=0x42480000, unknown=0x42480000)
+		unk_E20C02D4(unknown=0x10000DD, unknown=0x0, unknown=0x40000000, unknown=0x41200000, unknown=0x41300000, unknown=0x0, unknown=0x43960000, unknown=0x0, unknown=0x40000000, unknown=0x1, unknown=0x437F0000, unknown=0x42480000, unknown=0x42480000)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

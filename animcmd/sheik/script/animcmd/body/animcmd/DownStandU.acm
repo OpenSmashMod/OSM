@@ -1,0 +1,32 @@
+MoveDef DownStandU
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x130060)
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x13002A)
+		Asynchronous_Timer(Frames=24)
+		Sound_Effect(SFX=0x13002B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Asynchronous_Timer(Frames=9)
+		Slope_Full(unknown=0x0, unknown=0xA)
+		Asynchronous_Timer(Frames=20)
+		Slope_Full(unknown=0x6, unknown=0x5)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,36 @@
+MoveDef FinalStartL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x4180005, Bone=0x0, Z=0, Y=15, X=0, RotZ=0, RotY=0, RotX=0, Size=1.3, Terminate=0x0)
+		unk_FD1F7ECF(unknown=0x3F666666)
+		Asynchronous_Timer(Frames=5)
+		External_Graphic(Graphic=0x418000A, Bone=0x7DB, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=2, Terminate=0x0)
+		Asynchronous_Timer(Frames=15)
+		External_Graphic(Graphic=0x418000A, Bone=0x7F1, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.5, Terminate=0x0)
+		Asynchronous_Timer(Frames=20)
+		External_Graphic(Graphic=0x418000A, Bone=0x7D4, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Asynchronous_Timer(Frames=25)
+		External_Graphic(Graphic=0x418000A, Bone=0x7D8, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Asynchronous_Timer(Frames=35)
+		External_Graphic(Graphic=0x418000A, Bone=0x7E5, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Asynchronous_Timer(Frames=50)
+		External_Graphic(Graphic=0x418000A, Bone=0x7E6, Z=0, Y=0, X=2, RotZ=0, RotY=0, RotX=0, Size=1.5, Terminate=0x0)
+		Asynchronous_Timer(Frames=55)
+		External_Graphic(Graphic=0x418000B, Bone=0x7E6, Z=0, Y=0, X=2, RotZ=0, RotY=0, RotX=0, Size=2, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

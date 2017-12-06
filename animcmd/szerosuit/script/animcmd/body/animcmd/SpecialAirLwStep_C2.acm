@@ -1,0 +1,25 @@
+MoveDef SpecialAirLwStep_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x319001A, Bone=0x0, Z=-1, Y=-0.7, X=0, RotZ=90, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x319000F, Bone=0xB, Z=-1, Y=-0.7, X=0, RotZ=0, RotY=0, RotX=0, Size=0.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=2)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xA8)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,50 @@
+MoveDef SpecialAirSEnd_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=3)
+		Add/Set_Momentum(Vertical=0, Horizontal=0.5, Mode=0x1)
+		Defensive_Collision(Unknown=0x3, Unknown=0x0, Unknown=0x3)
+		Set_Armor(State=0x1, Type=0x0)
+		Asynchronous_Timer(Frames=2)
+		Add/Set_Momentum(Vertical=2, Horizontal=0, Mode=0x1)
+		Asynchronous_Timer(Frames=3)
+		Add/Set_Momentum(Vertical=0.5, Horizontal=2, Mode=0x1)
+		Set_Frame_Duration(Speed=1)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=11.5, Unknown=0x2B, Unknown=0x3A, Unknown=0x0, Unknown=0x5A, Unknown=6.2, Unknown=5, Unknown=4, Unknown=7, Unknown=0x3, Unknown=0, Unknown=1.5, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0xA, Unknown=0x2, Unknown=0x7, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=5, Unknown=10, Unknown=7)
+		Asynchronous_Timer(Frames=6)
+		Set_Armor(State=0x0, Type=0x0)
+		Remove_All_Hitboxes()
+		Terminate_Defensive_Collision(Unknown=0x3, Unknown=0x0, Unknown=0x3)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x100001C, unknown=0x0, unknown=0x40A00000, unknown=0x41700000, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3260013, Bone=0x18, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=3, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=4)
+		External_Graphic(Graphic=0x3260017, Bone=0x0, Z=4, Y=12, X=-3.5, RotZ=-33, RotY=25, RotX=93, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Low_Voice_Clip(unknown=0x80400006)
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x762002B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x3)
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

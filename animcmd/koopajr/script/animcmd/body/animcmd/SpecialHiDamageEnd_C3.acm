@@ -1,0 +1,21 @@
+MoveDef SpecialHiDamageEnd_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE899D6EF)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

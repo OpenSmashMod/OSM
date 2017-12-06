@@ -1,0 +1,29 @@
+MoveDef 0x126E356F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x100001A, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		IS_FLAG_WORK(unknown=0x21000014)
+		TRUE(Unknown=0x4){
+		FALSE(Unknown=0x4){
+		Transient_Sound_Effect(unknown=0x769000E)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

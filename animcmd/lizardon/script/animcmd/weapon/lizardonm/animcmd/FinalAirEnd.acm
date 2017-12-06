@@ -1,0 +1,26 @@
+MoveDef FinalAirEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=10)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		PLAY_SE_REMAIN(unknown=0x20001F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

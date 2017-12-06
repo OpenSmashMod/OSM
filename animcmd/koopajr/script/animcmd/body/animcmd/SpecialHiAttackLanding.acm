@@ -1,0 +1,27 @@
+MoveDef SpecialHiAttackLanding
+{
+	Main()
+	{
+		unk_1D09E516(Unknown=0x0)
+		Asynchronous_Timer(Frames=23)
+		unk_501A7157(Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x123DB31E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

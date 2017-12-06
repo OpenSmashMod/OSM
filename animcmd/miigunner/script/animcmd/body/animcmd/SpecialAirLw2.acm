@@ -1,0 +1,27 @@
+MoveDef SpecialAirLw2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x3F3FA9BE)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x81C0043)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=12)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

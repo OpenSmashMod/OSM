@@ -1,0 +1,22 @@
+MoveDef CatchStart
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=7)
+		Bit_Variable_Set(Unknown=0x21000000)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

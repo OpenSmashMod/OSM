@@ -1,0 +1,29 @@
+MoveDef Win3Wait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=25)
+		External_Graphic_Effect2(unknown=0x100002E, unknown=0x0, unknown=0xC0000000, unknown=0x3F800000, unknown=0x40800000, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0.8, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x554CBE53)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=30)
+		unk_3A775D26(unknown=0x39002D)
+		Synchronous_Timer(Frames=20)
+		Sound_Effect(SFX=0xC0076)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

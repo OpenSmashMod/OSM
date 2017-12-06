@@ -1,0 +1,21 @@
+MoveDef 0x4E539999 : Unlisted
+{
+	Main()
+	{
+		Subroutine2(Hash=0x99896810)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

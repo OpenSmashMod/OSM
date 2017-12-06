@@ -1,0 +1,28 @@
+MoveDef FinalDaimonji
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=16)
+		Generate_Weapon(ID=0x0)
+		Asynchronous_Timer(Frames=30)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=17)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

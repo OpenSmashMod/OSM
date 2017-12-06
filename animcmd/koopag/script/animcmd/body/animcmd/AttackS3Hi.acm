@@ -1,0 +1,34 @@
+MoveDef AttackS3Hi
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x11, Damage=14, Angle=0x169, KBG=0x50, FKB=0x0, BKB=0x1C, Size=18, Z=6.97, Y=-0.15, X=0.66, Effect=0x13, Trip=0.5, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0xF, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x10, Damage=14, Angle=0x169, KBG=0x50, FKB=0x0, BKB=0x1C, Size=16, Z=0, Y=-0.75, X=-0.17, Effect=0x13, Trip=0.5, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0xF, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x3, Damage=14, Angle=0x169, KBG=0x50, FKB=0x0, BKB=0x1C, Size=18, Z=10.76, Y=-5.31, X=4, Effect=0x13, Trip=0.5, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0xF, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x8376AD51)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x8376AD51)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=10)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

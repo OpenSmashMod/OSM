@@ -1,0 +1,37 @@
+MoveDef 0x59D1FD57
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=41)
+		Set_Armor(State=0x1, Type=0x0)
+		Asynchronous_Timer(Frames=51)
+		Subroutine1(Unknown=0xC6F6D0D6)
+		Set_Armor(State=0x0, Type=0x0)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Synchronous_Timer(Frames=10)
+		Terminate_Defensive_Collision(Unknown=0x3, Unknown=0x0, Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0xF893A783)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_C026EEC4(Unknown=1)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=46)
+		Rumble(unknown=0x13, unknown=0x0)
+		Script_End()
+	}
+
+}

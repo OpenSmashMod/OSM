@@ -1,0 +1,27 @@
+MoveDef 0x32E9BFEF
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.8)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xFEA2FFF0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFEA2FFF0)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFEA2FFF0)
+		Script_End()
+	}
+
+}

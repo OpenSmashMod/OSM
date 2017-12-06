@@ -1,0 +1,22 @@
+MoveDef RunBrakeR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x6E00014)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

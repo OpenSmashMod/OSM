@@ -1,0 +1,27 @@
+MoveDef SpecialAirLwEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x4CC76EE7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x4CC76EE7)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x4CC76EE7)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

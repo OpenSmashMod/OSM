@@ -1,0 +1,64 @@
+MoveDef SpecialS1
+{
+	Main()
+	{
+		Allow/Disallow Ledgegrab(Unknown=0x0)
+		Asynchronous_Timer(Frames=5)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=0x169, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=3.2, Unknown=0, Unknown=6, Unknown=6, Unknown=0x1, Unknown=0, Unknown=0, Unknown=0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0, Unknown=2, Unknown=6)
+		Extended_Special_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=0x169, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=3.2, Unknown=0, Unknown=4, Unknown=2, Unknown=0x1, Unknown=0, Unknown=0, Unknown=0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0, Unknown=4, Unknown=2)
+		Asynchronous_Timer(Frames=13)
+		Allow/Disallow Ledgegrab(Unknown=0x1)
+		Synchronous_Timer(Frames=27)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40400000, unknown=0x0, unknown=0x40400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=4)
+		unk_F707ECF8(unknown=0x10000084, unknown=0x10000085, unknown=0x6, unknown=0x19, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x19, unknown=0xB727C5AC, unknown=0x41580000, unknown=0x0, unknown=0x1, unknown=0x10000083, unknown=0x19, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x1, unknown=0x0, unknown=0xB, unknown=0x1)
+		Asynchronous_Timer(Frames=7)
+		Graphic_Effect4(unknown=0x301000E, unknown=0x0, unknown=0x0, unknown=0x40A00000, unknown=0xC0A00000, unknown=0x42B40000, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1)
+		External_Graphic(Graphic=0x301000F, Bone=0x0, Z=0, Y=4.5, X=0, RotZ=0, RotY=0, RotX=0, Size=0.95, Terminate=0x1)
+		Set_Loop(Iterations=-1){
+		unk_54BA7357(unknown=0x1000045, unknown=0x0, unknown=0x0, unknown=0x40900000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC2B40000, unknown=0x3F333333, unknown=0x1, unknown=0x42C80000)
+		unk_54BA7357(unknown=0x1000045, unknown=0x0, unknown=0x0, unknown=0x40900000, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0xC2B40000, unknown=0x3F4CCCCD, unknown=0x1, unknown=0x42C80000)
+		Synchronous_Timer(Frames=9)
+		Goto(Unknown=-26)
+		}
+		Asynchronous_Timer(Frames=8)
+		Set_Loop(Iterations=-1){
+		Color_Overlay(Red=46, Green=194, Blue=255, Alpha=120)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=100)
+		Synchronous_Timer(Frames=1)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-17)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x81B0035)
+		unk_2DA7E2B6(unknown=0x36, unknown=0x2, unknown=0x3F000000)
+		TRUE(Unknown=0x6){
+		Transient_Sound_Effect(unknown=0x81B0036)
+		FALSE(Unknown=0x4){
+		Transient_Sound_Effect(unknown=0x81B0037)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

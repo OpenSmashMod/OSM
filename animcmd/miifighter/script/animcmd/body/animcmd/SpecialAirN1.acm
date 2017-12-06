@@ -1,0 +1,33 @@
+MoveDef SpecialAirN1
+{
+	Main()
+	{
+		Subroutine2(Hash=0x284C9595)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x100008F, unknown=0x0, unknown=0xC0A00000, unknown=0x40E00000, unknown=0xBF000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x81A0026)
+		Synchronous_Timer(Frames=20)
+		Sound_Effect(SFX=0x81A0027)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=28)
+		Rumble(unknown=0xC, unknown=0x0)
+		Screen_Shake(unknown=0x3)
+		Script_End()
+	}
+
+}

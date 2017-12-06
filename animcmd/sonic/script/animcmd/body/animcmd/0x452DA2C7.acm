@@ -1,0 +1,41 @@
+MoveDef 0x452DA2C7
+{
+	Main()
+	{
+		MOT_SET_RATE(Unknown=80)
+		IS_FLAG_WORK(unknown=0x21000010)
+		unk_870CF021(unknown=0x2E){
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x3, Damage=5, Angle=0x10E, KBG=0x5A, FKB=0x0, BKB=0x14, Size=3.5, Z=0, Y=1.5, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xD, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		FALSE(Unknown=0x2C){
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x2, Damage=5, Angle=0x10E, KBG=0x5A, FKB=0x0, BKB=0x14, Size=3.5, Z=0, Y=1.5, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xD, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		}
+		}
+		unk_E634F701(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3220004, Bone=0x3E8, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Graphic_Effect4(unknown=0x3220005, unknown=0x0, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1)
+		Synchronous_Timer(Frames=2)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x2A005F)
+		Sound_Effect(SFX=0x5D0003)
+		Sound_Effect(SFX=0x2A0074)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x838686AE)
+		Item_Visibility(unknown=0x0)
+		unk_27213F09(unknown=0x0)
+		Script_End()
+	}
+
+}

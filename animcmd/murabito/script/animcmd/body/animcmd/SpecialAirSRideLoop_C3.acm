@@ -1,0 +1,21 @@
+MoveDef SpecialAirSRideLoop_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFC08A523)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,37 @@
+MoveDef TurnRun
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=10)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=18)
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x120036)
+		unk_687F9320(unknown=0x120036, unknown=0xA)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect2(unknown=0x120094)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect2(unknown=0x120093)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=20)
+		Rumble(unknown=0x15, unknown=0x0)
+		Script_End()
+	}
+
+}

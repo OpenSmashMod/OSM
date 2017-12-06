@@ -1,0 +1,28 @@
+MoveDef SpecialNTronHold_C2
+{
+	Main()
+	{
+		Generate_Weapon(ID=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x770001D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Screen_Shake(unknown=0x5)
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

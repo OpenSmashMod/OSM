@@ -1,0 +1,54 @@
+MoveDef SpecialAirN_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x7EC39C7F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=9)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x18, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=10)
+		External_Graphic(Graphic=0x1000023, Bone=0x0, Z=0, Y=8.5, X=0, RotZ=0, RotY=180, RotX=0, Size=2.3, Terminate=0x1)
+		Asynchronous_Timer(Frames=11)
+		External_Graphic(Graphic=0x3100008, Bone=0x18, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3100008, Bone=0x19, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=12)
+		External_Graphic(Graphic=0x1000023, Bone=0x0, Z=0, Y=12.5, X=0, RotZ=0, RotY=0, RotX=0, Size=2, Terminate=0x1)
+		Asynchronous_Timer(Frames=27)
+		External_Graphic(Graphic=0x1000017, Bone=0x0, Z=0, Y=8, X=0, RotZ=0, RotY=0, RotX=0, Size=0.9, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x450000)
+		Sound_Effect(SFX=0x1200B3)
+		Synchronous_Timer(Frames=22)
+		Sound_Effect(SFX=0x136)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=12)
+		Rumble2(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=14)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=27)
+		Screen_Shake(unknown=0x4)
+		unk_3C95CD87(unknown=0x1, unknown=0x40000000, unknown=0x3D4CCCCD, unknown=0x447A0000, unknown=0x3F800000, unknown=0x0, unknown=0x41000000, unknown=0x41F00000, unknown=0x50)
+		Asynchronous_Timer(Frames=28)
+		Rumble(unknown=0xE, unknown=0x0)
+		Asynchronous_Timer(Frames=54)
+		Terminate_Wind_Effect(unknown=0x1)
+		Asynchronous_Timer(Frames=61)
+		Slope_Full(unknown=0x0, unknown=0x5)
+		Script_End()
+	}
+
+}

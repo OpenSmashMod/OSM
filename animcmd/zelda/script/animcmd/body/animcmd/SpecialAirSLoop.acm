@@ -1,0 +1,24 @@
+MoveDef SpecialAirSLoop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x2739DEC0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

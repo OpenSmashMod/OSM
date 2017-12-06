@@ -1,0 +1,31 @@
+MoveDef FinalEndPerfectAirL
+{
+	Main()
+	{
+		Subroutine2(Hash=0x8806E46C)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x8806E46C)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x70018)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=16)
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

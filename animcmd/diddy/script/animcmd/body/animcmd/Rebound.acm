@@ -1,0 +1,23 @@
+MoveDef Rebound
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=13)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

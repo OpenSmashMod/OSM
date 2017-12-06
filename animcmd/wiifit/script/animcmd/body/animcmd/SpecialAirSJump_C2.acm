@@ -1,0 +1,25 @@
+MoveDef SpecialAirSJump_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x2C90007)
+		Sound_Effect(SFX=0x24B0019)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x74EA6822)
+		Script_End()
+	}
+
+}

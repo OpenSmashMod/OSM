@@ -1,0 +1,49 @@
+MoveDef AppealSL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=15)
+		Set_Loop(Iterations=4){
+		Graphic_Effect3(unknown=0x100000E, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=15)
+		Goto(Unknown=-19)
+		}
+		Asynchronous_Timer(Frames=83)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0xC0800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=15)
+		Synchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x6B)
+		Synchronous_Timer(Frames=10.5)
+		Sound_Effect(SFX=0x6B)
+		Synchronous_Timer(Frames=10.5)
+		Sound_Effect(SFX=0x6B)
+		Synchronous_Timer(Frames=11)
+		Sound_Effect(SFX=0x6B)
+		Synchronous_Timer(Frames=11)
+		Sound_Effect(SFX=0x6B)
+		Synchronous_Timer(Frames=11)
+		Sound_Effect(SFX=0x6B)
+		Synchronous_Timer(Frames=14)
+		Sound_Effect(SFX=0xA007D)
+		Synchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x3F0003)
+		Synchronous_Timer(Frames=16)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0xA0069)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

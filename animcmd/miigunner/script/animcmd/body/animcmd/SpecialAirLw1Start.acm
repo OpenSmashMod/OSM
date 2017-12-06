@@ -1,0 +1,25 @@
+MoveDef SpecialAirLw1Start
+{
+	Main()
+	{
+		Subroutine2(Hash=0xF1904F4A)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xF1904F4A)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

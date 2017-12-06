@@ -1,0 +1,50 @@
+MoveDef 0xD4D1E129 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		unk_3A775D26(unknown=0x76E0035)
+		Asynchronous_Timer(Frames=29)
+		unk_3A775D26(unknown=0x76E0029)
+		Asynchronous_Timer(Frames=34)
+		Sound_Effect(SFX=0x7630019)
+		Asynchronous_Timer(Frames=43)
+		Sound_Effect(SFX=0x7630012)
+		Asynchronous_Timer(Frames=53)
+		Sound_Effect(SFX=0x763000A)
+		Asynchronous_Timer(Frames=55)
+		Sound_Effect(SFX=0x7630007)
+		Asynchronous_Timer(Frames=58)
+		Sound_Effect(SFX=0x763000F)
+		Asynchronous_Timer(Frames=84)
+		Sound_Effect(SFX=0x7630006)
+		Asynchronous_Timer(Frames=99)
+		Sound_Effect(SFX=0x7630018)
+		Asynchronous_Timer(Frames=117)
+		Sound_Effect(SFX=0x7630019)
+		Asynchronous_Timer(Frames=119)
+		Asynchronous_Timer(Frames=126)
+		Asynchronous_Timer(Frames=130)
+		Asynchronous_Timer(Frames=158)
+		Sound_Effect(SFX=0x6D)
+		Asynchronous_Timer(Frames=166)
+		Sound_Effect(SFX=0x7630017)
+		Asynchronous_Timer(Frames=172)
+		Sound_Effect(SFX=0x7630003)
+		Sound_Effect(SFX=0x763002E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

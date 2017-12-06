@@ -1,0 +1,24 @@
+MoveDef 0xDDA23D59
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x82B0017)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=32)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,31 @@
+MoveDef 0xC7B568F4
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=8)
+		Subroutine1(Unknown=0x351EE58)
+		Asynchronous_Timer(Frames=10)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x1, unknown=0x4)
+		Asynchronous_Timer(Frames=5)
+		unk_040FD56E(unknown=0x1, unknown=0x4, unknown=0x1)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=27)
+		Slope_Full(unknown=0x6, unknown=0x4)
+		Script_End()
+	}
+
+}

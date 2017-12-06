@@ -1,0 +1,24 @@
+MoveDef 0x293C68F7
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x126E356F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Transient_Sound_Effect(unknown=0x863000D)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

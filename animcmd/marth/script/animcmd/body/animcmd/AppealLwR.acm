@@ -1,0 +1,39 @@
+MoveDef AppealLwR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Asynchronous_Timer(Frames=49)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x3EA, unknown=0xB727C5AC, unknown=0xB7A7C5AC, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Terminate_Sword_Glow(unknown=0x4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x49000A)
+		Synchronous_Timer(Frames=26)
+		Sound_Effect(SFX=0x16004D)
+		Synchronous_Timer(Frames=16)
+		Sound_Effect(SFX=0x160050)
+		Synchronous_Timer(Frames=29)
+		Sound_Effect(SFX=0x160050)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=28)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=69)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,25 @@
+MoveDef FinalMoveEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x1E9D7AE2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Rumble2(unknown=0x9, unknown=0x31)
+		Loop_Rest()
+		Subroutine2(Hash=0x245DBBD)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

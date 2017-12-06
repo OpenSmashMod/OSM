@@ -1,0 +1,37 @@
+MoveDef SpecialSJump_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.8)
+		SEARCH(Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=4, Unknown=0, Unknown=0, Unknown=0, Unknown=0x2, Unknown=0x3F, Unknown=0x3, Unknown=0x0, Unknown=0xF, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=10)
+		Add_Momentum(Vertical=-1, Horizontal=0)
+		Asynchronous_Timer(Frames=16)
+		Set Air/Ground(Unknown=0x6A)
+		Asynchronous_Timer(Frames=25)
+		Enable Action Status(Unknown=0x1E00009B)
+		Script_End()
+	}
+
+	Effect()
+	{
+		unk_E20C02D4(unknown=0x30E000D, unknown=0xA, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x437F0000, unknown=0x42BC0000, unknown=0x42740000)
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect2(unknown=0x1000011, unknown=0xA, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x110077)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x440002)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,31 @@
+MoveDef EscapeN
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Body_Collision(Unknown=0x2)
+		Asynchronous_Timer(Frames=25)
+		Body_Collision(Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x6E00087)
+		Synchronous_Timer(Frames=29)
+		Sound_Effect(SFX=0x6E0001C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

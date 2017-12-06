@@ -1,0 +1,61 @@
+MoveDef EntryR
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=9)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=50)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x30D000C, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC25C0000, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=9)
+		Color_Overlay(Red=0, Green=0, Blue=0, Alpha=255)
+		Synchronous_Timer(Frames=20)
+		Change_Overlay(Transition=40, Red=30, Green=0, Blue=0, Alpha=255)
+		Synchronous_Timer(Frames=20)
+		Change_Overlay(Transition=35, Red=128, Green=0, Blue=0, Alpha=0)
+		Synchronous_Timer(Frames=35)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0xF0064)
+		Synchronous_Timer(Frames=51)
+		Sound_Effect(SFX=0xF0071)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0xF0071)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0xF0071)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0xF0071)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0xF0071)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0xF0071)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_27213F09(unknown=0x0)
+		unk_A5187BBC(unknown=0x0)
+		Tag_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=5)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=7)
+		unk_A5187BBC(unknown=0x1)
+		Tag_Visibility(unknown=0x1)
+		Screen_Shake(unknown=0x3)
+		Asynchronous_Timer(Frames=50)
+		unk_27213F09(unknown=0x1)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,30 @@
+MoveDef AppealHiR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x590010)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x26006E)
+		Synchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0x26006E)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x26006A)
+		Synchronous_Timer(Frames=43)
+		Sound_Effect(SFX=0x260034)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef DownEatD
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Pickup_Item2(Unknown=0x0, Unknown=0x2)
+		Asynchronous_Timer(Frames=6)
+		Consume_Item(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_15F0023E(unknown=0x1, unknown=0x0)
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Script_End()
+	}
+
+}

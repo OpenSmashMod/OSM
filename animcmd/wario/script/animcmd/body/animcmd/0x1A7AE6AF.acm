@@ -1,0 +1,23 @@
+MoveDef 0x1A7AE6AF
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x1A00A3)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

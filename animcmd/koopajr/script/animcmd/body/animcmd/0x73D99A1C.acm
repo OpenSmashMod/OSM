@@ -1,0 +1,29 @@
+MoveDef 0x73D99A1C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Synchronous_Timer(Frames=1)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x8630001)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=10)
+		Rumble2(unknown=0x9, unknown=0x19)
+		Loop_Rest()
+		Subroutine2(Hash=0x73D99A1C)
+		Script_End()
+	}
+
+}

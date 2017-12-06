@@ -1,0 +1,21 @@
+MoveDef SpLwRespond : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x1C005B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

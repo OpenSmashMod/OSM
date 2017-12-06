@@ -1,0 +1,24 @@
+MoveDef 0x1917DF1F
+{
+	Main()
+	{
+		Synchronous_Timer(Frames=1)
+		unk_300A0A85()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x130074)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

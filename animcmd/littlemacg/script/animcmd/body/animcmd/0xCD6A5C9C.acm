@@ -1,0 +1,22 @@
+MoveDef 0xCD6A5C9C
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=8)
+		Synchronous_Timer(Frames=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

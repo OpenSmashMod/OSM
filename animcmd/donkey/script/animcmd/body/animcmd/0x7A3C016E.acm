@@ -1,0 +1,26 @@
+MoveDef 0x7A3C016E
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect2(unknown=0x7005A)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect2(unknown=0x70058)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,31 @@
+MoveDef SpecialS2Loop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Synchronous_Timer(Frames=1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3020027, Bone=0x16, Z=7, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=0.7, Terminate=0x1)
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F333333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=10)
+		Goto(Unknown=-34)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

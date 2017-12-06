@@ -1,0 +1,58 @@
+MoveDef 0x5C186792
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		unk_870CF021(unknown=0xF){
+		External_Graphic(Graphic=0x332001E, Bone=0x11, Z=-4, Y=0, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x1)
+		FALSE(Unknown=0x2){
+		}
+		}
+		Asynchronous_Timer(Frames=12)
+		External_Graphic(Graphic=0x332000E, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=16)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		unk_870CF021(unknown=0x15){
+		Graphic_Effect3(unknown=0x100000C, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		FALSE(Unknown=0x2){
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=15)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		unk_870CF021(unknown=0x4){
+		Sound_Effect(SFX=0x23D0036)
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=14)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		unk_870CF021(unknown=0x7){
+		Rumble(unknown=0xD, unknown=0x0)
+		FALSE(Unknown=0x2){
+		}
+		}
+		Asynchronous_Timer(Frames=14)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		unk_870CF021(unknown=0x4){
+		FALSE(Unknown=0x5){
+		Rumble(unknown=0xC, unknown=0x0)
+		}
+		}
+		Script_End()
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef SpecialNFood_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x7760005)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

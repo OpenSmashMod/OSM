@@ -1,0 +1,47 @@
+MoveDef AppealLwR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=20)
+		External_Graphic(Graphic=0x1000014, Bone=0x0, Z=-2, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		unk_BF72BDCA(unknown=0x42480000)
+		External_Graphic(Graphic=0x3020008, Bone=0x16, Z=6.5, Y=0, X=0, RotZ=0, RotY=270, RotX=0, Size=0.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=21)
+		Asynchronous_Timer(Frames=30)
+		External_Graphic(Graphic=0x3020008, Bone=0x16, Z=6.5, Y=0, X=0, RotZ=0, RotY=270, RotX=0, Size=0.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=40)
+		External_Graphic(Graphic=0x3020008, Bone=0x16, Z=6.5, Y=0, X=0, RotZ=0, RotY=270, RotX=0, Size=0.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=50)
+		External_Graphic(Graphic=0x3020008, Bone=0x16, Z=6.5, Y=0, X=0, RotZ=0, RotY=270, RotX=0, Size=0.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=60)
+		External_Graphic(Graphic=0x3020008, Bone=0x16, Z=6.5, Y=0, X=0, RotZ=0, RotY=270, RotX=0, Size=0.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=70)
+		External_Graphic(Graphic=0x3020008, Bone=0x16, Z=6.5, Y=0, X=0, RotZ=0, RotY=270, RotX=0, Size=0.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=80)
+		External_Graphic(Graphic=0x3020008, Bone=0x16, Z=6.5, Y=0, X=0, RotZ=0, RotY=270, RotX=0, Size=0.7, Terminate=0x1)
+		Terminate_Graphic_Effect(unknown=0x1000014, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		Sound_Effect(SFX=0x81C0068)
+		Asynchronous_Timer(Frames=23)
+		Sound_Effect(SFX=0x81C0066)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=20)
+		Rumble2(unknown=0x2, unknown=0x46)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,25 @@
+MoveDef SquatRv
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81B000D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x40A00000)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

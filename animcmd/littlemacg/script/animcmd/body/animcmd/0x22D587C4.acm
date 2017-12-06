@@ -1,0 +1,35 @@
+MoveDef 0x22D587C4
+{
+	Main()
+	{
+		Set_Armor(State=0x1, Type=0x0)
+		MOT_SET_RATE(Unknown=0.5)
+		Asynchronous_Timer(Frames=3)
+		Asynchronous_Timer(Frames=4)
+		Subroutine1(Unknown=0x78015C48)
+		unk_1AFDA8E6(Unknown=0x2, Unknown=0x16, Unknown=0x0, Unknown=0, Unknown=0)
+		unk_1AFDA8E6(Unknown=0x3, Unknown=0x14, Unknown=0x0, Unknown=0, Unknown=0)
+		Asynchronous_Timer(Frames=6)
+		Set_Armor(State=0x0, Type=0x0)
+		MOT_SET_RATE(Unknown=0.8)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=6)
+		Rumble(unknown=0x10, unknown=0x0)
+		Script_End()
+	}
+
+}

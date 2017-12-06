@@ -1,0 +1,24 @@
+MoveDef 0x67A3293A
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=17)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

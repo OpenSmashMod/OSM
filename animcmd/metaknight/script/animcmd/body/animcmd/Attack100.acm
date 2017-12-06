@@ -1,0 +1,89 @@
+MoveDef Attack100
+{
+	Main()
+	{
+		Set_Loop(Iterations=-1){
+		Asynchronous_Timer(Frames=1)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x3C, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=5.8, Unknown=0, Unknown=5.3, Unknown=8.5, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x54, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=6.8, Unknown=0, Unknown=5.3, Unknown=13, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=5)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x3C, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=5.8, Unknown=0, Unknown=5.3, Unknown=8.5, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x54, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=6.8, Unknown=0, Unknown=5.3, Unknown=13, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=9)
+		Bit_Variable_Set(Unknown=0x21000016)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x3C, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=5.8, Unknown=0, Unknown=5.3, Unknown=8.5, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x54, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=6.8, Unknown=0, Unknown=5.3, Unknown=13, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=14)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x3C, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=5.8, Unknown=0, Unknown=5.3, Unknown=8.5, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x54, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=6.8, Unknown=0, Unknown=5.3, Unknown=13, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=18)
+		Bit_Variable_Set(Unknown=0x21000016)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x3C, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=5.8, Unknown=0, Unknown=5.3, Unknown=8.5, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=1.2, Unknown=0x54, Unknown=0x1E, Unknown=0x0, Unknown=0x8, Unknown=6.8, Unknown=0, Unknown=5.3, Unknown=13, Unknown=0x2, Unknown=0, Unknown=1, Unknown=0.6, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=5.2, Unknown=8)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Bit_Variable_Set(Unknown=0x21000016)
+		unk_522DBA37()
+		Bit_Variable_Set(Unknown=0x21000016)
+		Goto(Unknown=-314)
+		}
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3170000, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x317000C, Bone=0x19, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=4)
+		Set_Loop(Iterations=-1){
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F99999A, unknown=0x41200000, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=6)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x41200000, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x41200000, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		Goto(Unknown=-57)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x24D0093)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x24D0094)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x24D0093)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x24D0094)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x24D0093)
+		Loop_Rest()
+		Subroutine2(Hash=0xB007C283)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_15F0023E(unknown=0x1, unknown=0x0)
+		Asynchronous_Timer(Frames=4)
+		Rumble2(unknown=0x1, unknown=0x0)
+		Asynchronous_Timer(Frames=13)
+		Rumble2(unknown=0x1, unknown=0x0)
+		Asynchronous_Timer(Frames=21)
+		Rumble2(unknown=0x1, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xB007C283)
+		Script_End()
+	}
+
+}

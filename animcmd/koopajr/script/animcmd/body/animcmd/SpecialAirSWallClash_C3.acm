@@ -1,0 +1,26 @@
+MoveDef SpecialAirSWallClash_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_D3D9401B(Unknown=-0.5, Unknown=2.2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x1000027, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x3D09059F)
+		Script_End()
+	}
+
+}

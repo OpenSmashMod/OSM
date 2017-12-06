@@ -1,0 +1,24 @@
+MoveDef 0x88781EE9
+{
+	Main()
+	{
+		SET_SCALE(unknown=0x3FCCCCCD)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=32)
+		Graphic_Effect2(unknown=0x32A0010, unknown=0x7D1, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

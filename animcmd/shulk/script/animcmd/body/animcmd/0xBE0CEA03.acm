@@ -1,0 +1,29 @@
+MoveDef 0xBE0CEA03 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=25)
+		unk_3A775D26(unknown=0x773002E)
+		Sound_Effect(SFX=0x7670033)
+		Asynchronous_Timer(Frames=40)
+		Sound_Effect(SFX=0x7670022)
+		Asynchronous_Timer(Frames=67)
+		Sound_Effect(SFX=0x7670022)
+		Asynchronous_Timer(Frames=129)
+		Sound_Effect(SFX=0x7670038)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

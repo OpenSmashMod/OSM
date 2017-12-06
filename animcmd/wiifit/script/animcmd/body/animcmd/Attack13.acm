@@ -1,0 +1,41 @@
+MoveDef Attack13
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=6)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=3, Angle=0x169, KBG=0x23, FKB=0x0, BKB=0xA, Size=1.8, Z=0, Y=2, X=6, Effect=0xB, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x80000001, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=3, Angle=0x169, KBG=0x78, FKB=0x0, BKB=0x1E, Size=6, Z=0, Y=5, X=7, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=7)
+		Graphic_Effect(unknown=0x100000A, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Low_Voice_Clip(unknown=0x8014000B)
+		Sound_Effect(SFX=0x24B0045)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=6)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=38)
+		Slope_Full(unknown=0x6, unknown=0x7)
+		Script_End()
+	}
+
+}

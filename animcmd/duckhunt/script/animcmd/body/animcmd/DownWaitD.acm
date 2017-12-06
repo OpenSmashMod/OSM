@@ -1,0 +1,31 @@
+MoveDef DownWaitD
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x44)
+		Stop_Sound_Effect(unknown=0x45)
+		Stop_Sound_Effect(unknown=0x46)
+		Asynchronous_Timer(Frames=1)
+		IS_FLAG_WORK(unknown=0x21000021)
+		unk_870CF021(unknown=0x4){
+		Sound_Effect4(unknown=0x5F)
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Script_End()
+	}
+
+}

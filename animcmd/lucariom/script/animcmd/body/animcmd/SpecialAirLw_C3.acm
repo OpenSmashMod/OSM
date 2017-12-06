@@ -1,0 +1,41 @@
+MoveDef SpecialAirLw_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x259AB4BB)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x31E000C, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0001, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=180, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0002, Bone=0x17, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=6)
+		External_Graphic(Graphic=0x31E0001, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=180, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0002, Bone=0x17, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=16)
+		External_Graphic(Graphic=0x31E0001, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=180, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0002, Bone=0x17, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=20)
+		External_Graphic(Graphic=0x31E0001, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=180, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0002, Bone=0x17, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=30)
+		External_Graphic(Graphic=0x31E0001, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=180, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0002, Bone=0x17, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x259AB4BB)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x259AB4BB)
+		Script_End()
+	}
+
+}

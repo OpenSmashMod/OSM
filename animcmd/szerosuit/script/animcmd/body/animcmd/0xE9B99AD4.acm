@@ -1,0 +1,26 @@
+MoveDef 0xE9B99AD4
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		REVERSE_LR()
+		Asynchronous_Timer(Frames=9)
+		unk_50730439(Unknown=16, Unknown=13, Unknown=0x1, Unknown=0x0, Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x99E49994)
+		Script_End()
+	}
+
+}

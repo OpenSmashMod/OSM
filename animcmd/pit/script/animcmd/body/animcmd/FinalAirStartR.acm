@@ -1,0 +1,28 @@
+MoveDef FinalAirStartR
+{
+	Main()
+	{
+		Subroutine2(Hash=0x9AB1A775)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x12371432)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x9AB1A775)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_EE37008F()
+		Subroutine2(Hash=0x12371432)
+		Script_End()
+	}
+
+}

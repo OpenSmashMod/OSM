@@ -1,0 +1,25 @@
+MoveDef 0xDAA56967
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Subroutine2(Hash=0xE693CFBA)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		External_Graphic(Graphic=0x3320025, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

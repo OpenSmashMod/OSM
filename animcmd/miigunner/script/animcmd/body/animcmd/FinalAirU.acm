@@ -1,0 +1,21 @@
+MoveDef FinalAirU : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xC9F566E6)
+		Script_End()
+	}
+
+}

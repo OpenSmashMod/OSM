@@ -1,0 +1,23 @@
+MoveDef SpecialAirNHitoS_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xA54E4291)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xA54E4291)
+		Script_End()
+	}
+
+}

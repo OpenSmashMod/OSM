@@ -1,0 +1,48 @@
+MoveDef 0x60A4424E
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=29)
+		Subroutine1(Unknown=0x517F59E6)
+		Synchronous_Timer(Frames=5)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=73)
+		Subroutine1(Unknown=0x517F59E6)
+		Synchronous_Timer(Frames=5)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=122)
+		Subroutine1(Unknown=0x517F59E6)
+		Change_Hitbox_Size(Unknown=0x0, Unknown=16)
+		Change_Hitbox_Size(Unknown=0x1, Unknown=16)
+		Synchronous_Timer(Frames=13)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3230000, Bone=0x3, Z=2, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=27)
+		Transient_Sound_Effect(unknown=0x590002)
+		Synchronous_Timer(Frames=50)
+		Transient_Sound_Effect(unknown=0x590003)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=28)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=72)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=120)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

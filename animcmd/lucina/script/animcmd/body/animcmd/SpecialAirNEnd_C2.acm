@@ -1,0 +1,29 @@
+MoveDef SpecialAirNEnd_C2
+{
+	Main()
+	{
+		Add_Momentum(Vertical=0.5, Horizontal=1)
+		Subroutine2(Hash=0x95397715)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x95397715)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x761007D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x95397715)
+		Script_End()
+	}
+
+}

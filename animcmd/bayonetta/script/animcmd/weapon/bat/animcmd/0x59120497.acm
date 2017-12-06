@@ -1,0 +1,35 @@
+MoveDef 0x59120497
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Bit_Variable_Set(Unknown=0x20000004)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x338000A, Bone=0x7D0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		unk_6E332637(unknown=0x2)
+		Compare(Variable=0x10000009, Mode=0x4, Value=0x2)
+		TRUE(Unknown=0xF){
+		External_Graphic(Graphic=0x338003F, Bone=0x7D0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		FALSE(Unknown=0xD){
+		External_Graphic(Graphic=0x3380040, Bone=0x7D0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		}
+		}
+		Graphic_Effect2(unknown=0x338000B, unknown=0x7D1, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xC91001C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

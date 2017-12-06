@@ -1,0 +1,27 @@
+MoveDef SpecialNEatLanding_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.5)
+		Subroutine2(Hash=0xB63A3DF1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect3(unknown=0xA0045)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

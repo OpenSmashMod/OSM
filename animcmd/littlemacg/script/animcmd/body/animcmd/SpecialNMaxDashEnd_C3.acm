@@ -1,0 +1,25 @@
+MoveDef SpecialNMaxDashEnd_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3290004, Bone=0x17, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1.7, Terminate=0x1)
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect3(unknown=0x100008C, unknown=0x0, unknown=0x41700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FCCCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=70)
+		Terminate_Graphic_Effect(unknown=0x3290004, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

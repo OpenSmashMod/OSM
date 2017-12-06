@@ -1,0 +1,22 @@
+MoveDef SpecialSDown_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x76A0052)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

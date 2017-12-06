@@ -1,0 +1,67 @@
+MoveDef SpecialLwStart_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=11)
+		Set_Frame_Duration(Speed=2)
+		IS_FLAG_WORK(unknown=0x2000007B)
+		unk_870CF021(unknown=0x2C){
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=0, Angle=0x16F, KBG=0x50, FKB=0x0, BKB=0x14, Size=20, Z=0, Y=10, X=18, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x0, Direct/Indirect=0x3, Unknown=0x0, Unknown=0xF, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0)
+		}
+		Asynchronous_Timer(Frames=18)
+		Set_Frame_Duration(Speed=1)
+		Asynchronous_Timer(Frames=21)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=22)
+		IS_FLAG_WORK(unknown=0x2000007B)
+		unk_870CF021(unknown=0x16){
+		Grab_collision2(ID=0x0, bone=0x0, Size=7, Z=0, Y=10, X=18, Unknown=0xF6, airground=0x1, Unknown=0x1)
+		Grab_collision2(ID=0x1, bone=0x0, Size=4.2, Z=0, Y=10, X=18, Unknown=0xF6, airground=0x2, Unknown=0x1)
+		}
+		Script_End()
+	}
+
+	Effect()
+	{
+		IS_FLAG_WORK(unknown=0x2000007B)
+		unk_870CF021(unknown=0x21){
+		Asynchronous_Timer(Frames=11)
+		unk_E20C02D4(unknown=0x32C0025, unknown=0x0, unknown=0x0, unknown=0x41200000, unknown=0x41940000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x40000000, unknown=0x1, unknown=0x42D40000, unknown=0x42480000, unknown=0x437F0000)
+		unk_FD1F7ECF(unknown=0x3FA66666)
+		Asynchronous_Timer(Frames=15)
+		Graphic_Effect4(unknown=0x32C000F, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x41900000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x40133333, unknown=0x1)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=22)
+		IS_FLAG_WORK(unknown=0x2000007B)
+		unk_870CF021(unknown=0x6){
+		Sound_Effect(SFX=0x7640064)
+		FALSE(Unknown=0x6){
+		Sound_Effect(SFX=0x764004F)
+		Low_Voice_Clip(unknown=0x803B0007)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=8)
+		IS_FLAG_WORK(unknown=0x2000007B)
+		unk_870CF021(unknown=0x5){
+		Rumble2(unknown=0x2, unknown=0x12)
+		}
+		Asynchronous_Timer(Frames=21)
+		IS_FLAG_WORK(unknown=0x2000007B)
+		unk_870CF021(unknown=0x5){
+		Rumble(unknown=0xD, unknown=0x0)
+		}
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef 0x96F052D7 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x30036)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

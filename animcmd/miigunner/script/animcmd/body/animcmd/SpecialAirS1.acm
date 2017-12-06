@@ -1,0 +1,32 @@
+MoveDef SpecialAirS1
+{
+	Main()
+	{
+		Subroutine2(Hash=0xD720F989)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=21)
+		External_Graphic(Graphic=0x302001F, Bone=0x16, Z=7, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		Sound_Effect(SFX=0x81C0035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=21)
+		Screen_Shake(unknown=0x3)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

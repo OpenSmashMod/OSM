@@ -1,0 +1,24 @@
+MoveDef SpecialAirLwEnd_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=7)
+		Set_Frame_Duration(Speed=2.4)
+		Asynchronous_Timer(Frames=28)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

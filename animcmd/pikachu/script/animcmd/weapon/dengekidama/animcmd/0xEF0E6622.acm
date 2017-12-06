@@ -1,0 +1,31 @@
+MoveDef 0xEF0E6622
+{
+	Main()
+	{
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=3, Angle=0x169, KBG=0xA, FKB=0x0, BKB=0x1E, Size=3, Z=0, Y=0, X=0, Effect=0x3, Trip=0, Hitlag=0.3, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0x1, SFXType=0x0, Ground/Air=0x7, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Synchronous_Timer(Frames=15)
+		unk_692BBCFA()
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=10, Angle=0x169, KBG=0x55, FKB=0x0, BKB=0x46, Size=13, Z=0, Y=0, X=0, Effect=0x3, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0x1, SFXType=0x2, Ground/Air=0x7, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		unk_300A0A85()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x30A0002, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.2, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		unk_5FC8FA49(unknown=0xC007B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

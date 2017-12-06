@@ -1,0 +1,36 @@
+MoveDef SpecialHiHold_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_E20C02D4(unknown=0x30D001C, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC2B40000, unknown=0xC2B40000, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x443F4000, unknown=0x43000000, unknown=0x43000000)
+		Graphic_Effect2(unknown=0x100001C, unknown=0x0, unknown=0x0, unknown=0x41A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Set_Loop(Iterations=-1){
+		Color_Overlay(Red=255, Green=224, Blue=192, Alpha=60)
+		Synchronous_Timer(Frames=2)
+		Color_Overlay(Red=0, Green=224, Blue=192, Alpha=48)
+		Synchronous_Timer(Frames=2)
+		Goto(Unknown=-14)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0xF0080)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x9, unknown=0x0)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef FinalAir3ren
+{
+	Main()
+	{
+		Subroutine2(Hash=0x455C1ED7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x455C1ED7)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,28 @@
+MoveDef FinalAirMoneyR
+{
+	Main()
+	{
+		Subroutine2(Hash=0x40F9B9E3)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x40F9B9E3)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x24C0015)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x40F9B9E3)
+		Script_End()
+	}
+
+}

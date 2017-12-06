@@ -1,0 +1,27 @@
+MoveDef FinalStartHit
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x2)
+		Normal_Camera()
+		Asynchronous_Timer(Frames=7)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Screen_Shake(unknown=0x5)
+		Script_End()
+	}
+
+}

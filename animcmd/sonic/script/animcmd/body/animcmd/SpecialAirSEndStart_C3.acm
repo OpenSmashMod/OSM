@@ -1,0 +1,26 @@
+MoveDef SpecialAirSEndStart_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0xF7FA88CD)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=4)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

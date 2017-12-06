@@ -1,0 +1,29 @@
+MoveDef SpecialAirSStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=26)
+		Graphic_Effect2(unknown=0x100000C, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		Transient_Sound_Effect(unknown=0x440001)
+		Sound_Effect(SFX=0x11004A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=18)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

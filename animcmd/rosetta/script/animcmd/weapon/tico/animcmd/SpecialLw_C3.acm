@@ -1,0 +1,57 @@
+MoveDef SpecialLw_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Body_Collision(Unknown=0x1)
+		Set_Frame_Duration(Speed=0.5)
+		Asynchronous_Timer(Frames=6)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x7D7, Damage=5, Angle=0x4B, KBG=0x50, FKB=0x0, BKB=0x4B, Size=3, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x2, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		SET_SCALE(unknown=0x3F99999A)
+		Asynchronous_Timer(Frames=8)
+		Set_Frame_Duration(Speed=1)
+		SET_SCALE(unknown=0x3FC00000)
+		Asynchronous_Timer(Frames=10)
+		SET_SCALE(unknown=0x3FE66666)
+		Asynchronous_Timer(Frames=12)
+		SET_SCALE(unknown=0x40000000)
+		Asynchronous_Timer(Frames=14)
+		SET_SCALE(unknown=0x400CCCCD)
+		Asynchronous_Timer(Frames=16)
+		Set_Frame_Duration(Speed=1.2)
+		Asynchronous_Timer(Frames=31)
+		Set_Frame_Duration(Speed=1)
+		SET_SCALE(unknown=0x40000000)
+		Asynchronous_Timer(Frames=33)
+		SET_SCALE(unknown=0x3FD9999A)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=35)
+		Set_Frame_Duration(Speed=0.7)
+		SET_SCALE(unknown=0x3FB33333)
+		Asynchronous_Timer(Frames=37)
+		SET_SCALE(unknown=0x3F800000)
+		Body_Collision(Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=4)
+		Bit_Variable_Set(Unknown=0x20000011)
+		Asynchronous_Timer(Frames=10)
+		Asynchronous_Timer(Frames=36)
+		Bit_Variable_Set(Unknown=0x20000011)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x4A4006A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

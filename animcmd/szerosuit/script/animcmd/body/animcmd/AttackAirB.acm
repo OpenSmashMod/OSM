@@ -1,0 +1,44 @@
+MoveDef AttackAirB
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=8)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x9, Damage=12, Angle=0x169, KBG=0x62, FKB=0x0, BKB=0x2A, Size=5.5, Z=6, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Special_Hitbox(ID=0x1, Part=0x0, Bone=0x9, Damage=10, Angle=0x169, KBG=0x62, FKB=0x0, BKB=0x2A, Size=2.5, Z=1.5, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=31)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=6)
+		External_Graphic(Graphic=0x319000F, Bone=0xB, Z=-1, Y=-0.7, X=0, RotZ=0, RotY=0, RotX=0, Size=0.6, Terminate=0x1)
+		Asynchronous_Timer(Frames=7)
+		Asynchronous_Timer(Frames=8)
+		External_Graphic(Graphic=0x100008E, Bone=0x0, Z=-1, Y=8, X=-5, RotZ=-167.9, RotY=10, RotX=7.5, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=16)
+		Terminate_Graphic_Effect(unknown=0x319000F, unknown=0x0, unknown=0x0)
+		Terminate_Graphic_Effect(unknown=0x3190010, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x1B007D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

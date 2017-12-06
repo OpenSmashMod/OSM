@@ -1,0 +1,35 @@
+MoveDef SpecialNJump
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		unk_E20C02D4(unknown=0x10000DD, unknown=0xA, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3ECCCCCD, unknown=0x1, unknown=0x430A0000, unknown=0x437F0000, unknown=0x43020000)
+		unk_E20C02D4(unknown=0x10000DD, unknown=0x6, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3ECCCCCD, unknown=0x1, unknown=0x430A0000, unknown=0x437F0000, unknown=0x43020000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x773001A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Screen_Shake(unknown=0x3)
+		Rumble(unknown=0x13, unknown=0x0)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=65)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

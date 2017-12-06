@@ -1,0 +1,25 @@
+MoveDef 0x48FD31CB
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=22)
+		unk_50730439(Unknown=-21, Unknown=14, Unknown=0x1, Unknown=0x0, Unknown=0x2)
+		REVERSE_LR()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

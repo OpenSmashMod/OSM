@@ -1,0 +1,35 @@
+MoveDef SpecialHiJump_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		Sound_Effect(SFX=0x2C90007)
+		Sound_Effect(SFX=0x24B001A)
+		Synchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x24B008A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=9)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=18)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=27)
+		Rumble(unknown=0x10, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xFF383EA5)
+		Script_End()
+	}
+
+}

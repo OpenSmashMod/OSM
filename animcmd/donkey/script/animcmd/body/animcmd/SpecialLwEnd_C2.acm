@@ -1,0 +1,27 @@
+MoveDef SpecialLwEnd_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_D5F5735F(unknown=0x14, unknown=0x10000)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x0)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Script_End()
+	}
+
+}

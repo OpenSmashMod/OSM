@@ -1,0 +1,28 @@
+MoveDef SpecialAirS
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x224117F6)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x8630038)
+		Stop_Sound_Effect(unknown=0x863006A)
+		IS_FLAG_WORK(unknown=0x20000004)
+		TRUE(Unknown=0x4){
+		Transient_Sound_Effect(unknown=0x8630068)
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

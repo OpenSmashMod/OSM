@@ -1,0 +1,22 @@
+MoveDef CliffJumpQuick1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0xC0020)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

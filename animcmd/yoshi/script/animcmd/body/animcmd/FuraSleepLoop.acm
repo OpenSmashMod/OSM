@@ -1,0 +1,35 @@
+MoveDef FuraSleepLoop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=25)
+		External_Graphic_Effect2(unknown=0x100002E, unknown=0x13, unknown=0x40E00000, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x33F4A4EB)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x3E0021)
+		Synchronous_Timer(Frames=1)
+		Loop_Rest()
+		Subroutine2(Hash=0x33F4A4EB)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Rumble2(unknown=0x1A, unknown=0x0)
+		Synchronous_Timer(Frames=1)
+		Loop_Rest()
+		Subroutine2(Hash=0x33F4A4EB)
+		Script_End()
+	}
+
+}

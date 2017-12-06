@@ -1,0 +1,23 @@
+MoveDef 0xAE1FAEAD
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3100018, Bone=0x0, Z=0, Y=12, X=18, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x12005A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

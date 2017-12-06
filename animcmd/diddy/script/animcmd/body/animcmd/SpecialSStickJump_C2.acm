@@ -1,0 +1,23 @@
+MoveDef SpecialSStickJump_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=17)
+		Sound_Effect(SFX=0xA8)
+		Sound_Effect(SFX=0x510010)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

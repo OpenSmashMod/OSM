@@ -1,0 +1,57 @@
+MoveDef SpecialSEnd_C3
+{
+	Main()
+	{
+		Defensive_Collision(Unknown=0x3, Unknown=0x0, Unknown=0x3)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=9, Unknown=0x32, Unknown=0x3C, Unknown=0x0, Unknown=0x5A, Unknown=6, Unknown=0, Unknown=4, Unknown=7, Unknown=0x0, Unknown=0, Unknown=1.5, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x4, Unknown=0x2, Unknown=0x1, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=10, Unknown=7)
+		Asynchronous_Timer(Frames=5)
+		Add/Set_Momentum(Vertical=4.8, Horizontal=0, Mode=0x1)
+		Remove_All_Hitboxes()
+		Terminate_Defensive_Collision(Unknown=0x3, Unknown=0x0, Unknown=0x3)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Asynchronous_Timer(Frames=15)
+		Add/Set_Momentum(Vertical=1.5, Horizontal=0, Mode=0x1)
+		Asynchronous_Timer(Frames=26)
+		Add/Set_Momentum(Vertical=0.5, Horizontal=0, Mode=0x1)
+		Asynchronous_Timer(Frames=40)
+		unk_692BBCFA()
+		Bit_Variable_Clear(Unknown=0x2100000F)
+		Asynchronous_Timer(Frames=50)
+		Set_Frame_Duration(Speed=1.5)
+		Asynchronous_Timer(Frames=56)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3180013, Bone=0x18, Z=0, Y=0, X=3, RotZ=-0.56881, RotY=-0.00054, RotX=0.02846, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=4)
+		External_Graphic(Graphic=0x3180017, Bone=0x0, Z=4, Y=12, X=-3.5, RotZ=-33, RotY=25, RotX=93, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Low_Voice_Clip(unknown=0x800E0009)
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x40032)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x3)
+		Item_Visibility(unknown=0x0)
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Asynchronous_Timer(Frames=7)
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Asynchronous_Timer(Frames=46)
+		unk_91CF842D(unknown=0x0)
+		Rumble(unknown=0x15, unknown=0x0)
+		Script_End()
+	}
+
+}

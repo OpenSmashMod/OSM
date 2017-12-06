@@ -1,0 +1,21 @@
+MoveDef AttackAirNStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFB85681D)
+		Script_End()
+	}
+
+}

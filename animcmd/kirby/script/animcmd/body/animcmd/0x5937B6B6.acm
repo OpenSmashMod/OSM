@@ -1,0 +1,27 @@
+MoveDef 0x5937B6B6
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3290004, Bone=0x17, Z=-4, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=70)
+		Terminate_Graphic_Effect(unknown=0x3290004, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE5780F06)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xE5780F06)
+		Script_End()
+	}
+
+}

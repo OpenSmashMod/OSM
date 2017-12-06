@@ -1,0 +1,24 @@
+MoveDef SpecialAirNStart_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xD42A6A40)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0xA005F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

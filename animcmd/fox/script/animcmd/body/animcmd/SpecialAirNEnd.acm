@@ -1,0 +1,29 @@
+MoveDef SpecialAirNEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x179E4623)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x179E4623)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=16)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Article_Visibility(Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+}

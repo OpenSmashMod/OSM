@@ -1,0 +1,26 @@
+MoveDef SpecialAirS2Hold
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xFF1DA5EC)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Rumble2(unknown=0x10, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xDFE693BE)
+		Script_End()
+	}
+
+}

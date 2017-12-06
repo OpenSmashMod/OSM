@@ -1,0 +1,25 @@
+MoveDef SpecialAirLwHeavy_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x78EC6A6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Rumble2(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

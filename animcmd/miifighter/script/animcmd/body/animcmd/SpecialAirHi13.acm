@@ -1,0 +1,26 @@
+MoveDef SpecialAirHi13
+{
+	Main()
+	{
+		Subroutine2(Hash=0xF3C36557)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xF3C36557)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81A002C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

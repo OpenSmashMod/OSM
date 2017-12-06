@@ -1,0 +1,24 @@
+MoveDef 0xCD05FCA4 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x332001D, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x23D002F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

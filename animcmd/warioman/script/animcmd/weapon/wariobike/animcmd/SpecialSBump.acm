@@ -1,0 +1,22 @@
+MoveDef SpecialSBump
+{
+	Main()
+	{
+		Remove_All_Hitboxes()
+		Bit_Variable_Set(Unknown=0x2100000C)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

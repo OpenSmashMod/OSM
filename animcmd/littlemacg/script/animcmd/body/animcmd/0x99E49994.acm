@@ -1,0 +1,25 @@
+MoveDef 0x99E49994
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		REVERSE_LR()
+		Asynchronous_Timer(Frames=11)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

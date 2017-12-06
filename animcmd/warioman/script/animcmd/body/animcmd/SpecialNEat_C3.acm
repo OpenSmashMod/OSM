@@ -1,0 +1,22 @@
+MoveDef SpecialNEat_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		PLAY_SE_REMAIN(unknown=0x76A003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

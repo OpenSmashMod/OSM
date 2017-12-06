@@ -1,0 +1,29 @@
+MoveDef SwimF
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xB0)
+		Synchronous_Timer(Frames=1)
+		Loop_Rest()
+		Subroutine2(Hash=0xBD3CD40F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=15)
+		Rumble(unknown=0x12, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xBD3CD40F)
+		Script_End()
+	}
+
+}

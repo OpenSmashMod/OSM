@@ -1,0 +1,24 @@
+MoveDef 0x6E10EF89
+{
+	Main()
+	{
+		Synchronous_Timer(Frames=1)
+		unk_300A0A85()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x13006F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

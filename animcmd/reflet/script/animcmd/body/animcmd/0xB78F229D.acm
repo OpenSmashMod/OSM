@@ -1,0 +1,25 @@
+MoveDef 0xB78F229D : Unlisted
+{
+	Main()
+	{
+		Hitbox(ID=0x0, Part=0x0, Bone=0x3E8, Damage=5, Angle=0x55, KBG=0x64, FKB=0x32, BKB=0x0, Size=4, Z=0, Y=0, X=7.4, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x1, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x3E8, Damage=5, Angle=0x4B, KBG=0x64, FKB=0x32, BKB=0x0, Size=4, Z=-3, Y=0, X=3.5, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x1, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x15, Damage=5, Angle=0x32, KBG=0x64, FKB=0x32, BKB=0x0, Size=4, Z=-3, Y=0, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x1, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

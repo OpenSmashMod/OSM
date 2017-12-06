@@ -1,0 +1,69 @@
+MoveDef Win2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=32)
+		Set_Loop(Iterations=6){
+		Graphic_Effect2(unknown=0x1000019, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0xC0800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x18, unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0)
+		Synchronous_Timer(Frames=3)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x19, unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0)
+		Synchronous_Timer(Frames=3)
+		Goto(Unknown=-55)
+		}
+		Asynchronous_Timer(Frames=68)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x18, unknown=0x0, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0)
+		Asynchronous_Timer(Frames=76)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x19, unknown=0x0, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0)
+		Graphic_Effect2(unknown=0x1000020, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F333333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0x81A0002)
+		Asynchronous_Timer(Frames=28)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A004E)
+		Synchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x81A0054)
+		Asynchronous_Timer(Frames=116)
+		Sound_Effect(SFX=0x81A0002)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

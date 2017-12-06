@@ -1,0 +1,23 @@
+MoveDef TurnRunBrake
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x0, unknown=0xA)
+		Asynchronous_Timer(Frames=10)
+		Slope_Full(unknown=0x9, unknown=0x5)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,25 @@
+MoveDef 0x5B83448D
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x4190001, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x4190009, Bone=0x7D1, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x1B002F)
+		Transient_Sound_Effect(unknown=0x1B0088)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

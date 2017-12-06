@@ -1,0 +1,24 @@
+MoveDef 0x70712A42
+{
+	Main()
+	{
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=6, Angle=0x4E, KBG=0x78, FKB=0x0, BKB=0x28, Size=14.5, Z=0, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=1.2, SDI=0.5, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x8, Direct/Indirect=0x3, Unknown=0x0, Unknown=0xC, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		unk_3C95CD87(unknown=0x0, unknown=0x40000000, unknown=0x3D4CCCCD, unknown=0x43960000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x41D00000, unknown=0x3C)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

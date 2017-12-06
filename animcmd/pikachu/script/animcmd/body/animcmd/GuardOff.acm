@@ -1,0 +1,24 @@
+MoveDef GuardOff
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x63)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x4, unknown=0x0)
+		Script_End()
+	}
+
+}

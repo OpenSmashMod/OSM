@@ -1,0 +1,26 @@
+MoveDef 0xC928A086 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=0)
+		External_Graphic(Graphic=0x31C000D, Bone=0x7D1, Z=-3, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31C0004, Bone=0x7DA, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=15)
+		Terminate_Graphic_Effect(unknown=0x31C000D, unknown=0x0, unknown=0x0)
+		Terminate_Graphic_Effect(unknown=0x31C0004, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

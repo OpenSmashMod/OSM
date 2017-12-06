@@ -1,0 +1,26 @@
+MoveDef SpecialSStickAttack_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=18)
+		Graphic_Effect2(unknown=0x31B0004, unknown=0x2, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x1E0049)
+		Sound_Effect(SFX=0x510013)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

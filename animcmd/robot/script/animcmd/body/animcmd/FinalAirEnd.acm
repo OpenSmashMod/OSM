@@ -1,0 +1,35 @@
+MoveDef FinalAirEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=30)
+		Rumble(unknown=0xF, unknown=0x0)
+		Screen_Shake(unknown=0x5)
+		Asynchronous_Timer(Frames=109)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=129)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=149)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=169)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef SpecialS_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=20)
+		Bit_Variable_Set(Unknown=0x21000002)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

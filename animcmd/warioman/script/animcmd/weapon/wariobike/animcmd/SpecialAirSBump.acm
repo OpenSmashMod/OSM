@@ -1,0 +1,21 @@
+MoveDef SpecialAirSBump
+{
+	Main()
+	{
+		Subroutine1(Unknown=0xE461EDD7)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}
