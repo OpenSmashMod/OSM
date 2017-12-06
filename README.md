@@ -1,16 +1,16 @@
 # OSM - Open Smash Mod
-OSM is an open-source Smash4 mod.
+OSM is an open-source Smash 4 mod.
 Anybody is allowed to contribute changes or use the code for any reason they see fit, as long as they follow some simple rules.
 
-# This is the not where you submit changes:
+### This is not the branch where you should submit changes:
 
-If you have WiiU mods to contribute, contribute them to the OSM-WIIU
-If you have 3DS mods to contribute, contribute them to the OSM-3DS
-If you have mods that applies to both systems, they go in OSM-Common
+* If you have WiiU mods to contribute, contribute them to the OSM-WIIU branch.
+* If you have 3DS mods to contribute, contribute them to the OSM-3DS branch.
+* If you have mods that applies to both systems, they go in OSM-Common branch.
 
 For examples of what counts as a WIIU, 3DS, or Common. go to the different branches for more information 
 
-# Guidelines for OSM submissions:
+## Guidelines for OSM submissions:
 
 1. All community modifications are to be reviewed by the core OSM team.
 
@@ -27,4 +27,3 @@ For examples of what counts as a WIIU, 3DS, or Common. go to the different branc
 7. Under no Circumstances will any NSFW material enter this mod. No exceptions.
 
 8. Any and all forks of this mod will be privy to inclusion into OSM if the community or OSM wish it to be included. The Fork May be allowed to exist past this. The opposite works as well, any material from OSM may be used in any forks.
-
