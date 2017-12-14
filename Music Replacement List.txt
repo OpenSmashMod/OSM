@@ -185,7 +185,7 @@ S130	A70	Title (Super Mario Maker) - No Change
 
 Duck Hunt
 S124	Q19	Duck Hunt Medley - Battle 1 (Chrono Trigger)
-S125	Q20	Wrecking Crew Medley - Into the Thick of it
+S125	Q24	Wrecking Crew Retro Medley - Into the Thick of it
 
 Midgar
 S131	FF01	Let the Battles Begin! - J-E-N-O-V-A
