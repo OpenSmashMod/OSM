@@ -2,13 +2,9 @@
 OSM is an open-source Smash 4 mod.
 Anybody is allowed to contribute changes or use the code for any reason they see fit, as long as they follow some simple rules.
 
-### This is not the branch where you should submit changes:
-
-* If you have WiiU mods to contribute, contribute them to the OSM-WIIU branch.
-* If you have 3DS mods to contribute, contribute them to the OSM-3DS branch.
-* If you have mods that applies to both systems, they go in OSM-Common branch.
-
-For examples of what counts as a WIIU, 3DS, or Common. go to the different branches for more information 
+* If you have WiiU mods to contribute, contribute them in the WiiU folder. (Mimicking the folder structure of Sm4shExplorer)
+* If you have 3DS mods to contribute, contribute them in the 3DS folder. (Mimicking the folder structure of SaltySD)
+* If you have mods that applies to both systems such as animcmd or parameters, they go in OSM-Common branch in the respective folder. (Mimicking the folder structure of Sm4shExplorer) 
 
 ## Guidelines for OSM submissions:
 
@@ -24,6 +20,6 @@ For examples of what counts as a WIIU, 3DS, or Common. go to the different branc
 
 6. Any copy written material will be abandoned and rejected on sight. No exceptions.
 
-7. Under no Circumstances will any NSFW material enter this mod. No exceptions.
+7. Under no circumstances will any NSFW material enter this mod. No exceptions.
 
-8. Any and all forks of this mod will be privy to inclusion into OSM if the community or OSM wish it to be included. The Fork May be allowed to exist past this. The opposite works as well, any material from OSM may be used in any forks.
+8. Any and all forks of this mod will be privy to inclusion into OSM if the community or core OSM team wish it to be included. The fork may be allowed to exist past this. The opposite works as well, any material from OSM may be used in any forks, as long as the OSM team and the full list of OSM submitters are credited in a way that is very difficult to miss..
