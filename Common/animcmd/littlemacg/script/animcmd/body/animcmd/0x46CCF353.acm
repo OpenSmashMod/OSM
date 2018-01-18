@@ -1,0 +1,26 @@
+MoveDef 0x46CCF353
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		External_Graphic_Effect2(unknown=0x100002C, unknown=0x13, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x61)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

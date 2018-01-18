@@ -1,0 +1,32 @@
+MoveDef AppealHiL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=27)
+		Sound_Effect(SFX=0x240050)
+		Synchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x570016)
+		Synchronous_Timer(Frames=32)
+		Sound_Effect(SFX=0x240074)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=16)
+		Rumble2(unknown=0x9, unknown=0x64)
+		Script_End()
+	}
+
+}

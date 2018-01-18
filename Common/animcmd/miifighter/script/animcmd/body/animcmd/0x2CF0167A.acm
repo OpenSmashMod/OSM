@@ -1,0 +1,28 @@
+MoveDef 0x2CF0167A
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x100001D, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x81A0007)
+		Synchronous_Timer(Frames=8)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x6E)
+		Synchronous_Timer(Frames=13)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

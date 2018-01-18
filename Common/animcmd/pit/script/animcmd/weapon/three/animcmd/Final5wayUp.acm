@@ -1,0 +1,51 @@
+MoveDef Final5wayUp
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Generate_Weapon(ID=0x0)
+		Synchronous_Timer(Frames=3)
+		Set_Frame_Duration(Speed=1.2)
+		Synchronous_Timer(Frames=0.5)
+		unk_A4F1B325(unknown=0x0)
+		Synchronous_Timer(Frames=3.5)
+		Generate_Weapon(ID=0x0)
+		Synchronous_Timer(Frames=1.5)
+		unk_A4F1B325(unknown=0x0)
+		Synchronous_Timer(Frames=3.5)
+		Generate_Weapon(ID=0x0)
+		Synchronous_Timer(Frames=1.5)
+		unk_A4F1B325(unknown=0x0)
+		Synchronous_Timer(Frames=3.5)
+		Generate_Weapon(ID=0x0)
+		Synchronous_Timer(Frames=1.5)
+		unk_A4F1B325(unknown=0x0)
+		Synchronous_Timer(Frames=3.5)
+		Generate_Weapon(ID=0x0)
+		Synchronous_Timer(Frames=1.5)
+		unk_A4F1B325(unknown=0x0)
+		Synchronous_Timer(Frames=3)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=5){
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FB33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Rumble(unknown=0x10, unknown=0x0)
+		Synchronous_Timer(Frames=7)
+		Goto(Unknown=-22)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

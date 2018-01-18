@@ -1,0 +1,28 @@
+MoveDef SpecialHiDrop_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=0.8)
+		Asynchronous_Timer(Frames=16)
+		Set_Frame_Duration(Speed=0.6)
+		Asynchronous_Timer(Frames=25)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Asynchronous_Timer(Frames=30)
+		Add/Set_Momentum(Vertical=0, Horizontal=-4, Mode=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

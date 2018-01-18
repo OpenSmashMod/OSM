@@ -1,0 +1,27 @@
+MoveDef 0xE9C7BF59
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x24B0031)
+		Asynchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x2C9001A)
+		Transient_Sound_Effect(unknown=0x24B0031)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x3EE4D8B8)
+		Script_End()
+	}
+
+}

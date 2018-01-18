@@ -1,0 +1,21 @@
+MoveDef SpecialAirHiJDamage_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x1E007E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

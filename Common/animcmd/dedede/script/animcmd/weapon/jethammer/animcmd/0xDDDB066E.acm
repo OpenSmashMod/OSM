@@ -1,0 +1,21 @@
+MoveDef 0xDDDB066E : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xA777E70C)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef 0x3B35ACF1 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=30)
+		unk_3A775D26(unknown=0x4B004E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,29 @@
+MoveDef SpecialAirN3Start
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x6514977C)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81B0038)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x81B0035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_C7B586AF(unknown=0x0, unknown=0x0, unknown=0x0)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

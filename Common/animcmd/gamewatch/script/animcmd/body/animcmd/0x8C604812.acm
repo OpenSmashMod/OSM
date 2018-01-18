@@ -1,0 +1,25 @@
+MoveDef 0x8C604812
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Asynchronous_Timer(Frames=10)
+		unk_965E035A()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x5C5E5525)
+		Script_End()
+	}
+
+}

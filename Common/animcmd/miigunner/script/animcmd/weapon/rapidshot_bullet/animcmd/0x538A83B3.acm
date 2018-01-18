@@ -1,0 +1,25 @@
+MoveDef 0x538A83B3
+{
+	Main()
+	{
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=4, Unknown=0x169, Unknown=0x64, Unknown=0x3, Unknown=0x0, Unknown=1.44, Unknown=0, Unknown=0, Unknown=0.8, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x2D, Unknown=0x3, Unknown=0x0, Unknown=0x19, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0, Unknown=0, Unknown=9)
+		Synchronous_Timer(Frames=7)
+		Change_Hitbox_Damage(Unknown=0x0, Unknown=3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_5FC8FA49(unknown=0x81C0041)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

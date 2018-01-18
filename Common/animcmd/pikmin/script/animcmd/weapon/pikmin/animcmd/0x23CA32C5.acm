@@ -1,0 +1,19 @@
+MoveDef 0x23CA32C5
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

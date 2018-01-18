@@ -1,0 +1,22 @@
+MoveDef 0x7EFCFF98
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		unk_745B20A7(Unknown=0x11000010)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

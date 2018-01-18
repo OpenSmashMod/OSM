@@ -1,0 +1,26 @@
+MoveDef Wait2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		Transient_Sound_Effect(unknown=0x23D004D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		unk_BE0C4A94(unknown=0x0, unknown=0x1, unknown=0x14)
+		unk_BE0C4A94(unknown=0x1, unknown=0x0, unknown=0x5)
+		Script_End()
+	}
+
+}

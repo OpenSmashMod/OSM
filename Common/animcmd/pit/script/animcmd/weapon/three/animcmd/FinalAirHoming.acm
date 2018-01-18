@@ -1,0 +1,23 @@
+MoveDef FinalAirHoming
+{
+	Main()
+	{
+		Subroutine2(Hash=0x63C51EA7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x63C51EA7)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,29 @@
+MoveDef 0x97CBA40F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=10)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=33)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=35)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=58)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

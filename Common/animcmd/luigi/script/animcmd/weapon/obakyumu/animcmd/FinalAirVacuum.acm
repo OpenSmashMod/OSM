@@ -1,0 +1,25 @@
+MoveDef FinalAirVacuum
+{
+	Main()
+	{
+		Subroutine2(Hash=0x5929CC8E)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x5929CC8E)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x5929CC8E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

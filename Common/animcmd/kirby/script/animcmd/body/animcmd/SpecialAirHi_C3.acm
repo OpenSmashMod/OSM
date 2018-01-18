@@ -1,0 +1,29 @@
+MoveDef SpecialAirHi_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x60DC32D7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x60DC32D7)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0xA00D1)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xE, unknown=0x0)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

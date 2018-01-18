@@ -1,0 +1,19 @@
+MoveDef 0xA6EC3D9D
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

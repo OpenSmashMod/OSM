@@ -1,0 +1,28 @@
+MoveDef 0x70903840 : Unlisted
+{
+	Main()
+	{
+		Subroutine2(Hash=0x506B0E12)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect3(unknown=0x1000008, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect3(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81B002D)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

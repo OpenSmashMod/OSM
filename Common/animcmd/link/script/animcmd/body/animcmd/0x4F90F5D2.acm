@@ -1,0 +1,33 @@
+MoveDef 0x4F90F5D2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=20)
+		unk_50730439(Unknown=18, Unknown=15, Unknown=0x1, Unknown=0x0, Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=20)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=26)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=42)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=44)
+		Model_Changer(unknown=0x1, unknown=0x0)
+		Script_End()
+	}
+
+}

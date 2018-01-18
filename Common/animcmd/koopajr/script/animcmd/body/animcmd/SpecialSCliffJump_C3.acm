@@ -1,0 +1,23 @@
+MoveDef SpecialSCliffJump_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect3(unknown=0x100000C, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

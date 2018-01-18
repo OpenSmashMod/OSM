@@ -1,0 +1,31 @@
+MoveDef 0x77BDEF79
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Terminate_Overlays()
+		External_Graphic(Graphic=0x3210003, Bone=0x12, Z=0, Y=5.5, X=0, RotZ=180, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=6)
+		Color_Overlay(Red=255, Green=128, Blue=255, Alpha=80)
+		Change_Overlay(Transition=10, Red=0, Green=0, Blue=0, Alpha=0)
+		Synchronous_Timer(Frames=10)
+		Goto(Unknown=-27)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x15FD76CF)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef 0x2C4B208A : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_4E94C51B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xEB786D3F)
+		Script_End()
+	}
+
+}

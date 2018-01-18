@@ -1,0 +1,21 @@
+MoveDef SpecialSWallAttackB
+{
+	Main()
+	{
+		Subroutine2(Hash=0x33E5C6D0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

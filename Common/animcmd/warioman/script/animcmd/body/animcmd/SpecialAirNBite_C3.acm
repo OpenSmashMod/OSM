@@ -1,0 +1,23 @@
+MoveDef SpecialAirNBite_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xA99FA297)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xA99FA297)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef CatchDash
+{
+	Main()
+	{
+		VIS_WHOLE(unknown=0x0)
+		Asynchronous_Timer(Frames=15)
+		VIS_WHOLE(unknown=0x1)
+		Asynchronous_Timer(Frames=49)
+		VIS_WHOLE(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xC56B7B64)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

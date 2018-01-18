@@ -1,0 +1,30 @@
+MoveDef SpecialHiHoldAir_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x28F1E709)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x309000F, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.5, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x28F1E709)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x22, unknown=0x0)
+		Script_End()
+	}
+
+}

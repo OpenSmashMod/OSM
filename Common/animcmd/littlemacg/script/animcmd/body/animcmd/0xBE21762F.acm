@@ -1,0 +1,24 @@
+MoveDef 0xBE21762F
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Asynchronous_Timer(Frames=6)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

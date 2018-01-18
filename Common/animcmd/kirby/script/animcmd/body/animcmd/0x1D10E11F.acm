@@ -1,0 +1,38 @@
+MoveDef 0x1D10E11F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x4961C1F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=29)
+		Sound_Effect(SFX=0xE007A)
+		Synchronous_Timer(Frames=16)
+		Stop_Sound_Effect(unknown=0xE0062)
+		Sound_Effect(SFX=0xE0061)
+		Sound_Effect(SFX=0x630001)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=2)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=48)
+		Rumble(unknown=0x13, unknown=0x0)
+		Asynchronous_Timer(Frames=53)
+		Screen_Shake(unknown=0x4)
+		Asynchronous_Timer(Frames=93)
+		Slope_Full(unknown=0x0, unknown=0xA)
+		Script_End()
+	}
+
+}

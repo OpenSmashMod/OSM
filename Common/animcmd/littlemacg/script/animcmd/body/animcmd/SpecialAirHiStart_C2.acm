@@ -1,0 +1,23 @@
+MoveDef SpecialAirHiStart_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		External_Graphic(Graphic=0x3290011, Bone=0x0, Z=0, Y=10, X=2, RotZ=-90, RotY=0, RotX=0, Size=2, Terminate=0x0)
+		Asynchronous_Timer(Frames=4)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

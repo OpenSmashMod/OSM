@@ -1,0 +1,29 @@
+MoveDef SpecialAirHiWait1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=3)
+		Set_Loop(Iterations=4){
+		Rumble(unknown=0x14, unknown=0x0)
+		Synchronous_Timer(Frames=6)
+		Goto(Unknown=-5)
+		}
+		Loop_Rest()
+		Subroutine2(Hash=0xE22C0075)
+		Script_End()
+	}
+
+}

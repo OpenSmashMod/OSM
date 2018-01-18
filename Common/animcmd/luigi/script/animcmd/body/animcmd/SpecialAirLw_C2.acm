@@ -1,0 +1,67 @@
+MoveDef SpecialAirLw_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=10)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=0, Angle=0x169, KBG=0x64, FKB=0x28, BKB=0x0, Size=10, Z=0, Y=8.5, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x0, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0)
+		Asynchronous_Timer(Frames=34)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=44)
+		Add_Momentum(Vertical=0, Horizontal=1.5)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=6, Angle=0x30, KBG=0x78, FKB=0x0, BKB=0x5A, Size=14, Z=0, Y=9, X=0, Effect=0x0, Trip=0, Hitlag=2, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xD)
+		Asynchronous_Timer(Frames=45)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Bit_Variable_Clear(Unknown=0x2100000F)
+		Bit_Variable_Set(Unknown=0x2000007A)
+		Set_Frame_Duration(Speed=2)
+		Asynchronous_Timer(Frames=50)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=60)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=9)
+		unk_7EF50766(unknown=0x30B0004, unknown=0x30B0004, unknown=0x0, unknown=0x0, unknown=0x41100000, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3F866666)
+		Asynchronous_Timer(Frames=44)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x0, unknown=0x0, unknown=0x41100000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x4059999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0)
+		unk_FD1F7ECF(unknown=0x3F333333)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0xD0096)
+		Synchronous_Timer(Frames=3.5)
+		Synchronous_Timer(Frames=3.5)
+		Synchronous_Timer(Frames=3.5)
+		Synchronous_Timer(Frames=3.5)
+		Synchronous_Timer(Frames=3.5)
+		Synchronous_Timer(Frames=3.5)
+		Synchronous_Timer(Frames=3.5)
+		Synchronous_Timer(Frames=3.5)
+		Synchronous_Timer(Frames=9)
+		Sound_Effect(SFX=0xD008E)
+		Sound_Effect(SFX=0x410005)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x3, unknown=0x23)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=7)
+		Slope_Full(unknown=0x1, unknown=0x3)
+		Asynchronous_Timer(Frames=37)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Asynchronous_Timer(Frames=42)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

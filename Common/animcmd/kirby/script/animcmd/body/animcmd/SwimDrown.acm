@@ -1,0 +1,33 @@
+MoveDef SwimDrown
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xB5)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0xB1)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0xB4)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0xB5)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0xB1)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0xB4)
+		Loop_Rest()
+		Subroutine2(Hash=0x78DF06C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

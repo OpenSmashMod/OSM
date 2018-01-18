@@ -1,0 +1,32 @@
+MoveDef SpecialAirN2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic_Effect2(unknown=0x3290007, unknown=0x17, unknown=0x0, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x1)
+		Graphic_Effect4(unknown=0x3290005, unknown=0x17, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1)
+		Asynchronous_Timer(Frames=7)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0xF){
+		External_Graphic(Graphic=0x3290006, Bone=0x2, Z=-4, Y=1, X=-3, RotZ=-15, RotY=-60, RotX=90, Size=1, Terminate=0x0)
+		FALSE(Unknown=0xD){
+		External_Graphic(Graphic=0x3290006, Bone=0x2, Z=0.5, Y=1, X=-3, RotZ=0, RotY=-60, RotX=70, Size=1, Terminate=0x0)
+		}
+		}
+		Asynchronous_Timer(Frames=20)
+		Terminate_Graphic_Effect(unknown=0x3290005, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

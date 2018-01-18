@@ -1,0 +1,36 @@
+MoveDef EscapeF
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=21)
+		REVERSE_LR()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x100000F, unknown=0x0, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=5)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x7680016)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=7)
+		VIS_WHOLE(unknown=0x0)
+		Asynchronous_Timer(Frames=12)
+		VIS_WHOLE(unknown=0x1)
+		unk_FFF80BC2()
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

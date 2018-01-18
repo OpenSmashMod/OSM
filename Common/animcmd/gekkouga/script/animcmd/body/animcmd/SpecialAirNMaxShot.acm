@@ -1,0 +1,26 @@
+MoveDef SpecialAirNMaxShot
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=6)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x662FDD7B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x662FDD7B)
+		Script_End()
+	}
+
+}

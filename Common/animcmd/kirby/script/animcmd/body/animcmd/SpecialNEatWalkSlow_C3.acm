@@ -1,0 +1,28 @@
+MoveDef SpecialNEatWalkSlow_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xB63A3DF1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		unk_01A5A27C(unknown=0xA006B, unknown=0xA006D)
+		Synchronous_Timer(Frames=29)
+		unk_01A5A27C(unknown=0xA006D, unknown=0xA006B)
+		Loop_Rest()
+		Subroutine2(Hash=0xBF2A1D38)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

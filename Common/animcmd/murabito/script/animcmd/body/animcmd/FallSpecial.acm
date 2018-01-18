@@ -1,0 +1,23 @@
+MoveDef FallSpecial
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x24C002F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

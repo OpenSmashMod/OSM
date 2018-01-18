@@ -1,0 +1,38 @@
+MoveDef SpecialAirSBlow
+{
+	Main()
+	{
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Asynchronous_Timer(Frames=1)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x10, Damage=14, Angle=0x169, KBG=0x62, FKB=0x0, BKB=0x21, Size=5, Z=3, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1.2, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x1, Part=0x0, Bone=0xF, Damage=14, Angle=0x169, KBG=0x62, FKB=0x0, BKB=0x21, Size=3, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1.2, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x0, Damage=14, Angle=0x169, KBG=0x62, FKB=0x0, BKB=0x21, Size=3.5, Z=0, Y=4.5, X=5, Effect=0x0, Trip=0, Hitlag=1.2, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Synchronous_Timer(Frames=7)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3290009, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.2, Terminate=0x1)
+		External_Graphic(Graphic=0x329000F, Bone=0x0, Z=3, Y=10, X=-1.5, RotZ=0, RotY=-45, RotX=-110, Size=1, Terminate=0x0)
+		Asynchronous_Timer(Frames=12)
+		Terminate_Graphic_Effect(unknown=0x3290009, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x7630003)
+		Sound_Effect(SFX=0x76E001E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef SpecialSTurnEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

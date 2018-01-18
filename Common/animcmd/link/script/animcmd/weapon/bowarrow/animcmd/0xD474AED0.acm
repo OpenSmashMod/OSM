@@ -1,0 +1,26 @@
+MoveDef 0xD474AED0
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		unk_5A3B874D(unknown=0x10000, unknown=0x1)
+		Asynchronous_Timer(Frames=37)
+		Graphic_Effect2(unknown=0x1000021, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC0E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x30037)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

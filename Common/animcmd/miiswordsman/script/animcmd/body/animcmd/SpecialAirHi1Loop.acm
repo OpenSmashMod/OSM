@@ -1,0 +1,21 @@
+MoveDef SpecialAirHi1Loop
+{
+	Main()
+	{
+		Subroutine2(Hash=0xEED07881)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef SpecialAirHiEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x40023)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

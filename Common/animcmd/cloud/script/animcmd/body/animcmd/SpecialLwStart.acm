@@ -1,0 +1,26 @@
+MoveDef SpecialLwStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Low_Voice_Clip(unknown=0x804B001F)
+		Sound_Effect(SFX=0xC63003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Aesthetic_Wind_Effect(unknown=0x0, unknown=0x3E4CCCCD, unknown=0x43520000, unknown=0x40000000, unknown=0x3DCCCCCD, unknown=0x0, unknown=0x41200000, unknown=0x41D00000, unknown=0x41A00000, unknown=0xA)
+		Script_End()
+	}
+
+}

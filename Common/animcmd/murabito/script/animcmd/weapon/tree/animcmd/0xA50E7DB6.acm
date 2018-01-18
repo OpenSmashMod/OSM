@@ -1,0 +1,39 @@
+MoveDef 0xA50E7DB6
+{
+	Main()
+	{
+		Change_Hitbox_Damage(Unknown=0x0, Unknown=15)
+		Change_Hitbox_Damage(Unknown=0x1, Unknown=15)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Screen_Shake(unknown=0x4)
+		Compare(Variable=0x11000002, Mode=0x0, Value=0x1)
+		TRUE(Unknown=0x24){
+		unk_BBAD115E(unknown=0x32A000F, unknown=0x7D1, unknown=0x0, unknown=0x41500000, unknown=0x0, unknown=0xC, unknown=0xD, unknown=0xE, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_BBAD115E(unknown=0x32A0005, unknown=0x7D1, unknown=0x0, unknown=0x41500000, unknown=0x0, unknown=0xC, unknown=0xD, unknown=0xE, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		Compare(Variable=0x11000002, Mode=0x0, Value=0x1)
+		TRUE(Unknown=0x6){
+		Sound_Effect(SFX=0x24C0092)
+		FALSE(Unknown=0x7){
+		Sound_Effect(SFX=0x24C0093)
+		unk_687F9320(unknown=0x24C0093, unknown=0x3C)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,36 @@
+MoveDef 0xBA0BB879 : Unlisted
+{
+	Main()
+	{
+		Compare(Variable=0x11000005, Mode=0x0, Value=0xFFFFFFFF)
+		TRUE(Unknown=0x4){
+		Generate_Weapon(ID=0x2)
+		}
+		Compare(Variable=0x11000005, Mode=0x0, Value=0x3E)
+		TRUE(Unknown=0x4){
+		unk_950AEFC5(unknown=0x3E)
+		}
+		Compare(Variable=0x11000005, Mode=0x0, Value=0x44)
+		TRUE(Unknown=0x4){
+		unk_950AEFC5(unknown=0x44)
+		}
+		Compare(Variable=0x11000005, Mode=0x0, Value=0x2F)
+		TRUE(Unknown=0x4){
+		unk_950AEFC5(unknown=0x2F)
+		}
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

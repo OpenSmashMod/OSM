@@ -1,0 +1,42 @@
+MoveDef FinalAir
+{
+	Main()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x5E001E)
+		Sound_Effect(SFX=0x20014)
+		Synchronous_Timer(Frames=54)
+		Sound_Effect(SFX=0x5E001F)
+		Sound_Effect(SFX=0x20015)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		unk_EE37008F()
+		Asynchronous_Timer(Frames=3)
+		Rumble2(unknown=0xE, unknown=0x0)
+		Asynchronous_Timer(Frames=56)
+		Screen_Shake(unknown=0x5)
+		Rumble2(unknown=0xF, unknown=0x0)
+		Asynchronous_Timer(Frames=75)
+		Rumble2(unknown=0x22, unknown=0x0)
+		Asynchronous_Timer(Frames=156)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

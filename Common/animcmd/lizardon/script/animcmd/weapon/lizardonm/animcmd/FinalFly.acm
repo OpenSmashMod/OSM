@@ -1,0 +1,31 @@
+MoveDef FinalFly
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=10)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=47)
+		Rumble(unknown=0xD, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x261F5DAE)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x200021)
+		Synchronous_Timer(Frames=38)
+		Subroutine2(Hash=0x261F5DAE)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

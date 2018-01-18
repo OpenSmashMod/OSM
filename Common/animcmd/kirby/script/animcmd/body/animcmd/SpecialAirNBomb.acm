@@ -1,0 +1,34 @@
+MoveDef SpecialAirNBomb
+{
+	Main()
+	{
+		Subroutine2(Hash=0x9E19E90A)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x9E19E90A)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0xA00BA)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x4F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=16)
+		Rumble(unknown=0xF, unknown=0x0)
+		Screen_Shake(unknown=0x4)
+		Script_End()
+	}
+
+}

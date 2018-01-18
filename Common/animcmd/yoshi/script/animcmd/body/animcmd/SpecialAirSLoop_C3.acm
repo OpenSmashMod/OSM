@@ -1,0 +1,33 @@
+MoveDef SpecialAirSLoop_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xB8B01F13)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Terminate_Graphic_Effect(unknown=0x3070003, unknown=0x1, unknown=0x1)
+		Terminate_Graphic_Effect(unknown=0x3070008, unknown=0x1, unknown=0x1)
+		Terminate_Graphic_Effect(unknown=0x3070040, unknown=0x1, unknown=0x1)
+		unk_E20C02D4(unknown=0x3070003, unknown=0x3E8, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x42480000, unknown=0x43160000, unknown=0x437F0000)
+		unk_54BA7357(unknown=0x3070040, unknown=0x3E8, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x42200000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0x90084)
+		Sound_Effect(SFX=0x90082)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x28AE459B)
+		Script_End()
+	}
+
+}

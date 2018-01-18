@@ -1,0 +1,28 @@
+MoveDef 0x18DE2129
+{
+	Main()
+	{
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=10, Unknown=0x2B, Unknown=0x30, Unknown=0x0, Unknown=0x32, Unknown=5, Unknown=0, Unknown=0, Unknown=-1, Unknown=0x15, Unknown=0.2, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x2B, Unknown=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=0, Unknown=4)
+		Extended_Special_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=6, Unknown=0x2B, Unknown=0x30, Unknown=0x0, Unknown=0x32, Unknown=2.5, Unknown=0, Unknown=0, Unknown=1, Unknown=0x15, Unknown=0.2, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x2B, Unknown=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=0, Unknown=10)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Synchronous_Timer(Frames=8)
+		unk_300A0A85()
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x31E000B, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.7, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

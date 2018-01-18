@@ -1,0 +1,67 @@
+MoveDef 0x84BB8820
+{
+	Main()
+	{
+		Bit_Variable_Set(Unknown=0x21000012)
+		Asynchronous_Timer(Frames=4)
+		unk_D3D9401B(Unknown=0.7, Unknown=2)
+		Bit_Variable_Clear(Unknown=0x21000012)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1, Unknown=0x5F, Unknown=0x64, Unknown=0x10, Unknown=0x0, Unknown=8.5, Unknown=0, Unknown=6, Unknown=10, Unknown=0x0, Unknown=0, Unknown=0.5, Unknown=0.8, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x1, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x5, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=8, Unknown=10)
+		Extended_Special_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=1, Unknown=0x16E, Unknown=0x64, Unknown=0x10, Unknown=0x0, Unknown=8.5, Unknown=0, Unknown=6, Unknown=10, Unknown=0x0, Unknown=0, Unknown=0.5, Unknown=0.8, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x2, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x5, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=8, Unknown=10)
+		Asynchronous_Timer(Frames=18)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=20)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1, Unknown=0x3C, Unknown=0x64, Unknown=0x46, Unknown=0x0, Unknown=7, Unknown=0, Unknown=8, Unknown=10, Unknown=0x0, Unknown=0, Unknown=1.5, Unknown=0.8, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x5, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=8, Unknown=10)
+		Asynchronous_Timer(Frames=22)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=26)
+		Add_Momentum(Vertical=0, Horizontal=2.5)
+		Asynchronous_Timer(Frames=28)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=4, Unknown=0x50, Unknown=0xA0, Unknown=0x0, Unknown=0x3C, Unknown=7, Unknown=0, Unknown=16, Unknown=10, Unknown=0x0, Unknown=0, Unknown=1.5, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x2, Unknown=0x1, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x5, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=10, Unknown=10)
+		Asynchronous_Timer(Frames=31)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=56)
+		Bit_Variable_Set(Unknown=0x21000011)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect4(unknown=0x300000A, unknown=0x0, unknown=0x0, unknown=0x40E00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x1)
+		Asynchronous_Timer(Frames=25)
+		Terminate_Graphic_Effect(unknown=0x300000A, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=26)
+		External_Graphic(Graphic=0x3000008, Bone=0x18, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.8, Terminate=0x1)
+		Asynchronous_Timer(Frames=26)
+		unk_61A23DF6(unknown=0x300000B, unknown=0x300000B, unknown=0x0, unknown=0xBF800000, unknown=0x40E00000, unknown=0x41000000, unknown=0xC27C0000, unknown=0x41900000, unknown=0x42700000, unknown=0x3F4CCCCD, unknown=0x1, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3F19999A)
+		Asynchronous_Timer(Frames=47)
+		Terminate_Graphic_Effect(unknown=0x3000008, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81A0036)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x81A0036)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x81A0036)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x81A0036)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x81A0037)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Rumble(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=26)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

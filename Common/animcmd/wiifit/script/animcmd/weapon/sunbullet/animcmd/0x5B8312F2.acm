@@ -1,0 +1,21 @@
+MoveDef 0x5B8312F2
+{
+	Main()
+	{
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,42 @@
+MoveDef AttackAirF
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Defensive_Hitbox(Unknown=0x1, Unknown=0x10, Unknown=2.5, Unknown=0, Unknown=0)
+		Defensive_Hitbox(Unknown=0x0, Unknown=0xF, Unknown=0, Unknown=0, Unknown=0)
+		unk_AC811479(Unknown=0xF, Unknown=0xFFFFFFFF)
+		Asynchronous_Timer(Frames=5)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Hitbox(ID=0x0, Part=0x0, Bone=0xF, Damage=4.3, Angle=0x32, KBG=0x84, FKB=0x0, BKB=0x28, Size=5, Z=0, Y=0, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x10, Damage=5, Angle=0x32, KBG=0x84, FKB=0x0, BKB=0x28, Size=5, Z=2.5, Y=0, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Synchronous_Timer(Frames=3)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		External_Graphic(Graphic=0x1000090, Bone=0x0, Z=0, Y=6.5, X=7, RotZ=180, RotY=150, RotX=60, Size=0.8, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Low_Voice_Clip(unknown=0x80100005)
+		Sound_Effect(SFX=0x130057)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

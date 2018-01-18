@@ -1,0 +1,22 @@
+MoveDef Win2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Generate_Weapon(ID=0x0)
+		Set_Article_Action(Unknown=0x0, Unknown=0x56)
+		Script_End()
+	}
+
+}

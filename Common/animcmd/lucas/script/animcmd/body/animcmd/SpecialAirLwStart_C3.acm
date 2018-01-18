@@ -1,0 +1,19 @@
+MoveDef SpecialAirLwStart_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

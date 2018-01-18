@@ -1,0 +1,24 @@
+MoveDef SpecialAirSStart_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xFEA2FFF0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x8630037)
+		Transient_Sound_Effect(unknown=0x8630068)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

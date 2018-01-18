@@ -1,0 +1,65 @@
+MoveDef 0x0540DD2B
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Asynchronous_Timer(Frames=5)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x1, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=10)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x2, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=15)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x1, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=20)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=25)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x1, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=30)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x2, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=35)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=40)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x1, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=45)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x2, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=50)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x1, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=55)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=60)
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x50, WKB=0x1, BKB=0x5A, Effect?=0x0, Unknown=0x3F800000, Unknown=0, Unknown=1, Unknown=0x1, SFX?=0x0, airground=0x0, Unknown=0x1, Unknown=0x1, Type?=0x0)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		unk_C31ABACD(unknown=0x6, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Rumble2(unknown=0x2, unknown=0x1E)
+		Asynchronous_Timer(Frames=35)
+		Rumble2(unknown=0x9, unknown=0x14)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,34 @@
+MoveDef FinalSpecialAttackL
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Generate_Weapon(ID=0x0)
+		Asynchronous_Timer(Frames=4)
+		Set_Frame_Duration(Speed=1.4)
+		Asynchronous_Timer(Frames=6)
+		unk_A4F1B325(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=1){
+		Asynchronous_Timer(Frames=6)
+		Graphic_Effect(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Rumble2(unknown=0xC, unknown=0x0)
+		Synchronous_Timer(Frames=8)
+		Goto(Unknown=-24)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

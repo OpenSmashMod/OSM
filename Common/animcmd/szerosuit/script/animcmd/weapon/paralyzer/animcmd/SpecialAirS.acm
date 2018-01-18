@@ -1,0 +1,21 @@
+MoveDef SpecialAirS
+{
+	Main()
+	{
+		Subroutine2(Hash=0x224117F6)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,24 @@
+MoveDef DamageLw2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=16)
+		unk_C7B586AF(unknown=0xC1F00000, unknown=0x41F00000, unknown=0x40A00000)
+		Asynchronous_Timer(Frames=18)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

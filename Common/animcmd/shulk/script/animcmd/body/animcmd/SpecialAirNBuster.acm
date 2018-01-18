@@ -1,0 +1,25 @@
+MoveDef SpecialAirNBuster
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x465CC10F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x465CC10F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xB9A5960B)
+		Script_End()
+	}
+
+}

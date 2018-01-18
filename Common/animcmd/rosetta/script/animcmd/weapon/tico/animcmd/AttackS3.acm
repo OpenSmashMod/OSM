@@ -1,0 +1,34 @@
+MoveDef AttackS3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=7)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x7D5, Unknown=4.3, Unknown=0x169, Unknown=0x7D, Unknown=0x0, Unknown=0x28, Unknown=3.5, Unknown=4.5, Unknown=0, Unknown=0, Unknown=0x0, Unknown=0, Unknown=1.5, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=2, Unknown=0, Unknown=0)
+		Synchronous_Timer(Frames=4)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=4)
+		Bit_Variable_Set(Unknown=0x20000011)
+		Asynchronous_Timer(Frames=6)
+		External_Graphic(Graphic=0x100008E, Bone=0x0, Z=0, Y=2.5, X=10, RotZ=0, RotY=0, RotX=5, Size=0.6, Terminate=0x0)
+		Asynchronous_Timer(Frames=14)
+		Bit_Variable_Set(Unknown=0x20000011)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x4A40049)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

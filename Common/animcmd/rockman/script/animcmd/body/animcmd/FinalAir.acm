@@ -1,0 +1,26 @@
+MoveDef FinalAir
+{
+	Main()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=30)
+		Sound_Effect(SFX=0x23D0014)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+}

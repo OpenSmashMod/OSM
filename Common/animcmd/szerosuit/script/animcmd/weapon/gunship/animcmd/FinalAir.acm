@@ -1,0 +1,22 @@
+MoveDef FinalAir
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x1B002D)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

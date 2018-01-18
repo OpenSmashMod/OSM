@@ -1,0 +1,28 @@
+MoveDef FinalAirWait
+{
+	Main()
+	{
+		Subroutine2(Hash=0x1E9D7AE2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Rumble2(unknown=0x9, unknown=0x5A)
+		Loop_Rest()
+		Subroutine2(Hash=0x49D3457F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		unk_F4B1C95B()
+		Transient_Sound_Effect(unknown=0x2A0024)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef 0x6CD03DAC
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x1E2BDE4F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

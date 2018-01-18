@@ -1,0 +1,26 @@
+MoveDef 0x9D42A745 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=62)
+		unk_3A775D26(unknown=0x76E0030)
+		Asynchronous_Timer(Frames=73)
+		Sound_Effect(SFX=0x763002D)
+		Asynchronous_Timer(Frames=90)
+		Sound_Effect(SFX=0x763002E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

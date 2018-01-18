@@ -1,0 +1,25 @@
+MoveDef 0x792F3703
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		PLAY_SE_REMAIN(unknown=0x1A0044)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=19)
+		Rumble(unknown=0x10, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,29 @@
+MoveDef SpecialAirNCharge
+{
+	Main()
+	{
+		Subroutine2(Hash=0x5A08457A)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x5A08457A)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4A40031)
+		Transient_Sound_Effect(unknown=0x4A40030)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x5A08457A)
+		Script_End()
+	}
+
+}

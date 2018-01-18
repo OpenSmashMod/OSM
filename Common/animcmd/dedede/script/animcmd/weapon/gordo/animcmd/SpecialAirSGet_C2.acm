@@ -1,0 +1,21 @@
+MoveDef SpecialAirSGet_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xF9314D9E)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

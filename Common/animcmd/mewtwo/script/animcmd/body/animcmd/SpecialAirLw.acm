@@ -1,0 +1,53 @@
+MoveDef SpecialAirLw
+{
+	Main()
+	{
+		Subroutine2(Hash=0x85C513B2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=140)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=80, Green=120, Blue=255, Alpha=100)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=5, Red=0, Green=0, Blue=80, Alpha=0)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=140)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=80, Green=120, Blue=255, Alpha=100)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=5, Red=0, Green=0, Blue=80, Alpha=0)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=255, Green=255, Blue=255, Alpha=140)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=80, Green=120, Blue=255, Alpha=100)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=5, Red=0, Green=0, Blue=80, Alpha=0)
+		Synchronous_Timer(Frames=2)
+		Terminate_Overlays()
+		Asynchronous_Timer(Frames=13)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0xF){
+		External_Graphic(Graphic=0x3330011, Bone=0x13, Z=0.7, Y=1.9, X=1.5, RotZ=0, RotY=0, RotX=0, Size=0.5, Terminate=0x1)
+		FALSE(Unknown=0xD){
+		External_Graphic(Graphic=0x3330011, Bone=0x13, Z=0.7, Y=1.9, X=-1.5, RotZ=0, RotY=0, RotX=0, Size=0.5, Terminate=0x1)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x85C513B2)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x85C513B2)
+		Script_End()
+	}
+
+}

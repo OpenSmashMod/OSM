@@ -1,0 +1,23 @@
+MoveDef 0x4D5A8656 : Unlisted
+{
+	Main()
+	{
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1, Unknown=0x16E, Unknown=0x64, Unknown=0x5A, Unknown=0x0, Unknown=10, Unknown=4, Unknown=14, Unknown=13, Unknown=0x3, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x7, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=7, Unknown=13)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

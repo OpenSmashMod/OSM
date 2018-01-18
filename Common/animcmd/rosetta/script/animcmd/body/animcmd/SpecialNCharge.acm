@@ -1,0 +1,33 @@
+MoveDef SpecialNCharge
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40000000, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Synchronous_Timer(Frames=6)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4A40031)
+		Transient_Sound_Effect(unknown=0x4A40030)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x22, unknown=0x28)
+		Loop_Rest()
+		Subroutine2(Hash=0x5A08457A)
+		Script_End()
+	}
+
+}

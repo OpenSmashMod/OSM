@@ -1,0 +1,27 @@
+MoveDef 0xFC4453A7 : Unlisted
+{
+	Main()
+	{
+		Subroutine2(Hash=0x1C9FD162)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x1C9FD162)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x1C9FD162)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x1C9FD162)
+		Script_End()
+	}
+
+}

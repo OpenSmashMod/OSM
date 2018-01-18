@@ -1,0 +1,31 @@
+MoveDef 0xD8FF425B : Unlisted
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		Basic_Variable_Set(Unknown=0x2, Unknown=0x11000003)
+		Asynchronous_Timer(Frames=12)
+		Basic_Variable_Set(Unknown=0x3, Unknown=0x11000003)
+		Asynchronous_Timer(Frames=15)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Basic_Variable_Set(Unknown=0x4, Unknown=0x11000007)
+		Asynchronous_Timer(Frames=18)
+		Basic_Variable_Set(Unknown=0x4, Unknown=0x11000003)
+		Asynchronous_Timer(Frames=30)
+		Basic_Variable_Set(Unknown=0x5, Unknown=0x11000003)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

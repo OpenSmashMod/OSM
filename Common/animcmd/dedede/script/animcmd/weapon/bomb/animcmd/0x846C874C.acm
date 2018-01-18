@@ -1,0 +1,23 @@
+MoveDef 0x846C874C
+{
+	Main()
+	{
+		VIS_WHOLE(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=60)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

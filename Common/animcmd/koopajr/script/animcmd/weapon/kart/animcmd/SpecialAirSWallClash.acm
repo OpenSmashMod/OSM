@@ -1,0 +1,21 @@
+MoveDef SpecialAirSWallClash
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xC72C8C9B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

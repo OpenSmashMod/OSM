@@ -1,0 +1,42 @@
+MoveDef FinalStart
+{
+	Main()
+	{
+		Camera_Closeup(Unknown=0x5, Unknown=0x0, Unknown=1.5, Unknown=0x0, Unknown=0x0)
+		Time_Manipulation(Unknown=0x6, Unknown=0x3C)
+		Asynchronous_Timer(Frames=20)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0xF){
+		unk_524EF3F5(unknown=0x42E0000, unknown=0x0, unknown=0x40C00000, unknown=0x41100000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x1)
+		FALSE(Unknown=0xD){
+		unk_524EF3F5(unknown=0x42E0000, unknown=0x0, unknown=0xC0C00000, unknown=0x41100000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x1)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x8F0001A)
+		Sound_Effect(SFX=0x8630039)
+		Synchronous_Timer(Frames=56)
+		PLAY_SE_REMAIN(unknown=0x8630030)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_EE37008F()
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0x5, unknown=0x0)
+		Script_End()
+	}
+
+}

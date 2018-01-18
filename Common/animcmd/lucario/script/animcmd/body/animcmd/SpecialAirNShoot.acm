@@ -1,0 +1,25 @@
+MoveDef SpecialAirNShoot
+{
+	Main()
+	{
+		Subroutine2(Hash=0x135C86F7)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x135C86F7)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x135C86F7)
+		Script_End()
+	}
+
+}

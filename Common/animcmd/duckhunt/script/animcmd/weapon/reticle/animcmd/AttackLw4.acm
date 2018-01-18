@@ -1,0 +1,21 @@
+MoveDef AttackLw4
+{
+	Main()
+	{
+		Float_Variable_Set(unknown=0x3F800000, unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

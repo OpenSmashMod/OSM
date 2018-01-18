@@ -1,0 +1,26 @@
+MoveDef 0x3A0AF185
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=16)
+		Asynchronous_Timer(Frames=26)
+		Set_Loop(Iterations=10){
+		Goto(Unknown=0)
+		}
+		Asynchronous_Timer(Frames=36)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

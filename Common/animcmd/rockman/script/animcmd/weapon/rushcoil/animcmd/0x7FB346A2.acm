@@ -1,0 +1,21 @@
+MoveDef 0x7FB346A2 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x23D00BA)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

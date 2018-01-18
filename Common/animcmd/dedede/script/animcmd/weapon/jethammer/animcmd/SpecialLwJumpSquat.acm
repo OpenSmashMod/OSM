@@ -1,0 +1,19 @@
+MoveDef SpecialLwJumpSquat
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

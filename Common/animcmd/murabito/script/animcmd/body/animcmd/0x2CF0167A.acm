@@ -1,0 +1,24 @@
+MoveDef 0x2CF0167A
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x100001D, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Transient_Sound_Effect(unknown=0x24C001A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

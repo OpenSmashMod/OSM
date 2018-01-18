@@ -1,0 +1,22 @@
+MoveDef 0x163C745A
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x53)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

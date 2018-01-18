@@ -1,0 +1,24 @@
+MoveDef 0x8C604812
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=9)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0x4, unknown=0x0)
+		Script_End()
+	}
+
+}

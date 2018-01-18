@@ -1,0 +1,27 @@
+MoveDef 0x835B362F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xE8E62322)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE8E62322)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x5, unknown=0x0)
+		Script_End()
+	}
+
+}

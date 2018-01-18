@@ -1,0 +1,21 @@
+MoveDef 0x8623B7C5 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0x4C8372D3)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef 0xA718C725 : Unlisted
+{
+	Main()
+	{
+		Add/Set_Momentum(Vertical=0, Horizontal=-3, Mode=0x1)
+		Bit_Variable_Clear(Unknown=0x21000000)
+		Enable_Certain_Movements(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

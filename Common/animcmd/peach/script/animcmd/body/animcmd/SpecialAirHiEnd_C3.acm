@@ -1,0 +1,24 @@
+MoveDef SpecialAirHiEnd_C3
+{
+	Main()
+	{
+		Set_Article_Action(Unknown=0x0, Unknown=0x14)
+		Set_Frame_Duration(Speed=1.6)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef 0x5282E77C
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		unk_74B61BAC(unknown=0x2, unknown=0x42700000)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

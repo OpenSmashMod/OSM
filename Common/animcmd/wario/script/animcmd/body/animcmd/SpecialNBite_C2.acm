@@ -1,0 +1,39 @@
+MoveDef SpecialNBite_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=21)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x13, Damage=2, Angle=0x169, KBG=0x64, FKB=0x1E, BKB=0x0, Size=3, Z=-0.5, Y=2, X=2, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x0, Unknown=0xE)
+		Synchronous_Timer(Frames=4)
+		Remove_All_Hitboxes()
+		unk_5F4CF775()
+		unk_A5303662()
+		Subroutine2(Hash=0xDE989201)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=21)
+		Graphic_Effect4(unknown=0x3160008, unknown=0x0, unknown=0x0, unknown=0x41300000, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0)
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xDE989201)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x4, unknown=0x1)
+		Asynchronous_Timer(Frames=23)
+		Rumble(unknown=0x10, unknown=0x0)
+		unk_522DBA37()
+		Subroutine2(Hash=0xDE989201)
+		Script_End()
+	}
+
+}

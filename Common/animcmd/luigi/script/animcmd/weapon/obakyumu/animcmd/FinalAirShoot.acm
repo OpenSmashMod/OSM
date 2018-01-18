@@ -1,0 +1,25 @@
+MoveDef FinalAirShoot
+{
+	Main()
+	{
+		Subroutine2(Hash=0xEE431AE4)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xEE431AE4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xEE431AE4)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

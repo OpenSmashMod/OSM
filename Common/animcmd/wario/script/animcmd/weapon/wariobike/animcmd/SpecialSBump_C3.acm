@@ -1,0 +1,25 @@
+MoveDef SpecialSBump_C3
+{
+	Main()
+	{
+		Remove_All_Hitboxes()
+		Bit_Variable_Set(Unknown=0x2100000C)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		PLAY_SE_REMAIN(unknown=0x1A0044)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef DamageLw3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=15)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

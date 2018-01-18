@@ -1,0 +1,38 @@
+MoveDef FinalVacuum
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Rumble2(unknown=0x2, unknown=0x0)
+		External_Graphic(Graphic=0x40B0000, Bone=0x7D6, Z=2.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x40B0001, Bone=0x7DA, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x40B0001, Bone=0x7DB, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x40B0001, Bone=0x7DC, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x40B0001, Bone=0x7DD, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x40B0001, Bone=0x7DE, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x40B0001, Bone=0x7DF, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1.2, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x40B0001, Bone=0x7E0, Z=0, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1.4, Terminate=0x1)
+		Synchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x40B0005, Bone=0x7E1, Z=-5, Y=0, X=0, RotZ=0, RotY=90, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,45 @@
+MoveDef SpecialNEnd_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Frame_Duration(Speed=0.5)
+		Asynchronous_Timer(Frames=11)
+		Set_Frame_Duration(Speed=2)
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x13, Unknown=8, Unknown=0x32, Unknown=0x8C, Unknown=0x0, Unknown=0x28, Unknown=6, Unknown=0, Unknown=2.5, Unknown=0, Unknown=0x5, Unknown=0, Unknown=2.5, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x2, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0x1, Unknown=0x1F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=8, Unknown=0)
+		Asynchronous_Timer(Frames=12)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=21)
+		Set_Frame_Duration(Speed=1.2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Terminate_Overlays()
+		Asynchronous_Timer(Frames=8)
+		External_Graphic(Graphic=0x3210019, Bone=0x13, Z=3, Y=0, X=0, RotZ=-90, RotY=0, RotX=30, Size=0.8, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3FD9999A)
+		Asynchronous_Timer(Frames=11)
+		External_Graphic(Graphic=0x1000022, Bone=0x13, Z=0, Y=6, X=0, RotZ=-90, RotY=0, RotX=30, Size=0.7, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x135)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=5)
+		Screen_Shake(unknown=0x3)
+		Asynchronous_Timer(Frames=9)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

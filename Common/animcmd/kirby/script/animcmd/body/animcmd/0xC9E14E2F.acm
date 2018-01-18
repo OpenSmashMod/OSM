@@ -1,0 +1,22 @@
+MoveDef 0xC9E14E2F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

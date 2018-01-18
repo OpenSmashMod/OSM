@@ -1,0 +1,19 @@
+MoveDef SpecialLwWalk
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

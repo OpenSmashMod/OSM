@@ -1,0 +1,40 @@
+MoveDef SpecialAirN3End
+{
+	Main()
+	{
+		Add/Set_Momentum(Vertical=0.5, Horizontal=1.2, Mode=0x1)
+		Subroutine2(Hash=0x2271F2ED)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x2271F2ED)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x81B0035)
+		Synchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x81B004C)
+		Synchronous_Timer(Frames=30)
+		Sound_Effect(SFX=0x81B004D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=31)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=50)
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x41200000)
+		Script_End()
+	}
+
+}

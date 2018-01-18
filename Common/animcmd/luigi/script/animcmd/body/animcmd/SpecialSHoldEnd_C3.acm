@@ -1,0 +1,19 @@
+MoveDef SpecialSHoldEnd_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

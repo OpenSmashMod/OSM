@@ -1,0 +1,28 @@
+MoveDef Turn
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		unk_01A5A27C(unknown=0x20041, unknown=0x20043)
+		Synchronous_Timer(Frames=5)
+		unk_01A5A27C(unknown=0x20043, unknown=0x20041)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=6)
+		unk_FFF80BC2()
+		Script_End()
+	}
+
+}

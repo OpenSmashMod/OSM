@@ -1,0 +1,28 @@
+MoveDef LadderUp
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x18C)
+		Synchronous_Timer(Frames=4)
+		Subroutine2(Hash=0x69B0F68D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Rumble(unknown=0x14, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x69B0F68D)
+		Script_End()
+	}
+
+}

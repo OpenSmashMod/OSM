@@ -1,0 +1,37 @@
+MoveDef EntryL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x3C27AF3C)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x3C27AF3C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_A5187BBC(unknown=0x0)
+		Tag_Visibility(unknown=0x0)
+		Bit_Variable_Set(Unknown=0x20000065)
+		VIS_WHOLE(unknown=0x0)
+		Asynchronous_Timer(Frames=4)
+		VIS_WHOLE(unknown=0x1)
+		Asynchronous_Timer(Frames=11)
+		unk_A5187BBC(unknown=0x1)
+		Tag_Visibility(unknown=0x1)
+		Asynchronous_Timer(Frames=89)
+		Bit_Variable_Clear(Unknown=0x20000065)
+		Asynchronous_Timer(Frames=90)
+		Slope_Full(unknown=0x6, unknown=0xA)
+		Script_End()
+	}
+
+}

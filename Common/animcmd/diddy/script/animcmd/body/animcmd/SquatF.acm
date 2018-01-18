@@ -1,0 +1,32 @@
+MoveDef SquatF
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect2(unknown=0x1E005E)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x1E005F)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect2(unknown=0x1E005E)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x1E005F)
+		Loop_Rest()
+		Subroutine2(Hash=0x2B09E95)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x4, unknown=0x1)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,61 @@
+MoveDef Win3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=28)
+		Graphic_Effect2(unknown=0x100001B, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x40400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=32)
+		Graphic_Effect2(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x41500000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=40)
+		Graphic_Effect2(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x41B80000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=49)
+		Graphic_Effect2(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x42000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=56)
+		Graphic_Effect2(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x42200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=65)
+		Graphic_Effect2(unknown=0x100001B, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x42340000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=87)
+		Graphic_Effect2(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x42680000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=113)
+		Graphic_Effect2(unknown=0x100008F, unknown=0xB, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=24)
+		Sound_Effect(SFX=0x81A0002)
+		Asynchronous_Timer(Frames=30)
+		Sound_Effect(SFX=0x81A0008)
+		Asynchronous_Timer(Frames=32)
+		Sound_Effect(SFX=0x81A0010)
+		Asynchronous_Timer(Frames=46)
+		Sound_Effect(SFX=0x81A000A)
+		Asynchronous_Timer(Frames=50)
+		Sound_Effect(SFX=0x81A0006)
+		Asynchronous_Timer(Frames=52)
+		Sound_Effect(SFX=0x81A0010)
+		Asynchronous_Timer(Frames=59)
+		Sound_Effect(SFX=0x81A000C)
+		Asynchronous_Timer(Frames=67)
+		Sound_Effect(SFX=0x81A0009)
+		Asynchronous_Timer(Frames=76)
+		Sound_Effect(SFX=0x81A0006)
+		Asynchronous_Timer(Frames=84)
+		unk_3A775D26(unknown=0x81A0013)
+		Asynchronous_Timer(Frames=101)
+		unk_3A775D26(unknown=0x81A000A)
+		Asynchronous_Timer(Frames=111)
+		unk_3A775D26(unknown=0x81A0021)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

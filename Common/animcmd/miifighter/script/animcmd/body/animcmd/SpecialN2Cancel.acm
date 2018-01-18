@@ -1,0 +1,22 @@
+MoveDef SpecialN2Cancel
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x81A0049)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

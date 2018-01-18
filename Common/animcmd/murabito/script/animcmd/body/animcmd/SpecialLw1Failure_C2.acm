@@ -1,0 +1,34 @@
+MoveDef SpecialLw1Failure_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_1D09E516(Unknown=0x8)
+		Asynchronous_Timer(Frames=55)
+		Remove_Article(Unknown=0x8)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=9)
+		Sound_Effect(SFX=0x24C0035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=2)
+		Model_Changer(unknown=0x0, unknown=0x2)
+		Asynchronous_Timer(Frames=55)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

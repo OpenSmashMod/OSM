@@ -1,0 +1,28 @@
+MoveDef FinalAir
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Bit_Variable_Set(Unknown=0x20000065)
+		Item_Visibility(unknown=0x0)
+		Screen_Shake(unknown=0x3)
+		Rumble2(unknown=0x2, unknown=0x27)
+		Loop_Rest()
+		Subroutine2(Hash=0xC9F566E6)
+		Script_End()
+	}
+
+}

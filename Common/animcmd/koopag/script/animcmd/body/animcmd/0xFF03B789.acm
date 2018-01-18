@@ -1,0 +1,23 @@
+MoveDef 0xFF03B789 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		unk_4E94C51B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x751B9558)
+		Script_End()
+	}
+
+}

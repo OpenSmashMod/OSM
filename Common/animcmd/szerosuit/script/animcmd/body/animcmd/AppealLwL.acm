@@ -1,0 +1,31 @@
+MoveDef AppealLwL
+{
+	Main()
+	{
+		Subroutine2(Hash=0xFF0A8538)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		Sound_Effect(SFX=0x1B0083)
+		Transient_Sound_Effect(unknown=0x4E0011)
+		Synchronous_Timer(Frames=60)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x1B0084)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFF0A8538)
+		Script_End()
+	}
+
+}

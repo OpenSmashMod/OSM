@@ -1,0 +1,26 @@
+MoveDef 0x72BF2340
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xD278B2F6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=16)
+		Article_Visibility(Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+}

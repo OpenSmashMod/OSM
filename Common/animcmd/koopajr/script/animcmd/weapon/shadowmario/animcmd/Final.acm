@@ -1,0 +1,33 @@
+MoveDef Final
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=20)
+		Bit_Variable_Set(Unknown=0x20000005)
+		Asynchronous_Timer(Frames=60)
+		Bit_Variable_Set(Unknown=0x20000004)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=14)
+		Rumble2(unknown=0x2, unknown=0x18)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Asynchronous_Timer(Frames=2)
+		PLAY_SE_REMAIN(unknown=0x8630031)
+		Asynchronous_Timer(Frames=60)
+		PLAY_SE_REMAIN(unknown=0x8630032)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

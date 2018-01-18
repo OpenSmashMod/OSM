@@ -1,0 +1,44 @@
+MoveDef SpecialAirAppear
+{
+	Main()
+	{
+		Hitbox(ID=0x0, Part=0x0, Bone=0x4, Damage=11, Angle=0x46, KBG=0x6C, FKB=0x0, BKB=0x3C, Size=3.5, Z=0, Y=0, X=0, Effect=0x15, Trip=0, Hitlag=2.2, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x5, Damage=11, Angle=0x46, KBG=0x6C, FKB=0x0, BKB=0x3C, Size=3.5, Z=0, Y=0, X=0, Effect=0x15, Trip=0, Hitlag=2.2, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x2, Part=0x0, Bone=0x7, Damage=11, Angle=0x46, KBG=0x6C, FKB=0x0, BKB=0x3C, Size=5, Z=1, Y=1, X=0, Effect=0x15, Trip=0, Hitlag=2.2, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x31E000E, Bone=0xD, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0013, Bone=0x0, Z=0, Y=8, X=12, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3F666666)
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x100008D, Bone=0x0, Z=0, Y=8, X=-10, RotZ=0, RotY=0, RotX=0, Size=1.5, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x8670030)
+		unk_377D36CB(unknown=0x2F, unknown=0x2, unknown=0x32)
+		TRUE(Unknown=0x6){
+		Sound_Effect(SFX=0x8670057)
+		FALSE(Unknown=0xE){
+		unk_377D36CB(unknown=0x2F, unknown=0x2, unknown=0x33)
+		TRUE(Unknown=0x6){
+		Sound_Effect(SFX=0x8670058)
+		FALSE(Unknown=0x4){
+		Sound_Effect(SFX=0x8670059)
+		}
+		}
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

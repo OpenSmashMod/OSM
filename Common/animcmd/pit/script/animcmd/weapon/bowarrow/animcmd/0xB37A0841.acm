@@ -1,0 +1,34 @@
+MoveDef 0xB37A0841
+{
+	Main()
+	{
+		unk_AC811479(Unknown=0x0, Unknown=0x2)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x58, FKB=0x0, BKB=0xD, Size=1.3, Z=0, Y=0, X=-1.5, Effect=0x19, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x11, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3180007, Bone=0x7D1, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Sword_Trace(TraceID=0xA, BlurLen=3.503246E-44, Bone1=0x7D1, Z=0, Y=-2, X=0, Bone2=0x7D1, Z=0, Y=2, X=0, Anchored=0x1, Graphic=0x0, Bone3=0x7D1, Z=0, Y=0, X=0, RotX=0, RotY=0, RotZ=0, Length=1)
+		External_Graphic(Graphic=0x318000C, Bone=0x7D1, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Set_Loop(Iterations=-1){
+		Synchronous_Timer(Frames=2)
+		Graphic_Effect2(unknown=0x318000C, unknown=0x7D1, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x4002D)
+		unk_5FC8FA49(unknown=0x4002C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

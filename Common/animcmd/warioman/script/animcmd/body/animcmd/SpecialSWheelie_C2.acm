@@ -1,0 +1,21 @@
+MoveDef SpecialSWheelie_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x76A0014)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

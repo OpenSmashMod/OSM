@@ -1,0 +1,24 @@
+MoveDef FinalEscape
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x200021)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

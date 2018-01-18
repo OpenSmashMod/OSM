@@ -1,0 +1,26 @@
+MoveDef DamageN3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=21)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=22)
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Script_End()
+	}
+
+}

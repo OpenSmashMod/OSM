@@ -1,0 +1,27 @@
+MoveDef SpecialAirSEnd_C2
+{
+	Main()
+	{
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x93308A1B)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=46)
+		Slope_Full(unknown=0x0, unknown=0x2)
+		Script_End()
+	}
+
+}

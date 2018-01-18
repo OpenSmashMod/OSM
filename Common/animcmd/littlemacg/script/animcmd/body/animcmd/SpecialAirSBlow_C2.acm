@@ -1,0 +1,24 @@
+MoveDef SpecialAirSBlow_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3290009, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.9, Terminate=0x1)
+		External_Graphic(Graphic=0x329000F, Bone=0x0, Z=3, Y=10, X=3, RotZ=0, RotY=-45, RotX=-110, Size=1.6, Terminate=0x0)
+		Asynchronous_Timer(Frames=12)
+		Terminate_Graphic_Effect(unknown=0x3290009, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

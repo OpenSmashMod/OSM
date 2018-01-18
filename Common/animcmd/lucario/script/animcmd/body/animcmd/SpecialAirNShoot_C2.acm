@@ -1,0 +1,29 @@
+MoveDef SpecialAirNShoot_C2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=2)
+		Asynchronous_Timer(Frames=6)
+		unk_326E0EB5(Unknown=0x0, Unknown=0x2)
+		Asynchronous_Timer(Frames=20)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xA1299E2F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xA1299E2F)
+		Script_End()
+	}
+
+}

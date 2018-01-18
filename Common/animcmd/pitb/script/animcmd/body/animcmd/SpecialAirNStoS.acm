@@ -1,0 +1,23 @@
+MoveDef SpecialAirNStoS
+{
+	Main()
+	{
+		Subroutine2(Hash=0x3E49D711)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x3E49D711)
+		Script_End()
+	}
+
+}

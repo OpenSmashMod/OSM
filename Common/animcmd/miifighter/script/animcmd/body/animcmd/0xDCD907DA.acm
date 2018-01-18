@@ -1,0 +1,23 @@
+MoveDef 0xDCD907DA : Unlisted
+{
+	Main()
+	{
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=1, Unknown=0x4B, Unknown=0x64, Unknown=0xA, Unknown=0x0, Unknown=3.5, Unknown=0, Unknown=6.5, Unknown=15.5, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0, Unknown=6.5, Unknown=9)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

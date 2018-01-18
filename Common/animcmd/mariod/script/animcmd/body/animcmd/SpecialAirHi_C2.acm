@@ -1,0 +1,28 @@
+MoveDef SpecialAirHi_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x17DB0241)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Synchronous_Timer(Frames=3)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x11, unknown=0x0, unknown=0xBECCCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x17DB0241)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x17DB0241)
+		Script_End()
+	}
+
+}

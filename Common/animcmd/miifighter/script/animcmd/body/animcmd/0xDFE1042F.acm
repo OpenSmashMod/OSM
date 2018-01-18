@@ -1,0 +1,23 @@
+MoveDef 0xDFE1042F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xFF1DA5EC)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x1)
+		Script_End()
+	}
+
+}

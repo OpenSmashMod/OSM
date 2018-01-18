@@ -1,0 +1,58 @@
+MoveDef AttackAirLw
+{
+	Main()
+	{
+		Add/Set_Momentum(Vertical=0, Horizontal=1.6, Mode=0x1)
+		Disallow_Certain_Movements(Unknown=0x2)
+		Subroutine1(Unknown=0xC1C553EA)
+		Asynchronous_Timer(Frames=6)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=17)
+		Add/Set_Momentum(Vertical=0, Horizontal=-3.8, Mode=0x1)
+		Bit_Variable_Set(Unknown=0x2000007B)
+		unk_AC811479(Unknown=0x0, Unknown=0x1)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=16, Angle=0x10C, KBG=0x50, FKB=0x0, BKB=0x28, Size=5.6, Z=1, Y=-3, X=0, Effect=0x19, Trip=0, Hitlag=1.1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA)
+		Synchronous_Timer(Frames=9)
+		unk_AC811479(Unknown=0x0, Unknown=0x1)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=12, Angle=0x32, KBG=0x64, FKB=0x0, BKB=0x28, Size=5.3, Z=1, Y=-3, X=0, Effect=0x19, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xA)
+		Asynchronous_Timer(Frames=65)
+		Remove_All_Hitboxes()
+		Bit_Variable_Clear(Unknown=0x2000007B)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=71)
+		Bit_Variable_Clear(Unknown=0x21000000)
+		Enable_Certain_Movements(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=13)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x18, unknown=0x0, unknown=0xC1000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		External_Graphic(Graphic=0x3200000, Bone=0x3E8, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=11)
+		Sound_Effect(SFX=0x4A80000)
+		Synchronous_Timer(Frames=5)
+		Low_Voice_Clip(unknown=0x802C0000)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=6)
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=16)
+		Rumble(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=80)
+		Model_Changer(unknown=0x1, unknown=0x0)
+		Item_Visibility(unknown=0x1)
+		Script_End()
+	}
+
+}

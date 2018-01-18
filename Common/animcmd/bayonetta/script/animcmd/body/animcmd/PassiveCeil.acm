@@ -1,0 +1,29 @@
+MoveDef PassiveCeil
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=18)
+		Set Air/Ground(Unknown=0x26)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x44)
+		Stop_Sound_Effect(unknown=0x45)
+		Stop_Sound_Effect(unknown=0x46)
+		Sound_Effect(SFX=0xCA10020)
+		Sound_Effect3(unknown=0xC910012)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

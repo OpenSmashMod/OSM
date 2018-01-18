@@ -1,0 +1,38 @@
+MoveDef 0xD75AC823
+{
+	Main()
+	{
+		Subroutine2(Hash=0x8039AA)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3010011, unknown=0x11, unknown=0x40800000, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=18)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		unk_870CF021(unknown=0x6){
+		Sound_Effect(SFX=0x81B005C)
+		FALSE(Unknown=0x4){
+		Sound_Effect(SFX=0x81B0051)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_C7B586AF(unknown=0x0, unknown=0x0, unknown=0x0)
+		Subroutine2(Hash=0x8039AA)
+		Asynchronous_Timer(Frames=40)
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x41200000)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef SpecialAirNSpit
+{
+	Main()
+	{
+		Subroutine2(Hash=0xF17E4DE8)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0xA0061)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

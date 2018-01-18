@@ -1,0 +1,43 @@
+MoveDef AttackS3Hi
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=7)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x8, Damage=10, Angle=0x169, KBG=0x64, FKB=0x0, BKB=0xC, Size=3.6, Z=0.7, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x9, Damage=10, Angle=0x169, KBG=0x64, FKB=0x0, BKB=0xC, Size=4.8, Z=2.9, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Synchronous_Timer(Frames=4)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=8)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0x10){
+		unk_54BA7357(unknown=0x100008E, unknown=0x0, unknown=0x0, unknown=0x40966666, unknown=0x40066666, unknown=0x42300000, unknown=0xC2080000, unknown=0x43030000, unknown=0x3F666666, unknown=0x1, unknown=0x42700000)
+		FALSE(Unknown=0x1A){
+		unk_54BA7357(unknown=0x100008E, unknown=0x0, unknown=0xC0000000, unknown=0x40B00000, unknown=0x400CCCCD, unknown=0x42800000, unknown=0xC22C0000, unknown=0x42D60000, unknown=0x3F666666, unknown=0x1, unknown=0x42700000)
+		unk_54BA7357(unknown=0x30D000D, unknown=0x0, unknown=0xC0000000, unknown=0x40B00000, unknown=0x400CCCCD, unknown=0x42800000, unknown=0xC22C0000, unknown=0x42D60000, unknown=0x3F666666, unknown=0x1, unknown=0x42700000)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x8376AD51)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=5)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=18)
+		Slope_Full(unknown=0x6, unknown=0x4)
+		Script_End()
+	}
+
+}

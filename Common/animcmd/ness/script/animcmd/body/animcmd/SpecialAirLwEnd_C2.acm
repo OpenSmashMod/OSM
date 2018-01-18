@@ -1,0 +1,30 @@
+MoveDef SpecialAirLwEnd_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x4C750E28)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x30D000A, Bone=0x1, Z=0, Y=6.5, X=0, RotZ=0, RotY=0, RotX=0, Size=1.2, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xF0085)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x11, unknown=0x0)
+		Asynchronous_Timer(Frames=5)
+		Screen_Shake(unknown=0x3)
+		Script_End()
+	}
+
+}

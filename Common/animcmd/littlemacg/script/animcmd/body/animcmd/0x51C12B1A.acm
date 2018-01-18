@@ -1,0 +1,27 @@
+MoveDef 0x51C12B1A
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0x86992081)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=3)
+		Screen_Shake(unknown=0x3)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

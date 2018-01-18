@@ -1,0 +1,36 @@
+MoveDef 0x39047036
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xF54F3029)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xF54F3029)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=3)
+		Rumble2(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=12)
+		Rumble2(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=23)
+		Rumble2(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=35)
+		Rumble2(unknown=0xC, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xF54F3029)
+		Script_End()
+	}
+
+}

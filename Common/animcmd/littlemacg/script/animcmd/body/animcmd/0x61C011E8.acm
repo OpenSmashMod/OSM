@@ -1,0 +1,23 @@
+MoveDef 0x61C011E8
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x0, unknown=0x3)
+		Script_End()
+	}
+
+}

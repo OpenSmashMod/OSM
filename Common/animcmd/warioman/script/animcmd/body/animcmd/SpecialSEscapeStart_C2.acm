@@ -1,0 +1,21 @@
+MoveDef SpecialSEscapeStart_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x76A0007)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

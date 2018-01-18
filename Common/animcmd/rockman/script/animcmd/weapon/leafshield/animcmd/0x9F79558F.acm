@@ -1,0 +1,22 @@
+MoveDef 0x9F79558F
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x23D0031)
+		unk_5FC8FA49(unknown=0x23D0033)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

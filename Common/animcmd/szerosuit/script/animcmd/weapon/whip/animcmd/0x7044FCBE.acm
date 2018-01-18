@@ -1,0 +1,30 @@
+MoveDef 0x7044FCBE
+{
+	Main()
+	{
+		VIS_WHOLE(unknown=0x1)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic_Effect2(unknown=0x3190009, unknown=0x7D1, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x1)
+		External_Graphic(Graphic=0x3190008, Bone=0x7D4, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3190008, Bone=0x7D5, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3190008, Bone=0x7D6, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3190008, Bone=0x7D7, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3190008, Bone=0x7D8, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3190008, Bone=0x7D9, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

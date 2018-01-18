@@ -1,0 +1,39 @@
+MoveDef CatchDash
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=8)
+		Grab_Collision(ID=0x0, Bone=0x0, Size=3.2, Z=0, Y=5.2, X=4, Action=0x3F, AirGround=0x3, Unknown=0x0, Unknown=5.2, Unknown=10)
+		Subroutine1(Unknown=0x49FA5BDD)
+		Synchronous_Timer(Frames=2)
+		Terminate_Grab_Collisions()
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x6C)
+		Synchronous_Timer(Frames=5)
+		Stop_Sound_Effect(unknown=0x6C)
+		Synchronous_Timer(Frames=7)
+		Sound_Effect2(unknown=0xF004F)
+		Synchronous_Timer(Frames=14)
+		Sound_Effect2(unknown=0xF004D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x1)
+		Asynchronous_Timer(Frames=2)
+		Slope_Full(unknown=0x6, unknown=0x8)
+		Script_End()
+	}
+
+}

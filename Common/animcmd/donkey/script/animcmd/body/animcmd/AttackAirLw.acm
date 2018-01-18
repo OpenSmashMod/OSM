@@ -1,0 +1,43 @@
+MoveDef AttackAirLw
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=3)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=14)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=16, Angle=0x10E, KBG=0x5A, FKB=0x0, BKB=0x1E, Size=7, Z=0, Y=-5, X=1, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=13, Angle=0x169, KBG=0x5A, FKB=0x0, BKB=0x14, Size=5.8, Z=0, Y=6, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=50)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=9)
+		External_Graphic(Graphic=0x100000F, Bone=0xB, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=17)
+		External_Graphic(Graphic=0x3040008, Bone=0x0, Z=-7.5, Y=15, X=-4.5, RotZ=80, RotY=-30, RotX=15, Size=1.2, Terminate=0x1)
+		Asynchronous_Timer(Frames=20)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x0, unknown=0x0, unknown=0xC0A00000, unknown=0x40400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Low_Voice_Clip(unknown=0x80060007)
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x70080)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

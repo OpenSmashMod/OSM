@@ -1,0 +1,24 @@
+MoveDef 0x28ADEC4B : Unlisted
+{
+	Main()
+	{
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=15, Unknown=0x32, Unknown=0x6B, Unknown=0x0, Unknown=0x37, Unknown=12, Unknown=0, Unknown=7.5, Unknown=6, Unknown=0x2, Unknown=0, Unknown=1.4, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x2, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=7.5, Unknown=8)
+		Extended_Special_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=15, Unknown=0x32, Unknown=0x6B, Unknown=0x0, Unknown=0x37, Unknown=8, Unknown=0, Unknown=6.4, Unknown=20, Unknown=0x2, Unknown=0, Unknown=1.4, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=6.4, Unknown=-2)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

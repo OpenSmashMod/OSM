@@ -1,0 +1,22 @@
+MoveDef SpecialAirSEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_E06A5D00(unknown=0x11003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

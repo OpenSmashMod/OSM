@@ -1,0 +1,26 @@
+MoveDef SpecialAirS3Lw_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x718BCAE0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x160066)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x718BCAE0)
+		Script_End()
+	}
+
+}

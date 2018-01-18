@@ -1,0 +1,28 @@
+MoveDef Final5wayDown
+{
+	Main()
+	{
+		Subroutine2(Hash=0xFF508B58)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=5){
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FB33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Rumble(unknown=0x10, unknown=0x0)
+		Synchronous_Timer(Frames=7)
+		Goto(Unknown=-22)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

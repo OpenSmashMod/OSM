@@ -1,0 +1,23 @@
+MoveDef 0x69C96CF6
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0xB9177967)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

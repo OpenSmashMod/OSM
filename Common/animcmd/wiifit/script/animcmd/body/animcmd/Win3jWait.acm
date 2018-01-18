@@ -1,0 +1,25 @@
+MoveDef Win3jWait
+{
+	Main()
+	{
+		Subroutine2(Hash=0x1CF0419D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x1CF0419D)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x1CF0419D)
+		Script_End()
+	}
+
+}

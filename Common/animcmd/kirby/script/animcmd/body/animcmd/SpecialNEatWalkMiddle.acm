@@ -1,0 +1,35 @@
+MoveDef SpecialNEatWalkMiddle
+{
+	Main()
+	{
+		Subroutine2(Hash=0x46D97543)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		unk_01A5A27C(unknown=0xA006A, unknown=0xA006C)
+		Synchronous_Timer(Frames=25)
+		unk_01A5A27C(unknown=0xA006C, unknown=0xA006A)
+		Loop_Rest()
+		Subroutine2(Hash=0xD043E890)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=14)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=39)
+		Rumble(unknown=0x10, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xD043E890)
+		Script_End()
+	}
+
+}

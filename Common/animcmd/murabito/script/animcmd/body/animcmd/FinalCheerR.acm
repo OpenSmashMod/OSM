@@ -1,0 +1,25 @@
+MoveDef FinalCheerR
+{
+	Main()
+	{
+		Subroutine2(Hash=0x629672A)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x629672A)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x629672A)
+		Script_End()
+	}
+
+}

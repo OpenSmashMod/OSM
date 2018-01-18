@@ -1,0 +1,22 @@
+MoveDef DamageFlyN
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_CA7748A5()
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

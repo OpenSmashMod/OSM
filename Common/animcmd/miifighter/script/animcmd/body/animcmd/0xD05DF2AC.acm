@@ -1,0 +1,33 @@
+MoveDef 0xD05DF2AC
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Loop(Iterations=10){
+		Subroutine1(Unknown=0xD37D02B4)
+		unk_1AFDA8E6(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=-1, Unknown=5.2)
+		unk_1AFDA8E6(Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=-1, Unknown=-5.2)
+		unk_1AFDA8E6(Unknown=0x2, Unknown=0x0, Unknown=0x0, Unknown=9, Unknown=5.2)
+		unk_1AFDA8E6(Unknown=0x3, Unknown=0x0, Unknown=0x0, Unknown=9, Unknown=-5.2)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Goto(Unknown=-29)
+		}
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x100005E, Bone=0x2, Z=0, Y=2, X=1, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

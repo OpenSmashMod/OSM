@@ -1,0 +1,21 @@
+MoveDef SpecialAirSRide_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x491F8D21)
+		Script_End()
+	}
+
+}

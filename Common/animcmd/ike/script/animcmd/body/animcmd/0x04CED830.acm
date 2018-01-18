@@ -1,0 +1,28 @@
+MoveDef 0x04CED830 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=27)
+		unk_3A775D26(unknown=0x570030)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x240048)
+		Synchronous_Timer(Frames=28)
+		Sound_Effect(SFX=0x240048)
+		Asynchronous_Timer(Frames=113)
+		Sound_Effect(SFX=0x24004B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

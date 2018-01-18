@@ -1,0 +1,25 @@
+MoveDef SpecialAirNBiteEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0xC0C278CB)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xC0C278CB)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xC0C278CB)
+		Script_End()
+	}
+
+}

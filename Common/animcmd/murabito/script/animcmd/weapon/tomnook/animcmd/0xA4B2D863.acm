@@ -1,0 +1,26 @@
+MoveDef 0xA4B2D863
+{
+	Main()
+	{
+		Subroutine2(Hash=0x5EBDE500)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x5EBDE500)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x24C0014)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

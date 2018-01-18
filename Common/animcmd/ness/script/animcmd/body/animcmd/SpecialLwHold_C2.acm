@@ -1,0 +1,29 @@
+MoveDef SpecialLwHold_C2
+{
+	Main()
+	{
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=0, Angle=0x16F, KBG=0x64, FKB=0x19, BKB=0x0, Size=27, Z=0, Y=6.5, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x0, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x2B, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x4, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x10000A4, Bone=0x1, Z=0, Y=6.5, X=0, RotZ=0, RotY=0, RotX=0, Size=0.8, Terminate=0x1)
+		unk_BF72BDCA(unknown=0x42A00000)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x9, unknown=0x13)
+		Loop_Rest()
+		Subroutine2(Hash=0x1C2C951C)
+		Script_End()
+	}
+
+}

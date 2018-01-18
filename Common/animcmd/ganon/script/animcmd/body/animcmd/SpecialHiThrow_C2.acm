@@ -1,0 +1,21 @@
+MoveDef SpecialHiThrow_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x190037)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef CliffClimbQuick
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x4A40003)
+		Asynchronous_Timer(Frames=43)
+		Sound_Effect(SFX=0x4A40013)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=26)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

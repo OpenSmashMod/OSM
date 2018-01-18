@@ -1,0 +1,29 @@
+MoveDef SpecialAirNStart_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xD42A6A40)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=10)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x17, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x4A8004D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xD42A6A40)
+		Script_End()
+	}
+
+}

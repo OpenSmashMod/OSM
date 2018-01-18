@@ -1,0 +1,21 @@
+MoveDef 0xBCD4CBD7 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFBE34163)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

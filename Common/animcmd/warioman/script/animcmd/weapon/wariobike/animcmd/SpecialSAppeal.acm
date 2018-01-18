@@ -1,0 +1,19 @@
+MoveDef SpecialSAppeal
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef Turn
+{
+	Main()
+	{
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x6DF0040)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x6DF003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

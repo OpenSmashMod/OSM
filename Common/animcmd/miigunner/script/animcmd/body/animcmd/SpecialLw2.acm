@@ -1,0 +1,31 @@
+MoveDef SpecialLw2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.15)
+		Asynchronous_Timer(Frames=12)
+		Generate_Weapon(ID=0xB)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=12)
+		Sound_Effect(SFX=0x81C0043)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=12)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=30)
+		Slope_Full(unknown=0x6, unknown=0x5)
+		Script_End()
+	}
+
+}

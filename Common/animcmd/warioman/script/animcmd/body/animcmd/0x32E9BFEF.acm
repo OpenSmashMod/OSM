@@ -1,0 +1,23 @@
+MoveDef 0x32E9BFEF
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		PLAY_SE_REMAIN(unknown=0x7760006)
+		Sound_Effect(SFX=0x76A0014)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

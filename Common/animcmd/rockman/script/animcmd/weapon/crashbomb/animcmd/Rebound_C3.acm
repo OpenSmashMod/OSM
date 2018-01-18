@@ -1,0 +1,26 @@
+MoveDef Rebound_C3
+{
+	Main()
+	{
+		VIS_WHOLE(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x1000018, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x50)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,49 @@
+MoveDef SpecialAirHiStart_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=1.3)
+		Add/Set_Momentum(Vertical=0, Horizontal=0.5, Mode=0x1)
+		Asynchronous_Timer(Frames=10)
+		Set_Frame_Duration(Speed=5)
+		SA_SET(Unknown=0x2)
+		Add/Set_Momentum(Vertical=0, Horizontal=4, Mode=0x1)
+		Asynchronous_Timer(Frames=13)
+		Set_Frame_Duration(Speed=8)
+		Add/Set_Momentum(Vertical=0, Horizontal=2, Mode=0x1)
+		Asynchronous_Timer(Frames=14)
+		Add/Set_Momentum(Vertical=0, Horizontal=1, Mode=0x1)
+		Asynchronous_Timer(Frames=15)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0x15){
+		Graphic_Effect2(unknown=0x32E0003, unknown=0x0, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F19999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		FALSE(Unknown=0x13){
+		Graphic_Effect2(unknown=0x32E0003, unknown=0x0, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		}
+		}
+		Asynchronous_Timer(Frames=10)
+		External_Graphic_Effect2(unknown=0x32E0008, unknown=0x0, unknown=0x0, unknown=0x40800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x863005D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFAF20BB3)
+		Script_End()
+	}
+
+}

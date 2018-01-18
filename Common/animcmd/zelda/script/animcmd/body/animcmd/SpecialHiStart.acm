@@ -1,0 +1,45 @@
+MoveDef SpecialHiStart
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.6)
+		Asynchronous_Timer(Frames=11)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=6, Unknown=0x5B, Unknown=0x1E, Unknown=0x0, Unknown=0x76, Unknown=8, Unknown=0, Unknown=6, Unknown=-4, Unknown=0x2, Unknown=0, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xF, Unknown=0, Unknown=6, Unknown=4)
+		Asynchronous_Timer(Frames=13)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=34)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Graphic_Effect3(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		External_Graphic(Graphic=0x3100005, Bone=0x0, Z=0, Y=10, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Color_Overlay(Red=0, Green=160, Blue=0, Alpha=0)
+		Change_Overlay(Transition=20, Red=0, Green=160, Blue=0, Alpha=150)
+		Set_Loop(Iterations=4){
+		Color_Overlay(Red=0, Green=160, Blue=0, Alpha=160)
+		Synchronous_Timer(Frames=2)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Goto(Unknown=-10)
+		}
+		Asynchronous_Timer(Frames=33)
+		Terminate_Graphic_Effect(unknown=0x3100005, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x120051)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

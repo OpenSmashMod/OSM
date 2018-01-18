@@ -1,0 +1,42 @@
+MoveDef SpecialAirS
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=13)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=11, Angle=0x4B, KBG=0x4B, FKB=0x0, BKB=0x34, Size=4.5, Z=0, Y=4, X=10, Effect=0x0, Trip=0.4, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x14, SFXType=0x2, Ground/Air=0x6, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=11, Angle=0x4B, KBG=0x4B, FKB=0x0, BKB=0x34, Size=4.5, Z=0, Y=4, X=5, Effect=0x0, Trip=0.4, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x14, SFXType=0x2, Ground/Air=0x6, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Basic_Variable_Set(Unknown=0x1, Unknown=0x11000002)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=29)
+		Remove_All_Hitboxes()
+		Allow/Disallow Ledgegrab(Unknown=0x1)
+		Asynchronous_Timer(Frames=31)
+		Basic_Variable_Set(Unknown=0x2, Unknown=0x11000002)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=41)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x224117F6)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0x26005F)
+		Sound_Effect(SFX=0x590014)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x224117F6)
+		Script_End()
+	}
+
+}

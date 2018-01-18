@@ -1,0 +1,39 @@
+MoveDef Run
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Synchronous_Timer(Frames=12)
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FA66666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0xBFC007A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=5)
+		Rumble2(unknown=0x16, unknown=0x0)
+		Asynchronous_Timer(Frames=15)
+		Rumble2(unknown=0x16, unknown=0x0)
+		Asynchronous_Timer(Frames=25)
+		Rumble2(unknown=0x16, unknown=0x0)
+		Asynchronous_Timer(Frames=35)
+		Rumble2(unknown=0x16, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0x5076A4C0)
+		Script_End()
+	}
+
+}

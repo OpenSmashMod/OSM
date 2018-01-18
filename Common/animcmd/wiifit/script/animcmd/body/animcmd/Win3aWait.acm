@@ -1,0 +1,25 @@
+MoveDef Win3aWait
+{
+	Main()
+	{
+		unk_979D8828(Unknown=0x4)
+		unk_870CF021(unknown=0x4){
+		Generate_Weapon(ID=0x4)
+		}
+		Set_Article_Action(Unknown=0x4, Unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

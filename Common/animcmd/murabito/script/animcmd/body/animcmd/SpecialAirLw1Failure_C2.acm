@@ -1,0 +1,26 @@
+MoveDef SpecialAirLw1Failure_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x81274174)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=9)
+		Sound_Effect(SFX=0x24C0035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x81274174)
+		Script_End()
+	}
+
+}

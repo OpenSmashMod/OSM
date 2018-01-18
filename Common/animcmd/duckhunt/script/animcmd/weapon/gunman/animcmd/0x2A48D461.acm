@@ -1,0 +1,52 @@
+MoveDef 0x2A48D461
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Compare(Variable=0x10000007, Mode=0x0, Value=0x0)
+		TRUE(Unknown=0x1A){
+		Asynchronous_Timer(Frames=3)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=13.3, X=0.8, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=13.3, X=-0.8, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		}
+		Compare(Variable=0x10000007, Mode=0x0, Value=0x1)
+		TRUE(Unknown=0x1A){
+		Asynchronous_Timer(Frames=3)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=15.7, X=0.6, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=15.7, X=-0.6, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		}
+		Compare(Variable=0x10000007, Mode=0x0, Value=0x2)
+		TRUE(Unknown=0x1A){
+		Asynchronous_Timer(Frames=3)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=16.9, X=0.2, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=16.9, X=-1, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		}
+		Compare(Variable=0x10000007, Mode=0x0, Value=0x3)
+		TRUE(Unknown=0x1A){
+		Asynchronous_Timer(Frames=3)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=11, X=0.75, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=11, X=-0.6, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		}
+		Compare(Variable=0x10000007, Mode=0x0, Value=0x4)
+		TRUE(Unknown=0x1A){
+		Asynchronous_Timer(Frames=3)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=14.1, X=0.3, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x32D0000, Bone=0x0, Z=-1, Y=14.1, X=-1.1, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xD047E902)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

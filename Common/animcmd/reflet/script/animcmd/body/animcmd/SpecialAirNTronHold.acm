@@ -1,0 +1,25 @@
+MoveDef SpecialAirNTronHold
+{
+	Main()
+	{
+		Subroutine2(Hash=0x6E1698BF)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x6E1698BF)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x6E1698BF)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef SpecialAirNBomb_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x8FE18CC0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x8FE18CC0)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

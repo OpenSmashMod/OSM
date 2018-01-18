@@ -1,0 +1,29 @@
+MoveDef GuardOn
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x64)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x4, unknown=0x0)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		Slope_Full(unknown=0x0, unknown=0x3)
+		Script_End()
+	}
+
+}

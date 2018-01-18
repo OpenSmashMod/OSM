@@ -1,0 +1,29 @@
+MoveDef SpecialAirHiEnd_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Add_Momentum(Vertical=0, Horizontal=0.3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x24C002E)
+		Asynchronous_Timer(Frames=20)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

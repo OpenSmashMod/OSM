@@ -1,0 +1,28 @@
+MoveDef 0x3513E434
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=13)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x1BA6EBD5)
+		Script_End()
+	}
+
+}

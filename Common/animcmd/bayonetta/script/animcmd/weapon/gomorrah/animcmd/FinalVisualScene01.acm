@@ -1,0 +1,40 @@
+MoveDef FinalVisualScene01
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=60)
+		External_Graphic(Graphic=0x4380013, Bone=0x7D1, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=80)
+		Compare(Variable=0x10000007, Mode=0x1, Value=0x1)
+		TRUE(Unknown=0x13){
+		External_Graphic(Graphic=0x4380010, Bone=0x7D1, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		unk_8F27D612(unknown=0x3E0F5C29, unknown=0x3E23D70A, unknown=0x3E1EB852)
+		FALSE(Unknown=0xD){
+		External_Graphic(Graphic=0x4380010, Bone=0x7D1, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		}
+		}
+		Asynchronous_Timer(Frames=104)
+		External_Graphic(Graphic=0x4380011, Bone=0x7E3, Z=0, Y=0, X=10, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=134)
+		External_Graphic(Graphic=0x4380011, Bone=0x7E3, Z=0, Y=0, X=10, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=160)
+		External_Graphic(Graphic=0x4380011, Bone=0x7E3, Z=0, Y=0, X=10, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=191)
+		Asynchronous_Timer(Frames=243)
+		External_Graphic(Graphic=0x4380014, Bone=0x7E3, Z=0, Y=27, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

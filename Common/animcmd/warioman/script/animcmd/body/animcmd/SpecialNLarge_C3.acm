@@ -1,0 +1,28 @@
+MoveDef SpecialNLarge_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x76A0053)
+		Synchronous_Timer(Frames=14)
+		PLAY_SE_REMAIN(unknown=0x7760004)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x76A003B)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x76A0057)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

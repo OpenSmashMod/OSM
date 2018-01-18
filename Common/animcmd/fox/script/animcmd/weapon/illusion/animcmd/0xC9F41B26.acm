@@ -1,0 +1,23 @@
+MoveDef 0xC9F41B26
+{
+	Main()
+	{
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=3, Angle=0x50, KBG=0xAA, FKB=0x0, BKB=0xA, Size=4, Z=0, Y=4, X=0, Effect=0x2, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x0, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x3, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x2)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,25 @@
+MoveDef SpecialAirNHold
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x1DC9D1A)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x1DC9D1A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x1DC9D1A)
+		Script_End()
+	}
+
+}

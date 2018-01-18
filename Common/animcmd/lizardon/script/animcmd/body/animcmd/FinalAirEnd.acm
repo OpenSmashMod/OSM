@@ -1,0 +1,27 @@
+MoveDef FinalAirEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+	Effect()
+	{
+		unk_524EF3F5(unknown=0x4210001, unknown=0x0, unknown=0x0, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+}

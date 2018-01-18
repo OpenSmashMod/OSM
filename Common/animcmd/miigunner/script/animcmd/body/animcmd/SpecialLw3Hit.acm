@@ -1,0 +1,26 @@
+MoveDef SpecialLw3Hit
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x302002D, Bone=0x1, Z=0, Y=6.5, X=0, RotZ=0, RotY=0, RotX=0, Size=1.8, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81C0062)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

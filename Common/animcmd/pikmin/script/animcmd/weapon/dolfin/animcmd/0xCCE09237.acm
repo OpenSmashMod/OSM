@@ -1,0 +1,25 @@
+MoveDef 0xCCE09237
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x41A0001, Bone=0x7DC, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x1C0040)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

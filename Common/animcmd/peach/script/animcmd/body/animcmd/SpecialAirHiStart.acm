@@ -1,0 +1,30 @@
+MoveDef SpecialAirHiStart
+{
+	Main()
+	{
+		Subroutine2(Hash=0xABD189D7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xABD189D7)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x11005F)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x110039)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

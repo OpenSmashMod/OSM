@@ -1,0 +1,21 @@
+MoveDef LadderDown
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xC0)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

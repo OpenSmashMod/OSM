@@ -1,0 +1,35 @@
+MoveDef FinalVisualScene02
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=70)
+		VIS_WHOLE(unknown=0x1)
+		Bit_Variable_Set(Unknown=0x20000005)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=71)
+		Graphic_Effect2(unknown=0x4390005, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=135)
+		Graphic_Effect2(unknown=0x4390006, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=146)
+		External_Graphic(Graphic=0x4390007, Bone=0x7F1, Z=0.5, Y=2.5, X=0.8, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x4390007, Bone=0x7F1, Z=0.5, Y=2.5, X=-0.8, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=185)
+		External_Graphic(Graphic=0x4390008, Bone=0x7F1, Z=0, Y=3, X=0, RotZ=-90, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=210)
+		Terminate_Graphic_Effect(unknown=0x4390008, unknown=0x1, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

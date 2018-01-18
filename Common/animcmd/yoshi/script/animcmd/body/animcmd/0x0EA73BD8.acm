@@ -1,0 +1,22 @@
+MoveDef 0x0EA73BD8
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

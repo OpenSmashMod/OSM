@@ -1,0 +1,29 @@
+MoveDef 0x1712960C
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=11)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=0, Angle=0x16F, KBG=0x64, FKB=0x32, BKB=0x0, Size=50, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x1, Ground/Air=0x0, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0)
+		unk_3C95CD87(unknown=0x0, unknown=0x40800000, unknown=0xBDCCCCCD, unknown=0x447A0000, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x42DC0000, unknown=0x50)
+		Synchronous_Timer(Frames=160)
+		Remove_All_Hitboxes()
+		Terminate_Wind_Effect(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x42B0000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Terminate_Graphic_Effect(unknown=0x32B0026, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

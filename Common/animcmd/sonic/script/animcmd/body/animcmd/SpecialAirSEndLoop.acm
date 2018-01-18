@@ -1,0 +1,23 @@
+MoveDef SpecialAirSEndLoop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Transient_Sound_Effect(unknown=0x2A004B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

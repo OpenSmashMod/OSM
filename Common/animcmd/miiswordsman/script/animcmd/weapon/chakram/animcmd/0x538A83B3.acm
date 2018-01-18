@@ -1,0 +1,37 @@
+MoveDef 0x538A83B3
+{
+	Main()
+	{
+		IS_FLAG_WORK(unknown=0x20000006)
+		unk_870CF021(unknown=0x6){
+		Subroutine1(Unknown=0xCC3EDD05)
+		FALSE(Unknown=0x4){
+		Subroutine1(Unknown=0xA4A28B89)
+		}
+		}
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		IS_FLAG_WORK(unknown=0x20000006)
+		unk_870CF021(unknown=0x8){
+		Sound_Effect(SFX=0x81B0060)
+		unk_5FC8FA49(unknown=0x81B0060)
+		FALSE(Unknown=0x6){
+		Sound_Effect(SFX=0x81B005F)
+		unk_5FC8FA49(unknown=0x81B005F)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

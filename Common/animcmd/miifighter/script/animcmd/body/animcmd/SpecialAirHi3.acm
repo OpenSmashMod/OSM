@@ -1,0 +1,46 @@
+MoveDef SpecialAirHi3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x9B700E2B)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x9B700E2B)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x9B700E2B)
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x81A0061)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A0061)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A0061)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A0061)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A0061)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A0061)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A0061)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A0061)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=4)
+		Rumble2(unknown=0x2, unknown=0x13)
+		Asynchronous_Timer(Frames=23)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

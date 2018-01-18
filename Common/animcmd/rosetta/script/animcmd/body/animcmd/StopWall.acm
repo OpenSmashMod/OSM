@@ -1,0 +1,21 @@
+MoveDef StopWall
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x128)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,30 @@
+MoveDef 0xB78725AF
+{
+	Main()
+	{
+		Subroutine2(Hash=0x60A4424E)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x60A4424E)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=27)
+		Transient_Sound_Effect(unknown=0x590002)
+		Synchronous_Timer(Frames=50)
+		Transient_Sound_Effect(unknown=0x590003)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x60A4424E)
+		Script_End()
+	}
+
+}

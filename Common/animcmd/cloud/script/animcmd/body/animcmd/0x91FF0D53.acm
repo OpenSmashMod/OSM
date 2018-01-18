@@ -1,0 +1,21 @@
+MoveDef 0x91FF0D53
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0xFFFFFFFF)
+		Script_End()
+	}
+
+}

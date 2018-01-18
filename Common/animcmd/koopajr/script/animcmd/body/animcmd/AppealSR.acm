@@ -1,0 +1,31 @@
+MoveDef AppealSR
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		unk_1D09E516(Unknown=0x0)
+		Asynchronous_Timer(Frames=91)
+		unk_501A7157(Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=22)
+		Sound_Effect(SFX=0x8630047)
+		Asynchronous_Timer(Frames=60)
+		Sound_Effect(SFX=0x8630047)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

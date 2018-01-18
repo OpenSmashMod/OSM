@@ -1,0 +1,19 @@
+MoveDef FinalAirChargeshotD
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

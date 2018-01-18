@@ -1,0 +1,26 @@
+MoveDef 0xB1FC7B08
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=22)
+		VIS_WHOLE(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Color_Overlay(Red=255, Green=0, Blue=0, Alpha=120)
+		Asynchronous_Timer(Frames=22)
+		unk_30392B40(unknown=0x32A000D, unknown=0x0, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43770000, unknown=0x43770000, unknown=0x43680000)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

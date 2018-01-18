@@ -1,0 +1,26 @@
+MoveDef FinalEnd
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x2)
+		Asynchronous_Timer(Frames=29)
+		Normal_Camera()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

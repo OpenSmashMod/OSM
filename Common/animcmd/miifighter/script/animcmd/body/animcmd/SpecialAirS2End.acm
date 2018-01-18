@@ -1,0 +1,23 @@
+MoveDef SpecialAirS2End
+{
+	Main()
+	{
+		Subroutine2(Hash=0x2BDC6BB)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x300000F, Bone=0x3, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.5, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

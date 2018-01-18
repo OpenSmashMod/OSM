@@ -1,0 +1,61 @@
+MoveDef SpecialS
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=11)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=19, Angle=0x35, KBG=0x4E, FKB=0x0, BKB=0x3C, Size=5.4, Z=0, Y=4.5, X=11.5, Effect=0x0, Trip=0, Hitlag=1.2, SDI=1, Clang=0x0, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xB)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=19, Angle=0x35, KBG=0x4E, FKB=0x0, BKB=0x3C, Size=3.5, Z=0, Y=4.5, X=5.5, Effect=0x0, Trip=0, Hitlag=1.2, SDI=1, Clang=0x0, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xB)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=27)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=53)
+		Remove_Article(Unknown=0x15)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x3080013, Bone=0x19, Z=0, Y=10, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=8)
+		Terminate_Sword_Glow(unknown=0x0)
+		unk_6F4AACA8(unknown=0x6, unknown=0x5, unknown=0x19, unknown=0x0, unknown=0x4114CCCD, unknown=0xC0000000, unknown=0x19, unknown=0x3FC00000, unknown=0x4144CCCD, unknown=0xC0000000, unknown=0x1, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x8, unknown=0x2, unknown=0x40800000)
+		unk_515F97FF(unknown=0x100000D, unknown=0x100000E, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F99999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=9)
+		Graphic_Effect(unknown=0x1000020, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=10)
+		Asynchronous_Timer(Frames=14)
+		Terminate_Sword_Glow(unknown=0x3)
+		Asynchronous_Timer(Frames=15)
+		Terminate_Graphic_Effect(unknown=0x3080013, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=18)
+		External_Graphic(Graphic=0x3080018, Bone=0x19, Z=0, Y=10, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x3F0001)
+		Sound_Effect(SFX=0xA0064)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=2)
+		Slope_Full(unknown=0x1, unknown=0x8)
+		Asynchronous_Timer(Frames=9)
+		Rumble(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=10)
+		Screen_Shake(unknown=0x3)
+		Asynchronous_Timer(Frames=46)
+		Slope_Full(unknown=0x6, unknown=0xF)
+		Script_End()
+	}
+
+}

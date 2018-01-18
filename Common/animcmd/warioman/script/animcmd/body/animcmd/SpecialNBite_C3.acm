@@ -1,0 +1,25 @@
+MoveDef SpecialNBite_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=21)
+		Graphic_Effect4(unknown=0x3160008, unknown=0x0, unknown=0x0, unknown=0x41300000, unknown=0x41000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0)
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xA99FA297)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

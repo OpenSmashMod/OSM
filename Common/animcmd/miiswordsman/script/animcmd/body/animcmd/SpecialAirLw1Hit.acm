@@ -1,0 +1,36 @@
+MoveDef SpecialAirLw1Hit
+{
+	Main()
+	{
+		Subroutine2(Hash=0x4E047017)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x4E047017)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81B0031)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81B0032)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Screen_Shake(unknown=0x4)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=3)
+		Rumble(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=30)
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x41200000)
+		Script_End()
+	}
+
+}

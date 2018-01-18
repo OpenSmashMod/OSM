@@ -1,0 +1,25 @@
+MoveDef SpecialAirNTronEnd_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x4124946A)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x4124946A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x4124946A)
+		Script_End()
+	}
+
+}

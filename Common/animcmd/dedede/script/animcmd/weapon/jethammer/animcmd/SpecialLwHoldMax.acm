@@ -1,0 +1,19 @@
+MoveDef SpecialLwHoldMax
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

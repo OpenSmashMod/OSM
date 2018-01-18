@@ -1,0 +1,31 @@
+MoveDef Wait2
+{
+	Main()
+	{
+		Bit_Variable_Set(Unknown=0x2000007C)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=23)
+		Slope_Full(unknown=0x4, unknown=0x4)
+		Asynchronous_Timer(Frames=37)
+		Slope_Full(unknown=0x6, unknown=0x4)
+		Asynchronous_Timer(Frames=40)
+		Slope_Full(unknown=0x4, unknown=0x4)
+		Asynchronous_Timer(Frames=56)
+		Slope_Full(unknown=0x6, unknown=0x4)
+		Script_End()
+	}
+
+}

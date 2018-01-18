@@ -1,0 +1,28 @@
+MoveDef SpecialAirLwAttack_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xC928A086)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xC928A086)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xC928A086)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

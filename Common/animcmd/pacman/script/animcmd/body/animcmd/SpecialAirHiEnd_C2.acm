@@ -1,0 +1,21 @@
+MoveDef SpecialAirHiEnd_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine1(Unknown=0x669E43CF)
+		Script_End()
+	}
+
+}

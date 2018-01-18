@@ -1,0 +1,23 @@
+MoveDef SpecialAirNOpenWait_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xC586A979)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xC586A979)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

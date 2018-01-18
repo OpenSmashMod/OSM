@@ -1,0 +1,61 @@
+MoveDef Final
+{
+	Main()
+	{
+		Time_Manipulation(Unknown=0x5, Unknown=0x1E)
+		Asynchronous_Timer(Frames=20)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=3, Angle=0x50, KBG=0x64, FKB=0xC8, BKB=0x0, Size=18, Z=0, Y=12, X=25, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x42F0002, unknown=0x0, unknown=0x3F000000, unknown=0x41500000, unknown=0x41C00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=23)
+		IS_FLAG_WORK(unknown=0x2100000D)
+		TRUE(Unknown=0x27){
+		Terminate_Graphic_Effect(unknown=0x42F0002, unknown=0x0, unknown=0x0)
+		Graphic_Effect2(unknown=0x42F0000, unknown=0x0, unknown=0x3F000000, unknown=0x41500000, unknown=0x41C00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=30)
+		End_Screen_Tint(unknown=0x2, unknown=0x0)
+		Screen_Tint(unknown=0x2, unknown=0x32, unknown=0xFF, unknown=0xFF, unknown=0xFF, unknown=0xFF, unknown=0x7, unknown=0xFF)
+		FALSE(Unknown=0x13){
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Compare(Variable=0x11000007, Mode=0x0, Value=0x0)
+		TRUE(Unknown=0x8){
+		Sound_Effect(SFX=0x7730015)
+		Sound_Effect(SFX=0x91A0009)
+		FALSE(Unknown=0x6){
+		Sound_Effect(SFX=0x7730016)
+		Sound_Effect(SFX=0x91A0009)
+		}
+		}
+		Asynchronous_Timer(Frames=55)
+		Stop_Sound_Effect(unknown=0x91A0009)
+		Sound_Effect(SFX=0x91A000A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x6, unknown=0x8)
+		unk_EE37008F()
+		Asynchronous_Timer(Frames=6)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=71)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+}

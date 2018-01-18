@@ -1,0 +1,26 @@
+MoveDef SpecialAirHiEnd_C2
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.5)
+		Allow/Disallow Ledgegrab(Unknown=0x2)
+		Asynchronous_Timer(Frames=15)
+		Set_Frame_Duration(Speed=2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,19 @@
+MoveDef 0x3DDC7269
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

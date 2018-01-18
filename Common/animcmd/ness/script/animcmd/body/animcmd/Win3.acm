@@ -1,0 +1,35 @@
+MoveDef Win3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=23)
+		Graphic_Effect2(unknown=0x1000024, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F19999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=51)
+		Graphic_Effect2(unknown=0x1000024, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F59999A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=22)
+		Sound_Effect(SFX=0xF0034)
+		Asynchronous_Timer(Frames=40)
+		Sound_Effect(SFX=0x6D)
+		Asynchronous_Timer(Frames=50)
+		Sound_Effect(SFX=0xF0034)
+		Asynchronous_Timer(Frames=117)
+		Sound_Effect(SFX=0x6D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x1, unknown=0x0)
+		Script_End()
+	}
+
+}

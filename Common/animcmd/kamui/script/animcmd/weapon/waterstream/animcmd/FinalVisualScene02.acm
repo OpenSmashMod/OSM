@@ -1,0 +1,26 @@
+MoveDef FinalVisualScene02
+{
+	Main()
+	{
+		Article_Visibility(Unknown=0x5, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=207)
+		External_Graphic(Graphic=0x439000B, Bone=0x7DC, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=2, Terminate=0x0)
+		External_Graphic(Graphic=0x439000A, Bone=0x7DB, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=2, Terminate=0x0)
+		External_Graphic(Graphic=0x439000A, Bone=0x7DA, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=2, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,26 @@
+MoveDef Win2Wait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		Synchronous_Timer(Frames=85)
+		External_Graphic(Graphic=0x3270006, Bone=0x7D2, Z=1, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Synchronous_Timer(Frames=55)
+		Goto(Unknown=-15)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

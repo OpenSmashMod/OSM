@@ -1,0 +1,22 @@
+MoveDef CatchDash
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=22)
+		Set_Frame_Duration(Speed=0.67)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

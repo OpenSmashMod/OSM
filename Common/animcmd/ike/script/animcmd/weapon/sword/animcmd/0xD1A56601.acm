@@ -1,0 +1,25 @@
+MoveDef 0xD1A56601 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=2){
+		Synchronous_Timer(Frames=3)
+		Synchronous_Timer(Frames=5)
+		Goto(Unknown=-4)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

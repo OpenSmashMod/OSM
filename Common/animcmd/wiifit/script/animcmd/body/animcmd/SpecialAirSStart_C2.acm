@@ -1,0 +1,24 @@
+MoveDef SpecialAirSStart_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x24B003B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFEA2FFF0)
+		Script_End()
+	}
+
+}

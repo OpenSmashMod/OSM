@@ -1,0 +1,56 @@
+MoveDef AppealHiL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Transient_Sound_Effect(unknown=0x25007D)
+		Synchronous_Timer(Frames=9)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x25007C)
+		Synchronous_Timer(Frames=9)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=21)
+		Transient_Sound_Effect(unknown=0x25007D)
+		Transient_Sound_Effect(unknown=0x250079)
+		Synchronous_Timer(Frames=40)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=10)
+		Transient_Sound_Effect(unknown=0x25007D)
+		Transient_Sound_Effect(unknown=0x250079)
+		Synchronous_Timer(Frames=10)
+		unk_F4B1C95B()
+		Synchronous_Timer(Frames=10)
+		Transient_Sound_Effect(unknown=0x25007C)
+		Synchronous_Timer(Frames=8)
+		unk_F4B1C95B()
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x9)
+		Asynchronous_Timer(Frames=2)
+		Slope_Full(unknown=0x0, unknown=0x5)
+		Asynchronous_Timer(Frames=11)
+		Rumble2(unknown=0x9, unknown=0x14)
+		Asynchronous_Timer(Frames=41)
+		Rumble2(unknown=0x9, unknown=0x28)
+		Asynchronous_Timer(Frames=91)
+		Rumble(unknown=0x12, unknown=0x0)
+		Asynchronous_Timer(Frames=111)
+		Rumble(unknown=0x11, unknown=0x0)
+		Slope_Full(unknown=0x9, unknown=0x5)
+		Script_End()
+	}
+
+}

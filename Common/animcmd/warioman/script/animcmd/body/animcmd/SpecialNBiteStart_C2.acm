@@ -1,0 +1,22 @@
+MoveDef SpecialNBiteStart_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x76A003D)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

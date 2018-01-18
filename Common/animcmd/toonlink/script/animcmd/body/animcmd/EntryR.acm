@@ -1,0 +1,44 @@
+MoveDef EntryR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x3200008, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4F)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x4A80032)
+		Synchronous_Timer(Frames=39)
+		Sound_Effect(SFX=0x4A80023)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x4A80022)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=1)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=8)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=9)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=58)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=102)
+		Model_Changer(unknown=0x1, unknown=0x0)
+		Script_End()
+	}
+
+}

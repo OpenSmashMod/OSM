@@ -1,0 +1,23 @@
+MoveDef SpecialLwHitTurn
+{
+	Main()
+	{
+		Subroutine2(Hash=0x16E97B17)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x16E97B17)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

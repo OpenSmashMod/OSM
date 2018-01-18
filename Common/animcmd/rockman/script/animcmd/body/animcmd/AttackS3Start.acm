@@ -1,0 +1,25 @@
+MoveDef AttackS3Start
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xFB85681D)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFB85681D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFB85681D)
+		Script_End()
+	}
+
+}

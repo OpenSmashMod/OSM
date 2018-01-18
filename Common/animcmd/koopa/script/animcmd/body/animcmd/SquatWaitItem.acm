@@ -1,0 +1,21 @@
+MoveDef SquatWaitItem
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Script_End()
+	}
+
+}

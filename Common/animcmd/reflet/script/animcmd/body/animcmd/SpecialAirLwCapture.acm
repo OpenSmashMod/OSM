@@ -1,0 +1,25 @@
+MoveDef SpecialAirLwCapture
+{
+	Main()
+	{
+		Subroutine2(Hash=0x4224A9FB)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x4224A9FB)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x4224A9FB)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef DamageFlyRoll
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		unk_7F0F890E(unknown=0x80000009, unknown=0x8000000A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

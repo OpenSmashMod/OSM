@@ -1,0 +1,21 @@
+MoveDef SpecialAirSWallClash_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x3D09059F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

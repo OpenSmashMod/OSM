@@ -1,0 +1,32 @@
+MoveDef SpecialAirLwSuccessR_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x8021F9D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x8021F9D)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Stop_Sound_Effect(unknown=0x2C9001A)
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x2C9001B)
+		Sound_Effect(SFX=0x24B0032)
+		Sound_Effect(SFX=0x15D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x8021F9D)
+		Script_End()
+	}
+
+}

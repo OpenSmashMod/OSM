@@ -1,0 +1,28 @@
+MoveDef 0xA7AC470B
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=4)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=11)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=30)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

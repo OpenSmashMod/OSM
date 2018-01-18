@@ -1,0 +1,23 @@
+MoveDef FuraFuraStartD
+{
+	Main()
+	{
+		Model_Changer(unknown=0x7, unknown=0x3)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x1)
+		Script_End()
+	}
+
+}

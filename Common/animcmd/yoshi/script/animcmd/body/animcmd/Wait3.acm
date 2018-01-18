@@ -1,0 +1,24 @@
+MoveDef Wait3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=37)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=41)
+		Asynchronous_Timer(Frames=62)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,28 @@
+MoveDef SpecialAirNStart
+{
+	Main()
+	{
+		Subroutine2(Hash=0xFC612FC6)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFC612FC6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=3)
+		Item_Visibility(unknown=0x0)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+}

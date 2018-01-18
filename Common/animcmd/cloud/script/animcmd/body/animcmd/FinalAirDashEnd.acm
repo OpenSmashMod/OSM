@@ -1,0 +1,25 @@
+MoveDef FinalAirDashEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x975DA8B3)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x975DA8B3)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x975DA8B3)
+		Script_End()
+	}
+
+}

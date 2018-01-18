@@ -1,0 +1,26 @@
+MoveDef 0x6FD911BF
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		External_Graphic(Graphic=0x3310017, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1.8, Terminate=0x1)
+		unk_FD1F7ECF(unknown=0x3FC00000)
+		Synchronous_Timer(Frames=15)
+		Goto(Unknown=-15)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

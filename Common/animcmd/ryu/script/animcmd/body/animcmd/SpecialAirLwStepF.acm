@@ -1,0 +1,26 @@
+MoveDef SpecialAirLwStepF
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x1000010, unknown=0x0, unknown=0x0, unknown=0x41380000, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0xC05003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xA0C47539)
+		Script_End()
+	}
+
+}

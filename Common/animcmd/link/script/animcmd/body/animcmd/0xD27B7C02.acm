@@ -1,0 +1,28 @@
+MoveDef 0xD27B7C02
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=24)
+		Graphic_Effect(unknown=0x1000019, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC1700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=3)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=38)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

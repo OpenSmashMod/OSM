@@ -1,0 +1,26 @@
+MoveDef SpecialAirLwHeavy
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x20032)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Item_Visibility(unknown=0x0)
+		Rumble2(unknown=0xF, unknown=0x0)
+		Script_End()
+	}
+
+}

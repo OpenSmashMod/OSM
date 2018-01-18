@@ -1,0 +1,27 @@
+MoveDef SpecialAirN3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xC642F4B9)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xC642F4B9)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xC642F4B9)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xC642F4B9)
+		Script_End()
+	}
+
+}

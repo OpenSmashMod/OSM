@@ -1,0 +1,27 @@
+MoveDef 0x41E51A76
+{
+	Main()
+	{
+		Set_Loop(Iterations=-1){
+		VIS_WHOLE(unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		VIS_WHOLE(unknown=0x1)
+		Synchronous_Timer(Frames=2)
+		Goto(Unknown=-8)
+		}
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

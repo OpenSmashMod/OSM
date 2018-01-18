@@ -1,0 +1,35 @@
+MoveDef CatchAttack
+{
+	Main()
+	{
+		unk_1D09E516(Unknown=0x1)
+		Asynchronous_Timer(Frames=6)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=2, Angle=0x169, KBG=0x64, FKB=0x1E, BKB=0x0, Size=5, Z=0, Y=8, X=11, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x11, Direct/Indirect=0x3, Unknown=0x1, Unknown=0xB, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Synchronous_Timer(Frames=1)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=18)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=24)
+		unk_501A7157(Unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=6)
+		Graphic_Effect2(unknown=0x32E000C, unknown=0x0, unknown=0x41400000, unknown=0x41400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0x10, unknown=0x0)
+		Script_End()
+	}
+
+}

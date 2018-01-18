@@ -1,0 +1,36 @@
+MoveDef FinalAirStart
+{
+	Main()
+	{
+		Subroutine2(Hash=0x17EB3D5)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x17EB3D5)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=13)
+		PLAY_SE_REMAIN(unknown=0x240021)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_EE37008F()
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0xE, unknown=0x0)
+		Asynchronous_Timer(Frames=14)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=33)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

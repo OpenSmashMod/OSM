@@ -1,0 +1,25 @@
+MoveDef SwimRise
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xB4)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0xB3)
+		Synchronous_Timer(Frames=14)
+		Subroutine2(Hash=0x9F916D8B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

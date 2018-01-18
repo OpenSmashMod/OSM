@@ -1,0 +1,22 @@
+MoveDef CatchWait
+{
+	Main()
+	{
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Model_Changer(unknown=0x7, unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef SpecialAirHiStart_C2
+{
+	Main()
+	{
+		Subroutine1(Unknown=0x8DF53B25)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0x8DF53B25)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine1(Unknown=0x8DF53B25)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x8DF53B25)
+		Script_End()
+	}
+
+}

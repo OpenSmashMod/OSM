@@ -1,0 +1,30 @@
+MoveDef SpecialNBiteEnd
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=11)
+		Throw_Applier(ID=0x0, Bone=0x1A, Unknown=0x11000005, Unknown=0x11000006, Unknown=0x11000007)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x76A0052)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=11)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=19)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

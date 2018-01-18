@@ -1,0 +1,21 @@
+MoveDef SpecialLwLandingFlyR_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x692CEED9)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,44 @@
+MoveDef EntryR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x31E000C, Bone=0x0, Z=0, Y=0, X=6, RotZ=0, RotY=0, RotX=0, Size=1.4, Terminate=0x1)
+		Asynchronous_Timer(Frames=16)
+		Terminate_Graphic_Effect(unknown=0x31E000C, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=16)
+		External_Graphic(Graphic=0x31E0001, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=180, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0002, Bone=0x17, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=21)
+		External_Graphic(Graphic=0x31E0001, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=180, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0002, Bone=0x17, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=31)
+		External_Graphic(Graphic=0x31E0010, Bone=0x2, Z=0, Y=-2, X=0, RotZ=0, RotY=0, RotX=0, Size=1.2, Terminate=0x1)
+		Asynchronous_Timer(Frames=32)
+		External_Graphic(Graphic=0x31E0001, Bone=0x11, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=180, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x31E0002, Bone=0x17, Z=0.5, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=31)
+		Sound_Effect(SFX=0x867000C)
+		Asynchronous_Timer(Frames=46)
+		Sound_Effect(SFX=0x91F000A)
+		Synchronous_Timer(Frames=57)
+		Sound_Effect3(unknown=0x867001B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=98)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

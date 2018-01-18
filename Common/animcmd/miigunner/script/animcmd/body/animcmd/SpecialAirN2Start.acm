@@ -1,0 +1,19 @@
+MoveDef SpecialAirN2Start
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,19 @@
+MoveDef AttackHi4Charge
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

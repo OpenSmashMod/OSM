@@ -1,0 +1,21 @@
+MoveDef 0x814E73DC : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0xB8CC56C0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

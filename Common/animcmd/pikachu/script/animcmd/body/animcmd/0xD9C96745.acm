@@ -1,0 +1,22 @@
+MoveDef 0xD9C96745
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Pickup_Item(Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

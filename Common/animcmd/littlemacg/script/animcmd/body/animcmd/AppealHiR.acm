@@ -1,0 +1,35 @@
+MoveDef AppealHiR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=21)
+		Asynchronous_Timer(Frames=31)
+		Asynchronous_Timer(Frames=41)
+		Set_Loop(Iterations=10){
+		Goto(Unknown=0)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x82B0016)
+		Asynchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0x82B000A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=24)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

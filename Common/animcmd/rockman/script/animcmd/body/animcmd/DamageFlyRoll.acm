@@ -1,0 +1,19 @@
+MoveDef DamageFlyRoll
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef Fall_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE693CFBA)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,30 @@
+MoveDef 0x9B6B7EF6
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x126E356F)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		IS_FLAG_WORK(unknown=0x21000014)
+		TRUE(Unknown=0x4){
+		FALSE(Unknown=0x6){
+		Low_Voice_Clip(unknown=0x803A0001)
+		Sound_Effect(SFX=0x82B0012)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

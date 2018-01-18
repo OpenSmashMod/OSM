@@ -1,0 +1,22 @@
+MoveDef GekikaraWait
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+}

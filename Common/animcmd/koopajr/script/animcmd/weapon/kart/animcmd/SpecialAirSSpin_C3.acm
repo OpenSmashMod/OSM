@@ -1,0 +1,34 @@
+MoveDef SpecialAirSSpin_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xE4209676)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x863005B)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x8630069)
+		Stop_Sound_Effect(unknown=0x863006A)
+		Transient_Sound_Effect(unknown=0x8630050)
+		Asynchronous_Timer(Frames=8)
+		Transient_Sound_Effect(unknown=0x8630051)
+		Synchronous_Timer(Frames=42)
+		Stop_Sound_Effect(unknown=0x8630050)
+		Stop_Sound_Effect(unknown=0x8630068)
+		Stop_Sound_Effect(unknown=0x8630069)
+		Sound_Effect(SFX=0x863003C)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

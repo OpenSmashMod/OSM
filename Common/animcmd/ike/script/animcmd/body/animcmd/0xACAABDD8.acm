@@ -1,0 +1,28 @@
+MoveDef 0xACAABDD8 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=33)
+		Sound_Effect(SFX=0x240048)
+		Asynchronous_Timer(Frames=50)
+		unk_3A775D26(unknown=0x570030)
+		Asynchronous_Timer(Frames=61)
+		Sound_Effect(SFX=0x240048)
+		Asynchronous_Timer(Frames=113)
+		Sound_Effect(SFX=0x24004B)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

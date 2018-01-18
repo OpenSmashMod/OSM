@@ -1,0 +1,55 @@
+MoveDef FinalAir2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x683E0CD4)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Synchronous_Timer(Frames=10)
+		Set_Loop(Iterations=2){
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		External_Graphic_Effect2(unknown=0x3160011, unknown=0x0, unknown=0xBF800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=1, unknown=0x0)
+		Synchronous_Timer(Frames=2)
+		Goto(Unknown=-130)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=10)
+		PLAY_SE_REMAIN(unknown=0x8C00002)
+		Synchronous_Timer(Frames=41)
+		Sound_Effect(SFX=0x776000A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=10)
+		Rumble2(unknown=0x2, unknown=0x0)
+		Script_End()
+	}
+
+}

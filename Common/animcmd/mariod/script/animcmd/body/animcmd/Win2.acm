@@ -1,0 +1,33 @@
+MoveDef Win2
+{
+	Main()
+	{
+		unk_1D09E516(Unknown=0x3)
+		Set_Article_Action(Unknown=0x3, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=19)
+		unk_3A775D26(unknown=0x76B0033)
+		Synchronous_Timer(Frames=26)
+		unk_3A775D26(unknown=0x76B0033)
+		Synchronous_Timer(Frames=60)
+		Sound_Effect(SFX=0x70)
+		Synchronous_Timer(Frames=5)
+		unk_3A775D26(unknown=0x76B0035)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

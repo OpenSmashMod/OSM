@@ -1,0 +1,30 @@
+MoveDef 0xE350869D
+{
+	Main()
+	{
+		Set_Armor(State=0x1, Type=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0xF4ECDD4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x69)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_C52B4328(unknown=0x3F333333, unknown=0x3F333333, unknown=0xBF800000, unknown=0x3F333333, unknown=0x3F4CCCCD, unknown=0xBF800000, unknown=0xFFFFFFFF)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=4)
+		Rumble2(unknown=0x22, unknown=0x39)
+		Script_End()
+	}
+
+}

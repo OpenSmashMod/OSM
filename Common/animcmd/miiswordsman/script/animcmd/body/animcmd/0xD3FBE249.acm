@@ -1,0 +1,22 @@
+MoveDef 0xD3FBE249
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef 0x0E280795
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		PLAY_SE_REMAIN(unknown=0x76A0020)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

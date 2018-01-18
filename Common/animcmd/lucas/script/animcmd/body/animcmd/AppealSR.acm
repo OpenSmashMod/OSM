@@ -1,0 +1,32 @@
+MoveDef AppealSR
+{
+	Main()
+	{
+		Generate_Weapon(ID=0x4)
+		Set_Article_Action(Unknown=0x4, Unknown=0x10)
+		Asynchronous_Timer(Frames=100)
+		Remove_Article(Unknown=0x4)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Transient_Sound_Effect(unknown=0x1D0085)
+		Synchronous_Timer(Frames=60)
+		Sound_Effect(SFX=0x1D009C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

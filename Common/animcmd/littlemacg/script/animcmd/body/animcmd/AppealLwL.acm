@@ -1,0 +1,23 @@
+MoveDef AppealLwL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xFF0A8538)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFF0A8538)
+		Script_End()
+	}
+
+}

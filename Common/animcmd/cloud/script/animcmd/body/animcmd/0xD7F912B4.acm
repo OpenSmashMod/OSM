@@ -1,0 +1,26 @@
+MoveDef 0xD7F912B4 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Set_Loop(Iterations=2){
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0x40F00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Goto(Unknown=-19)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,30 @@
+MoveDef 0x5ED973CD
+{
+	Main()
+	{
+		Subroutine2(Hash=0x14580D88)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x14580D88)
+		Asynchronous_Timer(Frames=1)
+		External_Graphic(Graphic=0x3320017, Bone=0x7D2, Z=0, Y=0, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3320017, Bone=0x7D3, Z=0, Y=0, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3320017, Bone=0x7D4, Z=0, Y=0, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x1)
+		External_Graphic(Graphic=0x3320017, Bone=0x7D5, Z=0, Y=0, X=0, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x14580D88)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

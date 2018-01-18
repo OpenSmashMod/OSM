@@ -1,0 +1,19 @@
+MoveDef 0xDEDF8017
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

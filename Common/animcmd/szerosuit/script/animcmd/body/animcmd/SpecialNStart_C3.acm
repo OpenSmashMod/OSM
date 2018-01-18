@@ -1,0 +1,28 @@
+MoveDef SpecialNStart_C3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Set_Frame_Duration(Speed=1.2)
+		Asynchronous_Timer(Frames=19)
+		Set_Frame_Duration(Speed=4)
+		Asynchronous_Timer(Frames=20)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

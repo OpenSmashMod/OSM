@@ -1,0 +1,19 @@
+MoveDef FinalVisualScene01
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

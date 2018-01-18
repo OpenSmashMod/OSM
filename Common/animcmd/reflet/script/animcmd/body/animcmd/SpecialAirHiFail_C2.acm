@@ -1,0 +1,25 @@
+MoveDef SpecialAirHiFail_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0x4F905ABB)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x4F905ABB)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x4F905ABB)
+		Script_End()
+	}
+
+}

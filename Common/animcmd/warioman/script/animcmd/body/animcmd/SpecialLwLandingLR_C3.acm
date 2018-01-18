@@ -1,0 +1,22 @@
+MoveDef SpecialLwLandingLR_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect3(unknown=0x76A0020)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

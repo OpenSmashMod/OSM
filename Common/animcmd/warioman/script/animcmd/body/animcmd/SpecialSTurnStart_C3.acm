@@ -1,0 +1,24 @@
+MoveDef SpecialSTurnStart_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x76A000F)
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x76A0014)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef 0xF34D0716
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine1(Unknown=0x7BA81498)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,24 @@
+MoveDef FinalShoot
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=5)
+		Bit_Variable_Set(Unknown=0x20000004)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Rumble(unknown=0xF, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

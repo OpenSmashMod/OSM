@@ -1,0 +1,21 @@
+MoveDef FinalStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

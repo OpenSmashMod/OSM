@@ -1,0 +1,23 @@
+MoveDef FinalAir5wayDown
+{
+	Main()
+	{
+		Subroutine2(Hash=0x7C7A1782)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x7C7A1782)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

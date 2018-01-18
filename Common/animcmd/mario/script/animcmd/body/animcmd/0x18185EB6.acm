@@ -1,0 +1,23 @@
+MoveDef 0x18185EB6 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x303000A, Bone=0x2, Z=0, Y=2.5, X=1, RotZ=1E-05, RotY=7E-05, RotX=2E-05, Size=1.4, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x20034)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

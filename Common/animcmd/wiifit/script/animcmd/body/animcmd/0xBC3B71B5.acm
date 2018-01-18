@@ -1,0 +1,24 @@
+MoveDef 0xBC3B71B5 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=25)
+		unk_3A775D26(unknown=0x2C90032)
+		Asynchronous_Timer(Frames=126)
+		Sound_Effect(SFX=0x6A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

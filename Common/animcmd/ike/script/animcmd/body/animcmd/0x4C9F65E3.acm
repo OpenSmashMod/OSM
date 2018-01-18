@@ -1,0 +1,29 @@
+MoveDef 0x4C9F65E3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xC15B2356)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Sword_Glow(unknown=0x4, unknown=0x8F, unknown=0x6, unknown=0x3E8, unknown=0x0, unknown=0x3FD9999A, unknown=0x0, unknown=0x3E8, unknown=0x0, unknown=0x41800000, unknown=0x0, unknown=0x1, unknown=0x31D0000, unknown=0x3E8, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xB, unknown=0x1)
+		Asynchronous_Timer(Frames=5)
+		Terminate_Sword_Glow(unknown=0x4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xC15B2356)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xC15B2356)
+		Script_End()
+	}
+
+}

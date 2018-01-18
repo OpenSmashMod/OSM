@@ -1,0 +1,27 @@
+MoveDef PassiveWallJump
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Transient_Sound_Effect(unknown=0xC910010)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=8)
+		Model_Changer(unknown=0x2, unknown=0x0)
+		Asynchronous_Timer(Frames=34)
+		Model_Changer(unknown=0x2, unknown=0x1)
+		Script_End()
+	}
+
+}

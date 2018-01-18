@@ -1,0 +1,39 @@
+MoveDef 0x26F3C826 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Compare(Variable=0x11000004, Mode=0x0, Value=0x0)
+		TRUE(Unknown=0x2C){
+		External_Graphic(Graphic=0x3340019, Bone=0x1A, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=6)
+		Color_Overlay(Red=100, Green=255, Blue=255, Alpha=90)
+		Synchronous_Timer(Frames=2)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Graphic_Effect2(unknown=0x3340001, unknown=0x0, unknown=0x0, unknown=0x40A00000, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		FALSE(Unknown=0x2A){
+		External_Graphic(Graphic=0x334001A, Bone=0x1A, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Synchronous_Timer(Frames=6)
+		Color_Overlay(Red=255, Green=220, Blue=60, Alpha=130)
+		Synchronous_Timer(Frames=2)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=1)
+		Graphic_Effect2(unknown=0x3340005, unknown=0x0, unknown=0x0, unknown=0x40A00000, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,28 @@
+MoveDef LandingFallSpecial
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect3(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FB33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect3(unknown=0x82B0016)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0x4, unknown=0x0)
+		Screen_Shake(unknown=0x3)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,32 @@
+MoveDef 0x4FBB2AD2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Stop_Sound_Effect(unknown=0x81B0051)
+		Stop_Sound_Effect(unknown=0x81B005F)
+		Stop_Sound_Effect(unknown=0x81B0060)
+		IS_FLAG_WORK(unknown=0x20000006)
+		unk_870CF021(unknown=0x6){
+		Sound_Effect(SFX=0x81B0061)
+		FALSE(Unknown=0x4){
+		Sound_Effect(SFX=0x81B005A)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

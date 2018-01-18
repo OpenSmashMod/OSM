@@ -1,0 +1,32 @@
+MoveDef SpecialAirS1End
+{
+	Main()
+	{
+		Subroutine2(Hash=0x10086955)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x81B0012)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=5)
+		Slope_Full(unknown=0x1, unknown=0x3)
+		Item_Visibility(unknown=0x0)
+		Asynchronous_Timer(Frames=10)
+		Slope_Full(unknown=0x6, unknown=0x6)
+		Asynchronous_Timer(Frames=25)
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x41700000)
+		Script_End()
+	}
+
+}

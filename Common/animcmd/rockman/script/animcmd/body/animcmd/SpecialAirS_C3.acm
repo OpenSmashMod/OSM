@@ -1,0 +1,41 @@
+MoveDef SpecialAirS_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=7)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		unk_870CF021(unknown=0xF){
+		External_Graphic(Graphic=0x332001F, Bone=0x0, Z=0, Y=7, X=10, RotZ=0, RotY=-90, RotX=0, Size=0.62, Terminate=0x1)
+		FALSE(Unknown=0x2){
+		}
+		}
+		Asynchronous_Timer(Frames=19)
+		IS_FLAG_WORK(unknown=0x2100000E)
+		unk_870CF021(unknown=0xF){
+		External_Graphic(Graphic=0x3320023, Bone=0x0, Z=0, Y=7.5, X=11, RotZ=0, RotY=-1E-05, RotX=0, Size=1, Terminate=0x1)
+		FALSE(Unknown=0xD){
+		External_Graphic(Graphic=0x3320023, Bone=0x0, Z=0, Y=7, X=11, RotZ=0, RotY=-1E-05, RotX=0, Size=0.6, Terminate=0x1)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xDCB0133D)
+		Script_End()
+	}
+
+}

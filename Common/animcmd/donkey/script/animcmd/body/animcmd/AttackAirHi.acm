@@ -1,0 +1,39 @@
+MoveDef AttackAirHi
+{
+	Main()
+	{
+		Set_Bone_Intangability(Bone=0x13, Mode=0x2)
+		Asynchronous_Timer(Frames=6)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x13, Damage=13, Angle=0x5A, KBG=0x5A, FKB=0x0, BKB=0x20, Size=7.5, Z=2.5, Y=2.5, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x1)
+		Synchronous_Timer(Frames=5)
+		Remove_All_Hitboxes()
+		unk_CEDC237E(Unknown=0x0)
+		Asynchronous_Timer(Frames=26)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=6)
+		External_Graphic(Graphic=0x3040007, Bone=0x0, Z=0, Y=16, X=0, RotZ=116, RotY=-74, RotX=141, Size=1.1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Low_Voice_Clip(unknown=0x80060007)
+		Asynchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x7007F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=4)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

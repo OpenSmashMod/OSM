@@ -1,0 +1,29 @@
+MoveDef 0x46D1C2BE
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Graphic_Effect2(unknown=0x42D0003, unknown=0x0, unknown=0x0, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x40A00000, unknown=0x40A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		unk_FD1F7ECF(unknown=0x3E99999A)
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect2(unknown=0x42D0001, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		Asynchronous_Timer(Frames=3)
+		Graphic_Effect2(unknown=0x42D0002, unknown=0x0, unknown=0x0, unknown=0x41200000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		unk_FD1F7ECF(unknown=0x3E4CCCCD)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

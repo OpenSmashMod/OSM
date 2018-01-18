@@ -1,0 +1,25 @@
+MoveDef SpecialAirNLoop_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x5F0E3BE9)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x5F0E3BE9)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x5F0E3BE9)
+		Script_End()
+	}
+
+}

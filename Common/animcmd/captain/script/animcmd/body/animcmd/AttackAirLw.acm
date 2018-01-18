@@ -1,0 +1,46 @@
+MoveDef AttackAirLw
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Bit_Variable_Set(Unknown=0x2100000D)
+		Asynchronous_Timer(Frames=16)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=14, Angle=0x10E, KBG=0x64, FKB=0x0, BKB=0xA, Size=5.9, Z=0, Y=-5.2, X=0.8, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Hitbox(ID=0x1, Part=0x0, Bone=0x0, Damage=14, Angle=0x169, KBG=0x64, FKB=0x0, BKB=0x28, Size=6, Z=0, Y=1, X=0.8, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x6)
+		Synchronous_Timer(Frames=3)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=39)
+		Bit_Variable_Clear(Unknown=0x2100000D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Graphic_Effect2(unknown=0x100000F, unknown=0xB, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=15)
+		unk_54BA7357(unknown=0x100008D, unknown=0x0, unknown=0x40400000, unknown=0x41300000, unknown=0x3F800000, unknown=0x42B40000, unknown=0x0, unknown=0x0, unknown=0x3F8CCCCD, unknown=0x1, unknown=0x42960000)
+		unk_54BA7357(unknown=0x100008D, unknown=0x0, unknown=0x40400000, unknown=0x41300000, unknown=0x3F800000, unknown=0x42B40000, unknown=0x0, unknown=0x0, unknown=0x3F8CCCCD, unknown=0x1, unknown=0x42960000)
+		Asynchronous_Timer(Frames=16)
+		External_Graphic(Graphic=0x100008F, Bone=0x0, Z=0, Y=-8, X=2, RotZ=0, RotY=0, RotX=0, Size=1.3, Terminate=0x1)
+		Asynchronous_Timer(Frames=19)
+		Terminate_Graphic_Effect(unknown=0x100008D, unknown=0x1, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=16)
+		Low_Voice_Clip(unknown=0x80040005)
+		Sound_Effect(SFX=0xE006F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=13)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,55 @@
+MoveDef SlipAttack
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=12)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=5, Unknown=0x169, Unknown=0x32, Unknown=0x0, Unknown=0x3C, Unknown=4.5, Unknown=0, Unknown=4.5, Unknown=10, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x8, Unknown=0x1, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x1, Unknown=0, Unknown=4.5, Unknown=5)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Asynchronous_Timer(Frames=24)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=5, Unknown=0x169, Unknown=0x32, Unknown=0x0, Unknown=0x3C, Unknown=4.5, Unknown=0, Unknown=4.5, Unknown=-7, Unknown=0x0, Unknown=0, Unknown=1, Unknown=1, Unknown=0x0, Unknown=0x0, Unknown=0x8, Unknown=0x1, Unknown=0x2, Unknown=0x3, Unknown=0x1, Unknown=0x6, Unknown=0, Unknown=4.5, Unknown=-5)
+		Synchronous_Timer(Frames=2)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=11)
+		Graphic_Effect3(unknown=0x100000D, unknown=0x0, unknown=0x40000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F333333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=12)
+		Graphic_Effect(unknown=0x1000020, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Asynchronous_Timer(Frames=13)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x0, unknown=0x0, unknown=0x40900000, unknown=0x41400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x1)
+		Asynchronous_Timer(Frames=24)
+		Graphic_Effect2(unknown=0x100008F, unknown=0x0, unknown=0x0, unknown=0x40900000, unknown=0xC1000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43B40000, unknown=0x1)
+		Asynchronous_Timer(Frames=25)
+		Graphic_Effect3(unknown=0x100000A, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Graphic_Effect(unknown=0x1000020, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0xC0000000, unknown=0x0, unknown=0x43340000, unknown=0x0, unknown=0x3ECCCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=11)
+		Sound_Effect(SFX=0x1C0079)
+		Asynchronous_Timer(Frames=22)
+		Sound_Effect(SFX=0x37)
+		Asynchronous_Timer(Frames=38)
+		Sound_Effect3(unknown=0x1C0044)
+		Asynchronous_Timer(Frames=46)
+		Sound_Effect2(unknown=0x1C006C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_040FD56E(unknown=0x1, unknown=0x6, unknown=0x1)
+		Asynchronous_Timer(Frames=7)
+		Rumble(unknown=0x13, unknown=0x0)
+		Asynchronous_Timer(Frames=40)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,22 @@
+MoveDef FinalEndL
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=20)
+		Bit_Variable_Set(Unknown=0x20000008)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

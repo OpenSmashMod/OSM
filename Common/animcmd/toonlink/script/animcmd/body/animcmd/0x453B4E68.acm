@@ -1,0 +1,28 @@
+MoveDef 0x453B4E68
+{
+	Main()
+	{
+		Subroutine2(Hash=0xEB786D3F)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Low_Voice_Clip(unknown=0x802C0000)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Model_Changer(unknown=0x1, unknown=0x1)
+		Asynchronous_Timer(Frames=20)
+		Model_Changer(unknown=0x1, unknown=0x0)
+		Script_End()
+	}
+
+}

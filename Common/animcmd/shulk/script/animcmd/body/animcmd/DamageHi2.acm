@@ -1,0 +1,21 @@
+MoveDef DamageHi2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Slope_Full(unknown=0x6, unknown=0x8)
+		Script_End()
+	}
+
+}

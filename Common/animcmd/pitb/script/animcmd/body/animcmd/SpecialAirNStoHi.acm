@@ -1,0 +1,23 @@
+MoveDef SpecialAirNStoHi
+{
+	Main()
+	{
+		Subroutine2(Hash=0x25D494CE)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x25D494CE)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,33 @@
+MoveDef 0x11D7E086 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x91A000C)
+		Asynchronous_Timer(Frames=20)
+		Sound_Effect(SFX=0x91A0006)
+		Asynchronous_Timer(Frames=54)
+		Sound_Effect(SFX=0x91A000D)
+		Asynchronous_Timer(Frames=126)
+		Sound_Effect(SFX=0x91A0007)
+		Asynchronous_Timer(Frames=148)
+		Sound_Effect(SFX=0x91A0008)
+		Asynchronous_Timer(Frames=163)
+		Sound_Effect(SFX=0x91A000E)
+		Asynchronous_Timer(Frames=235)
+		Sound_Effect(SFX=0x91A0011)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

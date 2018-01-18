@@ -1,0 +1,29 @@
+MoveDef Win1
+{
+	Main()
+	{
+		Generate_Weapon(ID=0xD)
+		Generate_Weapon(ID=0x11)
+		Set_Article_Action(Unknown=0xD, Unknown=0x10)
+		Set_Article_Action(Unknown=0x11, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=31)
+		Sound_Effect(SFX=0x24C003A)
+		Asynchronous_Timer(Frames=76)
+		Sound_Effect(SFX=0x24C0036)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

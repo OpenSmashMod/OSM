@@ -1,0 +1,28 @@
+MoveDef AppealSL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=21)
+		Sound_Effect(SFX=0x6C)
+		Synchronous_Timer(Frames=45)
+		Sound_Effect(SFX=0x4B0033)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=108)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

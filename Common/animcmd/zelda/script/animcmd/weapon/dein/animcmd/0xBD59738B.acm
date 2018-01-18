@@ -1,0 +1,21 @@
+MoveDef 0xBD59738B
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		unk_E20C02D4(unknown=0x310000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F99999A, unknown=0x1, unknown=0x43960000, unknown=0x43660000, unknown=0x43200000)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,52 @@
+MoveDef 0xC62E6558
+{
+	Main()
+	{
+		unk_AA8826A7(unknown=0x18, unknown=0x5)
+		Set_Frame_Duration(Speed=2)
+		Asynchronous_Timer(Frames=6)
+		Set_Frame_Duration(Speed=1)
+		Bit_Variable_Set(Unknown=0x2100000E)
+		Asynchronous_Timer(Frames=30)
+		Subroutine1(Unknown=0xBD5B3ADE)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x100000F, unknown=0x19, unknown=0xBBA32F45, unknown=0x409FFD4C, unknown=0x3D6A161E, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=2)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Color_Overlay(Red=180, Green=128, Blue=100, Alpha=40)
+		Synchronous_Timer(Frames=4)
+		Color_Overlay(Red=80, Green=60, Blue=40, Alpha=60)
+		Synchronous_Timer(Frames=2)
+		Color_Overlay(Red=180, Green=128, Blue=100, Alpha=80)
+		Synchronous_Timer(Frames=4)
+		Color_Overlay(Red=80, Green=60, Blue=40, Alpha=100)
+		Synchronous_Timer(Frames=2)
+		Color_Overlay(Red=180, Green=128, Blue=100, Alpha=120)
+		Synchronous_Timer(Frames=4)
+		Color_Overlay(Red=80, Green=60, Blue=40, Alpha=140)
+		Synchronous_Timer(Frames=2)
+		Color_Overlay(Red=180, Green=128, Blue=100, Alpha=160)
+		Synchronous_Timer(Frames=4)
+		Color_Overlay(Red=80, Green=60, Blue=40, Alpha=180)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		PLAY_SE_REMAIN(unknown=0xA005A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble(unknown=0xD, unknown=0x0)
+		Item_Visibility(unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,72 @@
+MoveDef ThrowHi
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x5A, KBG=0x6E, WKB=0x0, BKB=0x4B, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=3, Angle=0x169, KBG=0x64, WKB=0x0, BKB=0x3C, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Asynchronous_Timer(Frames=7)
+		Throw_Applier(ID=0x0, Bone=0x1A, Unknown=0x11000005, Unknown=0x11000006, Unknown=0x11000007)
+		Asynchronous_Timer(Frames=11)
+		Generate_Weapon(ID=0x0)
+		Asynchronous_Timer(Frames=15)
+		unk_979D8828(Unknown=0x0)
+		TRUE(Unknown=0x5){
+		Set_Article_Action(Unknown=0x0, Unknown=0x0)
+		}
+		Asynchronous_Timer(Frames=18)
+		Generate_Weapon(ID=0x1)
+		Asynchronous_Timer(Frames=21)
+		Generate_Weapon(ID=0x1)
+		Asynchronous_Timer(Frames=24)
+		Generate_Weapon(ID=0x1)
+		Asynchronous_Timer(Frames=27)
+		unk_979D8828(Unknown=0x0)
+		TRUE(Unknown=0x5){
+		Set_Article_Action(Unknown=0x0, Unknown=0x2)
+		}
+		Asynchronous_Timer(Frames=38)
+		Article_Visibility(Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=18)
+		Graphic_Effect2(unknown=0x309000A, unknown=0x19, unknown=0x0, unknown=0x3F999946, unknown=0x40900000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=21)
+		Graphic_Effect2(unknown=0x309000A, unknown=0x19, unknown=0x0, unknown=0x3F999946, unknown=0x40900000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=24)
+		Graphic_Effect2(unknown=0x309000A, unknown=0x19, unknown=0x0, unknown=0x3F999946, unknown=0x40900000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x121)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0xB004C)
+		Synchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0xB004A)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0xB004A)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0xB004A)
+		Synchronous_Timer(Frames=13)
+		Sound_Effect(SFX=0xB004B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=11)
+		Model_Changer(unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=18)
+		Rumble(unknown=0xE, unknown=0x0)
+		Asynchronous_Timer(Frames=38)
+		Model_Changer(unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+}

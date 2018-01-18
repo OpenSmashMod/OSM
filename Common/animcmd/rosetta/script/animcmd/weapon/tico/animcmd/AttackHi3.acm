@@ -1,0 +1,40 @@
+MoveDef AttackHi3
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=2)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x7D1, Damage=8, Angle=0x58, KBG=0x3C, FKB=0x0, BKB=0x78, Size=3.8, Z=0, Y=3, X=7, Effect=0x0, Trip=0, Hitlag=2, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x2, Ground/Air=0x2, Direct/Indirect=0x1, Unknown=0x1, Unknown=0x4)
+		Asynchronous_Timer(Frames=3)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x7D1, Unknown=4, Unknown=0x62, Unknown=0x3C, Unknown=0x0, Unknown=0x55, Unknown=3, Unknown=0, Unknown=3, Unknown=6, Unknown=0x0, Unknown=0, Unknown=0.5, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0, Unknown=11, Unknown=6)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x7D1, Unknown=4, Unknown=0x5D, Unknown=0x3C, Unknown=0x0, Unknown=0x50, Unknown=3, Unknown=0, Unknown=3, Unknown=-1, Unknown=0x0, Unknown=0, Unknown=0.5, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x3, Unknown=0x1, Unknown=0x4, Unknown=0, Unknown=9, Unknown=-1)
+		Synchronous_Timer(Frames=2)
+		Hitbox(ID=0x0, Part=0x0, Bone=0x7D1, Damage=3, Angle=0x5A, KBG=0x3C, FKB=0x0, BKB=0x50, Size=4, Z=0, Y=10, X=0, Effect=0x0, Trip=0, Hitlag=0.5, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x4)
+		Delete_Hitbox(id=0x1)
+		Synchronous_Timer(Frames=5)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=2)
+		Bit_Variable_Set(Unknown=0x20000011)
+		Asynchronous_Timer(Frames=4)
+		External_Graphic(Graphic=0x100008D, Bone=0x0, Z=-0.5, Y=10.5, X=3.5, RotZ=-90, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=14)
+		Bit_Variable_Set(Unknown=0x20000011)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Sound_Effect(SFX=0x4A4004A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

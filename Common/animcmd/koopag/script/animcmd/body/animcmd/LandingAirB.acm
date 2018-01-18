@@ -1,0 +1,33 @@
+MoveDef LandingAirB
+{
+	Main()
+	{
+		unk_B89F681C(unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x6E0007A)
+		Synchronous_Timer(Frames=27)
+		Sound_Effect(SFX=0x6E0001C)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Screen_Shake(unknown=0x5)
+		Rumble(unknown=0x4, unknown=0x0)
+		Asynchronous_Timer(Frames=26)
+		SLOPE(unknown=0x4)
+		Asynchronous_Timer(Frames=28)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

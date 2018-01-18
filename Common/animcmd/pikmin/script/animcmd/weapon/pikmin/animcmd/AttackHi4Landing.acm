@@ -1,0 +1,19 @@
+MoveDef AttackHi4Landing
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

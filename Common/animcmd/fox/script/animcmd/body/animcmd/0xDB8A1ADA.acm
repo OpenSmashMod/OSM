@@ -1,0 +1,19 @@
+MoveDef 0xDB8A1ADA
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

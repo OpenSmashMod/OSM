@@ -1,0 +1,23 @@
+MoveDef SpecialAirHiStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_15F0023E(unknown=0x1, unknown=0x1)
+		Asynchronous_Timer(Frames=6)
+		Rumble(unknown=0x12, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,32 @@
+MoveDef SpecialHiHoldAir
+{
+	Main()
+	{
+		Subroutine2(Hash=0xD9CFA96E)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xD9CFA96E)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xD9CFA96E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble2(unknown=0x22, unknown=0x0)
+		Asynchronous_Timer(Frames=3)
+		unk_3C95CD87(unknown=0x1, unknown=0x3F800000, unknown=0x3CA3D70A, unknown=0x40000000, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x41000000, unknown=0x41A00000, unknown=0x3C)
+		Asynchronous_Timer(Frames=42)
+		Terminate_Wind_Effect(unknown=0x1)
+		Script_End()
+	}
+
+}

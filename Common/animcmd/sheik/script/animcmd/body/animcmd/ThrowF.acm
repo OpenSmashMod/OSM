@@ -1,0 +1,43 @@
+MoveDef ThrowF
+{
+	Main()
+	{
+		Throw_Specifier(ID=0x0, Bone=0x0, Damage=2, Angle=0x48, KBG=0x4F, WKB=0x0, BKB=0x50, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Throw_Specifier(ID=0x1, Bone=0x0, Damage=3, Angle=0x3C, KBG=0x64, WKB=0x0, BKB=0x28, Effect?=0x0, Unknown=0x0, Unknown=1, Unknown=1, Unknown=0x0, SFX?=0x0, airground=0x3, Unknown=0x1, Unknown=0x1, Type?=0x8)
+		Asynchronous_Timer(Frames=20)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0xF, Damage=5, Angle=0x169, KBG=0x0, FKB=0x50, BKB=0x0, Size=5.8, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x0, Unknown=0x0, ShieldDamage=0x1, SFXType=0x1, Ground/Air=0x2, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x2, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x3, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Asynchronous_Timer(Frames=22)
+		Throw_Applier(ID=0x0, Bone=0x1A, Unknown=0x11000005, Unknown=0x11000006, Unknown=0x11000007)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=26)
+		Graphic_Effect2(unknown=0x1000010, unknown=0x1A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0x120)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x121)
+		Low_Voice_Clip(unknown=0x80100005)
+		Script_End()
+	}
+
+	Expression()
+	{
+		unk_227B36A1(unknown=0x0, unknown=0x0)
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=20)
+		Screen_Shake(unknown=0x4)
+		Asynchronous_Timer(Frames=21)
+		Rumble(unknown=0x11, unknown=0x0)
+		Script_End()
+	}
+
+}

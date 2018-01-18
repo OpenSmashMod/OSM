@@ -1,0 +1,23 @@
+MoveDef FinalAirEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81C003D)
+		PLAY_SE_REMAIN(unknown=0x81C003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

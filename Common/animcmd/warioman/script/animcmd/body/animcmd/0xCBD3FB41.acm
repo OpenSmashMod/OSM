@@ -1,0 +1,21 @@
+MoveDef 0xCBD3FB41 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x8CE471F5)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

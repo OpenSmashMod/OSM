@@ -1,0 +1,22 @@
+MoveDef 0xD631A6B0
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Synchronous_Timer(Frames=1)
+		unk_E06A5D00(unknown=0x76A0020)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

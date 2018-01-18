@@ -1,0 +1,21 @@
+MoveDef 0x0245DBBD
+{
+	Main()
+	{
+		Body_Collision(Unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

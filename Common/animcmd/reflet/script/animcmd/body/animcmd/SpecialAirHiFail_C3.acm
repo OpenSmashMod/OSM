@@ -1,0 +1,25 @@
+MoveDef SpecialAirHiFail_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0x38976A2D)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x38976A2D)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x38976A2D)
+		Script_End()
+	}
+
+}

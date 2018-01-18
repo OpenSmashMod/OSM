@@ -1,0 +1,46 @@
+MoveDef Final3ren
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Generate_Weapon(ID=0x0)
+		Synchronous_Timer(Frames=3)
+		Set_Frame_Duration(Speed=2)
+		Bit_Variable_Set(Unknown=0x20000007)
+		Synchronous_Timer(Frames=0.5)
+		unk_A4F1B325(unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Generate_Weapon(ID=0x0)
+		Synchronous_Timer(Frames=1)
+		unk_A4F1B325(unknown=0x0)
+		Synchronous_Timer(Frames=4)
+		Generate_Weapon(ID=0x0)
+		Synchronous_Timer(Frames=1)
+		unk_A4F1B325(unknown=0x0)
+		Synchronous_Timer(Frames=1)
+		Bit_Variable_Clear(Unknown=0x20000007)
+		Synchronous_Timer(Frames=3)
+		Set_Frame_Duration(Speed=1)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=3){
+		Graphic_Effect(unknown=0x100001B, unknown=0x0, unknown=0xC0A00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FB33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Rumble(unknown=0xC, unknown=0x0)
+		Synchronous_Timer(Frames=7)
+		Goto(Unknown=-22)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

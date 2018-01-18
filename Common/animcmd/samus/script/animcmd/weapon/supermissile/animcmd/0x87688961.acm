@@ -1,0 +1,26 @@
+MoveDef 0x87688961
+{
+	Main()
+	{
+		Synchronous_Timer(Frames=1)
+		unk_300A0A85()
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x1000017, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FA00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x51)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

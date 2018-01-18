@@ -1,0 +1,21 @@
+MoveDef SpecialAirNFood_C3
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x2405A46F)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

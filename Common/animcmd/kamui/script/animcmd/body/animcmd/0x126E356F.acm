@@ -1,0 +1,34 @@
+MoveDef 0x126E356F
+{
+	Main()
+	{
+		Bit_Variable_Set(Unknown=0x2000007B)
+		Asynchronous_Timer(Frames=4)
+		Bit_Variable_Clear(Unknown=0x2000007B)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x100001A, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		IS_FLAG_WORK(unknown=0x21000014)
+		TRUE(Unknown=0x4){
+		FALSE(Unknown=0x6){
+		Low_Voice_Clip(unknown=0x804E0008)
+		Transient_Sound_Effect(unknown=0xC9B0009)
+		}
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,21 @@
+MoveDef SpecialAirNStartR_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xE34AB53B)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

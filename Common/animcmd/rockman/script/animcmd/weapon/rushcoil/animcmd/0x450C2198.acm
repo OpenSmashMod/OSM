@@ -1,0 +1,27 @@
+MoveDef 0x450C2198
+{
+	Main()
+	{
+		VIS_WHOLE(unknown=0x0)
+		Asynchronous_Timer(Frames=1)
+		unk_300A0A85()
+		Asynchronous_Timer(Frames=8)
+		Bit_Variable_Set(Unknown=0x20000005)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x23D00BA)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

@@ -1,0 +1,43 @@
+MoveDef EntryR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x30F0009, Bone=0x0, Z=0, Y=10, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		Set_Loop(Iterations=10){
+		Color_Overlay(Red=255, Green=192, Blue=128, Alpha=120)
+		Synchronous_Timer(Frames=1)
+		Change_Overlay(Transition=3, Red=200, Green=80, Blue=0, Alpha=0)
+		Synchronous_Timer(Frames=3)
+		Change_Overlay(Transition=3, Red=255, Green=192, Blue=128, Alpha=120)
+		Synchronous_Timer(Frames=3)
+		Goto(Unknown=-23)
+		}
+		Change_Overlay(Transition=60, Red=200, Green=80, Blue=0, Alpha=0)
+		Synchronous_Timer(Frames=60)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x1000A0)
+		Synchronous_Timer(Frames=25)
+		Sound_Effect(SFX=0x10006C)
+		Synchronous_Timer(Frames=50)
+		Stop_Sound_Effect(unknown=0x1000A0)
+		Sound_Effect(SFX=0x10006A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

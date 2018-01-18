@@ -1,0 +1,25 @@
+MoveDef 0xC399B6C2
+{
+	Main()
+	{
+		SET_SCALE(unknown=0x3FA66666)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x327000C, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FB33333, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x4A40035)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

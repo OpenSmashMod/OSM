@@ -1,0 +1,21 @@
+MoveDef 0xEC167B20
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x5E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

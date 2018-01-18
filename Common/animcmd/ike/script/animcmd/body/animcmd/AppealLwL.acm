@@ -1,0 +1,37 @@
+MoveDef AppealLwL
+{
+	Main()
+	{
+		unk_B89F681C(unknown=0x0, unknown=0x1)
+		Generate_Weapon(ID=0x0)
+		Set_Article_Action(Unknown=0x0, Unknown=0xA)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xFF0A8538)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=19)
+		Sound_Effect(SFX=0x240050)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x240063)
+		Synchronous_Timer(Frames=27)
+		Sound_Effect(SFX=0x240074)
+		Sound_Effect(SFX=0x570018)
+		Synchronous_Timer(Frames=61)
+		Sound_Effect(SFX=0x240064)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xFF0A8538)
+		Script_End()
+	}
+
+}

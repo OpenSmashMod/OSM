@@ -1,0 +1,44 @@
+MoveDef SpecialNBomb
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=1)
+		Bit_Variable_Set(Unknown=0x21000010)
+		Asynchronous_Timer(Frames=11)
+		Bit_Variable_Set(Unknown=0x21000011)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=15)
+		unk_34BCD3F7(unknown=0x0, unknown=0x4, unknown=0x0)
+		TRUE(Unknown=0xF){
+		External_Graphic(Graphic=0x1000018, Bone=0x12, Z=0, Y=7, X=2, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		FALSE(Unknown=0xD){
+		External_Graphic(Graphic=0x1000018, Bone=0x12, Z=0, Y=7, X=-2, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x0)
+		}
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0xA00BA)
+		Synchronous_Timer(Frames=10)
+		Sound_Effect(SFX=0x4F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Rumble(unknown=0xC, unknown=0x0)
+		Asynchronous_Timer(Frames=16)
+		Rumble(unknown=0xF, unknown=0x0)
+		Screen_Shake(unknown=0x4)
+		Script_End()
+	}
+
+}

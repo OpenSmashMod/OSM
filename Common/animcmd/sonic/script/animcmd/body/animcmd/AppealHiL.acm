@@ -1,0 +1,36 @@
+MoveDef AppealHiL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=7)
+		Transient_Sound_Effect(unknown=0x5D000E)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x2A0065)
+		Synchronous_Timer(Frames=16)
+		Sound_Effect(SFX=0x2A002A)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=2)
+		SLOPE(unknown=0x2)
+		Asynchronous_Timer(Frames=13)
+		SLOPE(unknown=0x0)
+		Asynchronous_Timer(Frames=26)
+		Rumble(unknown=0x10, unknown=0x0)
+		Asynchronous_Timer(Frames=76)
+		Slope_Full(unknown=0x6, unknown=0x5)
+		Script_End()
+	}
+
+}

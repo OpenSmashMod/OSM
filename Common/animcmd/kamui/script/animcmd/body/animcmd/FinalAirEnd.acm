@@ -1,0 +1,25 @@
+MoveDef FinalAirEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+}

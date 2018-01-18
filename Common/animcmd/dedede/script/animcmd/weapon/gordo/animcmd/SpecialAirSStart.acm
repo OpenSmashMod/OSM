@@ -1,0 +1,21 @@
+MoveDef SpecialAirSStart
+{
+	Main()
+	{
+		Subroutine2(Hash=0x43293E83)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

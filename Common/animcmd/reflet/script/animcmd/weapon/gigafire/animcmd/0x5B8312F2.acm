@@ -1,0 +1,22 @@
+MoveDef 0x5B8312F2
+{
+	Main()
+	{
+		unk_3C95CD87(unknown=0x0, unknown=0x40000000, unknown=0x3D4CCCCD, unknown=0x43480000, unknown=0x3F800000, unknown=0x0, unknown=0x41200000, unknown=0x41E00000, unknown=0x3C)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

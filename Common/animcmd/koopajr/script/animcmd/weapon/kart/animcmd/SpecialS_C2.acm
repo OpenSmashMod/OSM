@@ -1,0 +1,27 @@
+MoveDef SpecialS_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=5)
+		Set_Loop(Iterations=-1){
+		External_Graphic(Graphic=0x32E000B, Bone=0x7E6, Z=9, Y=-0.5, X=4, RotZ=0, RotY=0, RotX=-95, Size=0.3, Terminate=0x1)
+		External_Graphic(Graphic=0x32E000B, Bone=0x7E6, Z=9, Y=-0.5, X=-4, RotZ=0, RotY=0, RotX=-95, Size=0.3, Terminate=0x1)
+		Synchronous_Timer(Frames=7)
+		Goto(Unknown=-24)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

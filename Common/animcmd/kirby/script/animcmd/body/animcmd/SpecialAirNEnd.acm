@@ -1,0 +1,21 @@
+MoveDef SpecialAirNEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x179E4623)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

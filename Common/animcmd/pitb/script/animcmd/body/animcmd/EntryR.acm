@@ -1,0 +1,36 @@
+MoveDef EntryR
+{
+	Main()
+	{
+		unk_15F0023E(unknown=0x0, unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Graphic_Effect2(unknown=0x3260012, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		PLAY_SE_REMAIN(unknown=0x762003F)
+		Synchronous_Timer(Frames=107)
+		Sound_Effect(SFX=0x7620031)
+		Synchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x762002F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Bit_Variable_Set(Unknown=0x20000065)
+		Asynchronous_Timer(Frames=98)
+		Slope_Full(unknown=0x6, unknown=0x4)
+		Asynchronous_Timer(Frames=107)
+		Bit_Variable_Clear(Unknown=0x20000065)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef 0x9E895D8D
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=8)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

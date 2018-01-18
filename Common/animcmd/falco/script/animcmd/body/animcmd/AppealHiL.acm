@@ -1,0 +1,32 @@
+MoveDef AppealHiL
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=26)
+		Sound_Effect(SFX=0x18008F)
+		Synchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x4B0032)
+		Synchronous_Timer(Frames=27)
+		Sound_Effect(SFX=0x180044)
+		Synchronous_Timer(Frames=32)
+		Sound_Effect(SFX=0x180090)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x2C42123B)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef 0x05C54786 : Unlisted
+{
+	Main()
+	{
+		Subroutine2(Hash=0x36B7565D)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xE51EC543)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xE51EC543)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xE51EC543)
+		Script_End()
+	}
+
+}

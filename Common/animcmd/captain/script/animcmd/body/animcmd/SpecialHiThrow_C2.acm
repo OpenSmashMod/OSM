@@ -1,0 +1,28 @@
+MoveDef SpecialHiThrow_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0xE005A)
+		Sound_Effect(SFX=0x420034)
+		Synchronous_Timer(Frames=40)
+		Sound_Effect(SFX=0xE0064)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Screen_Shake(unknown=0x4)
+		Rumble(unknown=0xE, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef SpecialAirNShoot
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		unk_BFC0031F(unknown=0x1, unknown=0x2)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Low_Voice_Clip(unknown=0x80140008)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x135C86F7)
+		Script_End()
+	}
+
+}

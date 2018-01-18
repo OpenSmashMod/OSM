@@ -1,0 +1,25 @@
+MoveDef 0x9AD33F1A
+{
+	Main()
+	{
+		unk_FAA85333(unknown=0x0, unknown=0x0, unknown=0x41700000, unknown=0x2D, unknown=0x37, unknown=0x0, unknown=0x5A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1, unknown=0x1, unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Rumble(unknown=0xF, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0x7690056)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

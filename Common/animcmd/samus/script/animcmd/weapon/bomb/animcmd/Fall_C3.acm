@@ -1,0 +1,29 @@
+MoveDef Fall_C3
+{
+	Main()
+	{
+		SET_SCALE(unknown=0x3FE66666)
+		VIS_WHOLE(unknown=0x0)
+		Asynchronous_Timer(Frames=1)
+		VIS_WHOLE(unknown=0x1)
+		Asynchronous_Timer(Frames=100)
+		Special_Hitbox(ID=0x0, Part=0x0, Bone=0x0, Damage=4, Angle=0x169, KBG=0x2D, FKB=0x0, BKB=0x16, Size=2, Z=0, Y=0, X=0, Effect=0x5, Trip=0, Hitlag=0.6, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x6, SFXType=0x0, Ground/Air=0xB, Direct/Indirect=0x3, Unknown=0x0, Unknown=0x9, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x8005A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

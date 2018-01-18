@@ -1,0 +1,38 @@
+MoveDef FinalAir
+{
+	Main()
+	{
+		Subroutine1(Unknown=0xECD55CC6)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=31)
+		External_Graphic(Graphic=0x4260004, Bone=0x1, Z=0, Y=13.5, X=30, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=33)
+		External_Graphic(Graphic=0x4260003, Bone=0x1, Z=0, Y=13.5, X=25, RotZ=0, RotY=0, RotX=0, Size=1.5, Terminate=0x1)
+		Asynchronous_Timer(Frames=48)
+		External_Graphic(Graphic=0x4260000, Bone=0x1, Z=0, Y=13.5, X=20, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Asynchronous_Timer(Frames=49)
+		External_Graphic(Graphic=0x4260001, Bone=0x1, Z=0, Y=13.5, X=20, RotZ=0, RotY=0, RotX=0, Size=1.5, Terminate=0x1)
+		unk_29BC5960(unknown=0x4260000, unknown=0xFFFFFFFF)
+		unk_29BC5960(unknown=0x4260001, unknown=0xFFFFFFFF)
+		unk_29BC5960(unknown=0x4260003, unknown=0xFFFFFFFF)
+		unk_29BC5960(unknown=0x4260004, unknown=0xFFFFFFFF)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xECD55CC6)
+		Script_End()
+	}
+
+}

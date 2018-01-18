@@ -1,0 +1,21 @@
+MoveDef SpecialAirS_C2
+{
+	Main()
+	{
+		VIS_WHOLE(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

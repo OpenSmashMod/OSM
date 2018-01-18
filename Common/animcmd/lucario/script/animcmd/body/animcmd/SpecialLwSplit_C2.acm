@@ -1,0 +1,25 @@
+MoveDef SpecialLwSplit_C2
+{
+	Main()
+	{
+		Add/Set_Momentum(Vertical=0, Horizontal=0, Mode=0x1)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x560006)
+		Synchronous_Timer(Frames=1)
+		PLAY_SE_REMAIN(unknown=0x2300DB)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

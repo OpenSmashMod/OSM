@@ -1,0 +1,31 @@
+MoveDef 0x0A43F03D
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Color_Overlay(Red=245, Green=145, Blue=145, Alpha=100)
+		Synchronous_Timer(Frames=1)
+		Color_Overlay(Red=255, Green=137, Blue=137, Alpha=150)
+		Change_Overlay(Transition=20, Red=0, Green=0, Blue=0, Alpha=0)
+		Synchronous_Timer(Frames=20)
+		Terminate_Overlays()
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Sound_Effect(SFX=0x10005F)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0x9B5027A2)
+		Script_End()
+	}
+
+}

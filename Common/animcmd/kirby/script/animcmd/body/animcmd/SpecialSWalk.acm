@@ -1,0 +1,29 @@
+MoveDef SpecialSWalk
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		unk_01A5A27C(unknown=0xA006B, unknown=0xA006D)
+		Synchronous_Timer(Frames=20)
+		unk_01A5A27C(unknown=0xA006D, unknown=0xA006B)
+		Loop_Rest()
+		Subroutine2(Hash=0xBF7B97B)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Item_Visibility(unknown=0x0)
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

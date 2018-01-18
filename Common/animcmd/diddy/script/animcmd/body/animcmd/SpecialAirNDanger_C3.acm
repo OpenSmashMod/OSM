@@ -1,0 +1,28 @@
+MoveDef SpecialAirNDanger_C3
+{
+	Main()
+	{
+		Subroutine2(Hash=0xDA619E26)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xDA619E26)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=2)
+		Transient_Sound_Effect(unknown=0x1E0045)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Subroutine2(Hash=0xDA619E26)
+		Script_End()
+	}
+
+}

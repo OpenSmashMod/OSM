@@ -1,0 +1,36 @@
+MoveDef SpecialHi
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=-1){
+		External_Graphic(Graphic=0x32D000A, Bone=0x3EB, Z=0, Y=4, X=0, RotZ=20, RotY=0, RotX=0, Size=0.9, Terminate=0x1)
+		Synchronous_Timer(Frames=21)
+		Goto(Unknown=-13)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Set_Loop(Iterations=13){
+		Sound_Effect(SFX=0x7650051)
+		Synchronous_Timer(Frames=6)
+		Sound_Effect(SFX=0x7650039)
+		Synchronous_Timer(Frames=6)
+		Goto(Unknown=-8)
+		}
+		Script_End()
+	}
+
+	Expression()
+	{
+		Rumble2(unknown=0x9, unknown=0x0)
+		Script_End()
+	}
+
+}

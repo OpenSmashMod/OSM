@@ -1,0 +1,21 @@
+MoveDef SpecialAirSStart_C2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xFEA2FFF0)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

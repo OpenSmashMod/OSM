@@ -1,0 +1,26 @@
+MoveDef 0xC6FB4B9E
+{
+	Main()
+	{
+		SET_SCALE(unknown=0x3FCCCCCD)
+		Asynchronous_Timer(Frames=22)
+		VIS_WHOLE(unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=22)
+		unk_30392B40(unknown=0x32A000D, unknown=0x0, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F4CCCCD, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43770000, unknown=0x43770000, unknown=0x43680000)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

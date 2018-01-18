@@ -1,0 +1,25 @@
+MoveDef 0xEF3E3778
+{
+	Main()
+	{
+		SEARCH(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=25, Unknown=0, Unknown=0, Unknown=0, Unknown=0x2, Unknown=0x1F, Unknown=0x3, Unknown=0x0, Unknown=0xF, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		External_Graphic(Graphic=0x4330005, Bone=0x0, Z=0, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=0.49, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xBFC0060)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

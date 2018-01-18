@@ -1,0 +1,21 @@
+MoveDef PassiveStandB
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Sound_Effect(SFX=0xA007A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

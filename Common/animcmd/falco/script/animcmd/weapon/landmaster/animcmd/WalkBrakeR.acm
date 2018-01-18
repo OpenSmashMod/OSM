@@ -1,0 +1,21 @@
+MoveDef WalkBrakeR : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		PLAY_SE_REMAIN(unknown=0x18009A)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

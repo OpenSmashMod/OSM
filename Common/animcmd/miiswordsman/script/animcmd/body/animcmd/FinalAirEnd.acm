@@ -1,0 +1,24 @@
+MoveDef FinalAirEnd
+{
+	Main()
+	{
+		Subroutine2(Hash=0x7569EDAC)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=45)
+		unk_C7B586AF(unknown=0x0, unknown=0x41F00000, unknown=0x41200000)
+		Script_End()
+	}
+
+}

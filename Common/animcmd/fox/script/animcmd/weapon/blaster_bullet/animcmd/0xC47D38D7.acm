@@ -1,0 +1,33 @@
+MoveDef 0xC47D38D7
+{
+	Main()
+	{
+		Extended_Special_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=4.3, Unknown=0x169, Unknown=0x64, Unknown=0x8, Unknown=0x0, Unknown=1.1, Unknown=0, Unknown=0, Unknown=0.8, Unknown=0x0, Unknown=0, Unknown=0.3, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x0, Unknown=0x19, Unknown=0x3F, Unknown=0x0, Unknown=0xF, Unknown=0x0, Unknown=0x1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=0, Unknown=0, Unknown=4)
+		Synchronous_Timer(Frames=5)
+		Change_Hitbox_Damage(Unknown=0x0, Unknown=4)
+		Synchronous_Timer(Frames=8)
+		Change_Hitbox_Damage(Unknown=0x0, Unknown=3)
+		Synchronous_Timer(Frames=8)
+		Change_Hitbox_Damage(Unknown=0x0, Unknown=2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Terminate_Graphic_Effect(unknown=0x3090009, unknown=0x1, unknown=0x1)
+		unk_E20C02D4(unknown=0x3090013, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3FC00000, unknown=0x43340000, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x1, unknown=0x437F0000, unknown=0x41F00000, unknown=0x43960000)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=0)
+		unk_5FC8FA49(unknown=0xB0077)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}

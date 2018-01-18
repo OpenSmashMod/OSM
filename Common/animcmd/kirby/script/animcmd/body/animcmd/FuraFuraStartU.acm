@@ -1,0 +1,19 @@
+MoveDef FuraFuraStartU
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

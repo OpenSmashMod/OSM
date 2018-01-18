@@ -1,0 +1,31 @@
+MoveDef SpecialNTake_C2
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=15)
+		Bit_Variable_Set(Unknown=0x2100000F)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=10)
+		External_Graphic(Graphic=0x32A0013, Bone=0x17, Z=2, Y=0, X=0, RotZ=0, RotY=0, RotX=0, Size=1, Terminate=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x24C0039)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Rumble(unknown=0xC, unknown=0x0)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,23 @@
+MoveDef Wait2
+{
+	Main()
+	{
+		Bit_Variable_Set(Unknown=0x2000007C)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Script_End()
+	}
+
+}

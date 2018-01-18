@@ -1,0 +1,19 @@
+MoveDef SpecialAirLw2Flip
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

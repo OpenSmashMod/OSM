@@ -1,0 +1,21 @@
+MoveDef 0x5F52B259 : Unlisted
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		unk_27213F09(unknown=0x0)
+		Script_End()
+	}
+
+}

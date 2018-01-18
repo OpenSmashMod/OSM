@@ -1,0 +1,29 @@
+MoveDef 0x249C3144
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x81A0004)
+		Asynchronous_Timer(Frames=17)
+		unk_01A5A27C(unknown=0x81A0000, unknown=0x81A0002)
+		Asynchronous_Timer(Frames=23)
+		unk_01A5A27C(unknown=0x81A0002, unknown=0x81A0000)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=18)
+		Slope_Full(unknown=0x6, unknown=0x3)
+		Script_End()
+	}
+
+}

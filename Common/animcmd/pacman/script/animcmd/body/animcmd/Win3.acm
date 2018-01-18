@@ -1,0 +1,40 @@
+MoveDef Win3
+{
+	Main()
+	{
+		Generate_Weapon(ID=0x4)
+		Set_Article_Action(Unknown=0x4, Unknown=0x0)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=52)
+		Graphic_Effect2(unknown=0x1000007, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=34)
+		unk_3A775D26(unknown=0x7690051)
+		Asynchronous_Timer(Frames=52)
+		Stop_Sound_Effect(unknown=0x7690051)
+		unk_3A775D26(unknown=0x7690011)
+		unk_3A775D26(unknown=0x3500DE)
+		Asynchronous_Timer(Frames=89)
+		unk_3A775D26(unknown=0x7690002)
+		Asynchronous_Timer(Frames=113)
+		unk_3A775D26(unknown=0x7690019)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Article_Visibility(Unknown=0x4, Unknown=0x0)
+		Asynchronous_Timer(Frames=50)
+		Article_Visibility(Unknown=0x4, Unknown=0x1)
+		Script_End()
+	}
+
+}

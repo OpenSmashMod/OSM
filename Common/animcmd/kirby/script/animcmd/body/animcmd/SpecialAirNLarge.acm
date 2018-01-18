@@ -1,0 +1,29 @@
+MoveDef SpecialAirNLarge
+{
+	Main()
+	{
+		Subroutine2(Hash=0x3A7353F7)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=76)
+		PLAY_SE_REMAIN(unknown=0xED)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Rumble(unknown=0xD, unknown=0x0)
+		Asynchronous_Timer(Frames=68)
+		Rumble(unknown=0xD, unknown=0x0)
+		Script_End()
+	}
+
+}

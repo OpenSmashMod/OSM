@@ -1,0 +1,42 @@
+MoveDef SpecialAirN2Loop
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=16){
+		Graphic_Effect2(unknown=0x100000A, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Color_Overlay(Red=255, Green=255, Blue=128, Alpha=66)
+		Synchronous_Timer(Frames=4)
+		Color_Overlay(Red=255, Green=255, Blue=128, Alpha=34)
+		Synchronous_Timer(Frames=4)
+		Color_Overlay(Red=60, Green=60, Blue=0, Alpha=98)
+		Synchronous_Timer(Frames=4)
+		Terminate_Overlays()
+		Synchronous_Timer(Frames=4)
+		Goto(Unknown=-41)
+		}
+		Synchronous_Timer(Frames=1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Transient_Sound_Effect(unknown=0x81A0049)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=1)
+		Rumble2(unknown=0xC, unknown=0x0)
+		Loop_Rest()
+		Subroutine2(Hash=0xDE3B9212)
+		Script_End()
+	}
+
+}

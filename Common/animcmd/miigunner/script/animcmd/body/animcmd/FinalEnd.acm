@@ -1,0 +1,25 @@
+MoveDef FinalEnd
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Graphic_Effect(unknown=0x1000027, unknown=0x0, unknown=0xC1000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F800000, unknown=0x41400000, unknown=0x0, unknown=0x41400000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0x81C003D)
+		PLAY_SE_REMAIN(unknown=0x81C003E)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}
